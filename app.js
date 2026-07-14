@@ -719,7 +719,13 @@ function showQuestion(index) {
         document.getElementById("q-explanation-text").innerHTML = q.explanation.replace(/\n/g, "<br>");
       } else {
         expBox.style.display = "block";
-        document.getElementById("q-explanation-text").innerHTML = `الإجابة الصحيحة هي: (${q.answer.toUpperCase()})`;
+        document.getElementById("q-explanation-text").innerHTML = `
+          <div>الإجابة الصحيحة هي: (${q.answer.toUpperCase()})</div>
+          <div class="ai-explanation-box" id="ai-explain-container-${q.id}">
+            ${getAiExplanationHtml(q)}
+          </div>
+        `;
+        bindAiExplainButton(q);
       }
     } else {
       expBox.style.display = "none";
@@ -1105,12 +1111,20 @@ function renderReviewList(filter) {
       <div class="explanation-box" style="display: block; margin-top: 10px;">
         <div class="explanation-title">💡 الشرح والتعليل:</div>
         <div class="explanation-text en-text">
-          ${q.explanation ? q.explanation.replace(/\n/g, "<br>") : `الإجابة الصحيحة هي: (${q.answer.toUpperCase()})`}
+          ${q.explanation ? q.explanation.replace(/\n/g, "<br>") : `
+            <div>الإجابة الصحيحة هي: (${q.answer.toUpperCase()})</div>
+            <div class="ai-explanation-box" id="ai-explain-container-${q.id}">
+              ${getAiExplanationHtml(q)}
+            </div>
+          `}
         </div>
       </div>
     `;
     
     container.appendChild(card);
+    if (!q.explanation) {
+      bindAiExplainButton(q);
+    }
   });
 
   if (renderCount === 0) {
@@ -1216,6 +1230,7 @@ function updateProfileHeader(user) {
         <button class="menu-item" id="menu-sync-now">🔄 مزامنة التقدم الآن</button>
         <button class="menu-item" id="menu-view-history">📊 سجل اختبارات المحاكاة</button>
         <button class="menu-item" id="menu-open-settings">⚙️ إعدادات ربط Supabase</button>
+        <button class="menu-item" id="menu-open-gemini-settings">🔑 إعدادات مفتاح Gemini</button>
         <button class="menu-item menu-item-danger" id="menu-logout">🚪 تسجيل الخروج</button>
       </div>
     `;
@@ -1243,6 +1258,9 @@ function updateProfileHeader(user) {
     });
     document.getElementById("menu-open-settings").addEventListener("click", () => {
       showSupabaseSettingsModal();
+    });
+    document.getElementById("menu-open-gemini-settings").addEventListener("click", () => {
+      showGeminiSettingsModal();
     });
     document.getElementById("menu-logout").addEventListener("click", async () => {
       showConfirmationModal(
@@ -1658,5 +1676,197 @@ async function saveExamResultToCloud(score, correctCount, totalQuestions) {
     console.log("Exam score recorded in Cloud successfully.");
   } catch (err) {
     console.error("Failed to log exam score to cloud:", err);
+  }
+}
+
+// ==========================================
+// GEMINI AI EXPLAINER ENGINE
+// ==========================================
+
+// Get HTML content for AI explanation container
+function getAiExplanationHtml(q) {
+  const cachedExplanation = sessionStorage.getItem(`srtle-ai-explain-${q.id}`);
+  if (cachedExplanation) {
+    return `
+      <div class="ai-explanation-content">
+        <div style="font-size: 0.8rem; color: var(--primary); font-weight: 700; margin-bottom: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 4px; display: flex; align-items: center; gap: 4px;">
+          ✨ شرح طبي مولد بالذكاء الاصطناعي (Gemini):
+        </div>
+        <div>${cachedExplanation}</div>
+      </div>
+    `;
+  }
+  return `<button class="btn-ai-explain" id="btn-ai-explain-${q.id}">✨ شرح الإجابة بالذكاء الاصطناعي (Gemini)</button>`;
+}
+
+// Bind click listener to the explain button
+function bindAiExplainButton(q) {
+  setTimeout(() => {
+    const btn = document.getElementById(`btn-ai-explain-${q.id}`);
+    if (btn) {
+      btn.addEventListener("click", () => {
+        generateAiExplanation(q);
+      });
+    }
+  }, 50); // slight delay to ensure it is rendered in DOM
+}
+
+// Show Gemini key settings modal
+function showGeminiSettingsModal(onSuccess = null) {
+  const overlay = document.createElement("div");
+  overlay.className = "modal-overlay";
+  
+  const currentKey = localStorage.getItem("srtle-gemini-api-key") || window.GEMINI_API_KEY || "";
+  
+  overlay.innerHTML = `
+    <div class="modal-content" style="max-width: 400px; text-align: right;">
+      <h3 class="modal-title" style="margin-bottom: 8px;">🔑 إدخال مفتاح Gemini API</h3>
+      <p class="modal-desc" style="margin-bottom: 16px;">يرجى إدخال مفتاح Google Gemini API لتوليد شرح طبي مفصل وعالي الدقة للأسئلة.
+      <br><br>
+      <a href="https://aistudio.google.com/" target="_blank" style="color: var(--primary); font-weight: 700; text-decoration: underline;">اضغط هنا للحصول على مفتاح مجاني من Google AI Studio</a></p>
+      
+      <div class="form-group">
+        <label for="gemini-key-input">Gemini API Key</label>
+        <input type="password" id="gemini-key-input" value="${currentKey}" placeholder="AIzaSy..." dir="ltr" required>
+      </div>
+      
+      <div style="display: flex; gap: 12px; margin-top: 16px;">
+        <button class="btn btn-primary" id="btn-save-gemini-key" style="flex: 1; font-family: 'Cairo', sans-serif;">تفعيل 🚀</button>
+        <button class="btn btn-secondary" id="btn-close-gemini" style="font-family: 'Cairo', sans-serif;">إلغاء</button>
+      </div>
+    </div>
+  `;
+  
+  document.body.appendChild(overlay);
+  
+  document.getElementById("btn-save-gemini-key").addEventListener("click", () => {
+    const key = document.getElementById("gemini-key-input").value.trim();
+    if (key) {
+      localStorage.setItem("srtle-gemini-api-key", key);
+      window.GEMINI_API_KEY = key;
+      document.body.removeChild(overlay);
+      if (onSuccess) onSuccess(key);
+      
+      showConfirmationModal(
+        "تم تفعيل المفتاح",
+        "تم حفظ مفتاح Gemini API بنجاح! يمكنك الآن الضغط على زر الشرح للحصول على الشرح الطبي فوراً.",
+        null,
+        null,
+        "موافق"
+      );
+    } else {
+      alert("يرجى إدخال المفتاح أولاً.");
+    }
+  });
+  
+  document.getElementById("btn-close-gemini").addEventListener("click", () => {
+    document.body.removeChild(overlay);
+  });
+}
+
+// Generate the explanation from Gemini API
+async function generateAiExplanation(q) {
+  const container = document.getElementById(`ai-explain-container-${q.id}`);
+  if (!container) return;
+  
+  const apiKey = localStorage.getItem("srtle-gemini-api-key") || window.GEMINI_API_KEY || "";
+  
+  if (!apiKey) {
+    showGeminiSettingsModal(() => {
+      generateAiExplanation(q); // retry
+    });
+    return;
+  }
+  
+  // Show Loading Shimmer
+  container.innerHTML = `
+    <div class="ai-loading-shimmer">
+      <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
+        <span>جاري توليد الشرح بالذكاء الاصطناعي (Gemini)...</span>
+        <span class="spinner" style="width: 14px; height: 14px; border-width: 2px; display: inline-block;"></span>
+      </div>
+      <div class="shimmer-line"></div>
+      <div class="shimmer-line medium"></div>
+      <div class="shimmer-line short"></div>
+    </div>
+  `;
+  
+  const optionsText = Object.keys(q.options)
+    .map(key => `${key.toUpperCase()}) ${q.options[key]}`)
+    .join("\n");
+  const correctAnswerText = `${q.answer.toUpperCase()}) ${q.options[q.answer]}`;
+  
+  const prompt = `You are an expert radiologist and radiography professor explaining questions for the Saudi Commission for Health Specialties (SCFHS) SRTLE licensing exam.
+
+Explain the following radiography exam question clearly in Arabic. Break down why the correct answer is correct, and briefly why the other options are incorrect. Keep it professional, educational, and easy to read.
+
+Question:
+${q.question}
+
+Options:
+${optionsText}
+
+Correct Answer:
+${correctAnswerText}
+
+Provide the explanation in clean HTML formatting (use paragraphs with <p>, strong tags like <strong> for emphasis, and bullet points if needed). Do not include any markdown code blocks, backticks, or wrapper tags. Respond only in Arabic.`;
+
+  try {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        contents: [{
+          parts: [{
+            text: prompt
+          }]
+        }]
+      })
+    });
+    
+    if (!response.ok) {
+      const errData = await response.json().catch(() => ({}));
+      throw new Error(errData.error?.message || `HTTP error! status: ${response.status}`);
+    }
+    
+    const resData = await response.json();
+    let explanationHtml = resData.candidates?.[0]?.content?.parts?.[0]?.text || "";
+    
+    if (!explanationHtml) {
+      throw new Error("لم يتم إرجاع أي شرح من الذكاء الاصطناعي.");
+    }
+    
+    // Clean up markdown HTML code block markers if returned
+    explanationHtml = explanationHtml.replace(/```html/g, "").replace(/```/g, "").trim();
+    
+    // Cache
+    sessionStorage.setItem(`srtle-ai-explain-${q.id}`, explanationHtml);
+    
+    // Display
+    container.innerHTML = `
+      <div class="ai-explanation-content">
+        <div style="font-size: 0.8rem; color: var(--primary); font-weight: 700; margin-bottom: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 4px; display: flex; align-items: center; gap: 4px;">
+          ✨ شرح طبي مولد بالذكاء الاصطناعي (Gemini):
+        </div>
+        <div>${explanationHtml}</div>
+      </div>
+    `;
+  } catch (err) {
+    console.error("AI Explain failed:", err);
+    container.innerHTML = `
+      <div style="color: var(--danger-light); font-size: 0.85rem; padding: 10px; background-color: var(--danger-bg); border-radius: var(--border-radius-sm); border: 1px solid var(--danger-border); display: flex; flex-direction: column; gap: 6px; text-align: right;">
+        <div>❌ فشل توليد الشرح بالذكاء الاصطناعي: ${err.message}</div>
+        <button class="btn btn-secondary btn-sm" id="btn-retry-ai-${q.id}" style="align-self: flex-end; padding: 4px 10px; font-size: 0.75rem; font-family: 'Cairo', sans-serif;">إعادة المحاولة 🔄</button>
+      </div>
+    `;
+    
+    const retryBtn = document.getElementById(`btn-retry-ai-${q.id}`);
+    if (retryBtn) {
+      retryBtn.addEventListener("click", () => {
+        generateAiExplanation(q);
+      });
+    }
   }
 }
