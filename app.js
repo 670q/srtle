@@ -1278,9 +1278,12 @@ function updateProfileHeader(user) {
     const hasConfig = (window.SUPABASE_CONFIG && window.SUPABASE_CONFIG.anonKey) || localStorage.getItem("srtle-supabase-key");
     if (hasConfig) {
       container.innerHTML = `
-        <button id="btn-login-modal" class="btn btn-primary btn-sm" style="font-family: 'Cairo', sans-serif;">
-          تسجيل الدخول 🔑
-        </button>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span style="font-size: 0.75rem; color: var(--success); background-color: var(--success-bg); padding: 4px 8px; border-radius: 4px; font-weight: 700; display: inline-block;">متصل بقاعدة البيانات ✅</span>
+          <button id="btn-login-modal" class="btn btn-primary btn-sm" style="font-family: 'Cairo', sans-serif;">
+            تسجيل الدخول 🔑
+          </button>
+        </div>
       `;
       document.getElementById("btn-login-modal").addEventListener("click", () => showLoginModal());
     } else {
@@ -1798,7 +1801,11 @@ async function generateAiExplanation(q) {
   
   const prompt = `You are an expert radiologist and radiography professor explaining questions for the Saudi Commission for Health Specialties (SCFHS) SRTLE licensing exam.
 
-Explain the following radiography exam question clearly in Arabic. Break down why the correct answer is correct, and briefly why the other options are incorrect. Keep it professional, educational, and easy to read.
+Explain the following radiography exam question in a very simple, concise, and easy-to-understand way in Arabic (شرح مبسط ومباشر). 
+
+Your explanation MUST include two parts:
+1. **الشرح المبسط:** A simple explanation of why the correct answer is correct and why other choices are incorrect.
+2. **💡 قاعدة ذهبية للحفظ السريع:** A memorable rule, mnemonic, simple comparison, or shorthand trick to remember the core concept easily.
 
 Question:
 ${q.question}
