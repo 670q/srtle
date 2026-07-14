@@ -424,6 +424,7 @@ function renderQuizView(container) {
       <aside class="quiz-sidebar">
         <div class="sidebar-header">
           <h3 class="sidebar-title" id="quiz-sidebar-title">قائمة الأسئلة</h3>
+          <button class="btn btn-secondary btn-sm toggle-nav-btn" id="btn-toggle-nav" style="display: none; padding: 4px 10px; font-size: 0.8rem; font-family: 'Cairo', sans-serif;">أظهر القائمة</button>
           <div class="quiz-timer" id="quiz-timer-box" style="display: none;">
             ⏱️ <span id="timer-display">04:00:00</span>
           </div>
@@ -433,7 +434,7 @@ function renderQuizView(container) {
           <!-- Button navigations will be generated here -->
         </div>
         
-        <div style="font-size: 0.8rem; color: var(--text-muted); display: flex; flex-direction: column; gap: 4px; border-top: 1px solid var(--border-color); padding-top: 12px;">
+        <div class="quiz-nav-legend" style="font-size: 0.8rem; color: var(--text-muted); display: flex; flex-direction: column; gap: 4px; border-top: 1px solid var(--border-color); padding-top: 12px;">
           <div style="display: flex; align-items: center; gap: 8px;">
             <span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background-color: var(--primary-rgba); border: 1px solid var(--primary);"></span>
             <span>أسئلة تمت إجابتها</span>
@@ -527,6 +528,18 @@ function renderQuizView(container) {
   document.getElementById("btn-submit-quiz").addEventListener("click", () => confirmSubmitQuiz());
   document.getElementById("btn-flag-question").addEventListener("click", () => toggleQuestionFlag());
 
+  // Bind toggle button for mobile navigation grid
+  const btnToggleNav = document.getElementById("btn-toggle-nav");
+  if (btnToggleNav) {
+    btnToggleNav.addEventListener("click", () => {
+      const sidebar = document.querySelector(".quiz-sidebar");
+      if (sidebar) {
+        const isExpanded = sidebar.classList.toggle("nav-expanded");
+        btnToggleNav.innerText = isExpanded ? "أخفِ القائمة" : "أظهر القائمة";
+      }
+    });
+  }
+
   if (appState.quiz.mode === "practice") {
     document.getElementById("btn-submit-quiz").innerText = "إنهاء التدريب";
     document.getElementById("practice-actions-container").style.display = "none";
@@ -578,6 +591,15 @@ function generateSidebarGrid() {
     btn.addEventListener("click", () => {
       saveExamStateLocally();
       showQuestion(idx);
+      // Auto-collapse grid on mobile when a question is clicked
+      if (window.innerWidth <= 992) {
+        const sidebar = document.querySelector(".quiz-sidebar");
+        const btnToggleNav = document.getElementById("btn-toggle-nav");
+        if (sidebar && btnToggleNav) {
+          sidebar.classList.remove("nav-expanded");
+          btnToggleNav.innerText = "أظهر القائمة";
+        }
+      }
     });
     
     grid.appendChild(btn);

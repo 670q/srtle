@@ -536,7 +536,13 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   .quiz-container {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
+}
+
+/* Toggle Navigation Button - Hidden on desktop */
+.toggle-nav-btn {
+  display: none;
 }
 
 /* Left Sidebar Question Navigation Grid */
@@ -552,6 +558,53 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  transition: all var(--transition-normal);
+}
+
+@media (max-width: 992px) {
+  .quiz-sidebar {
+    position: sticky;
+    top: 80px; /* just below the app-header */
+    max-height: none;
+    padding: 12px 16px;
+    gap: 12px;
+    z-index: 99;
+    border-radius: var(--border-radius-md);
+  }
+  
+  .sidebar-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .toggle-nav-btn {
+    display: inline-flex !important;
+  }
+
+  /* Default collapsed state on mobile */
+  .quiz-sidebar:not(.nav-expanded) .questions-nav-grid {
+    display: none !important;
+  }
+  
+  .quiz-sidebar:not(.nav-expanded) .quiz-nav-legend {
+    display: none !important;
+  }
+
+  /* Expanded state on mobile */
+  .quiz-sidebar.nav-expanded .questions-nav-grid {
+    display: grid !important;
+    max-height: 240px;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)) !important;
+    padding-bottom: 8px;
+  }
+
+  .quiz-sidebar.nav-expanded .quiz-nav-legend {
+    display: flex !important;
+    border-top: 1px solid var(--border-color);
+    padding-top: 8px;
+  }
 }
 
 .sidebar-header {
@@ -596,7 +649,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .questions-nav-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
   gap: 8px;
   overflow-y: auto;
   flex: 1;
