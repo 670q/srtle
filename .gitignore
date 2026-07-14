@@ -1,0 +1,30 @@
+# Git ignore file for SRTLE Mock Exam web app
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large Source PDF (not needed for running the site on Vercel)
+*.pdf
+
+# Python scratch / scripts / virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.venv
+.env
+
+# Antigravity IDE specific files/scratch folders if any get copied
+.agents/
+.gemini/

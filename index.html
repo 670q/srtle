@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>محاكي اختبار الهيئة - SRTLE Mock Exam</title>
+  
+  <!-- Meta for browser color-scheme to prevent FOUC -->
+  <meta name="color-scheme" content="light dark">
+  
+  <!-- Inline script to set the active color-scheme early to avoid flashing -->
+  <script>
+    {
+      const colorScheme = localStorage.getItem("color-scheme") || "light dark";
+      document.querySelector('meta[name="color-scheme"]').content = colorScheme;
+    }
+  </script>
+  
+  <!-- Fonts: Cairo for Arabic, Inter for English -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- App Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="logo-area" id="go-home">
+        <div class="logo-icon">🩺</div>
+        <div class="logo-text">
+          <h1>محاكي اختبار الهيئة</h1>
+          <span>الهيئة السعودية للتخصصات الصحية | SRTLE</span>
+        </div>
+      </div>
+      
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="btn btn-secondary icon-btn" title="تغيير المظهر">
+          <span class="theme-icon-light">☀️</span>
+          <span class="theme-icon-dark">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main View Container -->
+  <main class="app-main" id="app-view">
+    <!-- Content will be injected dynamically by app.js -->
+    <div class="loading-screen">
+      <div class="spinner"></div>
+      <p>جاري تحميل الأسئلة (4,192 سؤال)...</p>
+    </div>
+  </main>
+
+  <!-- App Script -->
+  <script src="app.js" type="module"></script>
+</body>
+</html>
