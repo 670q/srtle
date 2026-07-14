@@ -38,6 +38,14 @@
       </div>
       
       <div class="header-actions">
+        <!-- Supabase Connection Indicator & User Actions -->
+        <div class="user-profile-header" id="user-profile-area">
+          <!-- Populated dynamically: Login Button or User Dropdown -->
+          <button id="btn-login-modal" class="btn btn-primary btn-sm" style="font-family: 'Cairo', sans-serif; gap: 6px;">
+            <span>تسجيل الدخول</span> 🔑
+          </button>
+        </div>
+
         <!-- Theme Toggle Button -->
         <button id="theme-toggle" class="btn btn-secondary icon-btn" title="تغيير المظهر">
           <span class="theme-icon-light">☀️</span>
@@ -55,6 +63,19 @@
       <p>جاري تحميل الأسئلة (4,192 سؤال)...</p>
     </div>
   </main>
+
+  <!-- Supabase JS Client library -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  
+  <!-- Dynamic local config loader to prevent Vercel builds crashing on missing files -->
+  <script>
+    {
+      const script = document.createElement('script');
+      script.src = 'config.js';
+      script.onerror = () => console.log('config.js not found - using local database configuration settings.');
+      document.head.appendChild(script);
+    }
+  </script>
 
   <!-- App Script -->
   <script src="app.js" type="module"></script>

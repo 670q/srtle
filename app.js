@@ -2,6 +2,7 @@
 // CORE STATE MANAGEMENT & APP INITIALIZATION
 // ==========================================
 let allQuestions = [];
+let supabaseClient = null;
 let appState = {
   currentView: "loading", // 'loading', 'dashboard', 'quiz', 'results'
   quiz: {
@@ -42,6 +43,7 @@ const CHAPTERS_INFO = {
 document.addEventListener("DOMContentLoaded", async () => {
   setupTheme();
   setupGlobalEvents();
+  initSupabase(); // Initialize Supabase Client
   await loadQuestionsData();
 });
 
@@ -135,6 +137,7 @@ function loadProgressFromStorage() {
 
 function saveProgressToStorage() {
   localStorage.setItem("srtle-practice-progress", JSON.stringify(appState.history.practiceProgress));
+  saveProgressToCloud(false); // Sync in background if authenticated
 }
 
 // ==========================================
@@ -850,15 +853,19 @@ function confirmSubmitQuiz() {
 }
 
 function submitQuizAnswers() {
+  const correctCount = appState.quiz.questions.filter(q => appState.quiz.answers[q.id] === q.answer).length;
+  
   // If exam, clear auto-save
   if (appState.quiz.mode === "exam") {
     clearExamStateLocally();
     
     // Save exam score
-    const correctCount = appState.quiz.questions.filter(q => appState.quiz.answers[q.id] === q.answer).length;
     const scaledScore = Math.round(200 + (correctCount / appState.quiz.questions.length) * 600);
     appState.history.lastExamScore = scaledScore;
     localStorage.setItem("srtle-last-exam-score", scaledScore);
+    
+    // Record exam results to Cloud database
+    saveExamResultToCloud(scaledScore, correctCount, appState.quiz.questions.length);
   }
   
   switchView("results");
@@ -1149,4 +1156,507 @@ function showConfirmationModal(title, message, onConfirm, onCancel = null, confi
     document.body.removeChild(overlay);
     if (onCancel) onCancel();
   });
+}
+
+// ==========================================
+// SUPABASE INTEGRATION ENGINE
+// ==========================================
+
+// Initialize client
+function initSupabase() {
+  const config = window.SUPABASE_CONFIG || {};
+  const storedUrl = localStorage.getItem("srtle-supabase-url") || config.url || "";
+  const storedKey = localStorage.getItem("srtle-supabase-key") || config.anonKey || "";
+  
+  if (storedUrl && storedKey) {
+    try {
+      supabaseClient = supabase.createClient(storedUrl, storedKey);
+      console.log("Supabase Client initialized successfully.");
+      setupAuthListener();
+    } catch (e) {
+      console.error("Failed to initialize Supabase:", e);
+    }
+  } else {
+    updateProfileHeader(null); // Offline/Disconnected state
+  }
+}
+
+// Listen to Auth state changes
+function setupAuthListener() {
+  if (!supabaseClient) return;
+  
+  supabaseClient.auth.onAuthStateChange(async (event, session) => {
+    console.log("Auth State Changed:", event);
+    if (session) {
+      updateProfileHeader(session.user);
+      // Automatically load user progress from database
+      await loadProgressFromCloud();
+    } else {
+      updateProfileHeader(null);
+      // Clear current progress cache from local state or reload
+    }
+  });
+}
+
+// Update the user profile UI in the top header
+function updateProfileHeader(user) {
+  const container = document.getElementById("user-profile-area");
+  if (!container) return;
+  
+  if (user) {
+    // Logged in: show user avatar dropdown
+    const firstLetter = (user.email || "U").charAt(0).toUpperCase();
+    container.innerHTML = `
+      <button class="profile-avatar-btn" id="profile-menu-btn" title="حساب المستخدم">${firstLetter}</button>
+      <div class="profile-menu" id="profile-dropdown-menu">
+        <div class="menu-user-info">
+          <div>مسجل الدخول كـ:</div>
+          <div class="menu-user-email">${user.email}</div>
+        </div>
+        <button class="menu-item" id="menu-sync-now">🔄 مزامنة التقدم الآن</button>
+        <button class="menu-item" id="menu-view-history">📊 سجل اختبارات المحاكاة</button>
+        <button class="menu-item" id="menu-open-settings">⚙️ إعدادات ربط Supabase</button>
+        <button class="menu-item menu-item-danger" id="menu-logout">🚪 تسجيل الخروج</button>
+      </div>
+    `;
+    
+    // Toggle dropdown visibility
+    const btn = document.getElementById("profile-menu-btn");
+    const menu = document.getElementById("profile-dropdown-menu");
+    
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      menu.classList.toggle("show");
+    });
+    
+    // Close dropdown on click outside
+    document.addEventListener("click", () => {
+      menu.classList.remove("show");
+    });
+    
+    // Bind menu actions
+    document.getElementById("menu-sync-now").addEventListener("click", async () => {
+      await saveProgressToCloud(true);
+    });
+    document.getElementById("menu-view-history").addEventListener("click", () => {
+      showExamHistoryModal();
+    });
+    document.getElementById("menu-open-settings").addEventListener("click", () => {
+      showSupabaseSettingsModal();
+    });
+    document.getElementById("menu-logout").addEventListener("click", async () => {
+      showConfirmationModal(
+        "تسجيل الخروج",
+        "هل أنت متأكد من رغبتك في تسجيل الخروج؟",
+        async () => {
+          await supabaseClient.auth.signOut();
+          localStorage.removeItem("srtle-practice-progress");
+          window.location.reload();
+        }
+      );
+    });
+  } else {
+    // Logged out / Disconnected: show Login or Setup settings button
+    const hasConfig = (window.SUPABASE_CONFIG && window.SUPABASE_CONFIG.anonKey) || localStorage.getItem("srtle-supabase-key");
+    if (hasConfig) {
+      container.innerHTML = `
+        <button id="btn-login-modal" class="btn btn-primary btn-sm" style="font-family: 'Cairo', sans-serif;">
+          تسجيل الدخول 🔑
+        </button>
+      `;
+      document.getElementById("btn-login-modal").addEventListener("click", () => showLoginModal());
+    } else {
+      // Prompt user to connect Supabase
+      container.innerHTML = `
+        <button id="btn-setup-supabase" class="btn btn-secondary btn-sm" style="font-family: 'Cairo', sans-serif; background-color: var(--warning-bg); border-color: var(--warning); color: var(--warning);">
+          ربط قاعدة البيانات ⚠️
+        </button>
+      `;
+      document.getElementById("btn-setup-supabase").addEventListener("click", () => showSupabaseSettingsModal());
+    }
+  }
+}
+
+// Show the Login/Signup Modal
+function showLoginModal() {
+  const overlay = document.createElement("div");
+  overlay.className = "modal-overlay";
+  
+  overlay.innerHTML = `
+    <div class="modal-content" style="max-width: 400px; text-align: right;">
+      <div class="auth-tabs">
+        <button class="auth-tab active" id="tab-signin">تسجيل دخول</button>
+        <button class="auth-tab" id="tab-signup">حساب جديد</button>
+      </div>
+      
+      <div class="form-alert" id="auth-alert"></div>
+      
+      <div class="form-group">
+        <label for="auth-email">البريد الإلكتروني</label>
+        <input type="email" id="auth-email" placeholder="example@domain.com" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="auth-password">كلمة المرور</label>
+        <input type="password" id="auth-password" placeholder="••••••••" required>
+      </div>
+      
+      <div style="display: flex; gap: 12px; margin-top: 8px;">
+        <button class="btn btn-primary" id="btn-submit-auth" style="flex: 1; font-family: 'Cairo', sans-serif;">تسجيل الدخول</button>
+        <button class="btn btn-secondary" id="btn-close-auth" style="font-family: 'Cairo', sans-serif;">إلغاء</button>
+      </div>
+    </div>
+  `;
+  
+  document.body.appendChild(overlay);
+  
+  const tabSignin = document.getElementById("tab-signin");
+  const tabSignup = document.getElementById("tab-signup");
+  const btnSubmit = document.getElementById("btn-submit-auth");
+  const alertBox = document.getElementById("auth-alert");
+  
+  let currentTab = "signin";
+  
+  tabSignin.addEventListener("click", () => {
+    currentTab = "signin";
+    tabSignin.classList.add("active");
+    tabSignup.classList.remove("active");
+    btnSubmit.innerText = "تسجيل الدخول";
+    alertBox.className = "form-alert";
+  });
+  
+  tabSignup.addEventListener("click", () => {
+    currentTab = "signup";
+    tabSignup.classList.add("active");
+    tabSignin.classList.remove("active");
+    btnSubmit.innerText = "إنشاء حساب";
+    alertBox.className = "form-alert";
+  });
+  
+  btnSubmit.addEventListener("click", async () => {
+    const email = document.getElementById("auth-email").value.trim();
+    const password = document.getElementById("auth-password").value;
+    
+    if (!email || !password) {
+      alertBox.innerText = "يرجى تعبئة جميع الحقول.";
+      alertBox.className = "form-alert error";
+      return;
+    }
+    
+    btnSubmit.disabled = true;
+    btnSubmit.innerText = "جاري المعالجة...";
+    alertBox.className = "form-alert";
+    
+    try {
+      if (currentTab === "signin") {
+        const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
+        if (error) throw error;
+        
+        alertBox.innerText = "تم تسجيل الدخول بنجاح!";
+        alertBox.className = "form-alert success";
+        setTimeout(() => {
+          document.body.removeChild(overlay);
+        }, 1000);
+      } else {
+        const { data, error } = await supabaseClient.auth.signUp({ email, password });
+        if (error) throw error;
+        
+        alertBox.innerText = "تم التسجيل بنجاح! يرجى مراجعة بريدك الإلكتروني لتأكيد الحساب إذا تطلب الأمر.";
+        alertBox.className = "form-alert success";
+        setTimeout(() => {
+          document.body.removeChild(overlay);
+        }, 3000);
+      }
+    } catch (err) {
+      console.error(err);
+      alertBox.innerText = err.message || "حدث خطأ ما، يرجى المحاولة لاحقاً.";
+      alertBox.className = "form-alert error";
+      btnSubmit.disabled = false;
+      btnSubmit.innerText = currentTab === "signin" ? "تسجيل الدخول" : "إنشاء حساب";
+    }
+  });
+  
+  document.getElementById("btn-close-auth").addEventListener("click", () => {
+    document.body.removeChild(overlay);
+  });
+}
+
+// Show Supabase settings configuration modal
+function showSupabaseSettingsModal() {
+  const overlay = document.createElement("div");
+  overlay.className = "modal-overlay";
+  
+  const config = window.SUPABASE_CONFIG || {};
+  const currentUrl = localStorage.getItem("srtle-supabase-url") || config.url || "";
+  const currentKey = localStorage.getItem("srtle-supabase-key") || config.anonKey || "";
+  
+  overlay.innerHTML = `
+    <div class="modal-content" style="max-width: 450px; text-align: right;">
+      <h3 class="modal-title" style="margin-bottom: 8px;">إعدادات ربط قاعدة البيانات Supabase</h3>
+      <p class="modal-desc" style="margin-bottom: 16px;">أدخل بيانات مشروع Supabase الخاص بك لحفظ نتائج الاختبارات وتقدم المراجعة سحابياً.</p>
+      
+      <div class="form-group">
+        <label for="settings-url">رابط المشروع (Project URL)</label>
+        <input type="url" id="settings-url" value="${currentUrl}" placeholder="https://xxxx.supabase.co" dir="ltr" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="settings-key">مفتاح الوصول العام (Anon Key)</label>
+        <input type="password" id="settings-key" value="${currentKey}" placeholder="eyJhbGciOi..." dir="ltr" required>
+      </div>
+      
+      <div style="display: flex; gap: 12px; margin-top: 16px;">
+        <button class="btn btn-primary" id="btn-save-settings" style="flex: 1; font-family: 'Cairo', sans-serif;">حفظ البيانات 💾</button>
+        <button class="btn btn-secondary" id="btn-close-settings" style="font-family: 'Cairo', sans-serif;">إلغاء</button>
+      </div>
+    </div>
+  `;
+  
+  document.body.appendChild(overlay);
+  
+  document.getElementById("btn-save-settings").addEventListener("click", () => {
+    const url = document.getElementById("settings-url").value.trim();
+    const key = document.getElementById("settings-key").value.trim();
+    
+    if (url && key) {
+      localStorage.setItem("srtle-supabase-url", url);
+      localStorage.setItem("srtle-supabase-key", key);
+      document.body.removeChild(overlay);
+      
+      // Re-initialize client
+      initSupabase();
+      
+      showConfirmationModal(
+        "تم الحفظ بنجاح",
+        "تم تحديث إعدادات الربط بنجاح! سيتم الآن إعادة تحميل الصفحة لتفعيل الاتصال.",
+        () => window.location.reload()
+      );
+    } else {
+      alert("يرجى إدخال الرابط والمفتاح معاً.");
+    }
+  });
+  
+  document.getElementById("btn-close-settings").addEventListener("click", () => {
+    document.body.removeChild(overlay);
+  });
+}
+
+// Show simulated exam history modal
+async function showExamHistoryModal() {
+  const overlay = document.createElement("div");
+  overlay.className = "modal-overlay";
+  
+  overlay.innerHTML = `
+    <div class="modal-content" style="max-width: 600px; text-align: right;">
+      <h3 class="modal-title" style="margin-bottom: 8px;">📊 سجل اختبارات المحاكاة (Exam History)</h3>
+      <p class="modal-desc" style="margin-bottom: 16px;">قائمة بنتائج الاختبارات السابقة المحفوظة سحابياً.</p>
+      
+      <div class="history-table-container">
+        <table class="history-table">
+          <thead>
+            <tr>
+              <th>التاريخ والوقت</th>
+              <th>الدرجة (من 800)</th>
+              <th>الأسئلة الصحيحة</th>
+              <th>النتيجة</th>
+            </tr>
+          </thead>
+          <tbody id="history-rows-container">
+            <tr>
+              <td colspan="4" style="text-align: center; padding: 20px;">جاري تحميل السجل... ⏳</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div style="margin-top: 16px; display: flex; justify-content: flex-end;">
+        <button class="btn btn-secondary" id="btn-close-history" style="font-family: 'Cairo', sans-serif;">إغلاق</button>
+      </div>
+    </div>
+  `;
+  
+  document.body.appendChild(overlay);
+  document.getElementById("btn-close-history").addEventListener("click", () => {
+    document.body.removeChild(overlay);
+  });
+  
+  try {
+    const { data: historyData, error } = await supabaseClient
+      .from("exam_history")
+      .select("*")
+      .order("completed_at", { ascending: false });
+      
+    if (error) throw error;
+    
+    const rowsContainer = document.getElementById("history-rows-container");
+    if (!historyData || historyData.length === 0) {
+      rowsContainer.innerHTML = `
+        <tr>
+          <td colspan="4" style="text-align: center; padding: 20px; color: var(--text-muted);">لا توجد اختبارات سابقة مسجلة.</td>
+        </tr>
+      `;
+      return;
+    }
+    
+    rowsContainer.innerHTML = historyData.map(row => {
+      const date = new Date(row.completed_at).toLocaleString("ar-SA", { timeZone: "Asia/Riyadh" });
+      const pass = row.score >= 530;
+      const statusBadge = `<span class="review-item-badge ${pass ? 'correct' : 'incorrect'}">${pass ? 'ناجح' : 'راسب'}</span>`;
+      return `
+        <tr>
+          <td dir="ltr" style="text-align: right;">${date}</td>
+          <td style="font-weight: 700;">${row.score}</td>
+          <td>${row.correct_count} / ${row.total_questions}</td>
+          <td>${statusBadge}</td>
+        </tr>
+      `;
+    }).join("");
+    
+  } catch (err) {
+    console.error("Failed to load history:", err);
+    document.getElementById("history-rows-container").innerHTML = `
+      <tr>
+        <td colspan="4" style="text-align: center; padding: 20px; color: var(--danger-light);">فشل تحميل البيانات: ${err.message}</td>
+      </tr>
+    `;
+  }
+}
+
+// ---------------------------------------------------------------------
+// DATABASE SYNC WORKFLOWS
+// ---------------------------------------------------------------------
+
+// Download practice progress from Supabase Cloud
+async function loadProgressFromCloud() {
+  if (!supabaseClient) return;
+  
+  try {
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    if (!user) return;
+    
+    const { data, error } = await supabaseClient
+      .from("user_progress")
+      .select("practice_progress, last_exam_score")
+      .eq("user_id", user.id)
+      .maybeSingle();
+      
+    if (error) throw error;
+    
+    if (data) {
+      console.log("Progress loaded from Supabase Cloud successfully.");
+      
+      // Merge Cloud progress with local storage progress (take union, prefer correct/new updates)
+      const cloudProgress = data.practice_progress || {};
+      const localProgressString = localStorage.getItem("srtle-practice-progress");
+      const localProgress = localProgressString ? JSON.parse(localProgressString) : {};
+      
+      // Merge algorithm
+      Object.keys(CHAPTERS_INFO).forEach(chapId => {
+        const cloudChap = cloudProgress[chapId] || { correct: 0, wrong: 0, answered: {} };
+        const localChap = localProgress[chapId] || { correct: 0, wrong: 0, answered: {} };
+        
+        // Merge answered map
+        const mergedAnswered = { ...localChap.answered, ...cloudChap.answered };
+        
+        // Recalculate correct / wrong counts
+        let correctCount = 0;
+        let wrongCount = 0;
+        Object.keys(mergedAnswered).forEach(qId => {
+          if (mergedAnswered[qId] === true) {
+            correctCount++;
+          } else {
+            wrongCount++;
+          }
+        });
+        
+        localProgress[chapId] = {
+          correct: correctCount,
+          wrong: wrongCount,
+          answered: mergedAnswered
+        };
+      });
+      
+      // Save merged to LocalStorage & appState
+      appState.history.practiceProgress = localProgress;
+      localStorage.setItem("srtle-practice-progress", JSON.stringify(localProgress));
+      
+      if (data.last_exam_score) {
+        appState.history.lastExamScore = data.last_exam_score;
+        localStorage.setItem("srtle-last-exam-score", data.last_exam_score);
+      }
+      
+      // If we are currently on the dashboard, refresh the stats
+      if (appState.currentView === "dashboard") {
+        switchView("dashboard");
+      }
+    }
+  } catch (err) {
+    console.error("Failed to load progress from cloud:", err);
+  }
+}
+
+// Upload practice progress to Supabase Cloud
+async function saveProgressToCloud(showToast = false) {
+  if (!supabaseClient) {
+    if (showToast) alert("Supabase غير متصل. يرجى تسجيل الدخول أولاً.");
+    return;
+  }
+  
+  try {
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    if (!user) return;
+    
+    const progress = appState.history.practiceProgress;
+    const score = appState.history.lastExamScore ? parseInt(appState.history.lastExamScore) : null;
+    
+    const { error } = await supabaseClient
+      .from("user_progress")
+      .upsert({
+        user_id: user.id,
+        practice_progress: progress,
+        last_exam_score: score,
+        updated_at: new Date().toISOString()
+      });
+      
+    if (error) throw error;
+    
+    console.log("Progress saved to Supabase Cloud successfully.");
+    if (showToast) {
+      alert("تمت مزامنة تقدمك وحفظه سحابياً بنجاح! 💾✨");
+    }
+  } catch (err) {
+    console.error("Failed to save progress to cloud:", err);
+    if (showToast) {
+      alert("عذراً، فشل المزامنة السحابية: " + err.message);
+    }
+  }
+}
+
+// Log simulated exam score to Cloud History
+async function saveExamResultToCloud(score, correctCount, totalQuestions) {
+  if (!supabaseClient) return;
+  
+  try {
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    if (!user) return;
+    
+    // 1. Insert into history
+    const { error: histError } = await supabaseClient
+      .from("exam_history")
+      .insert({
+        user_id: user.id,
+        score: score,
+        correct_count: correctCount,
+        total_questions: totalQuestions,
+        completed_at: new Date().toISOString()
+      });
+      
+    if (histError) throw histError;
+    
+    // 2. Also update overall profile progress
+    await saveProgressToCloud(false);
+    console.log("Exam score recorded in Cloud successfully.");
+  } catch (err) {
+    console.error("Failed to log exam score to cloud:", err);
+  }
 }

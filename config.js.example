@@ -1,0 +1,14 @@
+// =====================================================================
+// SRTLE MOCK EXAM - SUPABASE CREDENTIALS TEMPLATE
+// =====================================================================
+// Rename this file to "config.js" and fill in your Supabase credentials.
+// NEVER commit your actual "config.js" file containing keys to GitHub.
+// config.js is automatically ignored by Git inside the .gitignore file.
+
+window.SUPABASE_CONFIG = {
+  // Your Supabase Project API URL
+  url: "https://hpsuubkkokftyexcciwv.supabase.co",
+  
+  // Your Supabase Project Public/Anon API Key
+  anonKey: "YOUR_SUPABASE_ANON_KEY"
+};

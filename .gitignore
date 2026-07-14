@@ -28,3 +28,6 @@ pip-delete-this-directory.txt
 # Antigravity IDE specific files/scratch folders if any get copied
 .agents/
 .gemini/
+
+# Secret config keys containing Supabase credentials
+config.js
