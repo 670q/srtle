@@ -721,7 +721,7 @@ function showQuestion(index) {
         expBox.style.display = "block";
         document.getElementById("q-explanation-text").innerHTML = `
           <div>الإجابة الصحيحة هي: (${q.answer.toUpperCase()})</div>
-          <div class="ai-explanation-box" id="ai-explain-container-${q.id}">
+          <div class="ai-explanation-box" id="ai-explain-container-${q.chapter_id.replace(/\./g, '_')}_${q.id}">
             ${getAiExplanationHtml(q)}
           </div>
         `;
@@ -1113,7 +1113,7 @@ function renderReviewList(filter) {
         <div class="explanation-text en-text">
           ${q.explanation ? q.explanation.replace(/\n/g, "<br>") : `
             <div>الإجابة الصحيحة هي: (${q.answer.toUpperCase()})</div>
-            <div class="ai-explanation-box" id="ai-explain-container-${q.id}">
+            <div class="ai-explanation-box" id="ai-explain-container-${q.chapter_id.replace(/\./g, '_')}_${q.id}">
               ${getAiExplanationHtml(q)}
             </div>
           `}
@@ -1688,7 +1688,8 @@ async function saveExamResultToCloud(score, correctCount, totalQuestions) {
 
 // Get HTML content for AI explanation container
 function getAiExplanationHtml(q) {
-  const cachedExplanation = sessionStorage.getItem(`srtle-ai-explain-${q.id}`);
+  const uniqueKey = q.chapter_id.replace(/\./g, '_') + '_' + q.id;
+  const cachedExplanation = sessionStorage.getItem(`srtle-ai-explain-${uniqueKey}`);
   if (cachedExplanation) {
     return `
       <div class="ai-explanation-content">
@@ -1699,13 +1700,14 @@ function getAiExplanationHtml(q) {
       </div>
     `;
   }
-  return `<button class="btn-ai-explain" id="btn-ai-explain-${q.id}">✨ شرح الإجابة بالذكاء الاصطناعي (Gemini)</button>`;
+  return `<button class="btn-ai-explain" id="btn-ai-explain-${uniqueKey}">✨ شرح الإجابة بالذكاء الاصطناعي (Gemini)</button>`;
 }
 
 // Bind click listener to the explain button
 function bindAiExplainButton(q) {
+  const uniqueKey = q.chapter_id.replace(/\./g, '_') + '_' + q.id;
   setTimeout(() => {
-    const btn = document.getElementById(`btn-ai-explain-${q.id}`);
+    const btn = document.getElementById(`btn-ai-explain-${uniqueKey}`);
     if (btn) {
       btn.addEventListener("click", () => {
         generateAiExplanation(q);
@@ -1769,7 +1771,8 @@ function showGeminiSettingsModal(onSuccess = null) {
 
 // Generate the explanation from Gemini API
 async function generateAiExplanation(q) {
-  const container = document.getElementById(`ai-explain-container-${q.id}`);
+  const uniqueKey = q.chapter_id.replace(/\./g, '_') + '_' + q.id;
+  const container = document.getElementById(`ai-explain-container-${uniqueKey}`);
   if (!container) return;
   
   const apiKey = localStorage.getItem("srtle-gemini-api-key") || window.GEMINI_API_KEY || "";
@@ -1849,7 +1852,7 @@ Provide the explanation in clean HTML formatting (use paragraphs with <p>, stron
     explanationHtml = explanationHtml.replace(/```html/g, "").replace(/```/g, "").trim();
     
     // Cache
-    sessionStorage.setItem(`srtle-ai-explain-${q.id}`, explanationHtml);
+    sessionStorage.setItem(`srtle-ai-explain-${uniqueKey}`, explanationHtml);
     
     // Display
     container.innerHTML = `
@@ -1865,11 +1868,11 @@ Provide the explanation in clean HTML formatting (use paragraphs with <p>, stron
     container.innerHTML = `
       <div style="color: var(--danger-light); font-size: 0.85rem; padding: 10px; background-color: var(--danger-bg); border-radius: var(--border-radius-sm); border: 1px solid var(--danger-border); display: flex; flex-direction: column; gap: 6px; text-align: right;">
         <div>❌ فشل توليد الشرح بالذكاء الاصطناعي: ${err.message}</div>
-        <button class="btn btn-secondary btn-sm" id="btn-retry-ai-${q.id}" style="align-self: flex-end; padding: 4px 10px; font-size: 0.75rem; font-family: 'Cairo', sans-serif;">إعادة المحاولة 🔄</button>
+        <button class="btn btn-secondary btn-sm" id="btn-retry-ai-${uniqueKey}" style="align-self: flex-end; padding: 4px 10px; font-size: 0.75rem; font-family: 'Cairo', sans-serif;">إعادة المحاولة 🔄</button>
       </div>
     `;
     
-    const retryBtn = document.getElementById(`btn-retry-ai-${q.id}`);
+    const retryBtn = document.getElementById(`btn-retry-ai-${uniqueKey}`);
     if (retryBtn) {
       retryBtn.addEventListener("click", () => {
         generateAiExplanation(q);
