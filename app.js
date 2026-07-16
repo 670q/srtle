@@ -19,7 +19,12 @@ let appState = {
   history: {
     practiceProgress: {}, // chapter_id -> { answeredCount: X, totalCount: Y, correctAnswers: Z }
     lastExamScore: null   // Scaled score of last exam
-  }
+  },
+  userProfile: {
+    targetScore: 530,
+    email: ""
+  },
+  userStudyPlan: ""      // HTML content of study plan
 };
 
 const CHAPTERS_INFO = {
@@ -188,10 +193,19 @@ function renderDashboard(container) {
   // Calculate completed questions count in practice
   let totalPracticed = 0;
   let totalCorrectPracticed = 0;
+  let wrongCount = 0;
+  
   Object.keys(appState.history.practiceProgress).forEach(chapId => {
     const chapData = appState.history.practiceProgress[chapId];
     totalPracticed += Object.keys(chapData.answered).length;
     totalCorrectPracticed += chapData.correct;
+    
+    // Count wrong attempts
+    Object.keys(chapData.answered).forEach(qId => {
+      if (chapData.answered[qId] === false) {
+        wrongCount++;
+      }
+    });
   });
   
   const practicePercent = totalQuestionsCount > 0 
@@ -201,6 +215,15 @@ function renderDashboard(container) {
   let lastExamText = appState.history.lastExamScore 
     ? `${appState.history.lastExamScore} / 800 (${appState.history.lastExamScore >= 530 ? 'ناجح' : 'راسب'})`
     : "لا يوجد اختبارات سابقة";
+
+  // Target Score calculations
+  const targetScore = appState.userProfile.targetScore || 530;
+  const overallAccuracy = totalPracticed > 0 ? Math.round((totalCorrectPracticed / totalPracticed) * 100) : 0;
+  
+  // Score percentage (scale 200 to 800)
+  const scorePercent = Math.min(100, Math.max(0, Math.round(((targetScore - 200) / 600) * 100)));
+  const circumference = 2 * Math.PI * 34; // r=34 -> ~213.6
+  const strokeDashoffset = circumference - (scorePercent / 100) * circumference;
 
   container.innerHTML = `
     <div class="dashboard-container">
@@ -213,6 +236,19 @@ function renderDashboard(container) {
         </div>
       </section>
 
+      <!-- Mistakes Review Banner (If any mistakes exist and user is logged in) -->
+      ${(supabaseClient && wrongCount > 0) ? `
+      <section class="mistakes-review-banner">
+        <div>
+          <h2>📝 مراجعة وتصحيح الأخطاء السابقة</h2>
+          <p>لديك <strong>${wrongCount}</strong> سؤال تمت الإجابة عليها بشكل خاطئ. قم بحلها الآن لتثبيت المعلومة وحذفها من قائمة الأخطاء.</p>
+        </div>
+        <button class="btn btn-primary" id="btn-start-mistakes" style="background-color: #ffffff; color: #b91c1c; border-color: #ffffff; font-family: 'Cairo', sans-serif;">
+          ابدأ المراجعة الفورية 🔍
+        </button>
+      </section>
+      ` : ''}
+
       <!-- Stats Grid -->
       <section class="stats-grid">
         <div class="stat-card">
@@ -220,14 +256,32 @@ function renderDashboard(container) {
           <div class="stat-details">
             <h3>بنك الأسئلة الشامل</h3>
             <div class="stat-number">${totalQuestionsCount} سؤالاً</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">حُلّ منها: ${totalPracticed} سؤالاً (${practicePercent}%)</div>
           </div>
         </div>
         
         <div class="stat-card">
           <div class="stat-icon">📈</div>
           <div class="stat-details">
-            <h3>نسبة إنجاز التدريب</h3>
-            <div class="stat-number">${practicePercent}%</div>
+            <h3>نسبة الإجابات الصحيحة</h3>
+            <div class="stat-number">${overallAccuracy}%</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">صح: ${totalCorrectPracticed} | خطأ: ${totalPracticed - totalCorrectPracticed}</div>
+          </div>
+        </div>
+
+        <!-- Target Score Gauge Card -->
+        <div class="target-score-gauge-card">
+          <div class="gauge-details">
+            <h4>الدرجة المستهدفة</h4>
+            <div class="score-value">${targetScore} / 800</div>
+            <button class="btn btn-secondary btn-sm" id="btn-change-target" style="padding: 2px 8px; font-size: 0.75rem; font-family: 'Cairo', sans-serif; margin-top: 4px;">تعديل الهدف 🎯</button>
+          </div>
+          <div class="gauge-ring-container">
+            <svg class="gauge-ring-svg">
+              <circle class="gauge-ring-circle-bg" cx="40" cy="40" r="34"></circle>
+              <circle class="gauge-ring-circle-val" cx="40" cy="40" r="34" style="stroke-dasharray: ${circumference}; stroke-dashoffset: ${strokeDashoffset};"></circle>
+            </svg>
+            <div class="gauge-ring-text">${scorePercent}%</div>
           </div>
         </div>
 
@@ -255,6 +309,60 @@ function renderDashboard(container) {
           <h3>محاكي اختبار الهيئة الحقيقي</h3>
           <p>اختبر جاهزيتك من خلال محاكاة حقيقية لبيئة الاختبار المعتمد من الهيئة: 200 سؤال عشوائي، ومدة زمنية قدرها 4 ساعات (240 دقيقة)، دون عرض الإجابات حتى نهاية الاختبار.</p>
           <button class="btn btn-success" id="btn-start-exam">دخول محاكي الاختبار</button>
+        </div>
+
+      </section>
+
+      <!-- Advanced Stats and AI Study Plan Section -->
+      <section class="advanced-stats-section">
+        
+        <!-- Chapters performance bar charts -->
+        <div class="chart-card">
+          <div class="chart-title-area">
+            <h3>📊 أداء الفصول ونسبة الإجابات الصحيحة</h3>
+          </div>
+          <div class="chart-list">
+            ${Object.keys(CHAPTERS_INFO).map(chapId => {
+              const chapName = CHAPTERS_INFO[chapId];
+              const chapProgress = appState.history.practiceProgress[chapId] || { correct: 0, wrong: 0, answered: {} };
+              const answeredCount = Object.keys(chapProgress.answered).length;
+              const accuracy = answeredCount > 0 ? Math.round((chapProgress.correct / answeredCount) * 100) : 0;
+              return `
+                <div class="chart-bar-item">
+                  <div class="chart-bar-info">
+                    <span>فصل ${chapId}: ${chapName.substring(0, 35)}${chapName.length > 35 ? '...' : ''}</span>
+                    <span>${accuracy}% (${chapProgress.correct} صح / ${answeredCount} محاولة)</span>
+                  </div>
+                  <div class="chart-bar-outer">
+                    <div class="chart-bar-inner" style="width: ${accuracy}%; background-color: ${accuracy >= 75 ? 'var(--success)' : accuracy >= 50 ? 'var(--warning)' : 'var(--danger)'};"></div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+
+        <!-- AI Study Advisor Recommendation card -->
+        <div class="study-advisor-card">
+          <div class="advisor-header">
+            <span class="advisor-icon">🧠</span>
+            <span>مستشار الدراسة والذكاء الاصطناعي (AI)</span>
+          </div>
+          <div class="advisor-content">
+            ${appState.userStudyPlan ? `
+              <div style="font-size: 0.85rem; color: var(--primary); font-weight: 700; margin-bottom: 12px; border-bottom: 1px solid var(--border-color); padding-bottom: 8px;">
+                ✨ خطة دراسية مخصصة لك تم توليدها بالذكاء الاصطناعي:
+              </div>
+              <div class="ai-study-plan-content" style="font-size: 0.9rem; line-height: 1.6; max-height: 450px; overflow-y: auto; padding-left: 8px;">
+                ${appState.userStudyPlan}
+              </div>
+            ` : `
+              <p>لا توجد خطة دراسية نشطة حالياً. يمكن لمستشار الذكاء الاصطناعي تحليل أداء حلولك للفصول السابقة وتحديد الفصول التي تحتاج إلى تركيز وتقديم نصائح دراسية عملية لتصل لدرجتك المستهدفة: <strong>${targetScore}</strong>.</p>
+            `}
+          </div>
+          <button class="btn btn-primary btn-generate-plan" id="btn-generate-ai-plan" style="margin-top: 10px; width: 100%;">
+            ✨ ${appState.userStudyPlan ? 'تحديث خطة الدراسة بالذكاء الاصطناعي' : 'توليد خطة دراسية ذكية بالذكاء الاصطناعي'}
+          </button>
         </div>
 
       </section>
@@ -321,6 +429,24 @@ function renderDashboard(container) {
   document.getElementById("btn-start-practice").addEventListener("click", () => {
     document.querySelector(".chapters-section").scrollIntoView({ behavior: "smooth" });
   });
+
+  // Bind change target button
+  document.getElementById("btn-change-target").addEventListener("click", () => {
+    showTargetScoreModal(false);
+  });
+
+  // Bind generate study plan button
+  document.getElementById("btn-generate-ai-plan").addEventListener("click", () => {
+    generateAiStudyPlan();
+  });
+
+  // Bind start mistakes button if exists
+  const btnMistakes = document.getElementById("btn-start-mistakes");
+  if (btnMistakes) {
+    btnMistakes.addEventListener("click", () => {
+      startMistakesReviewSession();
+    });
+  }
 }
 
 // ==========================================
@@ -764,8 +890,10 @@ function selectOption(optionKey) {
     const chapProgress = appState.history.practiceProgress[q.chapter_id];
     
     // Track if this is a first-time answer
-    if (!(q.id in chapProgress.answered)) {
-      const isCorrect = (optionKey === q.answer);
+    const isCorrect = (optionKey === q.answer);
+    const wasAnswered = q.id in chapProgress.answered;
+    
+    if (!wasAnswered) {
       chapProgress.answered[q.id] = isCorrect;
       if (isCorrect) {
         chapProgress.correct++;
@@ -773,7 +901,24 @@ function selectOption(optionKey) {
         chapProgress.wrong++;
       }
       saveProgressToStorage();
+    } else {
+      // update it if changed
+      const prevCorrect = chapProgress.answered[q.id];
+      if (prevCorrect !== isCorrect) {
+        chapProgress.answered[q.id] = isCorrect;
+        if (isCorrect) {
+          chapProgress.correct++;
+          chapProgress.wrong--;
+        } else {
+          chapProgress.wrong++;
+          chapProgress.correct--;
+        }
+        saveProgressToStorage();
+      }
     }
+    
+    // Save attempt directly to Supabase
+    saveQuestionAttemptToCloud(q.id, q.chapter_id, optionKey, q.answer, isCorrect, 'practice');
     
     // Re-render question to apply highlight and show explanation immediately
     showQuestion(idx);
@@ -818,8 +963,10 @@ function checkPracticeAnswer() {
   const chapProgress = appState.history.practiceProgress[q.chapter_id];
   
   // Track if this is a first-time answer
-  if (!(q.id in chapProgress.answered)) {
-    const isCorrect = (userAns === q.answer);
+  const isCorrect = (userAns === q.answer);
+  const wasAnswered = q.id in chapProgress.answered;
+  
+  if (!wasAnswered) {
     chapProgress.answered[q.id] = isCorrect;
     if (isCorrect) {
       chapProgress.correct++;
@@ -827,7 +974,23 @@ function checkPracticeAnswer() {
       chapProgress.wrong++;
     }
     saveProgressToStorage();
+  } else {
+    const prevCorrect = chapProgress.answered[q.id];
+    if (prevCorrect !== isCorrect) {
+      chapProgress.answered[q.id] = isCorrect;
+      if (isCorrect) {
+        chapProgress.correct++;
+        chapProgress.wrong--;
+      } else {
+        chapProgress.wrong++;
+        chapProgress.correct--;
+      }
+      saveProgressToStorage();
+    }
   }
+  
+  // Save attempt to Supabase
+  saveQuestionAttemptToCloud(q.id, q.chapter_id, userAns, q.answer, isCorrect, 'practice');
   
   // Re-render question to apply highlight and show explanation
   showQuestion(idx);
@@ -1229,6 +1392,7 @@ function updateProfileHeader(user) {
         </div>
         <button class="menu-item" id="menu-sync-now">🔄 مزامنة التقدم الآن</button>
         <button class="menu-item" id="menu-view-history">📊 سجل اختبارات المحاكاة</button>
+        <button class="menu-item" id="menu-set-target">🎯 تحديد الدرجة المستهدفة</button>
         <button class="menu-item" id="menu-open-settings">⚙️ إعدادات ربط Supabase</button>
         <button class="menu-item" id="menu-open-gemini-settings">🔑 إعدادات مفتاح Gemini</button>
         <button class="menu-item menu-item-danger" id="menu-logout">🚪 تسجيل الخروج</button>
@@ -1255,6 +1419,9 @@ function updateProfileHeader(user) {
     });
     document.getElementById("menu-view-history").addEventListener("click", () => {
       showExamHistoryModal();
+    });
+    document.getElementById("menu-set-target").addEventListener("click", () => {
+      showTargetScoreModal(false);
     });
     document.getElementById("menu-open-settings").addEventListener("click", () => {
       showSupabaseSettingsModal();
@@ -1555,61 +1722,40 @@ async function loadProgressFromCloud() {
     const { data: { user } } = await supabaseClient.auth.getUser();
     if (!user) return;
     
-    const { data, error } = await supabaseClient
-      .from("user_progress")
-      .select("practice_progress, last_exam_score")
+    // 1. Load User Profile (target score)
+    await loadUserProfile();
+    
+    // 2. Load attempts to rebuild practice progress map
+    await loadProgressFromAttempts();
+    
+    // 3. Load User Study Plan
+    const { data: planData, error: planError } = await supabaseClient
+      .from("user_study_plan")
+      .select("plan_data")
       .eq("user_id", user.id)
       .maybeSingle();
       
-    if (error) throw error;
+    if (!planError && planData && planData.plan_data) {
+      appState.userStudyPlan = planData.plan_data.planHtml || "";
+    } else {
+      appState.userStudyPlan = "";
+    }
     
-    if (data) {
-      console.log("Progress loaded from Supabase Cloud successfully.");
+    // 4. Load last exam score
+    const { data: progressData, error: progressError } = await supabaseClient
+      .from("user_progress")
+      .select("last_exam_score")
+      .eq("user_id", user.id)
+      .maybeSingle();
       
-      // Merge Cloud progress with local storage progress (take union, prefer correct/new updates)
-      const cloudProgress = data.practice_progress || {};
-      const localProgressString = localStorage.getItem("srtle-practice-progress");
-      const localProgress = localProgressString ? JSON.parse(localProgressString) : {};
-      
-      // Merge algorithm
-      Object.keys(CHAPTERS_INFO).forEach(chapId => {
-        const cloudChap = cloudProgress[chapId] || { correct: 0, wrong: 0, answered: {} };
-        const localChap = localProgress[chapId] || { correct: 0, wrong: 0, answered: {} };
-        
-        // Merge answered map
-        const mergedAnswered = { ...localChap.answered, ...cloudChap.answered };
-        
-        // Recalculate correct / wrong counts
-        let correctCount = 0;
-        let wrongCount = 0;
-        Object.keys(mergedAnswered).forEach(qId => {
-          if (mergedAnswered[qId] === true) {
-            correctCount++;
-          } else {
-            wrongCount++;
-          }
-        });
-        
-        localProgress[chapId] = {
-          correct: correctCount,
-          wrong: wrongCount,
-          answered: mergedAnswered
-        };
-      });
-      
-      // Save merged to LocalStorage & appState
-      appState.history.practiceProgress = localProgress;
-      localStorage.setItem("srtle-practice-progress", JSON.stringify(localProgress));
-      
-      if (data.last_exam_score) {
-        appState.history.lastExamScore = data.last_exam_score;
-        localStorage.setItem("srtle-last-exam-score", data.last_exam_score);
-      }
-      
-      // If we are currently on the dashboard, refresh the stats
-      if (appState.currentView === "dashboard") {
-        switchView("dashboard");
-      }
+    if (!progressError && progressData && progressData.last_exam_score) {
+      appState.history.lastExamScore = progressData.last_exam_score;
+      localStorage.setItem("srtle-last-exam-score", progressData.last_exam_score);
+    }
+    
+    // If we are currently on the dashboard, refresh the stats
+    if (appState.currentView === "dashboard") {
+      switchView("dashboard");
     }
   } catch (err) {
     console.error("Failed to load progress from cloud:", err);
@@ -1674,8 +1820,69 @@ async function saveExamResultToCloud(score, correctCount, totalQuestions) {
       
     if (histError) throw histError;
     
-    // 2. Also update overall profile progress
-    await saveProgressToCloud(false);
+    // 2. Save each question attempt in this exam to question_attempts
+    const attempts = appState.quiz.questions.map(q => {
+      const selectedAns = appState.quiz.answers[q.id] || "";
+      const isCorrect = (selectedAns === q.answer);
+      return {
+        user_id: user.id,
+        question_id: q.id,
+        chapter_id: q.chapter_id,
+        selected_answer: selectedAns,
+        correct_answer: q.answer,
+        is_correct: isCorrect,
+        mode: 'exam',
+        attempted_at: new Date().toISOString()
+      };
+    });
+    
+    // Batch upsert the attempts
+    const { error: attError } = await supabaseClient
+      .from("question_attempts")
+      .upsert(attempts, { onConflict: "user_id,question_id" });
+      
+    if (attError) console.error("Failed to batch save exam attempts:", attError);
+    
+    // 3. Insert study session
+    await supabaseClient.from("study_sessions").insert({
+      user_id: user.id,
+      mode: 'exam',
+      total_questions: totalQuestions,
+      correct_count: correctCount,
+      score: score,
+      started_at: new Date(Date.now() - (240 * 60 - appState.quiz.timeRemaining) * 1000).toISOString(),
+      completed_at: new Date().toISOString(),
+      duration_seconds: 240 * 60 - appState.quiz.timeRemaining
+    });
+
+    // 4. Update local practiceProgress map by merging exam results if correct/changed
+    attempts.forEach(att => {
+      const chapProgress = appState.history.practiceProgress[att.chapter_id];
+      if (chapProgress) {
+        const wasAnswered = att.question_id in chapProgress.answered;
+        const prevCorrect = chapProgress.answered[att.question_id];
+        
+        if (!wasAnswered) {
+          chapProgress.answered[att.question_id] = att.is_correct;
+          if (att.is_correct) {
+            chapProgress.correct++;
+          } else {
+            chapProgress.wrong++;
+          }
+        } else if (prevCorrect !== att.is_correct) {
+          chapProgress.answered[att.question_id] = att.is_correct;
+          if (att.is_correct) {
+            chapProgress.correct++;
+            chapProgress.wrong--;
+          } else {
+            chapProgress.wrong++;
+            chapProgress.correct--;
+          }
+        }
+      }
+    });
+    saveProgressToStorage(); // triggers saving to user_progress too
+
     console.log("Exam score recorded in Cloud successfully.");
   } catch (err) {
     console.error("Failed to log exam score to cloud:", err);
@@ -1689,18 +1896,7 @@ async function saveExamResultToCloud(score, correctCount, totalQuestions) {
 // Get HTML content for AI explanation container
 function getAiExplanationHtml(q) {
   const uniqueKey = q.chapter_id.replace(/\./g, '_') + '_' + q.id;
-  const cachedExplanation = sessionStorage.getItem(`srtle-ai-explain-${uniqueKey}`);
-  if (cachedExplanation) {
-    return `
-      <div class="ai-explanation-content">
-        <div style="font-size: 0.8rem; color: var(--primary); font-weight: 700; margin-bottom: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 4px; display: flex; align-items: center; gap: 4px;">
-          ✨ شرح طبي مولد بالذكاء الاصطناعي (Gemini):
-        </div>
-        <div>${cachedExplanation}</div>
-      </div>
-    `;
-  }
-  return `<button class="btn-ai-explain" id="btn-ai-explain-${uniqueKey}">✨ شرح الإجابة بالذكاء الاصطناعي (Gemini)</button>`;
+  return `<div id="ai-explain-container-${uniqueKey}"><button class="btn-ai-explain" id="btn-ai-explain-${uniqueKey}">✨ شرح الإجابة بالذكاء الاصطناعي (Gemini)</button></div>`;
 }
 
 // Bind click listener to the explain button
@@ -1716,79 +1912,23 @@ function bindAiExplainButton(q) {
   }, 50); // slight delay to ensure it is rendered in DOM
 }
 
-// Show Gemini key settings modal
-function showGeminiSettingsModal(onSuccess = null) {
-  const overlay = document.createElement("div");
-  overlay.className = "modal-overlay";
-  
-  const currentKey = localStorage.getItem("srtle-gemini-api-key") || window.GEMINI_API_KEY || "";
-  
-  overlay.innerHTML = `
-    <div class="modal-content" style="max-width: 400px; text-align: right;">
-      <h3 class="modal-title" style="margin-bottom: 8px;">🔑 إدخال مفتاح Gemini API</h3>
-      <p class="modal-desc" style="margin-bottom: 16px;">يرجى إدخال مفتاح Google Gemini API لتوليد شرح طبي مفصل وعالي الدقة للأسئلة.
-      <br><br>
-      <a href="https://aistudio.google.com/" target="_blank" style="color: var(--primary); font-weight: 700; text-decoration: underline;">اضغط هنا للحصول على مفتاح مجاني من Google AI Studio</a></p>
-      
-      <div class="form-group">
-        <label for="gemini-key-input">Gemini API Key</label>
-        <input type="password" id="gemini-key-input" value="${currentKey}" placeholder="AIzaSy..." dir="ltr" required>
-      </div>
-      
-      <div style="display: flex; gap: 12px; margin-top: 16px;">
-        <button class="btn btn-primary" id="btn-save-gemini-key" style="flex: 1; font-family: 'Cairo', sans-serif;">تفعيل 🚀</button>
-        <button class="btn btn-secondary" id="btn-close-gemini" style="font-family: 'Cairo', sans-serif;">إلغاء</button>
-      </div>
-    </div>
-  `;
-  
-  document.body.appendChild(overlay);
-  
-  document.getElementById("btn-save-gemini-key").addEventListener("click", () => {
-    const key = document.getElementById("gemini-key-input").value.trim();
-    if (key) {
-      localStorage.setItem("srtle-gemini-api-key", key);
-      window.GEMINI_API_KEY = key;
-      document.body.removeChild(overlay);
-      if (onSuccess) onSuccess(key);
-      
-      showConfirmationModal(
-        "تم تفعيل المفتاح",
-        "تم حفظ مفتاح Gemini API بنجاح! يمكنك الآن الضغط على زر الشرح للحصول على الشرح الطبي فوراً.",
-        null,
-        null,
-        "موافق"
-      );
-    } else {
-      alert("يرجى إدخال المفتاح أولاً.");
-    }
-  });
-  
-  document.getElementById("btn-close-gemini").addEventListener("click", () => {
-    document.body.removeChild(overlay);
-  });
-}
-
-// Generate the explanation from Gemini API
 async function generateAiExplanation(q) {
   const uniqueKey = q.chapter_id.replace(/\./g, '_') + '_' + q.id;
   const container = document.getElementById(`ai-explain-container-${uniqueKey}`);
   if (!container) return;
-  
-  const apiKey = localStorage.getItem("srtle-gemini-api-key") || window.GEMINI_API_KEY || "";
-  
-  if (!apiKey) {
-    showGeminiSettingsModal(() => {
-      generateAiExplanation(q); // retry
-    });
+
+  // 1. Try to fetch from sessionStorage cache first
+  const cachedExplanation = sessionStorage.getItem(`srtle-ai-explain-${uniqueKey}`);
+  if (cachedExplanation) {
+    displayAiExplanation(container, cachedExplanation);
     return;
   }
-  
+
   // Show Loading Shimmer
   container.innerHTML = `
     <div class="ai-loading-shimmer">
       <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-        <span>جاري توليد الشرح بالذكاء الاصطناعي (Gemini)...</span>
+        <span>جاري البحث عن شرح مخزن أو توليد شرح جديد...</span>
         <span class="spinner" style="width: 14px; height: 14px; border-width: 2px; display: inline-block;"></span>
       </div>
       <div class="shimmer-line"></div>
@@ -1796,7 +1936,27 @@ async function generateAiExplanation(q) {
       <div class="shimmer-line short"></div>
     </div>
   `;
+
+  // 2. Try to fetch from shared Supabase database
+  if (supabaseClient) {
+    const dbExplanation = await getSharedAiExplanation(q.id);
+    if (dbExplanation) {
+      sessionStorage.setItem(`srtle-ai-explain-${uniqueKey}`, dbExplanation);
+      displayAiExplanation(container, dbExplanation);
+      return;
+    }
+  }
+
+  // 3. Fallback to generating with Gemini API
+  const apiKey = localStorage.getItem("srtle-gemini-api-key") || window.GEMINI_API_KEY || "";
   
+  if (!apiKey) {
+    showGeminiSettingsModal(async () => {
+      await generateAiExplanation(q); // retry
+    });
+    return;
+  }
+
   const optionsText = Object.keys(q.options)
     .map(key => `${key.toUpperCase()}) ${q.options[key]}`)
     .join("\n");
@@ -1880,3 +2040,467 @@ Provide the explanation in clean HTML formatting (use paragraphs with <p>, stron
     }
   }
 }
+
+function displayAiExplanation(container, explanationHtml) {
+  container.innerHTML = `
+    <div class="ai-explanation-content">
+      <div style="font-size: 0.8rem; color: var(--primary); font-weight: 700; margin-bottom: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 4px; display: flex; align-items: center; gap: 4px;">
+        ✨ شرح طبي مولد بالذكاء الاصطناعي (Gemini):
+      </div>
+      <div>${explanationHtml}</div>
+    </div>
+  `;
+}
+
+// Show Gemini key settings modal
+function showGeminiSettingsModal(onSuccess = null) {
+  const overlay = document.createElement("div");
+  overlay.className = "modal-overlay";
+  
+  const currentKey = localStorage.getItem("srtle-gemini-api-key") || window.GEMINI_API_KEY || "";
+  
+  overlay.innerHTML = `
+    <div class="modal-content" style="max-width: 400px; text-align: right;">
+      <h3 class="modal-title" style="margin-bottom: 8px;">🔑 إدخال مفتاح Gemini API</h3>
+      <p class="modal-desc" style="margin-bottom: 16px;">يرجى إدخال مفتاح Google Gemini API لتوليد شرح طبي مفصل وعالي الدقة للأسئلة.
+      <br><br>
+      <a href="https://aistudio.google.com/" target="_blank" style="color: var(--primary); font-weight: 700; text-decoration: underline;">اضغط هنا للحصول على مفتاح مجاني من Google AI Studio</a></p>
+      
+      <div class="form-group">
+        <label for="gemini-key-input">Gemini API Key</label>
+        <input type="password" id="gemini-key-input" value="${currentKey}" placeholder="AIzaSy..." dir="ltr" required>
+      </div>
+      
+      <div style="display: flex; gap: 12px; margin-top: 16px;">
+        <button class="btn btn-primary" id="btn-save-gemini-key" style="flex: 1; font-family: 'Cairo', sans-serif;">تفعيل 🚀</button>
+        <button class="btn btn-secondary" id="btn-close-gemini" style="font-family: 'Cairo', sans-serif;">إلغاء</button>
+      </div>
+    </div>
+  `;
+  
+  document.body.appendChild(overlay);
+  
+  document.getElementById("btn-save-gemini-key").addEventListener("click", () => {
+    const key = document.getElementById("gemini-key-input").value.trim();
+    if (key) {
+      localStorage.setItem("srtle-gemini-api-key", key);
+      window.GEMINI_API_KEY = key;
+      document.body.removeChild(overlay);
+      if (onSuccess) onSuccess(key);
+      
+      showConfirmationModal(
+        "تم تفعيل المفتاح",
+        "تم حفظ مفتاح Gemini API بنجاح! يمكنك الآن الضغط على زر الشرح للحصول على الشرح الطبي فوراً.",
+        null,
+        null,
+        "موافق"
+      );
+    } else {
+      alert("يرجى إدخال المفتاح أولاً.");
+    }
+  });
+  
+  document.getElementById("btn-close-gemini").addEventListener("click", () => {
+    document.body.removeChild(overlay);
+  });
+}
+
+// ---------------------------------------------------------------------
+// DATABASE LOOKUPS AND INSERTS
+// ---------------------------------------------------------------------
+
+async function getSharedAiExplanation(questionId) {
+  if (!supabaseClient) return null;
+  try {
+    const { data, error } = await supabaseClient
+      .from("ai_explanations")
+      .select("explanation_html")
+      .eq("question_id", questionId)
+      .maybeSingle();
+      
+    if (error) throw error;
+    return data ? data.explanation_html : null;
+  } catch (err) {
+    console.error("Failed to fetch shared AI explanation:", err);
+    return null;
+  }
+}
+
+async function saveSharedAiExplanation(questionId, explanationHtml) {
+  if (!supabaseClient) return;
+  try {
+    const { error } = await supabaseClient
+      .from("ai_explanations")
+      .upsert({
+        question_id: questionId,
+        explanation_html: explanationHtml,
+        generated_at: new Date().toISOString()
+      });
+      
+    if (error) throw error;
+    console.log("Saved AI explanation to Supabase.");
+  } catch (err) {
+    console.error("Failed to save shared AI explanation:", err);
+  }
+}
+
+async function loadUserProfile() {
+  if (!supabaseClient) return;
+  try {
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    if (!user) return;
+    
+    appState.userProfile.email = user.email;
+    
+    const { data, error } = await supabaseClient
+      .from("profiles")
+      .select("target_score")
+      .eq("id", user.id)
+      .maybeSingle();
+      
+    if (error) throw error;
+    
+    if (data && data.target_score) {
+      appState.userProfile.targetScore = data.target_score;
+    } else {
+      await supabaseClient.from("profiles").upsert({
+        id: user.id,
+        email: user.email,
+        target_score: 530
+      });
+      appState.userProfile.targetScore = 530;
+      showTargetScoreModal(true);
+    }
+  } catch (err) {
+    console.error("Failed to load user profile:", err);
+  }
+}
+
+async function loadProgressFromAttempts() {
+  if (!supabaseClient) return;
+  
+  try {
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    if (!user) return;
+    
+    const { data: attempts, error } = await supabaseClient
+      .from("question_attempts")
+      .select("question_id, chapter_id, is_correct");
+      
+    if (error) throw error;
+    
+    const progress = {};
+    Object.keys(CHAPTERS_INFO).forEach(chapId => {
+      progress[chapId] = {
+        correct: 0,
+        wrong: 0,
+        answered: {}
+      };
+    });
+    
+    if (attempts && attempts.length > 0) {
+      attempts.forEach(att => {
+        const chapId = att.chapter_id;
+        if (!progress[chapId]) {
+          progress[chapId] = { correct: 0, wrong: 0, answered: {} };
+        }
+        progress[chapId].answered[att.question_id] = att.is_correct;
+      });
+      
+      Object.keys(progress).forEach(chapId => {
+        let correct = 0;
+        let wrong = 0;
+        Object.keys(progress[chapId].answered).forEach(qId => {
+          if (progress[chapId].answered[qId] === true) {
+            correct++;
+          } else {
+            wrong++;
+          }
+        });
+        progress[chapId].correct = correct;
+        progress[chapId].wrong = wrong;
+      });
+    }
+    
+    appState.history.practiceProgress = progress;
+    localStorage.setItem("srtle-practice-progress", JSON.stringify(progress));
+  } catch (err) {
+    console.error("Failed to load progress from attempts:", err);
+  }
+}
+
+async function saveQuestionAttemptToCloud(questionId, chapterId, selectedAnswer, correctAnswer, isCorrect, mode = 'practice') {
+  if (!supabaseClient) return;
+  try {
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    if (!user) return;
+    
+    const { error } = await supabaseClient
+      .from("question_attempts")
+      .upsert({
+        user_id: user.id,
+        question_id: questionId,
+        chapter_id: chapterId,
+        selected_answer: selectedAnswer,
+        correct_answer: correctAnswer,
+        is_correct: isCorrect,
+        mode: mode,
+        attempted_at: new Date().toISOString()
+      }, { onConflict: "user_id,question_id" });
+      
+    if (error) throw error;
+    console.log(`Saved attempt for question ${questionId} to cloud.`);
+  } catch (err) {
+    console.error("Failed to save attempt to cloud:", err);
+  }
+}
+
+async function generateAiStudyPlan() {
+  const btn = document.getElementById("btn-generate-ai-plan");
+  if (btn) {
+    btn.disabled = true;
+    btn.innerText = "جاري تحليل أدائك وتوليد الخطة... 🧠⏳";
+  }
+  
+  const apiKey = localStorage.getItem("srtle-gemini-api-key") || window.GEMINI_API_KEY || "";
+  if (!apiKey) {
+    showGeminiSettingsModal(async () => {
+      await generateAiStudyPlan();
+    });
+    if (btn) {
+      btn.disabled = false;
+      btn.innerText = "توليد خطة دراسية ذكية بالذكاء الاصطناعي ✨";
+    }
+    return;
+  }
+  
+  const totalQuestionsCount = allQuestions.length;
+  let totalPracticed = 0;
+  let totalCorrectPracticed = 0;
+  const chapterDetails = [];
+  
+  Object.keys(appState.history.practiceProgress).forEach(chapId => {
+    const chapData = appState.history.practiceProgress[chapId];
+    const answeredCount = Object.keys(chapData.answered).length;
+    const correctCount = chapData.correct;
+    const accuracy = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+    totalPracticed += answeredCount;
+    totalCorrectPracticed += correctCount;
+    
+    chapterDetails.push({
+      id: chapId,
+      name: CHAPTERS_INFO[chapId],
+      totalQuestions: allQuestions.filter(q => q.chapter_id === chapId).length,
+      answered: answeredCount,
+      correct: correctCount,
+      accuracy: accuracy
+    });
+  });
+  
+  const overallAccuracy = totalPracticed > 0 ? Math.round((totalCorrectPracticed / totalPracticed) * 100) : 0;
+  const targetScore = appState.userProfile.targetScore || 530;
+  
+  const prompt = `You are an AI Medical Education Advisor assisting a radiography student preparing for the Saudi Commission for Health Specialties (SCFHS) SRTLE licensing exam.
+  
+Review the student's current performance data below and generate a personalized, structured study plan and recommendations in Arabic.
+
+Overall Progress:
+- Total Questions in bank: ${totalQuestionsCount}
+- Total Questions Attempted: ${totalPracticed}
+- Overall Accuracy: ${overallAccuracy}%
+- Target Licensing Score: ${targetScore} / 800 (Passing is 530)
+
+Chapter-wise Breakdown:
+${chapterDetails.map(c => `- Chapter ${c.id} (${c.name}): Attempted ${c.answered}/${c.totalQuestions} questions, Accuracy: ${c.accuracy}%`).join("\n")}
+
+Generate a response in clean HTML format (only output the HTML body, no markdown backticks, no wrap tags) containing:
+1. **ملخص الأداء الحالي (Current Performance Summary):** An encouraging but realistic summary of their current progress toward their target score of ${targetScore}.
+2. **الفصول ذات الأولوية القصوى للمذاكرة (High Priority Chapters):** 1-3 chapters where accuracy is low or progress is low, explaining what they need to focus on.
+3. **الفصول القوية (Strong Areas):** Highlight chapters where they are doing well.
+4. **💡 توصيات عملية ومحددة (Actionable Tips):** Direct steps they should take today to improve (e.g. review specific mistakes, practice CT mode, etc.).
+
+Respond in clear, professional Arabic. Use clean markup like <p>, <strong>, and structured bullet lists (<ul>/<li>). Keep it concise, engaging, and focused on helping them pass the SRTLE.`;
+
+  try {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        contents: [{
+          parts: [{
+            text: prompt
+          }]
+        }]
+      })
+    });
+    
+    if (!response.ok) {
+      const errData = await response.json().catch(() => ({}));
+      throw new Error(errData.error?.message || `HTTP error! status: ${response.status}`);
+    }
+    
+    const resData = await response.json();
+    let planHtml = resData.candidates?.[0]?.content?.parts?.[0]?.text || "";
+    
+    if (!planHtml) {
+      throw new Error("لم يتم إرجاع أي خطة من الذكاء الاصطناعي.");
+    }
+    
+    planHtml = planHtml.replace(/```html/g, "").replace(/```/g, "").trim();
+    
+    appState.userStudyPlan = planHtml;
+    
+    if (supabaseClient) {
+      const { data: { user } } = await supabaseClient.auth.getUser();
+      if (user) {
+        await supabaseClient.from("user_study_plan").upsert({
+          user_id: user.id,
+          plan_data: { planHtml: planHtml },
+          updated_at: new Date().toISOString()
+        });
+      }
+    }
+    
+    if (appState.currentView === "dashboard") {
+      switchView("dashboard");
+    }
+  } catch (err) {
+    console.error("AI Study Plan generation failed:", err);
+    alert("حدث خطأ أثناء توليد الخطة: " + err.message);
+  } finally {
+    if (btn) {
+      btn.disabled = false;
+      btn.innerText = "توليد خطة دراسية ذكية بالذكاء الاصطناعي ✨";
+    }
+  }
+}
+
+async function startMistakesReviewSession() {
+  if (!supabaseClient) {
+    alert("يرجى تسجيل الدخول أولاً لتصفح وحل الأسئلة التي أخطأت فيها.");
+    return;
+  }
+  
+  try {
+    const mainView = document.getElementById("app-view");
+    mainView.innerHTML = `
+      <div class="loading-screen">
+        <div class="spinner"></div>
+        <p>جاري تحميل الأسئلة التي أخطأت فيها... ⏳</p>
+      </div>
+    `;
+    
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    if (!user) return;
+    
+    const { data: attempts, error } = await supabaseClient
+      .from("question_attempts")
+      .select("question_id")
+      .eq("user_id", user.id)
+      .eq("is_correct", false);
+      
+    if (error) throw error;
+    
+    if (!attempts || attempts.length === 0) {
+      alert("ممتاز! لا توجد أسئلة مسجلة كإجابة خاطئة حالياً 🎉.");
+      switchView("dashboard");
+      return;
+    }
+    
+    const wrongIds = attempts.map(a => a.question_id);
+    const wrongQuestions = allQuestions.filter(q => wrongIds.includes(q.id));
+    
+    if (wrongQuestions.length === 0) {
+      alert("لم يتم العثور على الأسئلة الخاطئة في قاعدة البيانات المحلية.");
+      switchView("dashboard");
+      return;
+    }
+    
+    appState.quiz.mode = "practice";
+    appState.quiz.chapterId = "mistakes";
+    appState.quiz.questions = wrongQuestions;
+    appState.quiz.currentIndex = 0;
+    appState.quiz.answers = {};
+    appState.quiz.flags = new Set();
+    appState.quiz.timeRemaining = 0;
+    appState.quiz.checkedAnswers = new Set();
+    
+    switchView("quiz");
+  } catch (err) {
+    console.error("Failed to start mistakes session:", err);
+    alert("حدث خطأ: " + err.message);
+    switchView("dashboard");
+  }
+}
+
+function showTargetScoreModal(isFirstTime = false) {
+  const overlay = document.createElement("div");
+  overlay.className = "modal-overlay";
+  
+  const currentScore = appState.userProfile.targetScore || 530;
+  
+  overlay.innerHTML = `
+    <div class="modal-content" style="max-width: 400px; text-align: right;">
+      <h3 class="modal-title" style="margin-bottom: 8px;">🎯 تحديد الدرجة المستهدفة</h3>
+      <p class="modal-desc" style="margin-bottom: 16px;">
+        ${isFirstTime ? 'أهلاً بك! يرجى تحديد الدرجة التي تستهدف الحصول عليها في اختبار الهيئة (بين 200 و 800) لمساعدتنا في تخطيط تقدمك.' : 'تحديث الدرجة المستهدفة لاختبار الهيئة.'}
+      </p>
+      
+      <div class="form-group">
+        <label for="target-score-input">الدرجة المستهدفة (درجة النجاح 530)</label>
+        <input type="number" id="target-score-input" value="${currentScore}" min="200" max="800" required style="font-size: 1.2rem; text-align: center;">
+      </div>
+      
+      <div style="display: flex; gap: 12px; margin-top: 16px;">
+        <button class="btn btn-primary" id="btn-save-target-score" style="flex: 1; font-family: 'Cairo', sans-serif;">حفظ 💾</button>
+        <button class="btn btn-secondary" id="btn-close-target-score" style="font-family: 'Cairo', sans-serif;">إلغاء</button>
+      </div>
+    </div>
+  `;
+  
+  document.body.appendChild(overlay);
+  
+  document.getElementById("btn-save-target-score").addEventListener("click", async () => {
+    const scoreVal = parseInt(document.getElementById("target-score-input").value);
+    if (scoreVal >= 200 && scoreVal <= 800) {
+      appState.userProfile.targetScore = scoreVal;
+      document.body.removeChild(overlay);
+      
+      if (supabaseClient) {
+        try {
+          const { data: { user } } = await supabaseClient.auth.getUser();
+          if (user) {
+            await supabaseClient.from("profiles").upsert({
+              id: user.id,
+              target_score: scoreVal
+            });
+            console.log("Target score saved in Supabase.");
+          }
+        } catch (e) {
+          console.error("Failed to save target score to Supabase:", e);
+        }
+      }
+      
+      if (appState.currentView === "dashboard") {
+        switchView("dashboard");
+      }
+      
+      showConfirmationModal(
+        "تم حفظ الدرجة",
+        `تم حفظ الدرجة المستهدفة: ${scoreVal} بنجاح!`,
+        null,
+        null,
+        "موافق"
+      );
+    } else {
+      alert("الدرجة يجب أن تكون بين 200 و 800.");
+    }
+  });
+  
+  document.getElementById("btn-close-target-score").addEventListener("click", () => {
+    document.body.removeChild(overlay);
+  });
+}
+
