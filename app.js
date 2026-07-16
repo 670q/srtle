@@ -1912,6 +1912,34 @@ function bindAiExplainButton(q) {
   }, 50); // slight delay to ensure it is rendered in DOM
 }
 
+async function getGeminiApiKey() {
+  // 1. Try localStorage
+  let key = localStorage.getItem("srtle-gemini-api-key");
+  if (key) return key;
+
+  // 2. Try window config
+  if (window.GEMINI_API_KEY) return window.GEMINI_API_KEY;
+
+  // 3. Fetch from Supabase system_config
+  if (supabaseClient) {
+    try {
+      const { data, error } = await supabaseClient
+        .from("system_config")
+        .select("value")
+        .eq("key", "gemini_api_key")
+        .maybeSingle();
+      
+      if (data && data.value) {
+        window.GEMINI_API_KEY = data.value; // Cache in window
+        return data.value;
+      }
+    } catch (e) {
+      console.error("Error fetching API key from DB:", e);
+    }
+  }
+  return "";
+}
+
 async function generateAiExplanation(q) {
   const uniqueKey = q.chapter_id.replace(/\./g, '_') + '_' + q.id;
   const container = document.getElementById(`ai-explain-container-${uniqueKey}`);
@@ -1948,7 +1976,7 @@ async function generateAiExplanation(q) {
   }
 
   // 3. Fallback to generating with Gemini API
-  const apiKey = localStorage.getItem("srtle-gemini-api-key") || window.GEMINI_API_KEY || "";
+  const apiKey = await getGeminiApiKey();
   
   if (!apiKey) {
     showGeminiSettingsModal(async () => {
@@ -2262,7 +2290,7 @@ async function generateAiStudyPlan() {
     btn.innerText = "جاري تحليل أدائك وتوليد الخطة... 🧠⏳";
   }
   
-  const apiKey = localStorage.getItem("srtle-gemini-api-key") || window.GEMINI_API_KEY || "";
+  const apiKey = await getGeminiApiKey();
   if (!apiKey) {
     showGeminiSettingsModal(async () => {
       await generateAiStudyPlan();

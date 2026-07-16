@@ -711,3 +711,139 @@
   font-size: 0.82rem;
   padding: 6px 14px;
 }
+
+/* ==========================================
+   IPHONE & MOBILE SCREEN COMPATIBILITY FIXES
+   ========================================== */
+@media (max-width: 768px) {
+  .app-header {
+    height: auto !important;
+    position: relative !important;
+    top: auto;
+    padding: 12px 0;
+  }
+  
+  .header-container {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding: 0 16px;
+    height: auto;
+  }
+  
+  .logo-area {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .logo-text h1 {
+    font-size: 1.1rem;
+  }
+  
+  .logo-text span {
+    font-size: 0.75rem;
+  }
+  
+  .logo-icon {
+    font-size: 1.7rem;
+  }
+
+  .header-actions {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .user-profile-header {
+    order: 1;
+    margin: 0;
+  }
+
+  #theme-toggle {
+    order: 2;
+  }
+
+  .nav-switcher {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    order: 3; /* Always put navigation switcher at the bottom */
+  }
+
+  .nav-switcher a {
+    flex: 1;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 8px 12px;
+  }
+  
+  /* Sidebar sticky offset when header is not sticky */
+  .quiz-sidebar {
+    position: relative !important;
+    top: auto !important;
+    max-height: none !important;
+    margin-bottom: 16px;
+  }
+  
+  /* Ensure welcome banners shrink paddings */
+  .welcome-banner {
+    padding: 20px !important;
+    text-align: center;
+    justify-content: center !important;
+  }
+  
+  .welcome-banner h2 {
+    font-size: 1.3rem !important;
+  }
+  
+  .welcome-banner p {
+    font-size: 0.85rem !important;
+  }
+  
+  /* Ensure start-cards don't overflow */
+  .start-card {
+    padding: 20px !important;
+  }
+  
+  /* Make study advisor text smaller and readable */
+  .advisor-content {
+    font-size: 0.85rem !important;
+  }
+  
+  /* Make sure modal overlays fit mobile */
+  .modal-card {
+    width: 92% !important;
+    padding: 20px !important;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-text h1 {
+    font-size: 0.95rem;
+  }
+  
+  .logo-text span {
+    display: none; /* Hide subtitle to save vertical space on narrow screens */
+  }
+  
+  .logo-icon {
+    font-size: 1.4rem;
+  }
+  
+  .step-hero {
+    padding: 16px 20px !important;
+    text-align: center;
+  }
+  
+  .step-hero h2 {
+    font-size: 1.15rem;
+  }
+  
+  .step-hero p {
+    font-size: 0.8rem;
+  }
+}

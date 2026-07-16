@@ -550,11 +550,39 @@ async function loadQuestionsFromDb(section, topic) {
   }
 }
 
+async function getGeminiApiKey() {
+  // 1. Try localStorage
+  let key = localStorage.getItem("srtle-gemini-api-key");
+  if (key) return key;
+
+  // 2. Try window config
+  if (window.GEMINI_API_KEY) return window.GEMINI_API_KEY;
+
+  // 3. Fetch from Supabase system_config
+  if (supabaseClient) {
+    try {
+      const { data, error } = await supabaseClient
+        .from("system_config")
+        .select("value")
+        .eq("key", "gemini_api_key")
+        .maybeSingle();
+      
+      if (data && data.value) {
+        window.GEMINI_API_KEY = data.value; // Cache in window
+        return data.value;
+      }
+    } catch (e) {
+      console.error("Error fetching API key from DB:", e);
+    }
+  }
+  return "";
+}
+
 // ==========================================
 // AI QUESTION GENERATION
 // ==========================================
 async function generateQuestionsWithAI(section, topic) {
-  const apiKey = localStorage.getItem("srtle-gemini-api-key") || window.GEMINI_API_KEY || "";
+  const apiKey = await getGeminiApiKey();
 
   if (!apiKey) {
     alert("يرجى إعداد مفتاح Gemini API أولاً. يمكنك إدخاله من صفحة اختبار الهيئة الرئيسية.");
