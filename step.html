@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>محاكي اختبار الهيئة - SRTLE Mock Exam</title>
+  <title>محاكي اختبار STEP - كفايات اللغة الإنجليزية</title>
+  <meta name="description" content="تدرب على اختبار كفايات اللغة الإنجليزية STEP مع أسئلة مولدة بالذكاء الاصطناعي في القواعد والقطع والتحليل الكتابي">
   
   <!-- Meta for browser color-scheme to prevent FOUC -->
   <meta name="color-scheme" content="light dark">
@@ -21,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
-  <!-- App Stylesheet -->
+  <!-- App Stylesheets -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="step-style.css">
 </head>
@@ -30,24 +31,23 @@
   <!-- App Header -->
   <header class="app-header">
     <div class="header-container">
-      <div class="logo-area" id="go-home">
-        <div class="logo-icon">🩺</div>
+      <div class="logo-area" id="go-home" style="cursor: pointer;">
+        <div class="logo-icon">📝</div>
         <div class="logo-text">
-          <h1>محاكي اختبار الهيئة</h1>
-          <span>الهيئة السعودية للتخصصات الصحية | SRTLE</span>
+          <h1>محاكي اختبار STEP</h1>
+          <span>كفايات اللغة الإنجليزية | المركز الوطني للقياس</span>
         </div>
       </div>
       
       <div class="header-actions">
         <!-- Navigation Switcher -->
         <nav class="nav-switcher">
-          <a href="index.html" class="active-srtle active">🩺 اختبار الهيئة</a>
-          <a href="step.html">📝 اختبار STEP</a>
+          <a href="index.html">🩺 اختبار الهيئة</a>
+          <a href="step.html" class="active">📝 اختبار STEP</a>
         </nav>
 
-        <!-- Supabase Connection Indicator & User Actions -->
+        <!-- User Profile Area -->
         <div class="user-profile-header" id="user-profile-area">
-          <!-- Populated dynamically: Login Button or User Dropdown -->
           <button id="btn-login-modal" class="btn btn-primary btn-sm" style="font-family: 'Cairo', sans-serif; gap: 6px;">
             <span>تسجيل الدخول</span> 🔑
           </button>
@@ -64,27 +64,26 @@
 
   <!-- Main View Container -->
   <main class="app-main" id="app-view">
-    <!-- Content will be injected dynamically by app.js -->
     <div class="loading-screen">
       <div class="spinner"></div>
-      <p>جاري تحميل الأسئلة (4,192 سؤال)...</p>
+      <p>جاري تحميل صفحة اختبار STEP...</p>
     </div>
   </main>
 
   <!-- Supabase JS Client library -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   
-  <!-- Dynamic local config loader to prevent Vercel builds crashing on missing files -->
+  <!-- Dynamic local config loader -->
   <script>
     {
       const script = document.createElement('script');
       script.src = 'config.js';
-      script.onerror = () => console.log('config.js not found - using local database configuration settings.');
+      script.onerror = () => console.log('config.js not found - using local settings.');
       document.head.appendChild(script);
     }
   </script>
 
-  <!-- App Script -->
-  <script src="app.js" type="module"></script>
+  <!-- STEP App Script -->
+  <script src="step-app.js"></script>
 </body>
 </html>
