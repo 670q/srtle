@@ -12,7 +12,8 @@ let mock6State = {
     answers: {},              // global_id -> selected answer
     checkedAnswers: new Set(),
     sessionStartTime: null,
-    mode: "practice"          // 'practice' or 'exam'
+    mode: "practice",         // 'practice' or 'exam'
+    navExpanded: false        // hidden by default until user clicks toggle button
   },
   progress: {},               // chapter_id -> { answered: {id: true/false}, correct: 0, wrong: 0 }
   filterChapter: "all"
@@ -190,7 +191,7 @@ function renderDashboard() {
   }).join("");
 
   container.innerHTML = `
-    <div class="step-dashboard mock6-page" style="max-width: 1200px; margin: 0 auto; padding: 24px; display: flex; flex-direction: column; gap: 24px;">
+    <div class="step-dashboard mock6-page mock6-dashboard">
 
       <!-- Hero Banner -->
       <section class="mock6-hero">
@@ -421,7 +422,8 @@ function startQuiz(chapterId, mode, count) {
     answers: {},
     checkedAnswers: new Set(),
     sessionStartTime: Date.now(),
-    mode: "practice"
+    mode: "practice",
+    navExpanded: false
   };
 
   switchView("quiz");
@@ -515,17 +517,30 @@ function renderQuizView() {
     </div>
   ` : '';
 
+  const isNavOpen = !!quiz.navExpanded;
+
   container.innerHTML = `
     <div class="mock6-quiz-container mock6-page">
 
       <!-- Quiz Header -->
       <div class="mock6-quiz-header">
         <span class="section-badge">${ch.icon} ${ch.titleEn} (${quiz.chapterId})</span>
-        <span class="q-counter">سؤال ${quiz.currentIndex + 1} من ${quiz.questions.length}</span>
+        <div class="mock6-quiz-header-actions">
+          <span class="q-counter">سؤال ${quiz.currentIndex + 1} من ${quiz.questions.length}</span>
+          <button
+            type="button"
+            class="btn btn-secondary btn-sm mock6-nav-toggle-btn"
+            id="btn-toggle-nav"
+            aria-expanded="${isNavOpen}"
+            aria-controls="q-navigator"
+          >
+            ${isNavOpen ? '🔼 إخفاء الأرقام' : `🔢 أرقام الأسئلة (${quiz.questions.length})`}
+          </button>
+        </div>
       </div>
 
-      <!-- Question Navigator -->
-      <div class="mock6-q-navigator" id="q-navigator">
+      <!-- Collapsible Question Navigator (hidden until toggled) -->
+      <div class="mock6-q-navigator ${isNavOpen ? 'is-open' : ''}" id="q-navigator" ${isNavOpen ? '' : 'hidden'}>
         ${dotsHTML}
       </div>
 
@@ -562,10 +577,34 @@ function renderQuizView() {
     </div>
   `;
 
+  // Toggle question navigator visibility
+  const toggleNavBtn = document.getElementById("btn-toggle-nav");
+  const navPanel = document.getElementById("q-navigator");
+  if (toggleNavBtn && navPanel) {
+    toggleNavBtn.addEventListener("click", () => {
+      quiz.navExpanded = !quiz.navExpanded;
+      navPanel.hidden = !quiz.navExpanded;
+      navPanel.classList.toggle("is-open", quiz.navExpanded);
+      toggleNavBtn.setAttribute("aria-expanded", String(quiz.navExpanded));
+      toggleNavBtn.innerText = quiz.navExpanded
+        ? "🔼 إخفاء الأرقام"
+        : `🔢 أرقام الأسئلة (${quiz.questions.length})`;
+      if (quiz.navExpanded) {
+        const currentDot = navPanel.querySelector(".q-dot.current");
+        if (currentDot) {
+          currentDot.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+        }
+      }
+    });
+  }
+
   // Bind navigator dots
   document.querySelectorAll(".q-dot").forEach(dot => {
     dot.addEventListener("click", () => {
       quiz.currentIndex = parseInt(dot.dataset.idx);
+      if (window.innerWidth <= 1024) {
+        quiz.navExpanded = false;
+      }
       renderQuizView();
     });
   });
@@ -614,10 +653,12 @@ function renderQuizView() {
     }
   });
 
-  // Scroll navigator to show current dot
-  const currentDot = document.querySelector(".q-dot.current");
-  if (currentDot) {
-    currentDot.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+  // Scroll navigator to show current dot only when expanded
+  if (isNavOpen) {
+    const currentDot = document.querySelector(".q-dot.current");
+    if (currentDot) {
+      currentDot.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+    }
   }
 }
 

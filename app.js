@@ -553,7 +553,7 @@ function renderQuizView(container) {
       <aside class="quiz-sidebar">
         <div class="sidebar-header">
           <h3 class="sidebar-title" id="quiz-sidebar-title">قائمة الأسئلة</h3>
-          <button class="btn btn-secondary btn-sm toggle-nav-btn" id="btn-toggle-nav" style="display: none; padding: 4px 10px; font-size: 0.8rem; font-family: 'Cairo', sans-serif;">أظهر القائمة</button>
+          <button type="button" class="btn btn-secondary btn-sm toggle-nav-btn" id="btn-toggle-nav" aria-expanded="false" aria-controls="q-nav-grid" style="display: none; padding: 6px 12px; font-size: 0.8rem; font-family: 'Cairo', sans-serif;">🔢 أرقام الأسئلة</button>
           <div class="quiz-timer" id="quiz-timer-box" style="display: none;">
             ⏱️ <span id="timer-display">04:00:00</span>
           </div>
@@ -657,14 +657,15 @@ function renderQuizView(container) {
   document.getElementById("btn-submit-quiz").addEventListener("click", () => confirmSubmitQuiz());
   document.getElementById("btn-flag-question").addEventListener("click", () => toggleQuestionFlag());
 
-  // Bind toggle button for mobile navigation grid
+  // Bind toggle button for mobile/iPad navigation grid
   const btnToggleNav = document.getElementById("btn-toggle-nav");
   if (btnToggleNav) {
     btnToggleNav.addEventListener("click", () => {
       const sidebar = document.querySelector(".quiz-sidebar");
       if (sidebar) {
         const isExpanded = sidebar.classList.toggle("nav-expanded");
-        btnToggleNav.innerText = isExpanded ? "أخفِ القائمة" : "أظهر القائمة";
+        btnToggleNav.setAttribute("aria-expanded", String(isExpanded));
+        btnToggleNav.innerText = isExpanded ? "🔼 إخفاء الأرقام" : "🔢 أرقام الأسئلة";
       }
     });
   }
@@ -720,13 +721,14 @@ function generateSidebarGrid() {
     btn.addEventListener("click", () => {
       saveExamStateLocally();
       showQuestion(idx);
-      // Auto-collapse grid on mobile when a question is clicked
-      if (window.innerWidth <= 992) {
+      // Auto-collapse grid on mobile/iPad when a question is clicked
+      if (window.innerWidth <= 1180) {
         const sidebar = document.querySelector(".quiz-sidebar");
         const btnToggleNav = document.getElementById("btn-toggle-nav");
         if (sidebar && btnToggleNav) {
           sidebar.classList.remove("nav-expanded");
-          btnToggleNav.innerText = "أظهر القائمة";
+          btnToggleNav.setAttribute("aria-expanded", "false");
+          btnToggleNav.innerText = "🔢 أرقام الأسئلة";
         }
       }
     });

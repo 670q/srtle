@@ -1,10 +1,22 @@
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
 import urllib.error
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+def has_arabic(text):
+    return bool(re.search(r"[\u0600-\u06FF]", str(text or "")))
+
+def norm_text(text):
+    return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", "", str(text or "").lower())).strip()
+
+def is_enriched(q):
+    exp = str(q.get("explanation") or "").strip()
+    rule = str(q.get("rule") or "").strip()
+    return bool(rule and exp and exp.lower() != "none" and has_arabic(rule) and has_arabic(exp))
 
 API_KEY = os.environ.get("GEMINI_API_KEY", "")  # Set via: export GEMINI_API_KEY=your_key
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key={API_KEY}"
@@ -48,13 +60,14 @@ def save_cache(cache):
 def call_gemini_batch(batch, chapter_context=""):
     items = []
     for q in batch:
+        opts = {k: v for k, v in (q.get("options") or {}).items() if v}
         items.append({
             "id": q["id"],
             "question": q["question"],
-            "options": q["options"],
+            "options": opts,
             "answer": q.get("answer", ""),
-            "correct_text": q["options"].get(q.get("answer", ""), ""),
-            "existing_explanation": q.get("explanation", "") or ""
+            "correct_text": opts.get(q.get("answer", ""), ""),
+            "existing_explanation": "" if str(q.get("explanation") or "").strip().lower() == "none" else (q.get("explanation", "") or "")
         })
 
     prompt = f"""أنت خبير معتمد ومؤلف رسمي لاختبار الهيئة السعودية للتخصصات الصحية (SRTLE) لأخصائيي الأشعة والتكنولوجيا الطبية.
@@ -91,7 +104,7 @@ def call_gemini_batch(batch, chapter_context=""):
                 data=json.dumps(payload).encode("utf-8"),
                 headers={"Content-Type": "application/json"}
             )
-            with urllib.request.urlopen(req, timeout=45) as resp:
+            with urllib.request.urlopen(req, timeout=60) as resp:
                 res = json.loads(resp.read().decode("utf-8"))
                 txt = res["candidates"][0]["content"]["parts"][0]["text"]
                 return json.loads(txt)
@@ -102,13 +115,14 @@ def call_gemini_batch(batch, chapter_context=""):
             elif e.code >= 500:
                 time.sleep(2)
             else:
+                print(f"HTTP Error {e.code}: {e.read().decode('utf-8', errors='ignore')[:160]}", flush=True)
                 break
         except Exception:
             time.sleep(2)
             
     return None
 
-def update_json_files(mock6, cache):
+def update_json_files(mock6, cache, q_data=None):
     # Apply cache to mock6
     for q in mock6:
         qid_str = str(q["id"])
@@ -119,27 +133,76 @@ def update_json_files(mock6, cache):
     with open("mock6-questions.json", "w", encoding="utf-8") as f:
         json.dump(mock6, f, ensure_ascii=False, indent=2)
         
-    # Also update questions.json
+    # Also update questions.json (exact + normalized match + direct q_ cache)
     if os.path.exists("questions.json"):
-        with open("questions.json", "r", encoding="utf-8") as f:
-            q_data = json.load(f)
+        if q_data is None:
+            with open("questions.json", "r", encoding="utf-8") as f:
+                q_data = json.load(f)
             
-        mock6_lookup = {q["question"].strip().lower(): q for q in mock6}
+        mock6_exact = {q["question"].strip().lower(): q for q in mock6}
+        mock6_norm = {norm_text(q["question"]): q for q in mock6}
         for q in q_data:
-            txt = q.get("question", "").strip().lower()
-            if txt in mock6_lookup:
-                m_q = mock6_lookup[txt]
+            raw_txt = q.get("question", "").strip().lower()
+            m_q = mock6_exact.get(raw_txt) or mock6_norm.get(norm_text(raw_txt))
+            if m_q:
                 if m_q.get("rule"):
                     q["rule"] = m_q["rule"]
-                if m_q.get("explanation"):
+                if m_q.get("explanation") and str(m_q["explanation"]).lower() != "none":
                     q["explanation"] = m_q["explanation"]
                 if m_q.get("image") and not q.get("image"):
                     q["image"] = m_q["image"]
+            q_cache_key = f"qs_{q.get('chapter_id', '0')}_{q.get('id')}"
+            if q_cache_key in cache:
+                q["rule"] = cache[q_cache_key]["rule"]
+                q["explanation"] = cache[q_cache_key]["explanation"]
                     
         with open("questions.json", "w", encoding="utf-8") as f:
             json.dump(q_data, f, ensure_ascii=False, indent=2)
+    return q_data
+
+def run_batches(items, cache, key_fn, mock6, q_data, batch_size=12, label="mock6"):
+    batches = [items[i:i + batch_size] for i in range(0, len(items), batch_size)]
+    print(f"[{label}] تقسيم {len(items)} سؤال إلى {len(batches)} دفعة (حجم الدفعة {batch_size})", flush=True)
+    completed_count = 0
+
+    def process_batch(batch):
+        ch_id = str(batch[0].get("chapter_id", "1.1"))
+        context = CHAPTER_CONTEXT.get(ch_id, "")
+        # Ensure clean numeric/string IDs matching batch lookup
+        results = call_gemini_batch(batch, context)
+        return batch, results
+
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        future_to_batch = {executor.submit(process_batch, b): b for b in batches}
+        for future in as_completed(future_to_batch):
+            batch, results = future.result()
+            if results and isinstance(results, list):
+                res_by_id = {str(r.get("id")): r for r in results if isinstance(r, dict)}
+                matched_in_batch = 0
+                for q in batch:
+                    res = res_by_id.get(str(q["id"]))
+                    if not res:
+                        continue
+                    rule = str(res.get("rule", "")).strip()
+                    explanation = str(res.get("explanation", "")).strip()
+                    if rule and explanation:
+                        cache[key_fn(q)] = {"rule": rule, "explanation": explanation}
+                        q["rule"] = rule
+                        q["explanation"] = explanation
+                        matched_in_batch += 1
+                completed_count += matched_in_batch
+                print(f"[{label}] [{completed_count}/{len(items)}] ({completed_count*100/len(items):.1f}%) حفظ دفعة ({matched_in_batch}/{len(batch)})", flush=True)
+                save_cache(cache)
+                if completed_count % 60 < batch_size or completed_count >= len(items):
+                    update_json_files(mock6, cache, q_data)
+            else:
+                print(f"[{label}] تنبيه: فشلت دفعة مكونة من {len(batch)} أسئلة، ستُعاد في الجولة التالية.", flush=True)
 
 def main():
+    if not API_KEY:
+        print("ERROR: GEMINI_API_KEY environment variable is not set.", flush=True)
+        sys.exit(1)
+
     print("=== بدء معالجة وتوليد شروحات وقواعد أسئلة اختبار الهيئة (SRTLE) ===", flush=True)
     
     with open("mock6-questions.json", "r", encoding="utf-8") as f:
@@ -148,75 +211,35 @@ def main():
     
     cache = load_cache()
     print(f"تم تحميل {len(cache)} شرح وقاعدة من الذاكرة المؤقتة (Cache)", flush=True)
-    
-    # Identify questions needing rule or explanation
-    pending = []
+
+    # Apply existing cache first
     for q in mock6:
         qid_str = str(q["id"])
-        if qid_str in cache:
-            cached_item = cache[qid_str]
-            if cached_item.get("rule") and cached_item.get("explanation"):
-                q["rule"] = cached_item["rule"]
-                q["explanation"] = cached_item["explanation"]
-                continue
-        if q.get("rule") and q.get("explanation") and "قاعدة" in q.get("rule", ""):
-            continue
-        pending.append(q)
-        
-    print(f"الأسئلة المتبقية للمعالجة والتوليد: {len(pending)} سؤال", flush=True)
-    
-    if not pending:
-        print("جميع الأسئلة مكتملة ومحدثة بنجاح!", flush=True)
-        update_json_files(mock6, cache)
-        return
+        if qid_str in cache and cache[qid_str].get("rule") and cache[qid_str].get("explanation"):
+            q["rule"] = cache[qid_str]["rule"]
+            q["explanation"] = cache[qid_str]["explanation"]
 
-    # Shard into batches of 12
-    batch_size = 12
-    batches = []
-    for i in range(0, len(pending), batch_size):
-        batches.append(pending[i:i + batch_size])
-        
-    print(f"تم تقسيم الأسئلة إلى {len(batches)} دفعة (كل دفعة {batch_size} أسئلة) مع 10 مسارات معالجة متزامنة", flush=True)
-    
-    completed_count = 0
-    total_to_process = len(pending)
-    
-    def process_batch(batch):
-        ch_id = batch[0].get("chapter_id", "1.1")
-        context = CHAPTER_CONTEXT.get(ch_id, "")
-        results = call_gemini_batch(batch, context)
-        return batch, results
+    # Pass loop for mock6-questions.json
+    for attempt_pass, bsize in [(1, 12), (2, 6), (3, 3)]:
+        pending = [q for q in mock6 if not is_enriched(q)]
+        if not pending:
+            break
+        print(f"--- [mock6 جولة {attempt_pass}] الأسئلة المتبقية: {len(pending)} ---", flush=True)
+        run_batches(pending, cache, lambda q: str(q["id"]), mock6, None, batch_size=bsize, label="mock6")
 
-    # Run with 10 worker threads
-    with ThreadPoolExecutor(max_workers=10) as executor:
-        future_to_batch = {executor.submit(process_batch, b): b for b in batches}
-        
-        for future in as_completed(future_to_batch):
-            batch, results = future.result()
-            if results and isinstance(results, list):
-                for res in results:
-                    qid = str(res.get("id"))
-                    rule = res.get("rule", "").strip()
-                    explanation = res.get("explanation", "").strip()
-                    if rule and explanation:
-                        cache[qid] = {"rule": rule, "explanation": explanation}
-                        for q in batch:
-                            if str(q["id"]) == qid:
-                                q["rule"] = rule
-                                q["explanation"] = explanation
-                                break
-                completed_count += len(batch)
-                print(f"[{completed_count}/{total_to_process}] ({completed_count*100/total_to_process:.1f}%) تمت معالجة الدفعة وحفظ النتائج...", flush=True)
-                
-                # Save cache checkpoint after every batch
-                save_cache(cache)
-                if completed_count % 36 == 0 or completed_count >= total_to_process:
-                    update_json_files(mock6, cache)
-            else:
-                print(f"تنبيه: فشلت معالجة دفعة مكونة من {len(batch)} أسئلة، سيتم تكرارها لاحقاً.", flush=True)
+    # Sync to questions.json and enrich any remaining unique questions in questions.json
+    q_data = update_json_files(mock6, cache)
+    if q_data is not None:
+        for attempt_pass, bsize in [(1, 12), (2, 6), (3, 3)]:
+            pending_qs = [q for q in q_data if not is_enriched(q)]
+            if not pending_qs:
+                break
+            print(f"--- [questions.json جولة {attempt_pass}] الأسئلة المتبقية: {len(pending_qs)} ---", flush=True)
+            run_batches(pending_qs, cache, lambda q: f"qs_{q.get('chapter_id', '0')}_{q.get('id')}", mock6, q_data, batch_size=bsize, label="questions.json")
+            update_json_files(mock6, cache, q_data)
 
     save_cache(cache)
-    update_json_files(mock6, cache)
+    update_json_files(mock6, cache, q_data)
     print("\n✅ تم الانتهاء بنجاح من توليد وتحديث كافة الأسئلة والشروحات والقواعد!", flush=True)
 
 if __name__ == "__main__":

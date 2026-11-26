@@ -713,71 +713,138 @@
 }
 
 /* ==========================================
-   IPHONE & MOBILE SCREEN COMPATIBILITY FIXES
+   IPHONE, MOBILE & IPAD RESPONSIVE FIXES
    ========================================== */
+@media (max-width: 1024px) {
+  .app-header {
+    height: auto !important;
+    min-height: var(--header-height);
+  }
+
+  .header-container {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: max(10px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) 10px max(16px, env(safe-area-inset-left, 0px));
+    height: auto;
+  }
+
+  .logo-area {
+    min-width: 0;
+  }
+
+  .header-actions {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
 @media (max-width: 768px) {
   .app-header {
     height: auto !important;
     position: relative !important;
     top: auto;
-    padding: 12px 0;
+    padding: 0;
   }
   
   .header-container {
-    flex-direction: column;
-    gap: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
     align-items: center;
-    padding: 0 16px;
+    justify-content: space-between;
+    padding: max(10px, env(safe-area-inset-top, 0px)) max(14px, env(safe-area-inset-right, 0px)) 10px max(14px, env(safe-area-inset-left, 0px));
     height: auto;
   }
   
   .logo-area {
-    justify-content: center;
-    text-align: center;
+    order: 1;
+    flex: 1;
+    min-width: 0;
+    justify-content: flex-start;
+    text-align: right;
   }
   
+  .logo-text {
+    min-width: 0;
+  }
+
   .logo-text h1 {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
+    line-height: 1.25;
   }
   
   .logo-text span {
-    font-size: 0.75rem;
+    font-size: 0.72rem;
+    display: block;
   }
   
   .logo-icon {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    flex-shrink: 0;
   }
 
+  /* Unwrap actions cleanly so Row 1 = logo + login + theme toggle, Row 2 = nav switcher */
   .header-actions {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
+    display: contents;
   }
 
   .user-profile-header {
-    order: 1;
+    order: 2;
     margin: 0;
   }
 
   #theme-toggle {
-    order: 2;
+    order: 3;
+    flex-shrink: 0;
   }
 
   .nav-switcher {
     width: 100%;
     display: flex;
     justify-content: center;
-    order: 3; /* Always put navigation switcher at the bottom */
+    order: 4;
+    flex-basis: 100%;
   }
 
   .nav-switcher a {
     flex: 1;
     text-align: center;
-    font-size: 0.75rem;
-    padding: 8px 12px;
+    font-size: 0.78rem;
+    padding: 8px 10px;
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app-main {
+    padding: 16px max(12px, env(safe-area-inset-right, 0px)) max(24px, env(safe-area-inset-bottom, 0px)) max(12px, env(safe-area-inset-left, 0px));
+  }
+
+  .question-card {
+    padding: 18px 14px;
+    gap: 16px;
+  }
+
+  .question-text-box {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .option-item {
+    padding: 12px 14px;
+  }
+
+  .option-text {
+    font-size: 0.95rem;
+    min-width: 0;
+    overflow-wrap: break-word;
+  }
+
+  .quiz-footer {
+    padding: 14px;
+    flex-wrap: wrap;
+    gap: 10px;
   }
   
   /* Sidebar sticky offset when header is not sticky */
@@ -785,7 +852,7 @@
     position: relative !important;
     top: auto !important;
     max-height: none !important;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
   }
   
   /* Ensure welcome banners shrink paddings */
@@ -833,6 +900,14 @@
   .logo-icon {
     font-size: 1.4rem;
   }
+
+  .chapters-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
   
   .step-hero {
     padding: 16px 20px !important;
@@ -845,5 +920,17 @@
   
   .step-hero p {
     font-size: 0.8rem;
+  }
+}
+
+/* Touch device targets (WCAG 2.5.5) & prevent iOS Safari zoom on inputs */
+@media (pointer: coarse) {
+  :where(button, select, input:not([type="checkbox"], [type="radio"]), .nav-switcher a, .filter-chip, .topic-chip) {
+    min-block-size: 44px;
+    touch-action: manipulation;
+  }
+
+  :where(input, select, textarea) {
+    font-size: max(16px, 0.95rem);
   }
 }
