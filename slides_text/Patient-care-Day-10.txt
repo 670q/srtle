@@ -1,0 +1,1529 @@
+SRTLE: A Survival Guide
+5TH Co
+
+SRTLE
+SLIDES
+
+urse
+
+Instructor:
+
+Written By:
+Edited By:
+
+Hassan Alsaedi
+Certified Trainer by SCFHS
+
+2025
+
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+1
+
+DAY 8
+
+Patient care In Medical
+Imagining
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+2025/2026
+
+2
+
+Ultrasound for Radiologic Technologists
+
+DAY 10
+
+Day 10 Outline
+2.1 CHAPTER
+PATIENT CARE IN MEDICAL IMAGING
+I. Pateint care
+Professional Attitudes and Communications Safety
+Infection Control Concepts
+Preventing Disease Transmission
+Response to Patients’ Personal and Physical Needs
+Patient Assessment
+Patient Transfer
+Medication Administration
+Emergency Response
+Dealing with Acute Situations
+II. Pateint Care in Specific Procedure
+Surgical Asepsis
+Contrast Media and Special Radiographic Techniques
+Bedside Radiography
+Radiography in Surgery
+3
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+4
+
+Patient care In Medical Imagining
+
+Professional attitudes and communication safety:
+Professional attitudes
+• Professional ethics define correct moral behavior in the context of performing professional duties.
+• Principle-based ethics, also called principles, is a widely accepted standard for selecting and defending
+solutions to ethical dilemmas in health care communities.
+Six moral principles are:
+Moral Principle
+
+Aspiration
+
+Beneficence (bringing about good)
+
+Perform actions that benefit others. Decide and act always to benefit the
+patient.
+
+Nonmaleficence (preventing harm)
+
+Above all, do no harm. Never perform or allow acts that may harm the patient.
+
+Autonomy (acting with personal selfreliance)
+
+Perform actions that respect the independence of other persons. The patient
+must decide what is done to his or her person.
+
+Veracity (telling the truth)
+
+Being truthful is right. To tell the truth is expected.
+
+Fidelity (being faithful)
+
+Performing acts that observe covenants or promises is right. Be faithful.
+
+Justice (acting with fairness or equity)
+
+Performing acts that ensure the fair distribution of goods and harm are right. Be
+fair.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+5
+
+Patient care In Medical Imagining
+
+Maintaining Patient Confidentiality and privacy
+In terms of information, privacy is the right of an individual to have some control over how his or her personal
+information (or personal health information) is collected, used, and/or disclosed.
+Confidentiality, on the other hand, is a specific concept than privacy. Confidentiality is the duty to ensure
+information is kept secret only to the extent possible.
+Concept
+
+Definition
+
+Key Point
+
+Privacy
+
+- A right or expectation to not be
+interfered with - Be free from
+surveillance - A moral right to be
+left alone
+
+Respects patient’s body
+
+Confidentiality
+
+- The right of an individual to have
+personal, identifiable medical
+information kept out of reach of
+others
+
+Respects patient’s information
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+6
+
+Patient care In Medical Imagining
+
+LEGAL ISSUES IN MEDICAL IMAGING TECHNOLOGY
+Patient rights:
+Patients have the right to refuse treatment, which also implies the right to refuse an examination. When a
+patient chooses to exercise this right, you must not proceed with the study.
+Note that signing an informed consent form does not invalidate the patient's right to refuse
+treatment once the procedure has begun.
+
+It is generally considered that patients have a right to die with dignity when they can no longer sustain life.
+DNR ( do not resuscitate ) orders may be issued by a physician in consultation with the patient or the
+patient’s family when there is little hope that the patient will recover to resume a normal life.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+7
+
+Patient care In Medical Imagining
+
+Civil law deals with the rights and duties of individuals with respect to one another. A civil wrong committed
+by one individual against the person or property of another is called a tort.
+Crime
+
+Definition
+
+Example(s)
+
+Punishment
+
+Felony
+
+A serious crime, violent or
+non-violent
+
+Murder, arson, fraud,
+manslaughter, aggravated assault,
+grand theft, kidnapping
+
+Death, or imprisonment
+longer than 1 year
+
+Misdemeanor
+
+Less significant crime
+
+Trespassing, petty theft,
+vandalism, disorderly conduct,
+simple assault, reckless driving,
+public intoxication
+
+Fine and/or imprisonment
+for less than 1 year, jail
+time, probation,
+community service
+
+Torts
+
+A civil wrong committed by
+one individual against the
+person or property of another
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+—
+
+8
+
+Patient care In Medical Imagining
+
+The torts involved can fall into one of two categories: intentional misconduct or negligence.
+Torts: Intentional and Unintentional Misconduct
+Type
+Assault
+
+Definition
+The threat of touching in an
+injurious way
+
+Example(s)
+Threatening an adult or pediatric
+patient to remain still for an exam
+
+Battery
+
+Unlawful touching of a person
+without his/her consent
+
+A radiograph taken against the
+patient's will or on the wrong patient
+
+False
+Imprisonment
+
+Unjustifiable detention of a person
+against his and/or her will
+
+A patient wants to leave and is
+prevented from doing so
+
+Invasion of
+Privacy
+
+Intrusion into a patient's private
+affairs, disclosure of private
+information, use of the patient's
+name falsely or for personal gain
+
+Confidentiality has not been
+maintained or when the patient's body
+has been improperly and
+unnecessarily exposed or touched
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Penalty
+Lawsuit, court order to pay
+monetary damages, loss of
+license, potential
+unemployment
+Lawsuit, court order to pay
+damages, loss of license,
+potential unemployment
+Lawsuit, loss of license,
+potential unemployment
+Lawsuit, loss of license,
+potential unemployment
+
+9
+
+Patient care In Medical Imagining
+
+Type
+Libel & Slander
+
+Definition
+Malicious spreading of information
+that causes defamation of character
+or loss of reputation. Libel (written),
+slander (verbal)
+
+Malpractice
+
+Professional negligence; an act of Error in diagnosis, complications
+negligence in the context of a
+resulting from a procedure,
+relationship between a professional insufficient communication with
+person and a patient/client
+the patient
+
+Negligence
+
+Neglect or omission of reasonable Two patient identifiers were not
+care or caution. The standard care is checked prior to beginning the
+based on how a reasonable, prudent exam and the wrong patient was
+person would act under similar
+x-rayed
+circumstances. Includes professional
+misconduct, unreasonable lack of
+skill, or nonperformance of duty.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Example(s)
+Breach of confidentiality,
+speaking negatively about
+another professional in
+documenting an incident
+
+Penalty
+Lawsuit, individual
+responsible for the incident
+may be subject to monetary
+fines, loss of license,
+potential unemployment
+Lawsuit, individual
+responsible for the incident
+may be subject to monetary
+fines, loss of license,
+potential unemployment
+Lawsuit, individual
+responsible for the incident
+may be subject to monetary
+fines, loss of license,
+potential unemployment
+
+10
+
+Patient care In Medical Imagining
+Type
+Gross Negligence
+
+Definition
+An act that involves reckless
+disregard for life or limb
+
+Example(s)
+Performing a medical procedure
+while intoxicated
+
+Penalty
+Greater penalty than ordinary
+negligence. Punitive damages
+may be awarded to punish
+the individual and deter
+others from behaving the
+same way
+
+Contributory Negligence
+
+An act of negligence in which
+the injured party has
+contributed to the injury
+When the hospital as an entity
+is negligent
+
+A patient is injured in a fall after
+ignoring repeated safety
+instructions
+A health care worker suffers from
+repeated needle sticks because
+safety devices & following safe
+handling practices have not been
+provided, resulting in contraction
+of a blood-borne pathogen
+
+Lawsuit, loss of license,
+potential unemployment
+
+Corporate Negligence
+
+Lawsuit, hospital may be
+found negligent and required
+to pay damages
+
+Respondeat superior legal doctrine that holds employers responsible for negligent acts of their employees
+that occur in the course of their work. Literally, “let the master respond.”
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+11
+
+Patient care In Medical Imagining
+
+• Informed consent
+informed consent is necessary for any procedure that involves substantial risk or is considered
+experimental. Certain imaging procedures, such as myelograms and arteriograms, require that the patient
+receive a full explanation of the procedure and its potential risks and benefits.
+• Use of immobilization techniques
+Patients may not be immobilized for radiographic imaging procedures simply as a matter of convenience for
+the radiographer. An order must be obtained from the physician in charge of the patient for
+immobilization.
+Unauthorized use of immobilization techniques can be construed as false imprisonment—a tort.
+SPECIAL CIRCUMSTANCES THAT AFFECT COMMUNICATION:
+• Patients Who Do Not Speak English
+Communication difficulties can arise with non-English-speaking patients. Most hospitals and large clinics
+have a list of resource people, automated systems, Language Lines, special dual headset phones, or similar
+accommodations to assist with interpretation when there is a language barrier. A certified interpreter is
+most helpful because he or she translates exactly what has been said rather than a family member or friend
+who might edit, or try to explain what he or she thinks is implied
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+12
+
+Patient care In Medical Imagining
+
+• The Hearing Impaired
+Certain rules are helpful in communicating with individuals who have hearing loss:
+1. Talk to, not about, these persons
+2. Get the patient’s attention before starting to speak
+3. Face the person, preferably with light on your face
+4. Hearing loss is frequently in the upper register, so speak lower as well as louder
+5. Speak clearly and at a moderate pace Do not shout
+6. Avoid noisy background situations
+7. Rephrase when you are not understood
+8. Be patient
+• Inability to speak
+it is often helpful to ask the nursing staff how they have been able to communicate with the patient. Some
+patients are able to write. Many can indicate by a nod or shake of the head whether they understand your
+directions
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+13
+
+Patient care In Medical Imagining
+
+• Deafness
+Uses a sign language interpreter to communicate with a patient who is deaf.
+When using an interpreter, look directly at the patient and speak as though the patient were able to
+understand you.
+A certified interpreter is most helpful because he or she translates exactly what has been said rather than a
+family member or friend who might edit, or try to explain what he or she thinks is implied.
+Friends and relatives of a deaf patient should not ordinarily be used to interpret medical or treatment
+information, because they may add their own interpretation to the translation, changing its meaning.
+• Impaired Vision
+Some patients prefer to follow you by listening to your footsteps and using a cane, whereas others may
+wish to place a hand on your shoulder or elbow.
+Those who are more infirm may prefer your arm around their waist while you reassure and direct them
+verbally.
+Good communication is the key to determining which form of help is acceptable and appropriate
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+14
+
+Patient care In Medical Imagining
+
+• Altered States of Consciousness
+It is important to refer to unconscious patients by name and to reassure them about your actions. The
+medical literature gives many examples of patients who have regained consciousness after prolonged
+periods and who have credited their recovery to health professionals who continued to call them by name
+and treat them as human beings with an identity uniquely their own.
+AGE-SPECIFIC COMMUNICATION
+• Neonate and Infant (Birth to 1 Year)
+The neonatal period includes the first month of life. Involves the parents in the examination and keep them
+Together as much as possible.
+When parents cannot be present during the examination, remember that infants feel most secure when
+being held, so hold and cuddle the child to meet this need
+• Toddler (1-2 yrs)
+Talk to toddlers and play with them to distract them during the examination and reduce their stress.
+Even if they do not understand all you say, a cheerful voice is reassuring. so try to speak to children at
+their own eye level.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+15
+
+Patient care In Medical Imagining
+
+• Preschooler (3-5 yrs)
+Demonstration is often more effective than verbal instruction. Show the child how to position the hand for a
+finger examination or how to hold a deep breath for a chest radiograph.
+When dealing with preschool child it is important to keep directions simple, direct and honest
+• School age (6-12 yrs)
+Give concrete information about the examination; be specific about the body areas or parts that will be
+affected. Be honest and let them know whether they will experience any pain or discomfort.
+• Adolescent (13-18 yrs)
+Avoid using an authoritarian approach and involve them in as much decision making as possible. do not talk
+to parents “about” the adolescent and include the adolescent in all discussions.
+• Late adult (65-79 yrs)
+Keep instructions simple and give one instruction at a time. Using valid choices and treating older patients
+with the respect due any adult helps them to maintain their sense of identity.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+16
+
+Patient care In Medical Imagining
+
+Safety
+Fire Prevention
+This principle is used to fight a fire by
+1. adding water (lowering the temperature)
+2. or by smothering it (removing oxygen).
+Most hospital fires can be traced to one of four causes:
+1. Spontaneous combustion
+2. Open flames
+3. Cigarette smokers
+4. Electricity ( most common cause of fires in hospitals )
+Electrical Fires:
+Electricity is a potential source of fire hazard and is of special concern in radiology departments
+where there is much electrical equipment.
+A short circuit in an x-ray control panel, especially in an older unit, can result in fire.
+This is usually preceded by smoldering wire insulation, which causes smoke and an unpleasant odor that is
+readily detectable before an actual fire.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+17
+
+Patient care In Medical Imagining
+
+If you suspect a fire hazard from an electrical malfunction:
+1. Turn off the electricity at the main power source.
+2. Call for qualified assistance.
+3. Stand by with the proper fire extinguisher.
+In Case of Fire:
+your primary responsibility is to evacuate everyone in the immediate area to a safe location Second,
+report the fire and location using the prescribed code procedure
+A way to help you quickly recall the correct response in the event of a fire is the Acronym RACE: which
+stands for rescue, alarm, contain, and extinguish and evacuate
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+18
+
+Patient care In Medical Imagining
+
+Fire Extinguishers –
+To use the fire extinguisher correctly, remember the acronym PASS:
+1. Pull the pin.
+2. Aim the nozzle at the base of the fire.
+3. Squeeze the handle.
+4. Sweep. Use a sweeping motion from side to side to
+
+Fire Extinguishers
+Fires are classified according to the type of fuel involved:
+• Class A fires involve solid common combustibles, such as paper or wood.
+• Class B fires involve flammable liquids or gases.
+• Class C fires involve electrical equipment or wiring.
+• Class D fires involve certain combustible solids, such as lietal alloys.
+• Class K fires involve cooking media, for example oils and animal fats.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+19
+
+Patient care In Medical Imagining
+
+Chemicals and Spills - safe handling in the event of a spill.
+The following steps help to ensure safety when a spill occurs:
+1. Limit access to the area.
+2. Evaluate the risks involved.
+3. Determine whether you have both the equipment and the expertise to clean up the spill safely.
+4. If you can proceed safely, clean up the spill immediately.
+5. If you lack the necessary skill or equipment, call your supervisor or the appropriate department
+Eye splashes
+When a chemical eye splash occurs flood the eye with running water for a full five minutes. If discom fort
+or impairment of vision persists following eyewash, see an ophthalmologist immediately
+Body mechanics
+The principles of proper body alignment, movement, and balance are referred to as body mechanics.
+The most common types of workplace disabilities reported by health care workers are musculoskeletal
+disorders
+Eighty percent of sonographers experience some form of work-related injury, usually in the form of RMIs
+and RSIs affecting the shoulder, arm, or wrist.
+Bending and twisting the back while lifting is a common cause of back strain
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+20
+
+Patient care In Medical Imagining
+
+Three concepts are essential to understanding the principles of body mechanics:
+1. Base of Support-This is the portion of the body in contact with the floor or other horizontal surface. A
+broad base of support provides stability for body position and movement.
+2. Center of Gravity (Center of Body Weight)-This is the point around which body weight is balanced. The
+body is most stable when the center of gravity is nearest the center of the base of support.
+3. Line of Gravity-This is an imaginary vertical line passing through the center of gravity. The body is most
+stable when the line of gravity bisects the base of support.
+
+Rules of Body Mechanics
+• Provide a broad base of support.
+• Work at a comfortable height.
+• When lifting bend your knees and keep your back straight (see Figure B).
+• Keep your load well-balanced and close to your body (see Figure C).
+• Roll or push a heavy object. Avoid pulling or lifting.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+21
+
+Patient care In Medical Imagining
+
+Good body mechanics apply the combined strength of your legs, arms, and abdomen to protect the shorter,
+more vulnerable back muscles.
+
+A, With good posture, the
+line of gravity bisects the
+base of support
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+B, When the load is held away from
+the body, the line of gravity does
+not bisect the base of sup-port.
+
+C, A wide stance with the load
+held close to the body allows the
+combined line of gravity to bisect
+the base of support.
+22
+
+Patient care In Medical Imagining
+
+Justification and optimization
+Improving radiation protection in practice For any activity involving radiation exposure, the three general
+principles of radiation protection are:
+• Justification
+• Optimization
+• Dose limitation
+
+Justification
+The principle of justification requires that the introduction of a new source of radiation, or any actions to
+reduce radiation exposure, have a net overall benefit. This concept is not unique to radiation protection, as
+many decisions in everyday life involve balancing benefits and risks. Once a decision has been made that a
+particular action is justified, then the next step is to apply the principle of optimization.
+
+Optimization
+Optimization is defined in the IAEA Safety Glossary as the 'process of determining what level of protection and
+safety would result in the magnitude of individual doses, the number of individuals (workers and members of
+the public) subject to exposure and the likelihood of exposure being as low as reasonably
+
+achievable, economic and social factors being taken into account'.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+23
+
+Patient care In Medical Imagining
+
+Dose limitation
+International standards and national legislation in most countries establish radiation dose limits for both
+workers and members of the public. In the case of medical exposures of patients, dose limits do not apply as the
+doses received must be necessary for the diagnosis or treatment in question. However, in these situations dose
+limits do apply to the medical professionals who are exposed.
+Decisions on justification and optimization include economic, societal and environmental considerations. In
+many instances, the benefits considered in justification or in optimization accrue to society in general rather
+than to individuals.
+
+1
+Justification
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+2
+Optimization
+
+3
+Dose
+limitation
+24
+
+Patient care In Medical Imagining
+
+Infection Control Concepts
+• Transmission of disease
+There are six main routes of disease transmission: direct contact, and indirect routes that involve transport of
+organisms by way of fomites (contaminated objects), vectors (insects), vehicles (contaminated food, water,
+and soil), droplet contamination, and airborne means (dust particles containing spores and droplet nuclei)
+Fomites: an object that have been in contact with pathogenic organism. Such as a contaminated urinary
+catheter or X-ray table, vertical Bucky and image receptors
+Vectors: is arthropod in whose body an infectious organism develops or multiplies before becoming infectious
+to a new host. Fore example, mosquitoes that transmit malaria
+Vehicle : is any medium that transports microorganisms such as contaminated food, waters, drugs and blood
+Direct contact : transmission mode requires that the host is touched by an infected person and that the
+organisms are placed in direct contact with susceptible tissue such as syphilis
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+25
+
+Patient care In Medical Imagining
+
+Droplet contamination: often occurs when an infectious individual coughs, sneezes, speaks or signs in the
+vicinity of susceptible host
+Airborne transmission: occurs from dust that contains spores or droplet nuclei
+• Contact is a common mode of transmission in health care, usually via touch or contact with blood or
+body substances
+
+THE BODY’S DEFENSE AGAINST INFECTION
+The human body is protected from the invasion of microorganisms in three ways: natural resistance and
+defenses, acquired resistance (also known as active immunity), and short-term passive immunity.
+Active or acquired immunity occurs when individuals develop their own antibodies to a specific antigen as a
+result of having the disease or being immunized against it. This resistance is long term. Passive immunity
+occurs when individuals receive antibodies produced outside their bodies, such as those from the mother
+that exist in the newborn, or those produced in a laboratory for emergency immunization. This
+resistance is short term.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+26
+
+Patient care In Medical Imagining
+
+Health Care-associated Infections
+Hospital-acquired infections, also called Nosocomial infections, are defined as those that occur more than
+48 hours after being admitted to the hospital.
+Infections acquired in hospitals or health care facilities are termed nosocomial infections or health careassociated infections when they affect patients; when they affect health care workers, they are called
+occupationally acquired infections.
+
+TRANSMISSION-BASED PRECAUTIONS
+There are three categories of transmission-based precautions: airborne, droplet, and contact precautions.
+These precautions MUST be used with Standard Precautions to ensure effectiveness.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+27
+
+Patient care In Medical Imagining
+
+Droplet Precautions
+In addition to Standard Precautions, use Droplet Precautions, or the equivalent, for patients known or
+suspected to be infected with microorganisms transmitted by large particle droplets that can be generated by
+patients during coughing, sneezing, talking, or the performance of procedures.
+Diseases Requiring Droplet Precautions
+• Invasive Haemophilus influenzae type b disease, including meningitis, pneumonia, epiglottitis, and sepsis
+• Invasive Neisseria meningitidis disease, including meningitis, pneumonia, and sepsis
+• Other serious bacterial respiratory infections spread by droplet transmission, including:
+• Diphtheria (pharyngeal)
+• Mycoplasma pneumonia
+• Pertussis
+• Pneumonic plague
+• Streptococcal (group A) pharyngitis, pneumonia, or scarlet fever in infants and young children
+• Serious viral infections spread by droplet transmission, including:
+• Adenovirus
+• Influenza
+• Mumps
+• Parvovirus B19
+• Rubella
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+28
+
+Patient care In Medical Imagining
+
+Precautions
+Wear a surgical mask when working within 3 feet of the patient. Some hospitals may implement the wearing of
+a mask to enter the room.
+
+Airborne Precautions
+In addition to Standard Precautions, use Airborne Precautions for patients known or suspected to have serious
+illnesses transmitted by airborne droplet nuclei.
+Diseases Requiring Airborne Precautions
+• Measles
+• Varicella (including disseminated zoster)
+• Tuberculosis
+• Severe acute respiratory syndrome
+Precautions
+- Wear respiratory protection (N95 or higher level respirator) when entering the room of a patient with known
+or suspected infectious pulmonary tuberculosis.
+TB is primarily a lung disease caused by M. tuberculosis and is transmitted through airborne contamination.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+29
+
+Patient care In Medical Imagining
+
+Contact Precautions
+In addition to Standard Precautions, use Contact Precautions, or the equivalent, for specified patients known or
+suspected to be infected or colonized with epidemiologically important microorganisms that can be transmitted
+by direct contact with the patient (hand or skin-to-skin contact that occurs when performing patient-care
+activities that require touching the patient’s dry skin) or indirect contact (touching environmental surfaces or
+patient-care items in the patient’s environment).
+Transmission-Based Precautions
+Examples
+Airborne (TB, Varicella, Rubeola)
+Droplet (Rubella, Mumps,
+Influenza)
+Contact (MRSA, C. difficile, Some
+wounds)
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Patient Protection
+Wears mask, private, negativepressure room
+Wears mask, private room
+
+Radiographer Protection
+Wears gloves; gown for blatant
+contamination
+Gown and gloves as indicated
+
+Private room, wears mask if
+required by facility
+
+Gloves and gown, mask for MRSA if
+required by facility
+
+30
+
+Patient care In Medical Imagining
+
+Housekeeping
+Good housekeeping in the workplace reduces the incidence of
+airborne infections and the transfer of pathogens by fomites.
+the radiographer is responsible for inspecting the work
+area regularly and maintaining high standards of medical
+asepsis.
+Hand hygiene
+Medically aseptic handwashing is an easy and effective
+method to control the transmission of infections.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+31
+
+Patient care In Medical Imagining
+
+HIV:
+is a blood-borne pathogen that has a very low risk of transmission to the health care worker.
+HIV routes of transmission :
+The routes of transmission are through
+1. sexual contact
+2. contaminated blood or needles fluids containing blood,
+3. from mother to fetus via the placenta. Infection can also be transmitted to infants through breast milk
+The risk of contracting HIV from a needle-stick injury is less than 1%
+• If an accidental needle-stick occurs, or the skin is broken by a contaminated object, allow the wound to
+bleed under cold water and wash it with soap.
+Hepatitis:
+There are five types of hepatitis:
+hepatitis B and C are the greatest concern to health care workers because both are bloodborne.
+There is a vaccine and preventive therapy for hepatitis B, but neither is available for
+hepatitis C.
+Health care workers have a lower risk of contracting hepatitis C, but if you do become infected, there is
+a higher risk of developing chronic infection and liver cirrhosis.
+Hepatitis A and E are transmitted through food and water contaminated with feces.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+32
+
+Patient care In Medical Imagining
+
+TB: is primarily a lung disease caused by M. tuberculosis and is transmitted through airborne contamination.
+N95 must be used
+
+Radiography of Isolation Patients
+Radiography of the isolation patient requires two people, preferably two radiographers. The “dirty”
+member of the team positions the patient, and the “clean” member handles the equipment. Although
+both radiographers must follow all designated isolation precautions, the “clean” member has no direct
+contact with the patient, the bed, or any items the patient may have touched.
+This radiographer is the only one who handles the x-ray machine and the uncovered image receptors (IRs).
+• Protective precautions
+are designed to prevent the spread of infections to compromised patients. These patients may have
+undergone organ transplants and may be taking immunosuppressant medications. Burn patients and
+neonates at risk may also require these precautions. Protective precautions are sometimes used for patients
+receiving chemotherapy, which reduces their resistance.
+These precautions were once referred to as reverse isolation or protective isolation
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+33
+
+Patient care In Medical Imagining
+
+Response to Patients’ Personal and Physical Needs
+Urinary catheter
+When transferring patient with urinary catheter hold urine collection bags below the level of the patient’s
+bladder to prevent urine in the tube or bag from being siphoned back into the bladder, causing discomfort
+and potentially allowing bacteria access into the bladder.
+
+POSITIONING FOR SAFETY AND COMFORT
+1. The term recumbent refers to any position in which the patient is lying down.
+2. Supine defines the position in which the patient is lying on his or her back. This is the usual position for
+stretcher transfers and is also a common radiographic position.
+3. prone when lying face down, the patient
+4. Lateral recumbent denotes that the patient is lying on one side. This term may be modified by adding right
+or left to indicate which side is in contact with the bed or table.
+5. The Sims’ position is a comfortable position that is sometimes used for rectal examination and for taking a
+rectal temperature; it is the best position for enema administration.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+34
+
+Patient care In Medical Imagining
+
+6. Fowler’s position is a modification of the supine position in which the patient’s upper body is
+elevated.
+7. The semi-Fowler’s position is a modification of the Fowler’s position in which the upper body is
+only partially elevated.
+8. In the Trendelenburg position the patient’s head is lower than the feet. Usually the table is tilted
+approximately 15 degrees. This position is used during some radiographic and fluoroscopic
+procedures and is helpful in treating patients suffering from shock.
+9. The knee-chest position and the lithotomy position are not commonly used by radiographers,
+but are standard positions used by physicians and nurses in diagnostic examinations and therapeutic
+procedures.
+• Patients who experience difficulty breathing, nausea, or abdominal pain need to be positioned with
+their heads elevated.
+When the body is supine, the weight of the abdominal contents pushes the diaphragm up into the thoracic
+cavity, making it more difficult to take a deep breath.
+If the patients become short of breath when supine, you must help them to sit up immediately. The term
+for difficulty breathing when lying down is orthopnea; this condition may be caused by asthma, lung
+disease, or heart conditions.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+35
+
+Patient care In Medical Imagining
+
+Patients who are nauseated also need to have their heads elevated, because this position helps control
+nausea and prevents aspiration of emesis if the patient vomits.
+Patients who become nauseated and cannot be assisted into the Fowler’s position should be rolled into a
+lateral recumbent position.
+Orthopnea, dyspnea and nausea in all of these conditions we must do flower’s
+position.
+If cannot should be rolled into a lateral recumbent position. Patients who experience difficulty breathing,
+nausea, or abdominal pain need to be positioned with their heads elevated.
+Faint , syncope and shock in all of these we must do Trendelenburg position
+Support and Padding
+A bolster under the knees of a supine patient relieves lumbosacral stress by straightening lordosis, the
+lordotic or concave lumbar curve . This is especially comforting to patients with kyphosis
+If a patient will be in one position on the x-ray table for longer than 10 minutes, a full-size radiolucent pad
+should be used. This is an important consideration for patients undergoing extended studies such as small
+bowel series or excretory Urograms.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+36
+
+Patient care In Medical Imagining
+
+RESTRAINTS AND IMMOBILIZATION
+Restraints are used to restrict patient movement to ensure safety, whereas immobilization methods
+prevent undesired motion during imaging procedures.
+Restraints are used to prevent patients from injuring themselves or from disengaging therapeutic devices
+such as intravenous lines or oxygen masks. The application of these physical restraints on an adult patient
+requires a physician’s order.
+Immobilization refers to the use of various devices to keep patients from moving during imaging procedures.
+do not require a physician’s order
+Special problems are encountered when performing radiographic examinations on pediatric patients
+• Sheet Restraints
+One of the most effective, simple, inexpensive, and reliable methods of restraining or immobilizing a
+child is a mummy wrap. Although this method can be used on children 4 or 5 years of age, it is beneficial
+for children who are still too young to understand cooperation.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+37
+
+Patient care In Medical Imagining
+
+Sheet restraint (mummy
+wrap) sequence. A, The
+child is placed in the center
+of a triangular folded sheet
+as shown so that the
+shoulders are just above
+the top fold.
+
+D, Bring the remaining
+sheet over the body.
+
+C, Tuck the 2 feet of
+sheet over the right arm
+and under the body.
+Again, make sure the
+child is not lying on the
+arm.
+
+Restraint bands are still required, and the child should
+not be left alone, even for the amount of time needed
+to make a radiographic exposure
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+B, The left corner of the
+sheet is brought over the
+left arm and under the
+body so that
+approximately 2 feet of
+the sheet extends
+beyond the right side of
+the body. Make sure the
+child is not lying on the
+left arm.
+
+E, Tuck the sheet securely
+under the left side of the
+body. Remember that this
+technique restrains most
+movement but is not
+satisfactory as a complete
+immobilization procedure.
+
+38
+
+Patient care In Medical Imagining
+
+• Commercial Restraints
+Commercial restraints usually take one of two forms: upright restraint devices
+or restraint boards. Two common useful upright restraint devices are the
+PiggO-Stat and Pedia-Poser Pediatric Positioning Chair . These devices are
+useful for upright chest and abdominal radiographic examinations. They can
+accommodate children up to approximately 3 to 4 years of age
+
+Another type of commercial restraint device occasionally used in radiology
+departments is the restraint board (infant immobilizer). Even though several
+variations of restraint boards exist, all of them consist basically of a contourfitting pad, mold, or sponge with attached Velcro straps for securing the patient
+
+The disadvantage of the regular restraint board and the octagonal framed version is size. Only infants and
+small children up to 1 year of age should be immobilized with these devices.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+39
+
+Patient care In Medical Imagining
+
+OBSERVATION FOR SIGNS OF ABUSE (Child – Elder )
+Child Abuse:
+Whenever an injured child is brought for treatment, physicians and other health care personnel should be
+alert for indications of battered child syndrome, or characteristics of physical abuse, also referred to as nonaccidental trauma (NAT).
+Elder abuse:
+is a term referring to any knowing, intentional, or negligent act by a caregiver or any other person that
+causes harm or serious risk of harm to a vulnerable adult
+Be alert for signs of NAT in infants, children, and elders. Report suspicious cases to your supervisor.
+Periosteal reaction from repeated bruising of the bone is visible radiographically and should lead to suspicion
+of non-accidental trauma
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+40
+
+Patient care In Medical Imagining
+
+Patient assessment (Physical assessment)
+Skin color: Recognise the change in skin color.
+The term cyanotic denotes a bluish coloration in the skin and indicates a lack of sufficient oxygen in the
+tissues.
+This is most easily seen in the mucous membranes, such as the lips or the lining of the mouth. Nail beds may
+also show a bluish tinge.
+Patient who becomes cyanotic needs oxygen and immediate medical attention.
+Vital Signs: The vital signs
+1. Oral temperatures vary from 96.8° F to 99.8° F (36° to 38° C).
+2. Rectal temperatures range from 0.5° F to 1.0° F higher than oral
+temperatures.
+3. Axillary temperatures range from 0.5° F to 1.0° F lower.
+Fever (pyrexia or hyperthermia) is a sign of increased body metabolism (energy
+use), usually in response to an infectious process.
+Pulse: The heart rate is measured in beats per minute (bpm).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+41
+
+Patient care In Medical Imagining
+
+The most common site for palpation of the pulse is the radial artery at the base of either thumb.
+carotid artery, this site is easily accessible and is particularly important if a patient loses consciousness.
+Blood Pressure:
+1. hypertension (abnormally high blood pressure).
+2. hypotension (Abnormally low blood pressure)
+Blood pressure is measured using a stethoscope and a blood pressure cuff called a sphygmomanometer.
+Normal - systolic pressure between 95 and 119 mm Hg, diastolic pressure 60 to 79 mm Hg.
+In stage 1 hypertension : the systolic reading ranges from 140 to 159 mm Hg, and the diastolic reading
+ranges between 90 and 99 mm Hg.
+In stage 2 hypertension : the most severe form, the systolic reading is 160 mm Hg or greater and the
+diastolic reading is 100 mm Hg or greater.
+Respiration : The number of inhalations per minute. Compare your findings with the normal adult range of
+12 to 20 breaths per minute.
+Bradypnea : Slow breathing with fewer than 12 breaths per minute
+Tachypnea : Rapid breathing in excess of 20 breaths per minute
+If a patient complains of dyspnea (difficulty in breathing), or exhibits an abnormal respiratory rate, you
+should inform the radiologist and prepare oxygen equipment for immediate use
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+42
+
+Patient care In Medical Imagining
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+43
+
+Patient care In Medical Imagining
+
+ELECTRONIC PATIENT MONITORING
+Pulse Oximeter
+This device is often used to observe the condition of patients who have received sedatives that may
+suppress respiration and is commonly used in the magnetic resonance imaging
+It continuously monitors both pulse rate and blood oxygen levels Electrocardiograph Monitors
+An electrocardiograph is a device that measures the electrical activity of the heart and displays the
+information graphically in the form of waves on a paper tracing or a monitor screen.
+The graph that is produced is called an electrocardiogram (ECG or EKG).
+Patient Transfer
+PATIENT TRANSFER CONSIDERATIONS
+When inpatients are moved from one place to another in a hospital, wheeled transport is required.
+Patients may believe that they can walk to the radiology department, but they must not be allowed to do so.
+If an ambulatory patient becomes weak or faints in a corridor or elevator during the trip, there is no safe way
+to cope.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+44
+
+Patient care In Medical Imagining
+
+Inpatients must not be allowed to walk to the imaging department Likewise, infants and small children should
+not be carried. Wheeled transport is necessary.
+Transfer by stretcher is the proper method for patients who cannot stand safely and those who cannot sit
+comfortably or climb safely onto the radiographic table
+The usual method of transport is :
+1. a wheelchair for patients who can stand and sit with safety and comfort
+2. stretcher for those who cannot. Patients who cannot stand, and those who have not stood or walked since
+an accident, surgery, stroke, or heart attack, should not be transported by wheelchair; stretcher transfer is a
+safer method.
+3. cribs for Active infants and toddlers
+Wheelchair Transfers
+Radiologic technologists use four types of wheelchair transfers: (1) standby assist, (2) assisted standing pivot,
+(3) two-person lift, and (4) hydraulic lift.
+If the patient has a strong side and a weak side, always position the patient so that he or she transfers
+toward the strong side.
+When assisting a patient to sit from a supine position, or to lie down from a sitting position, you should place
+your arms under the shoulders and knees
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+45
+
+Patient care In Medical Imagining
+
+Orthostatic hypotension
+A mild reduction in the oxygen supply to the brain that occurs with changes in body position and may cause
+them to feel light-headed or faint when rising suddenly
+Standby Assist Transfer
+Some patients have the ability to transfer from a wheelchair to a table
+on their own. Position the wheelchair at a 45-degree angle to the table.
+• To transfer the patient from a wheelchair to the bed/table:
+The wheelchair should be 45 degrees to the bed/table
+• To transfer the patient from a bed/table to the wheelchair:
+The wheelchair should be parallel to the bed/table
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+46
+
+Patient care In Medical Imagining
+
+Assisted Standing Pivot Transfer
+For patients who cannot transfer independently but can bear weight on their legs,
+a standing pivot technique is used. Position the wheelchair at a 45-degree
+To transfer the patient from a wheelchair to the bed/table.
+To transfer the patient from a bed/table to the wheelchair angle to the table with the
+
+patient's stronger side closest to the table. The transfer belt enables a secure grip
+on the patient without traumatizing any of the patient's joints.
+
+Two-Person Lift
+Some patients cannot bear weight on their lower extremities
+and must be lifted onto the table. If the patient is lightweight,
+a two-person lift can be executed.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+47
+
+Patient care In Medical Imagining
+
+Hydraulic Lift Techniques
+Some patients are too heavy to lift manually and require a hydraulic lift.
+When a patient in a wheelchair can’t stand, a hydraulic lift is required.
+Cart Transfers
+Many patients are transported by cart (also called a stretcher or gurney). To move a
+patient from a cart onto a radiographic table, position the cart alongside the table on
+the patient's strong or less affected side.
+Three methods of transfer involve the use of draw sheets, slider boards, and sliding
+mats. These are often useful when the patient is unable to assist with the transfer.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+48
+
+Patient care In Medical Imagining
+
+Special Considerations for Wheelchair Transfer
+Additional precautions are necessary for patients who have suffered strokes and for those who have
+undergone joint replacement surgery.
+1. Stroke
+It is often advisable to use stretcher transport with these patients.
+Stroke patients typically have weakness on one side of the body.
+When moving from the a bed or table to wheelchair:
+Determine which side is the patient’s weak side, and position yourself on that side.
+Joint Replacements- Hip Replacement
+Patients who have undergone hip replacement by means of the anterior surgical approach:
+Do not permit the patient to adduct, abduct, or rotate the affected leg, and avoid any hyperextension,
+especially when walking.
+Patients who have undergone hip replacement by means of the posterior approach most common:
+are able to tolerate abduction, but must not be allowed to cross the affected leg over the midline; both
+adduction and internal rotation must be avoided
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+49
+
+Patient care In Medical Imagining
+
+Spinal Trauma or Spinal Surgery
+Patients suffering from spinal trauma or recovering from recent spinal surgery should be transferred by
+stretcher.( Log-Roll method )
+the patient should sit from a lateral recumbent position in case of spinal injury. When lying down, the patient
+should lie first on one side and then turn to the supine position with the knees flexed.
+Patients Who Cannot Stand Safely
+1. Inpatients that are paralyzed or unable to stand for any reason are always transported by stretcher within
+a hospital
+2. outpatients who are unable to stand may arrive at the hospital in a wheelchair
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+50
+
+Patient care In Medical Imagining
+
+Emergency response
+An emergency can be defined as a serious, unexpected event that demands immediate attention.
+Many facilities have a Rapid Response Team available for assisting with a sudden change in a patient’s
+condition . This critical care team of clinicians is paged overhead and will respond to the distressed patient’s
+location to assess whether the patient is stable or will likely experience a cardiac or respiratory event and thus
+need further care.
+Multiple emergencies
+When more than one patient from the ED requires examination at the same time, the radiographer may need
+to determine which patient’s status is the most urgent. Generally speaking, the highest priority is assigned to
+patients whose vital signs are unstable and whose immediate care depends on the results of the
+examination, such as those in severe respiratory distress.
+A disaster is an emergency of huge magnitude that creates an unforeseen, serious, or immediate threat to
+public health.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+51
+
+Patient care In Medical Imagining
+
+These codes are designed to be an efficient means of mass communication with the entire hospital staff
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+52
+
+Patient care In Medical Imagining
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+53
+
+Patient care In Medical Imagining
+
+OXYGEN AND SUCTION
+Oxygen can be administered by various means. Tubing with nasal prongs (sometimes called a nasal cannula) is
+the simplest and most frequently used device for longer-term oxygen administration. The oxygen should be
+delivered at a rate of 1 to 6 L/min providing a 24% to 45% oxygen concentration.
+An oxygen mask is used to provide both oxygen and humidity. A simple face mask is used primarily for shortterm therapy. To administer oxygen using a face mask, attach the mask to the oxygen supply and adjust the
+flow meter to deliver 1 to 10 L/min, as ordered.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+54
+
+Patient care In Medical Imagining
+
+The oxygen flow rate for many patients is 2 to 5 L/min. Severely compromised patients, such as trauma victims
+in shock, may receive oxygen at a much higher rate, up to 10 L/min. Patients with chronic lung disease should
+be provided with a Venturi mask, or if they are wearing nasal prongs, receive oxygen at a slower rate, less than
+3 L/min.
+When positioning a patient with an artificial airway for a radiograph, take care not to disconnect or kink the
+tubing. An alarm on the ventilator alerts the staff to any sudden changes in respiration. If the alarm sounds
+while positioning the patient, do not turn it off
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+55
+
+Patient care In Medical Imagining
+
+Dealing with acute situation
+Respiratory emergencies
+Respiratory emergencies include choking events and asthma attacks. Asthma attacks require the
+administration of oxygen and/or a bronchodilating medication.
+
+To help dislodge any foreign body using a technique called the abdominal thrust (Heimlich Maneuver).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+56
+
+Patient care In Medical Imagining
+
+Cardiac emergencies
+Cardiac events can include angina pectoris (chest pain caused by constriction of the arteries of the heart),
+heart attack caused by occlusion of the arteries of the heart (MI), or cardiac arrest (complete cessation of
+the heartbeat). Angina is treated by the sublingual administration of nitroglycerin. The treatment for heart
+attacks varies and can include the administration of pain medication, aspirin, oxygen, and often
+vasodilating drugs. In the case of cardiac arrest, a code is called, and CPR and/or defibrillation are
+administered.
+When the cardiac arrest occurs, it is important to initiate the “shake and shout” maneuver
+Patients who have simply fainted will respond. If there is no response, feel for the carotid pulse and observe
+for respiration. If the patient has stopped breathing, or if no pulse is detected, an emergency code must be
+initiated.
+The lack of effective circulation to the central nervous system can cause irreparable brain damage in 3 to 5
+minutes.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+57
+
+Patient care In Medical Imagining
+
+Trauma
+Spinal injuries
+Patients with possible cervical spine fractures are immobilized with cervical collars and other radiolucent
+devices. These must remain in place during the initial radiographic examinations and until a physician has
+determined that it is safe for them to be removed
+Chest injuries
+If a hemothorax (blood in the pleural space) or pneumothorax (air in the pleural space) results, the lung may
+collapse
+The treatment for either pneumothorax or hemothorax involves a thoracotomy, a procedure in which a
+surgical opening is made through the chest wall and a tube is inserted between the visceral pleura and the
+parietal pleura. The tubing assists the lung to expand by removing fluid or air from the pleural space. The term
+for this process is thoracentesis. The chest drainage unit is set or hung below the level of the bed or stretcher.
+During a seizure, your first duty is to keep the patient as safe as possible and provide protection from harm by
+placing padding under the head and preventing a fall. Do not attempt to restrain the patient or force objects
+into his/her mouth.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+58
+
+Patient care In Medical Imagining
+
+Shock
+There are five main types of shock, cate- gorized according to the cause, which may be medical or traumatic:
+hypovolemic, septic, neurogenic, cardio- genic, and allergic (anaphylactic).
+
+The radiographer’s role in suspected shock is as follows:
+1. Stop the procedure.
+2. Assist the patient to a dorsal recumbent position to avoid a fall; elevate the feet to increase the blood
+flow to the brain. If dyspnea is present, elevate the head also.
+3. Obtain help; notify the radiologist, physician, or nurse.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+59
+
+Patient care In Medical Imagining
+
+Medical asepsis
+Surgical asepsis is the process of creating and maintaining an area that is completely free of pathogens.
+Sterilization is the complete destruction of all organisms and spores from equipment used for patient care or
+procedures.
+Four different methods may be used to sterilize supplies and equipment: chemical, autoclaving, ethylene
+oxide gas, and gas plasma.
+Chemical sterilization involves the immersion and soaking of clean objects in a bath of germicidal solution
+followed by a sterile water rinse. chemical sterilization is one of the less satisfactory methods for providing
+surgical asepsis and is not recommended.
+Autoclaving
+Steam sterilization by means of an autoclave is the most common and most effective method for most surgical
+instruments and trays.
+Conventional Gas Sterilization
+Items that would be damaged by high temperatures are usually sterilized with a mixture of gases (Freon and
+ethylene oxide) heated to 135° F (57° C)
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+60
+
+Patient care In Medical Imagining
+
+Gas plasma Technology
+A safer method of sterilizing heatand moisture sensitive items
+Gas plasma technology has significantly reduced the use of ethylene oxide, but it cannot completely replace
+this method.
+• Antiseptic a substance that tends to inhibit the growth and reproduction of microorganisms.
+• Disinfectant liquid chemical applied to objects to eliminate many or all pathogenic microorganisms.
+• Germicide, germicidal a chemical that kills pathogenic microorganisms.
+Skin preparation
+Procedures that involve puncture or incision of the skin require special skin preparation. Skin preparation
+must sometimes be performed in medical imaging departments and is required for invasive radiologic
+procedures such as lumbar puncture for myelography and arterial catheterization for angiography.
+
+Patient Care in Specific Procedures and Environments
+As a case in point, patients with head injuries in the trauma ICU are often kept in a semierect position to
+minimize intracranial pressure.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+61
+
+Patient care In Medical Imagining
+
+Accidentally dislodging lines or tubes is a common and dangerous error. Check that all lines and tubes are
+clear as you position the patient and the equipment.
+Never disconnect or turn off a ventilator
+Nasogastric (NG) tubes. These tubes are passed through the nose and down into the stomach or small
+intestine.
+Nasogastric tubes are passed into the stomach and have several purposes:
+• Feeding
+• Decompression (removal of gas and secre- tions by suction)
+• Radiographic examination
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+62
+
+Patient care In Medical Imagining
+
+Pacemakers
+An implanted device that electrically stimulates the heart to control its rate is called a pacemaker
+
+Chest radiographs following pacemaker insertion. A, A PA projection shows the pacemaker and catheter
+placement. B, Lateral projection. Note the left arm is superimposed on the thorax; elevation of the arm
+above shoulder level within the first 24 hours risks disturbing the placement of the catheter or pacemaker.
+White arrows indicate catheter placement; black arrows indicate the end of the catheter lead.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+63
+
+Patient care In Medical Imagining
+
+Radiography in Surgery
+Many surgical procedures require imaging. Before entering the surgical suite, you must don clean scrub
+clothes, to include nonsterile shirt and pants, a mask, and hat or hood to cover all your hair. Shoe covers are
+usually optional. If the mobile x-ray equipment is not dedicated for surgical use, you must also wipe the
+machine with a germicidal solution before bringing it into the surgical suite.
+The OR team consists of both sterile and nonsterile members. The sterile members perform a surgical scrub,
+don sterile attire, and work within the sterile
+field. The nonsterile members work outside the sterile field and include the anesthesiologist or anesthetist,
+the circulating nurse, the radiographer, and other technologists.
+Image receptors (IRs) are sometimes positioned via a tunnel in the operating table that can be reached from
+the nonsterile area. Otherwise, they are placed in a sterile cover with the assistance of the scrub nurse or
+surgeon and positioned by the surgeon.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+64
+
+Patient care In Medical Imagining
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+65
+
+Patient care In Medical Imagining
+
+References
+
+1.Ehrlich, R. A., & Coakes, D. M. (2016). Patient care in radiography: With an introduction to medical
+imaging (9th ed.). Elsevier.
+2.Torres, L. S., Dutton, A. G., & Linn-Watson, T. A. (2014). Patient care in imaging technology (7th ed.).
+Wolters Kluwer Health/Lippincott Williams & Wilkins.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+66
+
+Patient care In Medical Imagining
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+67
+
+

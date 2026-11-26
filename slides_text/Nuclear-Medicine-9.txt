@@ -1,0 +1,2082 @@
+SRTLE: A Survival Guide
+5TH Co
+
+urse
+
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+DAY 9
+
+Nuclear Medicine for Radiologic
+Technologist
+
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+2
+
+Nuclear Medicine for Radiologic Technologist
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+3
+
+Nuclear Medicine for Radiologic Technologist
+
+1. PHYSICS AND INSTRUMENTATION
+Nuclear Force and Binding Energy
+• The nuclear force is a powerful binding force that holds nucleons together tightly.
+• The work (energy) required to overcome this force and remove a nucleon from the nucleus is called the
+nuclear binding energy.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+4
+
+Nuclear Medicine for Radiologic Technologist
+
+Radioactive Materials
+• An element with an unstable nucleus (excess energy).
+• An unstable nucleus will adjust itself to a more stable state by:
+• Ejecting portions of its nucleus (alpha or beta particles).
+• Emitting energy in the form of photons (gamma rays).
+• This process is called radioactive decay.
+
+A = number of protons + number of neutrons
+Z = number of protons
+A - Z = number of neutrons
+Number of neutrons = Mass Number - Atomic Number
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+5
+
+Nuclear Medicine for Radiologic Technologist
+
+Alpha Particle: Not used in the medical field (highly toxic).
+Beta Particle: Used in the medical field for therapy.
+Gamma Ray: Used in the medical field for diagnostic purposes.
+
+Penetrating and nonpenetrating radiation.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+6
+
+Nuclear Medicine for Radiologic Technologist
+
+Isotopes: Atoms with the same atomic number but different atomic mass numbers.
+Isobars: Atomic nuclei with the same atomic mass number but different atomic numbers.
+Isotones: Atoms with the same number of neutrons but different numbers of protons.
+Isomers: Atoms with the same atomic number and the same atomic mass number.
+
+Characteristics of Various Nuclear Arrangements
+Arrangement
+
+Atomic Number
+
+Atomic Mass Number
+
+Neutron Number
+
+Isotope
+
+Same
+
+Different
+
+Different
+
+Isobar
+
+Different
+
+Same
+
+Different
+
+Isotone
+
+Different
+
+Different
+
+Same
+
+Isomer
+
+Same
+
+Same
+
+Same
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+7
+
+Nuclear Medicine for Radiologic Technologist
+
+Half-Life
+• The time it takes for half of the atoms to decay is called the physical half-life.
+Radioactive Materials
+• Uranium
+• Thorium
+• Radium
+• Polonium
+Desirable Characteristics for Radiopharmaceuticals
+1. Physical half-life of a few hours, equal to the duration of preparation and injection.
+2. Should emit gamma rays (50–300 keV); decay by isomeric transition or electron capture is preferable.
+3. Easily attaches to a pharmaceutical at room temperature.
+4. Easily eliminated from the body, with an effective half-life similar to the duration of the examination.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+8
+
+Nuclear Medicine for Radiologic Technologist
+
+Characteristics of Radionuclides
+Nuclide
+
+Photons (keV)
+
+Production Mode
+
+Decay Mode
+
+Half-life
+
+⁶⁷Ga
+
+93, 185, 296, 388
+
+Cyclotron
+
+EC
+
+78 hours
+
+⁹⁹ᵐTc
+
+140
+
+Generator
+
+IT
+
+6 hours
+
+¹¹¹In
+
+173, 247
+
+Cyclotron
+
+EC
+
+68 hours
+
+¹²³I
+
+159
+
+Cyclotron
+
+EC
+
+13 hours
+
+¹²⁵I
+
+27, 36
+
+Reactor
+
+EC
+
+60 days
+
+¹³¹I
+
+364
+
+Fission product
+
+β
+
+8 days
+
+¹³³Xe
+
+80
+
+Fission product
+
+β
+
+5.3 days
+
+²⁰¹Tl
+
+70, 167
+
+Cyclotron
+
+EC
+
+73 hours
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+9
+
+Nuclear Medicine for Radiologic Technologist
+
+Technetium-99m – Why It’s the Best
+• Used in over 80% of nuclear imaging procedures .
+• Fulfills many criteria of an ideal radionuclide:
+• Pure gamma emission.
+• Suitable half-life (6 hours).
+• High availability.
+• Low cost.
+• Energy of 140 keV.
+• Can be labeled with many pharmaceuticals.
+Radionuclide Generator System
+• Some isotopes available from generators include:
+• Technetium-99m (⁹⁹ᵐTc)
+• Indium-113m (¹¹³ᵐIn)
+• Krypton-81m (⁸¹ᵐKr)
+• Rubidium-82 (⁸²Rb)
+• Strontium-87m (⁸⁷ᵐSr)
+• Gallium-68 (⁶⁸Ga)
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+10
+
+Nuclear Medicine for Radiologic Technologist
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+11
+
+Nuclear Medicine for Radiologic Technologist
+
+99Mo–99mTc Generator
+• A radionuclide “parent” with a long half-life is bound to an ion exchange alumina column.
+• Parent isotope: ⁹⁹Mo (67-hour half-life).
+• Daughter isotope: ⁹⁹ᵐTc (6-hour half-life).
+• ⁹⁹ᵐTc is loosely bound and removed (“eluted”) with an elution liquid such as 0.9% saline.
+Wet vs. Dry Generator Systems
+1. Wet system: Contains a saline reservoir and a vacuum vial to draw saline across the column.
+2. Dry system: Requires placing a vial with a specific amount of saline on the entry port, drawn across by
+a vacuum vial.
+Technetium-99m Valence State
+• Eluted ⁹⁹ᵐTc is in the +7 valence state.
+• Tin is used as a reducing agent to allow labeling of other compounds.
+Breakthrough
+• Molybdenum breakthrough: Detected by 740–780 keV photons penetrating a lead shield that blocks 140 keV
+photons of ⁹⁹ᵐTc.
+• Aluminum ion breakthrough: Detected with special test paper that changes color. Excess aluminum indicates
+instability of the generator column and appears as high uptake in the liver.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+12
+
+Nuclear Medicine for Radiologic Technologist
+
+Purity
+• Radionuclide purity: Measured by comparing the photon energy emitted with expected values for the
+radionuclide.
+• Radiochemical purity: Related to radiopharmaceutical labeling; tested using thin-layer chromatography
+with acetone or saline.
+• Usually, ≥95% tagging is required.
+• Free ⁹⁹ᵐTc pertechnetate appears as unexpected activity in the stomach, thyroid, and salivary glands.
+
+Imaging radio pharmaceuticals:
+Radionuclide
+Carbon-11
+Nitrogen-13
+Oxygen-15
+
+Radiopharmaceutical
+Acetate
+Ammonia
+Gas
+
+Fluorine-18
+
+FDG (fluorodeoxyglucose)
+
+Gallium-67
+Krypton-81m
+Rubidium-82
+
+Sodium
+Citrate
+Gas
+Chloride
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Uses
+Prostate
+Cardiac perfusion
+Brain perfusion
+Tumor, cardiac viability, brain metabolism,
+infection
+Bone
+Infection, tumor
+Pulmonary ventilation
+Myocardial perfusion
+13
+
+Nuclear Medicine for Radiologic Technologist
+Radionuclide
+
+Technetium-99m
+
+Radiopharmaceutical
+Diphosphonate
+DISIDA (disofenin)
+DMSA (dimercaptosuccinic acid)
+DTPA (diethylenetriamine pentaacetic acid)
+ECD (ethyl cysteinate dimer)
+Glucoheptonate
+HMPAO (hexamethylpropyleneamine oxime)
+
+Uses
+Bone
+Biliary
+Renal cortical
+Renal dynamic, brain, lung ventilation
+Brain perfusion
+Brain, renal dynamic
+Brain perfusion
+
+HMPAO labeled white cells
+
+Infection
+
+Labeled red cells
+MAA (macroaggregated albumin)
+MAG3 (mercaptoacetyltriglycine)
+Mebrofenin
+Pertechnetate
+Sestamibi
+
+GI blood loss, cardiac function, hepatic hemangioma
+Lung perfusion, left-to-right shunt patency, intraarterial flow
+Renal
+Biliary
+Thyroid, salivary glands, Meckel diverticulum, brain
+Myocardial perfusion, parathyroid, breast
+Liver/spleen, red bone marrow, esophageal transit, gastric
+emptying
+Lymphoscintigraphy
+Myocardial perfusion
+Myocardial perfusion
+Lymphoscintigraphy
+
+Sulfur colloid
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Sulfur colloid (filtered)
+Tetrofosmin
+Tetrofosmin
+Tilmanocept
+
+14
+
+Nuclear Medicine for Radiologic Technologist
+Radionuclide
+Indium-111
+Iodine-123
+
+Radiopharmaceutical
+DTPA
+Labeled white cells
+Iobenguane
+
+Iodine-123
+
+MIBG (metaiodobenzylguanidine)
+
+Iodine-131
+Xenon-127 or 133
+Thallium-201
+
+Sodium iodide
+Gas
+Chloride
+
+Uses
+CSF flow, gastric liquid emptying
+Infection
+Somatostatin receptor tumors
+Pheochromocytoma, adrenomedullary
+tumors, neural crest tumors
+Thyroid cancer
+Lung ventilation
+Myocardial perfusion
+
+• Xenon-133 – Inert gas, used for pulmonary ventilation studies.
+• Iodine-131 – Treats hyperthyroidism & thyroid cancer.
+• Fluorine-18 (FDG) – Most common PET tracer; glucose analog for tumor, brain, cardiac imaging.
+• Strontium-89, Samarium-153, Rhenium-186 – IV therapy for painful bone metastases (prostate, breast
+cancer).
+• Gallium-67 – Cyclotron radiometal; detects inflammatory lesions/infections.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+15
+
+Nuclear Medicine for Radiologic Technologist
+
+• HIDA scan (Tc-based) – Evaluates liver, gallbladder, bile ducts.
+• Milk scan / GER (Tc-SC) – Detects gastroesophageal reflux in infants.
+• Gastric emptying (Tc-SC) – Measures delayed gastric emptying (gastroparesis).
+• GI bleeding scan (tagged RBCs) – Localizes active gastrointestinal bleeding.
+• LeVeen or Denver shunt patency (Tc-99m-MAA or SC) – Checks peritoneovenous shunt function for ascites
+drainage.
+EQUIPMENT USED IN NUCLEAR MEDICINE:
+1. GAS-FILLED DETECTORS:
+IONIZATION CHAMBER:
+• Handheld survey instruments used to measure low or high exposure rates.
+• Contains an air or gas-filled chamber.
+• Relatively low efficiency for detection of gamma rays.
+• Operates at relatively low applied voltage.
+• Use: General radiation surveys.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+16
+
+Nuclear Medicine for Radiologic Technologist
+
+GEIGER-MUELLER COUNTER:
+• Handheld, very sensitive, inexpensive survey instruments.
+• Primarily used to detect small amounts of radioactive contamination.
+• Gas-filled detector.
+• Relatively high applied voltage.
+• GM survey meters are about 10 times more sensitive than ionization chamber survey meters.
+• Use: Detecting contamination.
+
+DOSE CALIBRATOR:
+• An ionization chamber used to assay the amount of activity in vials and syringes.
+• Measures individual doses before administration to patients.
+• Units: mCi (millicurie) or MBq (megabecquerel).
+• Use: Accurate measurement of radiopharmaceutical doses.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+17
+
+Nuclear Medicine for Radiologic Technologist
+
+2. SCINTILLATION CAMERA
+GAMMA CAMERA:
+• The most widely used cameras in nuclear medicine are:
+• Simple gamma scintillation (Anger) camera
+• Single-photon emission computed tomography (SPECT) capable gamma camera
+FUNCTION OF GAMMA CAMERA:
+• Converts photons emitted by the radionuclide in the patient into a light pulse, and subsequently into a
+voltage signal.
+GAMMA CAMERA SYSTEM COMPONENTS
+• The collimator
+• The scintillation crystal
+• An array of photomultiplier tubes (PMTs)
+• Preamplifiers
+• A pulse height analyzer (PHA)
+• Digital correction circuitry.
+• A cathode ray tube (CRT)
+• The control console.
+• A computer and
+• Picture archiving systems(PACs)
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+18
+
+Nuclear Medicine for Radiologic Technologist
+
+COLLIMATOR
+(absorbs scatter radiation, produces a uniform signal)
+• Made of perforated or folded lead.
+• Positioned between the patient and the scintillation crystal.
+• Function: Absorbs and stops most radiation except that arriving almost perpendicular to the detector.
+
+Patient sholud be as
+close as possible
+from the collimator
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+19
+
+Nuclear Medicine for Radiologic Technologist
+
+CRYSTAL
+• The most common crystal used in gamma cameras is Sodium Iodide (NaI).
+• Typical thickness: 1 cm.
+• Trade-off:
+• Thicker crystals → absorb a larger proportion of gamma rays but allow more scatter → poorer spatial
+resolution.
+• Thinner crystals → better resolution but less absorption.
+RESOLUTION
+• Refers to the ability of a gamma camera to distinguish between adjacent points in an organ.
+SENSITIVITY
+• Refers to the ability of an imaging camera to detect the photons generated by the nuclides used.
+• Low sensitivity system: detects fewer photons.
+• High sensitivity system: detects more photons.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+20
+
+Nuclear Medicine for Radiologic Technologist
+
+Sensitivity in Nuclear Medicine:
+• Sensitivity (or efficiency) = fraction of incident photons that an imaging system actually records.
+• High-energy photons → more penetrating → less likely to interact.
+• Gamma cameras perform best with photons in the 100–200 keV energy range.
+Trade-off:
+• High sensitivity → relatively low resolution.
+• High resolution → relatively low sensitivity.
+RESOLUTION & COLLIMATOR SEPTA
+• A. Longer septa
+• Attenuate most photons except those exactly perpendicular to
+the crystal face.
+• Increases selectivity → increases resolution.
+• However, decreases the count rate detected.
+• B. Shorter septa
+• Allow more photons to reach the crystal → higher count rate.
+• But spatial resolution is decreased, because photons entering
+through each hole originate from a larger area.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+21
+
+Nuclear Medicine for Radiologic Technologist
+
+EFFECT OF SOURCE-TO-CAMERA DISTANCE
+• A. Source far from camera head
+• Many photons reach the crystal in an almost perpendicular
+fashion.
+• Produces a large area of impact on the crystal.
+• Increases uncertainty about the exact location of the source.
+B. Source close to camera head
+• Scintillation events in the crystal correspond more accurately to
+the actual source location.
+• Resolution is improved.
+TYPES OF IMAGES
+1. Static Images (no motion)
+1. Based on: Time and Count
+2. Example: Thyroid, Parathyroid
+2. Dynamic Images (motion inside the patient)
+1. Based on: Frame and Time/Frame
+2. Example: Renogram, HIDA
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+22
+
+Nuclear Medicine for Radiologic Technologist
+
+3. Whole Body Images (table motion)
+1. Based on: Table Speed
+2. Example: Bone WB, I-131 WB
+3. Typical speed: 12 cm/min
+4. SPECT (detector motion)
+1. Based on: Views and Time/View
+2. Example: MPI, other tomographic procedures
+5. Gated Images (motion of the heart)
+1. Based on: Beat Cycle and Frame/Beat Cycle
+2. Example: Cardiac Gated Studies
+SPECT/CT SYSTEM
+• Provides accurately co-registered SPECT and CT images.
+• Uses CT transmission images for data-rich attenuation correction.
+• CT attenuation correction → better quantification of radiotracer uptake than other methods.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+23
+
+Nuclear Medicine for Radiologic Technologist
+
+PET/CT SYSTEM
+• Provides efficient and accurate attenuation correction.
+• Shorter imaging times.
+• More precise anatomic localization of lesions.
+• Allows acquisition of diagnostic CT and PET scans in a single session.
+PET/MRI SYSTEM
+• Useful for brain pathology (stroke, tumors) and whole-body oncologic applications (e.g., liver metastases).
+• Benefits:
+• Lower radiation dose compared with PET/CT.
+• Superior soft-tissue contrast from MRI.
+• Ability of MRI to assess tissue chemistry.
+SUV MAX VALUE
+• Standardized Uptake Value (SUV): A semiquantitative parameter used in PET (and modern calibrated SPECT)
+imaging.
+• Commonly applied in analysis of 18F-FDG uptake in cancer patients.
+• Influenced by:
+• Image noise
+• Low image resolution
+• User-biased ROI selection
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+24
+
+Nuclear Medicine for Radiologic Technologist
+
+DIFFERENCE BETWEEN GAMMA CAMERA AND SPECT
+• Gamma Camera:
+• Detects gamma photons using crystals in the camera.
+• Produces a 2D projection of a 3D object (similar to an X-ray).
+• SPECT:
+• A tomographic version of the gamma camera.
+• Produces cross-sectional slices through the body.
+WHY IS SPECT/CT BETTER THAN SPECT?
+• Fusion of anatomical (CT) and functional (SPECT) information.
+• Improves image interpretation.
+• Adds diagnostic value compared with SPECT alone.
+IS SPECT MORE SENSITIVE THAN PET?
+• No. PET has:
+• Higher spatial resolution.
+• Higher sensitivity for signals.
+• Higher image quality.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+25
+
+Nuclear Medicine for Radiologic Technologist
+
+WHICH IS BETTER: SPECT OR PET?
+• PET has superior image quality and higher resolution.
+• PET images generally have fewer artifacts.
+• PET can provide quantitative estimates of blood flow.
+DIFFERENCE BETWEEN CT, MRI, PET, AND SPECT
+• CT & MRI: show form and structure of tissues/organs.
+• PET & SPECT: show function and physiology, highlighting unusual cellular activity.
+• PET: used in cancer, heart disease, brain disorders.
+SOURCES OF ARTIFACTS IN NUCLEAR MEDICINE (can be manipulated by 3 ways):
+1. Attenuation Correction – reduces artifacts from photons attenuated by overlying soft tissue.
+2. Motion Correction – compensates for artifacts caused by patient movement (vertical, horizontal, or
+rotational).
+3. Scatter Correction – reduces artifacts from photons scattered during imaging.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+26
+
+Nuclear Medicine for Radiologic Technologist
+
+TIME-OF-FLIGHT (TOF)
+• In PET systems, TOF measures the difference in arrival times of the annihilation photons.
+• Provides:
+• Better signal-to-noise (S/N) ratio.
+• More accurate localization of annihilation events compared with conventional PET.
+
+Typical Quality Control Procedures
+Performance Parameter
+Survey meter
+Well counter and organ
+uptake probe
+
+Intraoperative probe
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Quality Control Protocol
+Battery check; Background check; Constancy
+(with long-lived reference source); Calibration
+Background adjustment; Calibration; Consistency
+(with long-lived reference source); Energy
+resolution (FWHM); Efficiency (specific γ, must
+achieve ± 5%)
+Battery check; Background check; Consistency
+(with long-lived reference source)
+
+Frequency
+Before each use; Annually
+Daily; Quarterly; Annually
+
+Before each use; Annually
+
+27
+
+Nuclear Medicine for Radiologic Technologist
+
+Performance Parameter
+Dose calibrator
+
+Quality Control Protocol
+Constancy (with long-lived reference
+source); Linearity (decaying or decay
+method ± 5%); Accuracy (3 radionuclides
+± 5%); Geometry (± 5%)
+Scaled sources
+Wipe test for leaks
+Gamma Camera - Uniformity
+Intrinsic or extrinsic flood evaluated
+qualitatively
+Gamma Camera - High count
+Same
+uniformity
+Gamma Camera - Energy
+Radionuclide photopeak peaking
+spectrum
+Gamma Camera - Collimator
+Visual inspection using floods extrinsic
+damage
+daily floods
+Gamma Camera - Spatial
+Resolution phantom (quadrant bar
+resolution, linearity
+phantom)
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Frequency
+Daily; Quarterly; Annually; After
+repair, recalibration, or relocation
+
+6 months
+Daily (4–10 million counts)
+1–6 months (100–200 million
+counts)
+Daily; Whenever source or many
+hours
+Daily
+Weekly; or required by license
+
+28
+
+Nuclear Medicine for Radiologic Technologist
+
+Performance Parameter
+Gamma Camera - Energy resolution
+Gamma Camera - Energy linearity
+Gamma Camera - Count rate
+response
+Gamma Camera - Sensitivity
+
+Gamma Camera - Collimator
+integrity
+Gamma Camera - Formatter
+performance
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Quality Control Protocol
+Full width at half-maximum of
+technetium-99m photopeak
+Multiple radionuclide photopeaks
+within ± 5% of true value
+20% data loss, resolving time,
+maximum count rate for 20% data
+loss
+Count rate per microcurie with 15%
+window; calculate with daily
+extrinsic flood & collimator off
+Visual inspection for physical
+damage; evaluation of uniformity of
+all collimators
+Manufacturer’s specifications with
+resolution pattern
+
+Frequency
+Annually
+Annually
+Annually
+
+Annually
+
+Quarterly or when suspect damage
+
+Annually
+
+29
+
+Nuclear Medicine for Radiologic Technologist
+
+Performance Parameter
+Gamma Camera - Whole-body
+accessory
+Gamma Camera - Multiple window
+spatial registration
+Gamma Camera - Motion
+
+Gamma Camera - SPECT (in
+addition to above)
+Gamma Camera - Head tilt angle
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Quality Control Protocol
+Evaluation of linearity and spatial resolution
+
+Frequency
+Annually
+
+Position of 57Co (and commonly technetium99m) flood sources within 1 mm
+Specifications of SPECT, uniformity with flood
+source, center-of-rotation error (≤ 1 mm);
+resolution using Jaszczak phantom and/or 2D/3D
+Hoffman brain phantom; resolution of cold rod
+phantom (133Xe, 201Tl, or 99mTc)
+Multiple line or point sources for slice sensitivity
+profile
+Bubble level
+
+Annually
+Annually
+
+1–4 weeks
+Quarterly; as needed
+on some newer
+cameras
+
+30
+
+Nuclear Medicine for Radiologic Technologist
+
+GAMMA CAMERA IMAGING OF RADIOACTIVE SOURCES IN PATIENTS
+Three Major Components:
+1. Collimator – localizes the γ-ray source in the patient.
+2. NaI(Tl) Crystal (single or multi-crystal, covering the patient’s width) – stops the γ-rays.
+3. Array of PMTs (Photomultiplier Tubes) – localizes the γ-ray interaction within the crystal.
+
+INTRINSICALLY
+• Refers to properties specific to the crystal and PMTs.
+EXTRINSICALLY
+• Refers to properties that include the collimator.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+31
+
+Nuclear Medicine for Radiologic Technologist
+
+2. Patient Care
+Pregnancy and Radio-Pharmaceuticals
+• The use of radio-pharmaceuticals is discouraged during pregnancy.
+• Iodine crosses the placenta, and radioiodine therapy can damage the fetal thyroid.
+• Women are advised to avoid pregnancy for at least one year after radioiodine treatment.
+• The IAEA recommends using the lowest possible dose, along with hydration and frequent voiding, to
+minimize fetal radiation exposure.
+• Hydration without voiding actually increases fetal dose.
+• The maximum allowed fetal radiation dose from maternal occupational exposure is 0.5 rem.
+Preparations for Radio-Iodine Therapy
+• All patients scheduled for nuclear medicine procedures should be screened for pregnancy and
+breastfeeding.
+• Fasting improves radioiodine absorption.
+• Patients should avoid iodine-containing substances (contrast media, foods, thyroid medications, or drugs
+interfering with iodine uptake).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+32
+
+Nuclear Medicine for Radiologic Technologist
+
+Bone Scan
+• Radio-pharmaceuticals used for bone scans are excreted via urine, giving the bladder the highest radiation
+dose.
+• Hydration and frequent voiding help lower radiation exposure to the bladder.
+DaT Scan
+• DaTscan® is injected intravenously to evaluate dopamine-containing neurons, which control movement.
+• It has high binding affinity to presynaptic dopamine transporters, which are reduced in Parkinsonian
+syndromes.
+Thyroid Uptake Probe
+• A pinhole collimator may be used for thyroid imaging.
+• For uptake measurements, a flat field collimator is preferred.
+Common Sites of Bone Metastasis
+• Prostate, lung, and breast cancers commonly spread to bone.
+• The most frequent metastatic sites are the thoracic bones, spine, and pelvis (axial skeleton).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+33
+
+Nuclear Medicine for Radiologic Technologist
+
+Radiation Safety & Special Considerations
+Radiopharmaceutical Spills
+• The first priority in any spill is to contain the contamination and prevent it from spreading.
+• If 99mTc spills on clothing, the contaminated clothing should be removed and stored until the radioactivity
+decays to background levels.
+• For floor spills, access to the contaminated area should be restricted immediately.
+• Chelating agents may alter the chemical form of the material but do not reduce its radioactivity.
+• The Radiation Safety Officer (RSO) must be notified after initial containment.
+Diphosphonate Kits
+• Although package inserts state that radiopharmaceuticals prepared from diphosphonate kits are usable for
+6–8 hours, most imaging centers prefer to use them within 4 hours for optimal image quality.
+Breastfeeding Considerations in Nuclear Medicine
+• 18F-FDG: breastfeeding does not need to be interrupted.
+• Technetium-based radiopharmaceuticals: interruption ranges from 0 to 24 hours, depending on the agent.
+• Thallium-201, Gallium-67, Indium-111: breastfeeding is usually discontinued for at least a week.
+• Radioiodine therapy: breastfeeding is contraindicated for several months after administration.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+34
+
+Nuclear Medicine for Radiologic Technologist
+
+Measuring Personnel Radiation Exposure
+• Geiger-Müller counters are not used for personal exposure monitoring because of dead time limitations—
+they are better suited for detecting small amounts of radiation.
+• Personnel exposure is instead monitored using dosimeters (e.g., film badges, TLDs, OSL dosimeters).
+Radiation Dose to the Embryo/Fetus
+• A declared pregnant worker must ensure fetal radiation exposure remains below 0.5 rem (5 mSv) for the
+entire pregnancy from occupational sources.
+Radiosensitivity of Cell Types
+Relative Radiosensitivity
+
+Examples
+
+Highly sensitive
+
+Spermatogonia, erythroblasts, lymphocytes
+
+Relatively sensitive
+
+Epidermal basal cells, intestinal crypt cells, myelocytes
+
+Intermediate sensitivity
+
+Osteoblasts, spermatocytes, chondroblasts
+
+Relatively resistant
+
+Liver cells, spermatozoa, granulocytes, erythrocytes,
+osteocytes
+
+Highly resistant
+
+Neural cells, muscle cells
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+35
+
+Nuclear Medicine for Radiologic Technologist
+
+Quantities and Units Used in Nuclear Medicine
+Quantity
+
+SI Unit
+
+Conventional Unit
+
+Equivalence
+
+Meaning
+
+Activity (A)
+
+becquerel (Bq)
+
+curie (Ci)
+
+1 Bq = 2.7 × 10⁻¹¹ Ci
+
+Number of disintegrations of
+radioactive material per second
+
+Absorbed dose (D)
+
+gray (Gy)
+
+rad
+
+1 Gy = 100 rad
+
+Energy absorbed from ionizing radiation
+per unit mass of absorber
+
+Exposure
+
+coulombs per
+kilogram (C/kg)
+
+roentgen (R)
+
+1 C/kg = 3.9 × 10³ R
+
+Amount of charge liberated by ionizing
+radiation per unit mass of air
+
+Dose equivalent (H)
+
+sievert (Sv)
+
+rem
+
+1 Sv = 100 rem
+
+Absorbed dose × radiation weighting
+factor (dose × Wᵣ)
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+36
+
+Nuclear Medicine for Radiologic Technologist
+
+EXTRA INFORMATION
+✓ Thyroid scan and DMSA:
+• Must measure Pre- and Post-injection counts by placing syringe in gamma camera detectors → used to
+calculate uptake later.
+✓ Types of GI Examinations:
+1. Milk Scan – most commonly for infants, to demonstrate GERD.
+2. Gastric Emptying Study – evaluates emptying of solid or liquid meals.
+3. GI Bleeding Scan & Meckel’s Diverticulum – uses labeled RBCs.
+✓ Collimator:
+• Main function = absorb scattered radiation and form a uniform image.
+✓ Collimator Types by Energy:
+• High Energy All Purpose (HEGP): used for I-131 (364 keV).
+• Low Energy All Purpose (LEGP): used for Tc-99m (140 keV).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+37
+
+Nuclear Medicine for Radiologic Technologist
+
+✓ I-131:
+• Patients must be isolated for at least 1 week after taking I-131 therapy.
+• Used in thyrotoxicosis treatment (20–30 µCi tablets).
+• In lactating mothers → stop breastfeeding until next infant.
+• Thyroiditis: low or no uptake.
+• Thyrotoxicosis: high uptake.
+
+Beta Decay
+
+Alpha Decay
+
+𝐴
+𝑍𝑋
+
+Unstable
+atom
+
+−4
+→ 𝐴𝑍−2
+𝑌 + 42𝐻𝑒
+
+More
+stable
+atom
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+𝐴
+𝑍𝑋
+
+→ 𝑍+1𝐴𝑌 + −10𝛽
+
+218
+218
+0
+𝑃𝑜
+→
+𝑅𝑛
++
+−1 𝛽
+84
+85
+Alpha
+particle
+38
+
+Nuclear Medicine for Radiologic Technologist
+
+Table of Diagnostic Medical Radionuclides
+Radionuclide
+
+Half-life
+
+Major Decays
+
+Major Energies (MeV)
+
+Carbon 11 (C-11)
+
+20 minutes
+
+Positron emission
+
+0.511
+
+Fluoride 18 (F-18)
+
+110 minutes
+
+Positron emission
+
+0.511
+
+Gadolinium 153 (Gd-153)
+
+241 days
+
+Gamma
+
+0.097 / 0.103
+
+Gallium 67 (Ga-67)
+
+78 hours
+
+Gamma
+
+0.093 / 0.184 / 0.300
+
+Indium 111 (In-111)
+
+2.8 days
+
+Gamma
+
+0.245 / 0.171
+
+Iodine 123 (I-123)
+
+13 hours
+
+Gamma
+
+0.159
+
+Iodine 125 (I-125)
+
+60 days
+
+Gamma
+
+0.035
+
+Iodine 131 (I-131)
+
+8 days
+
+Beta / Gamma
+
+0.606 / 0.364
+
+Rubidium 82 (Ru-82)
+
+1.3 minutes
+
+Gamma
+
+0.776
+
+Technetium 99m (Tc99m)
+
+6 hours
+
+Gamma
+
+0.140
+
+Thallium 201 (Tl-201)
+
+74 hours
+
+Gamma
+
+0.167 / 0.135
+
+Xenon 133 (Xe-133)
+
+5.2 days
+
+Gamma
+
+0.081
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+39
+
+Nuclear Medicine for Radiologic Technologist
+
+3. Imaging Procedures and Protocols
+Bone scan
+Whole Body Bone Scan
+Indication
+• Detection of bone metastases for staging in patients with known or suspected cancers (breast, lung,
+prostate, kidney).
+• Evaluation of response to therapy (chemotherapy or radiotherapy).
+Patient Preparation
+• Drink plenty of fluids before and after dose administration.
+• Return 2–4 hours post-injection for imaging
+Equipment
+• Camera: Large field of view.
+• Collimator: Low Energy High Resolution (LEHR) or Low Energy All Purpose (LEAP).
+Procedure:
+• Withdraw 20–25 mCi of 99mTc-MDP or HDP in a 3–5 mL syringe.
+• Administer dose intravenously, followed by at least 10 mL normal saline.
+• Advise patient to drink plenty of fluids and empty bladder to clear soft tissue activity.
+• If a lesion is detected → take static or SPECT/CT images for localization.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+40
+
+Nuclear Medicine for Radiologic Technologist
+
+Normal Results:
+• Symmetric, uniform uptake throughout skeleton.
+• Increased activity in:
+• Joints, junctions, scapula.
+• Sternum.
+• Iliac crest.
+• Sacroiliac joints.
+• Spine.
+• Nasopharynx and soft tissue show uptake.
+• Kidneys show lightly, bladder shows brightly.
+• In children: bright uptake at epiphyseal plates and cranial sutures.
+Abnormal Results:
+• Asymmetric, focal areas of increased uptake.
+• Super Scan:
+• Bright bone uptake.
+• No visualization of kidney, bladder, soft tissue, appendicular skeleton, distal extremities, facial bones.
+• Subtle rib asymmetries.
+• Indicates metastatic involvement.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+41
+
+Nuclear Medicine for Radiologic Technologist
+
+3 PHASE BONE SCAN
+Indications:
+• Detection of primary bone cancer (osteosarcoma).
+• Stress fractures.
+• Differentiate between osteomyelitis and cellulitis.
+• Detection of arthritis and degenerative changes.
+• Evaluation of prosthesis loosening.
+• Avascular necrosis (AVN).
+• Evaluation of metabolic bone disease (e.g., Paget’s disease).
+Patient Preparation:
+• Drink plenty of fluids before and after injection.
+• Remove metal objects to avoid attenuation artifacts.
+Equipment:
+• Camera: Large field of view.
+• Collimator: LEHR (Low Energy High Resolution) / LEAP (Low Energy All Purpose) / Pinhole.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+42
+
+Nuclear Medicine for Radiologic Technologist
+
+• Computer setup:
+• Dynamic acquisition – 15–20% window width at 140 keV; anterior & posterior, matrix 128 × 128, 1 min
+(2 sec/frame × 30 frames).
+• Static acquisition – matrix 256 × 256.
+
+Procedure:
+• Withdraw 20–25 mCi of 99mTc-MDP or HDP in 3–5 mL syringe.
+• Place patient supine on imaging table.
+• Instruct patient to frequently void and drink fluids to reduce radiation dose and soft tissue activity.
+• Waiting time: 2–3 hrs for MDP, 2–4 hrs for HDP.
+• Patient must empty bladder before imaging.
+
+Normal Results:
+• Same as Whole Body Bone Scan.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+43
+
+Nuclear Medicine for Radiologic Technologist
+
+Abnormal Results:
+• Osteomyelitis: Increased uptake in all 3 phases (flow, blood pool, delay).
+• Primary bone cancer (osteosarcoma): Increased uptake in all 3 phases.
+• Prosthesis loosening: Uptake around prosthesis on bone surfaces and inside bone surfaces.
+• Stress fracture: High uptake in all phases (notably if injury occurred 3–4 weeks earlier).
+
+Extra Information:
+• About 50% of injected dose filtered through kidneys.
+• MDP and HDP mechanism: Chemisorption (ion exchange).
+• Bone scan images the bone cortex only (not bone marrow).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+44
+
+Nuclear Medicine for Radiologic Technologist
+
+Thyroid Uptake and Scan (Tc-99m)
+Indications
+• Assessment of thyroid function in cases of suspected hyperthyroidism or hypothyroidism (abnormal T3 and T4
+levels).
+• Evaluation of abnormal thyroid hormone results, particularly TSH.
+• Assessment of thyroid structure, including gland position, goiter, surgical changes, hot and cold nodules, or
+ectopic thyroid tissue.
+Patient Preparation
+• Patients must stop thyroid-related medications (such as thyroxine or antithyroid drugs) before the procedure.
+Equipment
+• Gamma camera: large field of view.
+• Collimator: Low Energy High Resolution (LEHR), Low Energy All Purpose (LEAP), or pinhole collimator.
+Procedure
+• Prepare 5 mCi of technetium pertechnetate (TcO₄) in a 3–5 mL syringe.
+• Take a pre-injection syringe count using the gamma camera (1 minute).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+45
+
+Nuclear Medicine for Radiologic Technologist
+
+Procedure
+• Administer the tracer intravenously, followed by at least 10 mL of saline. Instruct the patient to drink water
+to wash tracer activity from the esophagus.
+• Record the residual syringe count after injection.
+• After 15–20 minutes, position the patient supine with arms at the side and neck hyperextended (chin up).
+• Use a marker to detect possible ectopic thyroid tissue.
+Normal Findings
+• Euthyroid: Homogeneous tracer distribution with uptake between 0.5–4%.
+• The left lobe is smaller than the right, and a pyramidal lobe may be present.
+• The thyroid isthmus is usually not visualized.
+• Outer margins appear straight or slightly convex.
+• Thyroid uptake is equal to or slightly greater than salivary gland uptake.
+• Tracer activity is also seen in salivary glands, soft tissues, brain, stomach lining, nasopharynx, and bladder
+Abnormal Findings
+• Hyperthyroidism: Uptake exceeds 4%.
+• Hypothyroidism: Uptake is less than 0.5%.
+Additional Notes
+• Technetium pertechnetate (TcO₄⁻) is trapped by thyroid cells but not organified, while radioactive iodine is
+both trapped and organified to produce thyroid hormones (T3 and T4).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+46
+
+Nuclear Medicine for Radiologic Technologist
+
+Parathyroid Scan
+Indications
+• Detection and localization of primary or secondary parathyroid carcinoma.
+Patient Preparation
+• Patients should stop calcium-containing medications before the study.
+Equipment
+• Gamma camera: large field of view.
+• Collimator: Low Energy High Resolution (LEHR), Low Energy All Purpose (LEAP), or pinhole.
+Procedure
+• Prepare 15–20 mCi of 99mTc-Sestamibi or Tetrofosmin in a 3–5 mL syringe.
+• Inject the tracer intravenously, followed by at least 10 mL of saline. Ask the patient to wait 15–20 minutes
+before imaging.
+• Position the patient supine, with arms at the sides and neck hyperextended. Acquire early anterior images.
+• After 2 hours, acquire delayed anterior images using the same positioning, acquisition time, zoom, and matrix
+size for comparison.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+47
+
+Nuclear Medicine for Radiologic Technologist
+
+Normal Findings
+Early images: heterogeneous tracer uptake in the thyroid, salivary glands, heart, and gastrointestinal tract.
+Delayed images: washout of tracer without persistent focal uptake.
+Abnormal Findings
+• Delayed images: thyroid activity washes out but focal persistent uptake is seen (commonly from salivary
+glands to mediastinum), suggestive of parathyroid adenoma.
+• SPECT/CT fusion imaging improves localization, especially for cases such as intrathyroidal parathyroid
+adenoma.
+Additional Notes
+• Around 80% of people have four parathyroid glands; 15% may have more, while 5% may have fewer.
+• Normal glands are only a few millimeters in size, located at the upper and lower poles of the thyroid gland.
+• Parathyroid hormone (PTH) regulates calcium and phosphorus levels in the blood.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+48
+
+Nuclear Medicine for Radiologic Technologist
+
+Renogram Diuretic
+Indications
+• Assessment of renal artery perfusion.
+• Evaluation of renal tubular function and glomerular filtration rate (GFR), including blood flow, parenchymal
+function, and excretion.
+• Diagnosis of acute tubular necrosis (ATN) due to hypotension or nephrotoxic drugs.
+• Evaluation of renal transplants for perfusion and function.
+Patient Preparation
+• Drink at least 600 mL of water 30 minutes before the scan.
+• Patient must empty bladder prior to imaging.
+• Iodine IV contrast studies on the same day are contraindicated.
+• ACE inhibitors should be avoided for baseline scans, unless indicated (some centers proceed depending on
+clinical need).
+Equipment
+• Gamma camera: large field of view.
+• Collimator: Low Energy High Resolution (LEHR) or Low Energy All Purpose (LEAP).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+49
+
+Nuclear Medicine for Radiologic Technologist
+
+Procedure
+• Administer 8–12 mCi of 99mTc-DTPA or 5 mCi of 99mTc-MAG3 intravenously using a 3–5 mL syringe.
+• Position detector close to the kidneys for better resolution.
+• Instruct the patient to remain still throughout, as dynamic images cannot be repeated.
+• If needed, obtain delayed images at 30–60 minutes.
+Normal Findings
+• On flow images, both kidneys appear simultaneously, with similar size and intensity.
+• Time to peak (Tmax): 3–6 minutes.
+• Clearance (T½): 12–15 minutes for DTPA, 8–12 minutes for MAG3.
+Abnormal Findings
+• On flow acquisition, one or both kidneys may fail to appear or appear at different times.
+• Pyelonephritis: enlarged kidney with reduced activity.
+• Renal artery stenosis or hydronephrosis: asymmetric uptake.
+• Renal failure: increased uptake in liver and spleen.
+Additional Notes
+• MAG3 cannot be used to measure GFR, as it binds strongly to plasma proteins.
+• DTPA is ideal for GFR measurement: ~95% remains unbound and is filtered through the glomeruli.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+50
+
+Nuclear Medicine for Radiologic Technologist
+
+Renal Cortex Scan
+Indications:
+• Evaluation of renal cortex anatomy.
+• Detection and differentiation of acute vs. chronic pyelonephritis.
+• Detection of renal scarring.
+• Evaluation of renal transplant.
+Patient Preparation:
+• Patient must be well-hydrated before and after injection.
+• Patient should void before scanning.
+• Discontinue ACE inhibitors prior to study.
+Equipment:
+• Camera: Large field of view.
+• Collimator: LEHR (Low Energy High Resolution) or LEAP (Low Energy All Purpose).
+Procedure:
+• Withdraw 5 mCi of 99mTc-DMSA in a 3–5 mL syringe.
+• Wait 3 hours post-injection before scanning.
+• Ensure bladder is emptied prior to imaging.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+51
+
+Nuclear Medicine for Radiologic Technologist
+
+Normal Results:
+• Both kidneys visualized with similar size and intensity.
+• Hepatic uptake visible, varies with renal function.
+• Collecting system may not be seen (due to slow clearance of DMSA).
+
+Abnormal Results:
+• One or both kidneys not visualized.
+• Enlarged kidneys or decreased activity → pyelonephritis.
+• Asymmetrical activity → suggests renal artery stenosis or hydroureteronephrosis.
+Extra Information:
+• DMSA is not used for renal tubular function, because it is trapped in renal cortex for a long time and cleared
+very slowly.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+52
+
+Nuclear Medicine for Radiologic Technologist
+
+MUGA
+Indications:
+• Evaluation of left ventricular wall motion (and right ventricular wall motion in CHF).
+• Calculation of ejection fraction (EF), ventricular volume, cardiac output, and systolic/diastolic function.
+• Assessment of congestive heart failure (CHF): ischemic vs. non-ischemic causes.
+• Detection and evaluation of coronary artery disease (CAD): presence, location, extent.
+• Evaluation of cardiac symptoms: myocardial infarction, chest pain, shortness of breath, history of heart
+disease.
+Patient Preparation:
+• NPO 4–8 hours before stress study (not needed for resting study).
+• Physician may stop cardiac medications and caffeine ~4 hours before exam.
+• Attach 3- or 5-lead ECG.
+• Remove metal articles from chest (bras, buttons, prostheses).
+Equipment:
+• Camera: Large field of view.
+• Collimator: Low Energy High Resolution (LEHR) or Low Energy All Purpose (LEAP).
+Procedure:
+• Inject 20–30 mCi of Tagged RBCs (labeled with Tc-99m via pyrophosphate or stannous chloride kit).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+53
+
+Nuclear Medicine for Radiologic Technologist
+
+Procedure:
+Patient positioned supine.
+• Hook up ECG leads, check R-R interval, adjust acquisition parameters, run 15-sec test ECG if required.
+• Camera positioning:
+• Anterior (ANT)
+• Left Anterior Oblique (LAO, ~35–60°) → best septal wall separation for EF calculation; add slight caudal
+tilt (5–10%) if needed.
+• Left Lateral (LLAT), sometimes Right Lateral (RLAT) or Right Anterior Oblique (RAO) → for
+anterior/inferior wall motion & apex.
+• Start EF image around 40° LAO, adjust (30–50°) for optimal ventricular separation.
+• Collect 300–600 beats/image or acquire by preset time (5–10 min/image).
+• Process EF (auto → manual adjustments if needed). Verify by technologist cross-check if results uncertain.
+Normal Results:
+• Good blood tagging, with clear circulation in heart and major vessels.
+• Septal images show clear separation between right and left ventricles.
+• Cine: visible wall motion in septal, anterior, lateral, inferior, apex (no wall motion defects).
+• Normal EF values:
+• Left Ventricle: 50–70% or higher.
+• Right Ventricle: 40–60%.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+54
+
+Nuclear Medicine for Radiologic Technologist
+
+Cardiac stress test
+Indications:
+• Detection and evaluation of coronary artery disease (CAD).
+• Uptake of sestamibi, tetrofosmin, and thallium in myocardium is proportional to blood flow.
+• Under stress → increased flow requirements.
+• Diseased vessels → diminished/restricted flow → defects visible.
+• Results usually compared with rest test (sometimes stress-only if normal).
+• Evaluation of suspected/known coronary artery stenosis.
+• Clinical indicators: acute myocardial infarction, chest pain, shortness of breath, history/family history of
+heart disease.
+Patient Preparation:
+• Radiopharmaceuticals:
+• Tc-99m Sestamibi or Tetrofosmin: 20–30 mCi
+• Thallium-201: 3–5 mCi
+• NPO 4–12 hours (diabetics: 2 hours).
+• Clear liquids/crackers allowed for sestamibi/tetrofosmin.
+• Nothing at all for thallium (except orange juice allowed).
+• Diabetics: monitor blood sugar, adjust medications as needed.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+55
+
+Nuclear Medicine for Radiologic Technologist
+
+Patient Preparation:
+• No caffeine, dairy, sugar, xanthene derivatives for 12 hours prior.
+• Aggrenox® (dipyridamole) must be stopped 48–72 hours before.
+• Patient should be well rested; avoid strenuous exercise on day of test.
+Equipment:
+• Camera: Large field of view.
+• Collimator: LEHR (Low Energy High Resolution) or LEAP (Low Energy All Purpose).
+Procedure:
+One-Day Protocols:
+• Thallium (only):
+• Stress performed first (3 mCi).
+• Immediate imaging (within 10 min; some wait 10–15 min for “heart creep”).
+• Rest imaging after 3–4 hours, often with 1 mCi booster.
+• Thallium + Sestamibi (Dual Isotope):
+• Thallium rest study (3 mCi): Inject → wait 20 min → image.
+• Followed within 1 hr by sestamibi/tetrofosmin stress (25 mCi).
+• Optional: 24-hr delayed thallium rest (1 mCi reinjection, 5–20 min imaging) → detects
+viable/hibernating/stunned myocardium.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+56
+
+Nuclear Medicine for Radiologic Technologist
+
+Procedure:
+One-Day Protocols:
+• Sestamibi-Sestamibi:
+• Both rest and stress in same day.
+• Usually rest first (low dose 8–10 mCi), then stress (25–30 mCi) after ≥1 hr.
+• Gated images typically with higher dose study.
+• Tetrofosmin-Tetrofosmin: Same as sestamibi.
+
+Two-Day Protocols:
+• Thallium-Thallium: Stress and rest performed on different days (3–5 mCi each).
+• Thallium-Sestamibi:
+• Day 1: Thallium rest (with redistribution and optional 24-hr delay).
+• Day 2: Sestamibi/Tetrofosmin stress (20–30 mCi).
+• Sestamibi-Sestamibi:
+• Both rest and stress performed on different days (20–30 mCi each).
+• Some perform stress first → if no perfusion defects, rest study may be omitted.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+57
+
+Nuclear Medicine for Radiologic Technologist
+
+Gastric emptying
+Indications:
+• Determination of delayed gastric emptying (gastroparesis) with quantitation of gastric emptying rate.
+• Evaluation of mechanical obstruction.
+• Evaluation of anatomic obstruction (pyloric, postsurgical, post-radiotherapy).
+• Evaluation of nausea, vomiting, early satiety, upper abdominal discomfort, bloating, dyspepsia,
+gastroesophageal reflux, and/or chronic aspiration.
+• Evaluation of weight loss.
+Contraindications:
+• Allergy to eggs → use oatmeal. Substitutions may include baby food, sweet potatoes, chicken/beef liver, or
+beef stew (check with reading physician).
+• Allergy or intolerance to gluten (celiac disease) → gluten-free bread, gluten-free wheat bread, or sourdough
+bread may be substituted.
+• Allergy to strawberry → blueberry jam or other substitutes may be used.
+• Hypoglycemia: blood glucose <40 mg/dL.
+• Hyperglycemia: blood glucose >200 mg/dL.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+58
+
+Nuclear Medicine for Radiologic Technologist
+
+Equipment:
+• Camera: Large field of view.
+• Collimator: Low-energy high-resolution or low-energy all-purpose.
+
+Patient Preparation:
+• Because the test length is usually 4 hours post-ingestion, schedule in the morning.
+• Diabetic patients: give orange juice 2 hours before test if needed. Blood sugar should be controlled (<200
+mg/dL). Adjust insulin doses accordingly for the meal.
+• Patient should be NPO 4–12 hours before examination.
+• Diabetics should bring monitoring devices and insulin.
+• Discontinue sedatives 12 hours before examination.
+• Discontinue interfering medications (e.g., prokinetics such as metoclopramide).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+59
+
+Nuclear Medicine for Radiologic Technologist
+
+Procedure:
+• Radiopharmaceuticals:
+• Solid: 99mTc-sulfur colloid (SC), 99mTc-albumin colloid.
+• Liquid: 99mTc-DTPA, 111In-DTPA.
+• Imaging sessions:
+• Begin immediately after meal ingestion (anterior/posterior images = initial/X0 images).
+• Encourage patient to remain motionless during imaging.
+• Acquire anterior and posterior images for 60 seconds each.
+• A single LAO view (distal esophagus, stomach, and proximal small bowel in field of view) may also be
+used.
+• Serial imaging:
+• Immediate post-ingestion, then at 1h, 2h, 3h, and 4h post ingestion.
+• All are 60-second images.
+• Use same positioning each time; may place radioactive marker at xiphoid for positioning or draw ROI
+around stomach on p-scope.
+• Use the same camera for all imaging.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+60
+
+Nuclear Medicine for Radiologic Technologist
+
+HIDA scan
+Indications:
+• Evaluation of abdominal pain, especially right upper quadrant (RUQ).
+• Evaluation of cholecystitis:
+• Acute (calculous or acalculous) inflammation of the gallbladder, cystic duct, or common bile ducts.
+• Detection of gallbladder perforation:
+• May occur in chronic cholecystitis, immunocompromised patients, and atherosclerotic disease.
+• Detection of enterogastric reflux.
+Patient Preparation:
+• NPO for 2–14 hours before the examination (typically 4–6 hours; 2 hours for infants).
+• Clear liquids may be used only if necessary.
+• No opiates for 4–8 hours before examination.
+• If patient received opiates, note it and postpone injection/imaging for 4 hours.
+• Explain procedure to patient:
+• Usually <1 hour, but baseline studies may last up to 4 hours.
+• Delayed imaging may be required up to 24 hours in some cases.
+Equipment:
+• Camera: Large field of view.
+• Collimator: Low-energy high-resolution (LEHR) or low-energy all-purpose (LEAP).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+61
+
+Nuclear Medicine for Radiologic Technologist
+
+Procedure:
+• Radiopharmaceutical: IDA or DISIDA analogs.
+• Patient positioned supine, camera anterior (or LAO).
+• Liver in upper left quadrant of field of view (FOV).
+• Position liver in middle FOV if imaging heart shadow.
+Imaging:
+• Static imaging:
+• Immediate images, then every 5 minutes up to 30 minutes.
+• Continue at 10–15-minute intervals from 30 minutes onward.
+• Some protocols record time in seconds from the 5- or 10-minute views for consistency.
+• Dynamic imaging:
+• Acquire continuously for 60 minutes if patient can remain still.
+• Stop at 30–45 minutes if gallbladder and bowel are visualized.
+• Continue up to 90 minutes if not visualized.
+• Acquire right lateral (RLAT) static if gallbladder is seen.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+62
+
+Nuclear Medicine for Radiologic Technologist
+
+Positional Maneuvers (if non-visualization occurs):
+• No visualization of GB and/or bowel at 30–45 minutes (supine) → place patient in right decubitus position
+for 5–10 minutes, then return supine and reimage.
+• No visualization of GB and/or bowel at 30–45 minutes (ambulatory) → have patient walk for a few minutes,
+then reimage supine.
+• GB visualized but no bowel activity:
+• Turn patient to left decubitus position for 5–10 minutes, then return supine and reimage.
+• If dynamic study is ongoing and patient is alert, encourage discussion about favorite food or meal to
+stimulate gallbladder contraction.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+63
+
+Nuclear Medicine for Radiologic Technologist
+
+GI bleeding
+Indications:
+• Detection and localization of bleeding sites in patients with active or intermittent gastrointestinal bleeding.
+• Usually presents as low red blood cell counts (lab tests), blood in stool (hematochezia) or dark stool
+(melena).
+• Dark red blood may indicate small bowel or old bleed.
+• Bright red blood may indicate large bowel or anal source.
+• Causes may include:
+• Aspirin/NSAID use
+• Ulcers
+• Perforation
+• Cancers
+• Inflammation
+• Diverticula
+• Hemorrhoids
+• Angiodysplasia
+• Detection and localization of secondary blood loss (e.g., blood pooling in peritoneal cavity or ruptured
+arterial/venous supply).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+64
+
+Nuclear Medicine for Radiologic Technologist
+
+Patient Preparation:
+• Instruct the patient to empty bowel and bladder before beginning procedure.
+Equipment:
+• Camera: Large field of view
+• Collimator: Low-energy high-resolution (LEHR) or low-energy all-purpose (LEAP)
+Procedure:
+• Radiopharmaceuticals:
+• 99mTcO₄⁻ : 20–30 mCi
+• 99mTc-Sulfur Colloid (SC): 10–20 mCi
+• Labeling methods:
+• In vitro method:
+• Withdraw 2–2.5 mL of patient’s blood into a heparinized syringe.
+• Label with UltraTag® kit.
+• In vivo method:
+• Inject cold pyrophosphate.
+• After 20 minutes, inject radiotracer under camera for flow study.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+65
+
+Nuclear Medicine for Radiologic Technologist
+
+Acquisition protocol:
+• Inject radiotracer under camera if protocol requires.
+• Flow study: Performed if active bleeding suspected.
+• Tc-SC is preferred for localizing active bleeding site.
+• Note: Sulfur colloid is rapidly removed by reticuloendothelial system (RES); precise positioning, injection
+timing, and acquisition start are critical.
+• Static images:
+• Acquire immediately, then at 5, 10, 15, 30, 45, and 60 minutes.
+• Include RAO and LAO if positive findings.
+• Additional imaging:
+• If abnormality suspected after dynamic phase, image that specific area.
+• Adjust camera position:
+• Move up if suspicion in upper abdomen.
+• Acquire post-void anterior and/or lateral images if suspicion in lower pelvis.
+• Dynamic study:
+• Acquire for 60 minutes following flow phase.
+• Perform delayed imaging as needed, especially in patients with melena (black, tarry feces due to chemical
+breakdown of blood in GI tract).
+• Melena cases may require prolonged studies with delayed images.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+66
+
+Nuclear Medicine for Radiologic Technologist
+
+Lung ventilation
+Indications:
+• Evaluation and detection of acute or recurrent pulmonary embolism (PE) in conjunction with lung perfusion
+(mismatched defects).
+• Evaluation of chronic obstructive pulmonary disease (COPD) in conjunction with lung perfusion.
+• Evaluation of obstructed or constricted airways, alveolar spaces, and air distribution (shortness of breath).
+Patient Preparation:
+• Obtain a recent chest X-ray (within 24 hours) or recommend one be ordered.
+Equipment:
+• Camera: Large field of view (LFOV)
+• Collimator: Low-energy high-resolution (LEHR) or Low-energy all-purpose (LEAP)
+Procedure:
+Using 133Xe Gas
+• Positioning:
+• Preferred: Sitting position, camera posterior.
+• Alternative: Supine position, camera posterior (unless perfusion was done first, then choose best
+projection).
+• Imaging room must have negative pressure and proper exhaust.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+67
+
+Nuclear Medicine for Radiologic Technologist
+
+Procedure:
+• Field of View (FOV) Setup:
+• Use dose as marker at suprasternal notch or top of shoulders for upper FOV.
+• Ensure sides of patient and lungs (apex to base) are fully in FOV.
+• If dose is in a syringe, wave over thorax for transmission-type view.
+• Imaging Protocol:
+• Explain procedure, apply mask, and prepare apparatus (e.g., Pulmonex®).
+• Patient: Take a deep breath in and out.
+• Inject/pump gas as patient takes the next deep breath (hold if protocol).
+• Start camera simultaneously.
+• Acquire dynamic images during:
+• Inspiration (wash-in)
+• Equilibrium
+• Wash-out
+• Keep mask on for at least 60 seconds (longer as per protocol).
+• Remove mask → allow patient to breathe room air, remain still.
+• If performed after perfusion: obtain 99mTc background image using the 133Xe window.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+68
+
+Nuclear Medicine for Radiologic Technologist
+
+Using 99mTc-DTPA Aerosol
+• Positioning:
+• Preferred: Upright (sitting or standing)
+• Alternative: Supine on bed
+• Administration:
+• Inject 99mTc-DTPA into aerosol dispenser (nebulizer).
+• Place mouthpiece in patient’s mouth (with nose clip). Mask may be used as an alternative.
+• Connect nebulizer to ~10 L/min airflow from wall or tank.
+• Patient inhales normally for 5 minutes.
+• Only ~1 mCi (37 MBq) is inhaled.
+• Imaging Protocol:
+• Remove nebulizer and position for imaging.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+69
+
+Nuclear Medicine for Radiologic Technologist
+
+Using 99mTc-DTPA Aerosol
+• Imaging Protocol:
+• Acquire usual eight projections (similar to perfusion scan):
+• Anterior
+• Posterior
+• Right Lateral (RLAT)
+• Left Lateral (LLAT)
+• Right Posterior Oblique (RPO)
+• Left Posterior Oblique (LPO)
+• (Some protocols use six views instead of eight).
+
+Radiopharmaceuticals:
+• 133Xe Gas: 10–20 mCi (370–740 MBq)
+• 99mTc-DTPA Aerosol: 25–40 mCi (925–1480 MBq)
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+70
+
+Nuclear Medicine for Radiologic Technologist
+
+Lung perfusion
+Indications
+• Evaluation for pulmonary embolism (PE), the main cause being deep vein thromboses (DVTs), clots from
+recent surgery or trauma.
+• If perfusion defects match the same areas as ventilation defects → Chronic Obstructive Pulmonary Disease
+(COPD) is the likely diagnosis.
+• If perfusion defects mismatch ventilation defects → PE is the likely diagnosis.
+• A reverse mismatch is most commonly due to atelectasis (collapsed lung).
+Preparation
+• Obtain a recent chest X-ray (within 24 hours), or suggest ordering one.
+• If the patient is symptomatic, obtain a more recent chest X-ray (within 1 hour).
+• Collect any recent reports and images from related procedures.
+• Obtain a complete history and a list of all medications.
+• To assist distribution to lungs, instruct the patient to cough and take several deep breaths before injection.
+• Ensure the dose in the syringe is thoroughly mixed before injection.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+71
+
+Nuclear Medicine for Radiologic Technologist
+
+Equipment
+• Camera: Large field of view
+• Collimator: Low energy high resolution (LEHR) or low energy all-purpose (LEAP)
+Procedure
+Flow Study
+• Place patient in supine position with camera posterior.
+• Start the camera just before injection.
+Static Study
+• Administer injection to patient in supine position.
+• Acquire a series of static images in supine (or sitting) position for 500,000–1,000,000 counts each.
+• Typical views: Anterior, RAO, RLat, RPO, Posterior, LPO, LLat, LAO (or as per protocol).
+• A lung transmission (nuclear X-ray) image may also be taken, but it should precede ventilation or
+perfusion study.
+Right-to-Left Shunt Evaluation
+• Acquire anterior, posterior, and right & left lateral views of the head to verify shunt.
+• Acquire anterior/posterior whole-body sweep with a dual-head camera (preferred) if quantitation is
+desired.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+72
+
+Nuclear Medicine for Radiologic Technologist
+
+SPECT (Single Photon Emission Computed Tomography)
+• Patient positioned supine, lungs included in the field of view (FOV).
+• Begin acquisition immediately after injection.
+• Clinical Use:
+• Perfusion evaluation
+• Visualization of medial segments close to the mediastinum
+• Detection of sub-segmental defects
+Radiopharmaceutical (Lung Perfusion Study)
+• Tc-99m MAA (Macroaggregated Albumin)
+• Dose: 2–6 mCi
+Methods of Radionuclide Production
+1. Generators
+1. Contain a radioactive “parent” nuclide with a relatively
+long half-life.
+2. The parent decays to a short-lived “daughter” nuclide
+which can be used in nuclear medicine.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+73
+
+Nuclear Medicine for Radiologic Technologist
+
+2. Cyclotrons
+1. Circular devices where charged particles (e.g., protons, alpha particles) are accelerated in a spiral
+path under vacuum.
+2. Used to produce radionuclides for imaging and therapy.
+3. Reactors
+1. Composed of fuel rods containing large atoms.
+2. During fission, 2–3 neutrons and approximately 200 MeV of heat energy are released.
+3. Neutrons produced are used to generate radionuclides.
+Emission Isotopes
+• Tc-99m
+• Pure gamma emitter
+• Used mainly for diagnostic purposes (imaging)
+• Gamma emission useful for diagnostic purposes (140 keV)
+• I-131
+• Emits both gamma and beta radiation
+• In the past, it was used for both diagnosis and therapy
+• Now, it is used only for therapy
+• Beta emission is useful for therapeutic planning (364 keV)
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+74
+
+Nuclear Medicine for Radiologic Technologist
+
+References
+
+1.Shackett, Pete. Nuclear Medicine Technology: Procedures and Quick
+Reference. 3rd ed., Wolters Kluwer, 2020.
+2.Mettler, Fred A., Jr., and Milton J. Guiberteau.Essentials of Nuclear Medicine Imaging. 6th ed.,
+Elsevier Saunders, 2018.
+3.Powsner, Rachel A., Matthew R. Palmer, and Edward R. Powsner. Essentials of Nuclear
+Medicine Physics and Instrumentation. 3rd ed., Wiley-Blackwell, 2013.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+75
+
+76
+
+

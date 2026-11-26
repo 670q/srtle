@@ -1,0 +1,1698 @@
+SRTLE: A Survival Guide
+
+urse
+
+5TH Co
+
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+DAY 6
+
+CT Imaging for Radiologic
+Technologists
+
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+CT Imaging for Radiologic Technologist
+
+DAY 6
+
+Day 6 Outline
+Chapter 1.3
+CT IMAGING FOR RADIOLOGIC TECHNOLOGISTS
+I. Physics and Instrumentation
+Basic Principles of CT
+Data Acquisition
+Image Display
+Artifacts and Pitfalls
+Image Quality
+II. Pateint Care
+Patenit preparation
+Contrast agent
+Injection Techniques
+III. Imaging Procedure and protocols
+Neurologic Imaging Procedures
+Thoracic Imaging Procedures
+Abdomen and Pelvis Imaging Procedures
+Musculoskeletal Imaging Procedures
+
+3
+
+CT Imaging for Radiologic Technologist
+
+DAY 6
+
+4
+
+CT Imaging for Radiologic Technologist
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+5
+
+CT Imaging for Radiologic Technologist
+
+Section I PHYSICS AND INSTRUMENTATION
+
+1.1 FUNDAMENTAL CONCEPTS OF CT
+In CT imaging, three axes define the scan: the X-axis (left to right), the Y-axis (front to back), and the
+Z-axis (head to foot). The Z-axis determines slice thickness, while the X and Y axes define the in-plane
+resolution and field of view. Together, they control image detail and diagnostic quality.
+
+The Z axis defines the slice thickness.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+6
+
+CT Imaging for Radiologic Technologist
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+COURSE 5TH
+
+7
+
+CT Imaging for Radiologic Technologist
+
+1.2 Generations of CT scanners:
+First Generation:
+• Consists of a single X-ray tube and a single detector.
+• Operates using the translate-rotate technique, where the tube and detector move linearly across the body,
+then rotate slightly and repeat the process scanning take a long time, so this design is no longer used.
+Second Generation:
+• It contains a row of detectors.
+• It uses the same principle of transition-rotation but at a higher speed due to the increased number of
+detectors. Although scan times were shorter, they were still quite long, and this design is no longer in use.
+Third Generation:
+• It is based on the rotate-rotate technique, with a complete row of detectors rotate together around the
+patient. Most commonly used CT type
+Fourth Generation:
+• It contains a full ring of detectors fixed around the patient, while only the x-ray tube rotates. It is
+characterized by the lack of movement of the detectors, which reduces certain types of image distortions,
+but it is more expensive.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+8
+
+CT Imaging for Radiologic Technologist
+
+1.3 Beam Attenuation
+• CT Image Shades: Different structures appear as varying shades of gray, created based on radiation
+principles.
+• X-ray Beam: Consists of energy called photons. The reduction of the x-ray beam by an object is known as
+attenuation, which depends on the object's thickness, density, and atomic number.
+• Linear Attenuation Coefficient (μ): Represents the amount of x-ray beam absorbed or scattered per unit
+thickness. μ decreases with higher photon energy and increases with higher atomic number and density.
+• Density Difference: To differentiate objects on a CT image, a density difference is needed.
+• Contrast agents: (oral or intravenous) create a temporary artificial density difference between structures.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+9
+
+CT Imaging for Radiologic Technologist
+
+1.3 Hounsfield Units
+In CT, we can more accurately measure the beam attenuation properties of
+an object. These measurements are represented in Hounsfield units (HU),
+also known as CT numbers or density values.
+
+1.4 Polychromatic X-ray Beams
+CT X-ray beams are polychromatic, meaning they contain a spectrum of photon
+energies. As the beam passes through a patient, low-energy photons are absorbed
+more quickly than high-energy photons.
+• This process, called beam hardening, increases the average energy of the beam.
+Beam hardening can cause image artifacts, especially with Filtered Back Projection
+(FBP) reconstruction.
+Common beam-hardening artifacts include:
+• Cupping: central parts of the image appear less dense than the edges.
+• Streaking: dark streaks between dense objects.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+10
+
+CT Imaging for Radiologic Technologist
+
+Beam-hardening artifacts appear as dark streaks or vague areas of decreased density,
+sometimes called cupping artifacts.
+Monochromatic X-rays consist of radiation
+of a single wavelength.
+
+• Compensating Filter made from Teflon or aluminum, helps to reduce patient dose. It makes
+the x-ray beam more homogeneous.
+• By adding in a filter to decrease the amount of x-rays directed towards the periphery of the
+Patient,
+we can improve image uniformity and decrease patient dose (by decreasing dose to the
+superficial parts of the body). This filter is named a bowtie filter after its resemblance to the
+fashion accessory,
+CTDIvol will be decreased
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+11
+
+CT Imaging for Radiologic Technologist
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+12
+
+CT Imaging for Radiologic Technologist
+
+The section of data selected for display on the image is
+called the DFOV
+
+SFOV determines the area, within the gantry,
+from which the raw data are acquired
+
+The DFOV (Display Field of View) cannot be larger than the SFOV (Scan Field of View).
+
+SFOV
+DFOV
+Pateint
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+13
+
+CT Imaging for Radiologic Technologist
+
+1.5 Volume Averaging
+Thicker CT slices can obscure small details due to volume averaging, where different tissue densities blend into
+a single value. If a suspicious mass appears unclear, using thinner slices improves image accuracy and detail.
+The process in CT by which different tissue attenuation values are
+averaged to produce one less accurate pixel reading is called volume
+averaging
+
+1.6 Imaging Planes
+CT images can be displayed in different anatomical planes to provide a complete
+view of the patient’s anatomy:
+•Axial (Transverse) – horizontal slices from head to foot.
+•Coronal – vertical slices from front to back.
+•Sagittal – vertical slices from left to right.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+14
+
+CT Imaging for Radiologic Technologist
+
+Switching the imaging plane from axial to coronal is usually done for two main reasons:
+• The most important reason is when the area being examined is oriented vertically rather than
+horizontally. A good example of this is the ethmoid sinuses, which are better visualized in the coronal
+plane.
+• The second reason is to minimize artifacts that can be introduced by surrounding structures when
+imaging in the axial plane. For certain areas like the pituitary gland, the coronal plane is actually the
+preferred approach.
+When it comes to contrast resolution, CT outperforms all other clinical imaging modalities.
+The CT process can be broken down into three main segments:
+Data Acquisition → Get Data
+Image Reconstruction → Use Data
+Image Display → Display Data
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+15
+
+CT Imaging for Radiologic Technologist
+
+1.7 Pitch
+• a pitch between 1 and 1.5 is common in both SDCT and MDCT systems.
+• Generally, increasing the pitch leads to a reduction in image resolution.
+
+Q
+
+Pitch is a parameter that is commonly used to describe the CT table
+movement throughout a helical scan acquisition. It is most commonly
+defined as the travel distance of the CT scan table per 360 rotation of
+the x-ray tube, divided by the x-ray beam collimation width
+
+Increasing the pitch results in:
+1. A reduction in scan time.
+2. Less concentration of radiation.
+3. A decrease in exposure dose.
+4. A loss of image detail (quality decreases), leading to reduced spatial resolution.
+5. The typical gantry size range is between 70 and 90 cm
+6. The tilt angle usually varies from ±15° to ±30°, depending on the system.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+16
+
+CT Imaging for Radiologic Technologist
+
+2. DATA ACQUISITION
+2.1 CT Components
+Gantry
+• Is the ring-shaped structure of the scanner that houses key components for producing and detecting x-rays.
+• The gantry varies in size, with an aperture typically ranging from 70 to 90 cm. It can tilt ±15° to ±30° to
+accommodate different patient positions and scanning protocols.
+
+Slip rings
+• This design allows continuous gantry rotation, preventing cable twisting and enabling helical scanning for
+faster and more efficient imaging.
+
+Generator
+• CT scanners now use high-frequency generators
+• CT generators operate at high kV to enhance beam intensity, improving x-ray penetration while lowering
+patient dose. A higher kV setting also reduces the heat load on the x-ray tube by enabling the use of a
+lower mA.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+17
+
+CT Imaging for Radiologic Technologist
+
+Cooling mechanisms
+• These are essential to prevent overheating and ensure optimal performance of imaging components.
+
+X-ray tubes
+• CT x-ray tubes, adapted from rotating anode designs, use tungsten targets for high-intensity x-ray
+production, with small focal spots enhancing image sharpness but limiting heat tolerance.
+
+Filtering
+• Compensating filters modify the x-ray beam by eliminating low-energy x-rays, which decreases patient
+radiation exposure, reduces artifacts, and enhances image quality.
+Collimators
+• Collimators in CT limit the x-ray beam to reduce scatter, improve contrast resolution, control slice thickness,
+and minimize patient radiation dose, with source collimators shaping the beam before it reaches the
+patient.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+18
+
+CT Imaging for Radiologic Technologist
+
+2.2 Detectors
+In CT systems are sensors that capture and measure the attenuated x-ray beam after it passes through the
+patient, converting the transmitted radiation into electrical signals to create an image.
+The design, placement, and size of CT detectors influence scatter radiation reduction, spatial resolution,
+and data capture efficiency, with narrower detectors and minimal spacing improving image quality.
+
+The key features of an ideal detector are:
+• High Detector Efficiency: The ability to capture transmitted photons and convert them into electronic
+signals.
+• Low or No Afterglow: Minimal or no persistent flash of scintillation that could affect image
+reconstruction.
+• High Scatter Suppression: Effective reduction of scatter for clearer imaging.
+• High Stability: Reliable performance without frequent calibration interruptions.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+19
+
+CT Imaging for Radiologic Technologist
+
+All modern scanners detectors use solid-state crystal detectors.
+Characteristic
+
+Solid-State Crystal
+
+Pressurized Xenon Gas
+
+Photon Absorption
+
+High
+
+Moderate
+
+Sensitivity
+
+Sensitive to temperature and moisture
+
+Highly stable
+
+Material Type
+
+Solid material
+
+Low-density material (gas)
+
+Afterglow
+
+Can exhibit afterglow
+
+No afterglow
+
+Front Window Loss
+
+No front window loss
+
+Losses due to front window and plate spaces
+
+2.3 SCANNER GENERATION:
+The configuration of the X-ray tube relative to the detector determines the generation of the CT scanner.
+The way the tube and detectors move together during the scanning process distinguishes each generation of
+CT scanners.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+20
+
+JS
+
+CT Imaging for Radiologic Technologist
+
+Analog-to-digital converter (ADC)
+The detector output is an analog
+electrical signal that changes
+continuously over time. Since
+imaging systems use digital
+computers, the analog signal must
+be converted into a digital signal
+with discrete units for processing.
+
+Digital-to-analog converters (DAC)
+convert digital signals from computer
+memory into an analog format for display
+on a monitor.
+
+The data-acquisition system, or DAS, measures the number of
+photons that strikes the detector, converts the information to a
+digital signal, and sends the signal to the computer
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+21
+
+CT Imaging for Radiologic Technologist
+
+3. IMAGE RECONSTRUCTION
+3.1 RECONSTRUCTION TERMINOLOGY
+An algorithm is a clear set of steps followed in a specific order to solve a problem. It forms the foundation
+of most computer programming.
+The Fourier Transform is a mathematical technique used to transform a function or signal from its original
+domain (often time or space) into the frequency domain.
+Interpolation is a mathematical method used to estimate the value of an unknown function based on the
+known values on either side of it.
+DATA TYPES
+Raw data consists of all the measurements gathered from the detector array, and it requires significantly
+more computer storage than image data.
+Image data are the processed version of the raw data, where each pixel is assigned a Hounsfield unit
+value.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+22
+
+CT Imaging for Radiologic Technologist
+
+• Ray: The path the X-ray beam follows from the tube to the detector.
+• Ray Sum: The detector measures how much of the X-ray beam has been attenuated as each ray arrives.
+• View: A complete set of ray sums.
+• Attenuation Profile: The system considers the attenuation of each ray sum and links it to the ray's position.
+Mathematical methods
+• Back projection, also called the summation method, is a simple procedure that doesn't require complex
+mathematics but can result in a star pattern artifact.
+• Filtered back projection, also known as the convolution method, was developed to eliminate this artifact.
+The filter function, sometimes called an algorithm, convolution filter, or kernel, can only be applied to raw
+data, not image data.
+• Iterative reconstruction is an advanced technique that reduces image noise and can lower the patient's
+radiation dose by up to 50%
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+23
+
+CT Imaging for Radiologic Technologist
+
+4. IMAGE DISPLAY
+4.1 Windowing in CT Imaging
+The window refers to the range of CT numbers displayed in different shades of gray, from black to white.
+Windowing is a post-processing technique used in CT imaging to adjust the contrast and brightness
+of an image. It helps radiologic technologists and radiologists focus on specific tissues or structures
+by modifying the range of Hounsfield Units (HU) displayed on the image.
+1. The window level (WL) determines the center of the grayscale range displayed in the image.
+The window level and brightness are concepts commonly used in CT to adjust and interpret grayscale
+images effectively.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+24
+
+CT Imaging for Radiologic Technologist
+
+•Increasing WL → shifts the gray scale range to higher HU values → mid-range tissues appear darker overall.
+•Decreasing WL → shifts the gray scale range to lower HU values → mid-range tissues appear brighter overall
+•
+
+For soft tissues: A lower window level (e.g., 40 HU) is used to enhance visualization of organs like the liver
+or kidneys.
+
+•
+
+For bone: A higher window level (e.g., 400 HU) is applied to highlight dense structures like bone.
+2. Window Width (WW): Represents the range of HU values displayed on the image. Determines the
+contrast.
+A narrow WW enhances contrast but reduces the range of visible tissues, while a wide WW
+reduces contrast but allows visualization of a broader range of tissues.
+• Values within the window range are displayed in shades of gray.
+• Values above the range appear white (hyperdense).
+• Values below the range appear black (hypodense).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+25
+
+CT Imaging for Radiologic Technologist
+
+Window Type
+
+Lung Window
+
+Window Level (WL)
+
+~ -600 to -700 HU
+
+Window Width (WW)
+
+Purpose
+
+Example Applications
+
+~ 1500 to 2000 HU
+
+Evaluates lung
+parenchyma, airways, and
+emphysema.
+
+Pulmonary embolism,
+emphysema, lung
+nodules.
+Abdominal masses,
+liver lesions, lymph
+nodes.
+
+Soft Tissue
+
+~ 40 to 60 HU
+
+~ 300 to 400 HU
+
+Visualizes soft tissues like
+muscles, organs, tumors.
+
+Bone Window
+
+~ 300 to 400 HU
+
+~ 1500 to 2000 HU
+
+Focuses on dense
+structures like bones.
+
+Fractures, bone tumors,
+joint abnormalities.
+
+~ 80 to 100 HU
+
+Assesses brain tissues,
+identifying strokes or
+bleeds.
+
+Ischemic strokes,
+hemorrhages, tumors.
+
+Brain Window
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+~ 40 HU
+
+26
+
+CT Imaging for Radiologic Technologist
+
+As the window width increases, the contrast scale increase.
+As the window level increases, the brightness of the image decreased.
+Wider window width settings reduce image contrast and help suppress noise. This is often done for obese
+patients or when metallic artifacts are present.
+A narrow window width allows for better differentiation between the white and gray matter of the brain.
+Narrow Window Width
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+contrast resolution
+
+Wide Window Width
+
+Spatial resolution
+
+27
+
+CT Imaging for Radiologic Technologist
+
+5. METHODS OF DATA ACQUISITION
+What is image display in CT ?
+CT images are displayed on a black-and-white or color monitor, typically using a cathode-ray tube (CRT)
+or a flat-panel display like a TFT LCD (thin-film transistor, liquid crystal display).
+CT scans usually start with one or more localizer images.
+Localizer scans are digital images taken while the X-ray tube remains stationary and the table moves
+through the scan field.
+These images are also known as scout, surview, topogram, scanogram, preview, or pilot scans.
+Reconstruction refers to processing raw data to generate pixels that form an image.
+VS
+Reformation involves using image data to create images in different planes or 3D views.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+28
+
+CT Imaging for Radiologic Technologist
+
+6. IMAGE QUALITY
+The two primary factors used to assess image quality are:
+• Spatial Resolution
+The capability to identify fine details and structures in the image.
+• Contrast Resolution
+
+RtKidney Liser
+
+The ability to distinguish between different levels of density or contrast in the image.
+• Temporal resolution
+
+DEEE
+
+refers to the ability of an imaging system to capture and distinguish rapid changes or events over
+time commonly seen when imaging the heart.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+29
+
+CT Imaging for Radiologic Technologist
+
+7. QUALITY ASSURANCE
+7.1 QUALITY ASSURANCE METHODS:
+• Spatial Resolution (High-Contrast Resolution): Tested monthly
+• Contrast Resolution (Low-Contrast Resolution): Tested monthly
+• Slice Thickness Accuracy: Tested semiannually
+• Laser Light Accuracy: Tested semiannually
+• Noise and Uniformity: Tested weekly
+• Linearity: Measured semiannually
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+30
+
+CT Imaging for Radiologic Technologist
+
+7.2 IMAGE ARTIFACTS
+Troubleshooting Artifacts on the CT Image
+Artifact
+
+Cause
+
+Correction
+
+Beam-hardening artifact
+
+X-rays with different energies
+
+Use filtration, calibration, higher kVp, increase scan
+time, reduce pitch
+
+Aliasing effect
+
+Too few samples
+
+Increase scan time, reduce pitch
+
+Edge gradient effect
+
+Varying x-ray angles between tissues
+
+Use thinner slices, neutral contrast agents
+
+Motion (blurring/ghosting)
+
+Patient movement (voluntary or involuntary)
+
+Give clear instructions, immobilize, sedate, use faster
+scans
+
+Metallic streaks
+
+Metal objects exceed scanner range
+
+Remove metal, increase technique (kVp), use thin
+slices
+
+Ring artifacts
+
+Detector issue
+
+Recalibrate scanner, call service
+
+Tube arcing
+
+Electrical surge in x-ray tube
+
+Call service
+
+Spiral interpolation artifacts Inaccurate reconstruction from 3D view mismatch
+Cone beam effect
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Cone-shaped x-ray beam in MDCT
+
+Lower pitch
+Use pitch settings recommended by manufacturer
+
+31
+
+CT Imaging for Radiologic Technologist
+
+8. Post Processing
+Post Processing technique:
+Post-processing techniques enhance the visualization of CT data to highlight specific anatomical structures
+or pathologies.
+Rendering techniques in 3D include:
+•
+•
+•
+•
+
+Surface-shaded display (surface rendering)
+Volume rendering
+Maximum intensity projection
+Minimum intensity projection
+
+Surface-shaded display (SSD)
+is like taking a photograph of the structure's surface, used to show the outer
+shell. Only the voxels on the surface are visible, while the remaining voxels inside
+the structure are usually hidden.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+32
+
+CT Imaging for Radiologic Technologist
+
+Volume rendering (VR)
+is the preferred 3D imaging technique. An advantage of VR is that all voxels
+contribute to the image, allowing it to display multiple tissues and their
+relationships to one another.
+
+Maximum Intensity Projection (MIP)
+Reconstruction by selecting the highest-value pixels
+along an arbitrary line through the dataset
+highlights bone and contrast-filled structures, but
+lower-attenuation structures are not well visualized.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Minimum intensity projection (MinIP)
+selects the voxel with the lowest value from a
+line for display. This technique is useful for
+showing structures like the bronchial tree.
+
+33
+
+CT Imaging for Radiologic Technologist
+
+Technique
+
+Full Name
+
+Description
+
+Clinical Applications
+
+Shaded Surface Display
+
+- Generates 3D surface-rendered
+images by assigning a threshold
+value for specific structures.
+
+- Bone fractures- Facial and
+cranial structures- Implants
+
+Volume Rendering
+
+- Creates 3D images by using all
+voxel data, including soft tissues,
+bones, and vessels.
+
+- Pre-surgical planningVascular studies- Organ
+visualization
+
+MIP
+
+Maximum Intensity
+Projection
+
+- Displays only the highestintensity voxels in a dataset,
+emphasizing bright structures like
+vessels.
+
+- Angiography- Pulmonary
+nodules- Detection of
+calcifications
+
+MinIP
+
+Minimum Intensity
+Projection
+
+- Displays only the lowestintensity voxels, highlighting lowdensity structures.
+
+- Lung studies- Airways
+evaluation- Identifying
+cystic lesions
+
+SSD
+
+VR
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+34
+
+CT Imaging for Radiologic Technologist
+
+Section II : PATIENT CARE
+9.1 Communication
+Benefits of Effective Communication in Healthcare
+Patient Benefits:
+• Enhanced safety & compliance
+• Better retention & increased referrals
+• Lower malpractice risk
+Financial & Operational Advantages:
+• Greater profitability
+• Improved collections
+Staff & Workplace Benefits:
+• Higher examination quality & efficiency
+• Boosted morale & lower turnover
+• Increased personal & professional fulfillment
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+35
+
+CT Imaging for Radiologic Technologist
+
+9.2 Patient preparation
+Before starting a CT scan, the technologist must check the doctor's order and review the patient's
+clinical information.
+The selection of protocol should choose a protocol that best meets the patient's diagnostic needs
+while reducing potential risks, such as radiation exposure, adverse reactions to contrast media, or
+complications like bleeding or infections from invasive procedures.
+
+9.3 The laboratory values
+Before a routine CT scan, blood urea nitrogen (BUN) and serum creatinine levels are commonly checked.
+These values help evaluate kidney function, which is crucial when administering IV contrast.
+Similarly, lab values for blood coagulation, such as PT and PTT, are checked before procedures like
+biopsies or fluid drainage to minimize the risk of excessive bleeding.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+36
+
+CT Imaging for Radiologic Technologist
+
+The normal range for these values may differ depending on the laboratory, as well as between adult men,
+women, and children. Lab reports usually indicate when a value falls outside the expected range.
+Laboratory Test
+
+Normal Range
+
+Indicates
+
+Blood Urea Nitrogen (BUN)
+
+7 to 25 mg/dL
+
+Renal function
+
+Serum Creatinine
+
+0.6 to 1.7 mg/dL
+
+Renal function
+
+Prothrombin Time (PT)
+
+11 to 14 seconds
+
+Blood coagulation ability
+
+Partial Thromboplastin Time (PTT)
+
+25 to 35 seconds
+
+Blood coagulation ability
+
+Platelet Count
+
+150,000 to 400,000 mm³
+
+Blood coagulation ability
+
+Vital signs
+Vital signs are the earliest indicators of any physiological changes in a patient.
+They include body temperature, heart rate, breathing rate, and blood pressure.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+37
+
+CT Imaging for Radiologic Technologist
+
+Body Temperature
+Average and Normal Range of Body Temperature
+Oral: Average – 98.7°F (37.0°C), Normal Range – 96.8° to 100.4°F (36.0° to 38.0°C)
+Rectal: Average – 99.1°F (37.2°C), Normal Range – 97.2° to 100.8°F (36.7° to 38.2°C)
+Axillary: Average – 97.7°F (36.4°C), Normal Range – 95.8° to 99.4°F (35.4° to 37.4°C)
+Tympanic: This method is adjusted to align with oral or rectal temperature readings.
+
+Respirations
+Respiratory rate is typically measured while the patient is at rest by counting the number of chest rises in one
+minute.
+Normal breathing rates differ by age:
+•
+•
+•
+•
+
+adults (14-20 breaths per minute)
+adolescents (18-22)
+children (22-28)
+infants (30 or more).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+38
+
+CT Imaging for Radiologic Technologist
+
+Blood Pressure
+• Systolic pressure is the highest pressure in the arteries, occurring at the start of the heart’s pumping cycle.
+• Diastolic pressure is the lowest point, happening when the heart is at rest.
+While blood pressure can vary among individuals, a healthy adult typically has a reading of around 120 mm Hg
+(systolic) / 80 mm Hg (diastolic), spoken as "one twenty over eighty.“
+• Hypertension is when blood pressure is too high.
+• Hypotension is when blood pressure too low.
+In children, normal blood pressure ranges tend to be lower, while in older adults, they are usually higher due
+to decreased arterial flexibility.
+
+Pulse
+The typical pulse rate for:
+Adults between 60 and 100 beats per minute,
+Physically Active Individuals, it can be as low as 45 to 60 beats per minute.
+Children, the average pulse rate is between 95 and 110 beats per minute,
+Infants usually have a pulse rate ranging from 100 to 160 beats per minute.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+39
+
+CT Imaging for Radiologic Technologist
+
+Common Pulse Points in the Body
+A. Temporal Pulse (Superficial Temporal Artery): Found just in front of the ear.
+B. Facial Pulse (Facial Artery): Located along the lower edge of the jaw.
+C. Carotid Pulse (Carotid Artery): Found on either side of the neck, close to the
+midline.
+D. Radial Pulse (Radial Artery): Located on the wrist, on the thumb side.
+E. Brachial Pulse (Brachial Artery): Found inside the elbow, between the biceps
+and triceps muscles, commonly used for checking pulse in infants.
+F. Femoral Pulse (Femoral Artery): Situated in the upper thigh, near the groin
+area.
+G. Popliteal Pulse (Popliteal Artery): Found behind the knee.
+H. Dorsalis Pedis Pulse (Dorsalis Pedis Artery): Located on the top of the foot.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+40
+
+CT Imaging for Radiologic Technologist
+
+10. CONTRAST AGENT
+Contrast administration methods vary, but in CT imaging, enhancement is mainly classified into two types:
+• Intravascular (injected into veins or arteries).
+• Gastrointestinal (administered orally or rectally for digestive tract visualization).
+Contrast agents fill structures with substances that have different densities than the surrounding tissue.
+Positive Agents: These have a higher density than the structure (e.g., barium and iodine-based agents).
+Negative Agents: These have a lower density, such as air or carbon dioxide.
+Neutral Agents: These have a density similar to water, often used in gastrointestinal imaging.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+41
+
+CT Imaging for Radiologic Technologist
+
+10.1 INTRAVASCULAR CONTRAST AGENTS
+Iodinated contrast agents are widely used in radiology due to
+• Water solubility
+• Easy intravenous administration
+• High safety profile
+• Other substances tested for intravascular use were not commercially adopted due to harmful toxic effects
+
+Properties of Iodinated Agents
+Osmolality
+Osmolality refers to the number of particles in a solution per unit of liquid compared to blood.
+• High-osmolality contrast media can have up to seven times the osmolality of blood.
+• Low-osmolality contrast media has about twice the osmolality of blood.
+• Isosmolar contrast media has the same osmolality as blood.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+42
+
+CT Imaging for Radiologic Technologist
+
+Viscosity
+Viscosity refers to the thickness or resistance to flow of intravascular contrast media. It is influenced
+by factors such as the brand, temperature, and concentration of the contrast agent.
+Clearance
+Iodinated contrast media quickly distribute throughout the extracellular space, are not metabolized, and are
+primarily excreted by the kidneys, with a half-life of about 2 hours in patients with normal renal function.
+
+Dose
+
+The most common formula for calculating the dose of
+intravascular contrast for pediatric CT studies is 2 mL/kg.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+43
+
+CT Imaging for Radiologic Technologist
+
+Contrast media reaction:
+Most adverse reactions occur within minutes of injection, although some delayed reactions have been
+observed. It remains unclear whether these delayed reactions are due to chemotoxic or idiosyncratic causes.
+Chemotoxic Reactions
+Chemotoxic reactions, caused by contrast agents' pharmacologic properties, are poorly understood and
+result from factors like protein binding, enzyme inhibition, and metabolic disruption. Contrast mediainduced nephropathy is an example of a chemotoxic reaction that affects the kidneys.
+Idiosyncratic reactions
+Idiosyncratic reactions include all other unpredictable reactions.
+They usually occur within 1 hour of contrast administration and are not dose-dependent.
+The exact mechanisms behind these reactions are not well understood.
+The mechanisms of idiosyncratic reactions are not well understood, and they are rarely caused by true
+allergies, as antibodies are not produced in response to contrast media reactions.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+44
+
+CT Imaging for Radiologic Technologist
+
+• Children experience contrast reactions less frequently than adults.
+• Side effects are much rarer with the use of LOCM .
+The key way to reduce the risk of idiosyncratic contrast medium reactions is by using (LOCM).
+The risk associated with these agents is four to five times lower than that of HOCM.
+Risk factors for idiosyncratic reactions include:
+• Previous contrast medium reaction
+• Asthma
+• Allergies
+• Drugs (e.g., beta-blockers)
+There is no proof that contrast agents present a
+risk to the fetus. However, there is not enough
+evidence to be certain they pose no risk
+Less than 1% of the contrast agent dose given to the mother is excreted into breast milk.
+it is believed to be safe for the mother and infant to continue breast-feeding after receiving a contrast agent.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+45
+
+CT Imaging for Radiologic Technologist
+
+Patients identified as being at increased risk of an adverse reaction to contrast medium should
+be brought to the attention of the radiologist. If contrast media is deemed essential the patient
+should be monitored in the radiology department for 1 hour and should receive LOCM
+The risk of CIN can be reduced in patients identified as high risk by:
+• Using LOCM or IOCM
+• Hydrating the patient
+• Using the smallest dose of contrast media possible
+• Allowing 48 hours to elapse between contrast-enhanced procedures
+Metformin should be temporarily discontinued after any
+examination involving iodinated contrast; it can be resumed
+after 2 days, assuming kidney function is normal
+For patients with a history of hyperthyroidism, iodinated contrast media may worsen thyroid overactivity
+and, in rare instances, lead to a serious and potentially fatal condition known as thyroid storm."
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+46
+
+CT Imaging for Radiologic Technologist
+
+11. INJECTION TECHNIQUES
+11.1 Supplies Needed
+The recommended injection flow rates for each gauge:
+•
+•
+•
+•
+
+24G – Injection flow rate <1 mL/sec (Recommended for children)
+22G – Injection flow rate 1-2 mL/sec
+20G – Injection flow rate 2.5-3.5 mL/sec
+14-18G – Injection flow rate >3.5 mL/sec (Recommended for adults)
+
+Injection Duration: The time from the start to the end of the injection.
+Time to Peak Enhancement: The moment when contrast reaches its highest concentration.
+Arrival Time: Inversely related to cardiac output—faster heart rates shorten arrival time, while slower rates
+lengthen it.
+1. Arterial Enhancement: Achieved with a high injection rate without increasing volume (uses high flow
+rate).
+2. Parenchymal Enhancement: Depends on the total iodine dose rather than injection rate (uses high
+concentration).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+47
+
+CT Imaging for Radiologic Technologist
+
+11.2 Methods of injection
+Bolus Injection
+• A rapid injection of contrast (usually via Hand or Mechanical injector).
+• Timing is crucial for capturing arterial or venous phases.
+Drip Infusion
+• Contrast is administered slowly over time using an IV drip.
+• Less commonly used in modern CT imaging.
+Split-Bolus Injection
+• Contrast is injected in two separate doses with a delay in between.
+• Common in urography and liver imaging.
+Mechanical injection systems are standard in CT suites because
+• Ensure precise flow rates and volumes regardless of solution viscosity or catheter gauge.
+• Provide consistent and reproducible injections when parameters are recorded and repeated.
+• Programmable for a wide range of clinical applications.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+48
+
+CT Imaging for Radiologic Technologist
+
+Bolus Triggering VS Test Bolus
+Feature
+
+Bolus Triggering (Bolus Tracking, Automated Triggering)
+
+Definition
+
+Uses the actual contrast bolus to initiate scanning when
+enhancement reaches a predefined threshold.
+
+Method
+
+Low-dose monitoring scans track contrast in a selected
+vessel (e.g., pulmonary artery). Scanning begins when a
+set HU (e.g., 100-125 HU) is reached.
+
+Timing Precision
+
+More accurate and real-time tracking of contrast
+enhancement.
+
+Requires estimation and calculation, which
+may introduce slight variability.
+
+Radiation Exposure
+
+Lower, as it only uses essential monitoring scans before
+starting the actual diagnostic scan.
+
+Slightly higher due to repeated low-dose
+scans to determine peak enhancement.
+
+Delay Before Scanning
+
+Minimal delay (~3-9 seconds) due to table movement
+and adjustments.
+
+Delay depends on the trial scan results and
+calculated timing formula.
+
+Triggering
+
+Automated or manual (when HU threshold is reached).
+
+Requires manual calculation and decisionmaking by the technologist.
+
+Accuracy
+
+More efficient and precise for dynamic contrast studies Less precise but still useful for determining
+(e.g., CT angiography).
+optimal timing in certain cases.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Test Bolus
+A small amount of contrast (10-20 mL) is
+injected first, followed by trial scans to
+estimate the optimal scan delay.
+Multiple trial scans are performed at
+intervals after injecting a small contrast
+dose to measure peak enhancement
+timing.
+
+49
+
+CT Imaging for Radiologic Technologist
+
+Bolus
+Triggering
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Test Bolus
+
+50
+
+CT Imaging for Radiologic Technologist
+
+12. IMAGING PROCEDURES AND PROTOCOLS
+
+Brain CT Imaging
+Patient Positioning
+• The patient should be positioned supine, head first, with the table height adjusted
+so that the external auditory meatus (EAM) is centered.
+• To reduce eye lens radiation exposure, modern techniques favor aligning the brain
+slices parallel to the supraorbital meatal line (instead of the traditional
+orbitomeatal line). This can be achieved by:
+1. Having the patient tuck their chin toward the chest.
+2. Tilting the gantry.
+Posterior Fossa Imaging Challenges
+• Imaging the posterior fossa is difficult due to the high contrast between the dense skull bones
+and the softer brain tissues, often causing streak artifacts.
+• This limitation can be addressed by:
+• Reducing slice thickness.
+• Increasing the kVp setting.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+51
+
+CT Imaging for Radiologic Technologist
+
+Window Widths
+• Narrow window widths enhance visualization of the brain due to the subtle attenuation difference
+between gray and white matter.
+• There's a trade-off between:
+• Narrow window widths = Better contrast resolution.
+• Wide window widths = Better spatial resolution.
+Clinical Applications
+• Non-contrast CT is the preferred initial method for detecting intracranial hemorrhage (ICH).
+• CT is crucial in emergency settings for sudden neurological changes or trauma.
+• IV contrast is typically used when infection or tumors (neoplasms) are suspected.
+Contrast Use in Brain CT
+
+X-ray Attenuation in Cranial CT (in Hounsfield Units)
+
+• Without contrast: Used to detect conditions like ICH, dementia,
+infarction, hydrocephalus, and cerebral trauma.
+• With contrast: Helps identify masses, lesions, AVMs, aneurysms,
+and metastases.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+52
+
+CT Imaging for Radiologic Technologist
+
+Neck
+Patient Positioning for Neck CT:
+• Neck scans are usually done with the patient lying on their back (supine) and the neck slightly tilted
+backward. Most of the time, the scan is done using the helical (spiral) method. To get clearer images of the
+lower neck, patients should try to lower their shoulders as much as they can.
+• If there's no reason not to, IV contrast is used during the scan. The goal is to give enough time for the
+contrast to highlight the mucosa, lymph nodes, and any abnormal tissue, while still capturing images when
+the blood vessels are clearly visible.
+
+Spine
+• CT provides high soft tissue contrast, allowing visualization of intervertebral disks, ligaments, muscles, and
+bone details.
+• Intrathecal contrast improves visualization of intradural structures, often used after myelography.
+• MRI offers greater soft tissue sensitivity and is preferred for conditions like multiple sclerosis, hydromyelia,
+and syringomyelia.
+• MRI and CT are equally effective for spinal stenosis.
+• CT is superior to MRI for evaluating bony spinal abnormalities.
+• No gantry tilt
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+53
+
+CT Imaging for Radiologic Technologist
+
+Stroke
+Stroke is classified into two main types:
+• Ischemic stroke – Oxygen deficiency in vital tissues due to an arterial blockage.
+• Hemorrhagic stroke – Blood vessel rupture leads to bleeding into the brain parenchyma, CSF spaces, or
+both, caused by an arterial tear.
+A non-contrast brain CT is commonly used to evaluate cerebral circulation, tissue condition, and underlying
+diseases.
+Clinical Question
+
+Recommended Imaging Technique
+
+Determine if the stroke is ischemic or hemorrhagic
+
+Noncontrast CT
+
+Identify major vessel obstruction
+
+CT angiography
+
+Assess infarcted vs. salvageable tissue
+
+Perfusion CT and CT angiography
+
+• Arteriovenous malformations (AVMs) require contrast media for imaging.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+54
+
+CT Imaging for Radiologic Technologist
+
+CT Brain Perfusion Scans
+Perfusion studies track the flow of iodinated contrast through cerebral blood vessels.
+CT perfusion is primarily used to assess acute stroke but is also
+utilized for vasospasm and tumor grading. With modifications, it can
+evaluate cerebrovascular reserve during temporary balloon occlusion.
+
+Thorax
+Patient Positioning
+• Thoracic CT scans are typically done with the patient lying supine, arms positioned above the head.
+• In some cases—especially during high-resolution CT (HRCT) scans—prone positioning may also be used.
+Key Imaging Considerations
+• The thorax provides excellent natural contrast, making the use of IV iodinated contrast often unnecessary.
+• To minimize artifacts from respiratory motion, it’s important to use the shortest scan time possible.
+Airway and Lung Evaluation
+• Airway imaging is commonly performed during both inspiration and expiration.
+• High-Resolution CT (HRCT) is particularly valuable for assessing the lung parenchyma, especially in cases of
+suspected or confirmed interstitial lung diseases (ILD) such as fibrosis and emphysema.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+55
+
+CT Imaging for Radiologic Technologist
+
+Computed Tomography Angiography (CTA)
+• CTA is the preferred imaging technique for stable patients suspected of having pulmonary embolism (PE).
+• Pulmonary angiography has traditionally been regarded as the gold standard for diagnosing acute PE.
+• CTA scans for PE are performed in a caudal-to-cranial direction to minimize respiratory motion artifacts.
+• The quality of the CTA exam is heavily dependent on the dose, rate, and timing of the intravenous contrast
+administration, and the technologist's skill.
+• To eliminate beam-hardening artifacts caused by dense contrast media in the superior vena cava, a saline
+flush after the iodinated contrast injection is recommended for pulmonary CTA studies.
+• In cardiac CTA, the use of beta-blockers can help temporarily lower the patient’s heart rate, reducing motion
+artifacts.
+The volume of contrast used in CTA primarily depends on two factors:
+• Patient’s Physique (major effect): Larger individuals usually require more contrast to achieve optimal
+imaging
+• Scan Time (minor effect): The duration of the scan can slightly impact the contrast volume needed for
+adequate enhancement.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+56
+
+CT Imaging for Radiologic Technologist
+
+Coronary CTA: Contrast Injection Guidelines
+1. Consistently reliable contrast injection protocols are essential for accurate imaging.
+2. The ideal coronary artery attenuation should fall between 350–400 Hounsfield Units (HU).
+3. An optimal contrast dose ranges from 245 to 370 mg of iodine per kilogram of body weight.
+4. The contrast should be injected over a period of 10 to 20 seconds.
+5. A flow rate of 4 to 5 mL per second is generally preferred.
+6. A saline flush must follow the contrast injection and should be administered at the same rate as the contrast.
+7. Bolus tracking or a test bolus technique should be used to ensure proper timing of image acquisition.
+The most reliable indicator of an acute embolus is a low-density filling defect within the vessel lumen.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+57
+
+CT Imaging for Radiologic Technologist
+
+ECG Gating
+Cardiac CT scans reduce motion artifacts by capturing images during the phase with the least heart movement.
+Prospective ECG Gating
+Advantages
+• Lower radiation dose due to intermittent scanning.
+• More suitable for screening in patients without symptoms.
+• Simpler scanning process with reduced data storage needs.
+Disadvantages:
+• Sensitive to motion artifacts, especially in patients with irregular heartbeats.
+• Limited phase selection, as images are only acquired during specific cardiac phases.
+• Potential for image misregistration due to the step-and-shoot approach.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+58
+
+CT Imaging for Radiologic Technologist
+
+Retrospective ECG Gating
+Advantages:
+• Allows flexible image reconstruction at different cardiac phases.
+• Minimizes motion artifacts by selecting the best phase for imaging.
+• Enables 4D imaging and cine loops for dynamic visualization.
+Disadvantages:
+• Higher radiation dose due to continuous helical scanning.
+• More data storage required, increasing processing time.
+• Not ideal for screening, as the radiation exposure may outweigh the benefits.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+59
+
+CT Imaging for Radiologic Technologist
+
+The patient should avoid consuming caffeine for 12 hours prior to the study.
+Cardiac CT results are reported as a calcium score, which indicates the level of calcification.
+CT angiography provides a more precise assessment of coronary artery stenosis compared to a calcium score.
+
+GENERAL ABDOMINOPELVIC SCANNING METHODS
+• Administering oral contrast is essential for distinguishing between fluid-filled bowel loops and potential
+masses or abnormal fluid accumulations.
+• To avoid confusing stomach contents with pathological findings, patients should consume only clear liquids
+for a minimum of 2 hours prior to the scan.
+In general, for abdominopelvic CT the greater the
+volume of oral contrast material, the better the bowel
+opacification. Although a volume of at least 600 mL is
+desired, patient compliance may be a limiting factor.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+The bladder is best appreciated on CT when
+filled with urine or contrast agent.
+
+60
+
+CT Imaging for Radiologic Technologist
+
+ABDOMINOPELVIC SCANNING
+• To minimize motion artifacts during abdominopelvic scans, patients are instructed to hold their breath
+during image acquisition. Any movement can result in displacement or blurring of anatomical structures.
+• Multiphase imaging is commonly utilized for detailed assessment of the pancreas, liver, kidneys, and in
+many abdominal CTA protocols.
+• For optimal visualization of abdominal anatomy, a soft-tissue window setting (window width ~450, window
+level ~50) is generally effective.
+• When focusing on the liver, narrower window settings (width ~150, level ~70) can improve visualization.
+• To clearly distinguish the pancreas from the duodenum, positioning the patient in a right decubitus position
+is helpful.
+• In unenhanced CT scans, the normal attenuation of the liver ranges between 38–70 HU. In healthy
+individuals, liver attenuation should be at least 10 HU higher than that of the spleen.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+61
+
+CT Imaging for Radiologic Technologist
+
+In cases of fatty liver infiltration, the liver’s attenuation is at least 10 Hounsfield Units (HU) lower
+than that of the spleen.
+Fatty infiltration of the liver causes a reduction in the liver’s normal attenuation and creates an abnormal
+attenuation difference between the liver and spleen. This condition is best evaluated using noncontrast CT.
+Many practitioners measure attenuation by placing regions of interest (ROI) on both the liver and spleen. A
+liver attenuation value that is at least 10 Hounsfield Units (HU) lower than the spleen indicates the
+presence of hepatic steatosis.
+Liver hemangiomas typically display a distinctive appearance on CT scans. On non-contrast CT, they appear as
+well-defined, hypodense lesions. Following IV contrast administration, these lesions exhibit gradual peripheralto-central enhancement, eventually becoming uniformly enhanced over time.
+Non-contrast CT of the kidneys and ureters is typically used to detect calcifications and stones that might be
+hidden when contrast material is used.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+62
+
+CT Imaging for Radiologic Technologist
+
+CT is now the preferred imaging method for identifying and evaluating adrenal masses.
+Common Signs of Acute Appendicitis:
+1. McBurney’s sign – Localized right lower quadrant pain or guarding on palpation of the abdomen.
+2. Rovsing’s sign – Pain in the right lower quadrant when the left lower quadrant is palpated.
+3. Dunphy’s sign – Increased pain in the right lower quadrant with coughing.
+4. Hip flexion – Patient maintains hip flexion with knees drawn up for comfort.
+5. Psoas sign – Pain on hyperextension of the right thigh.
+6. Obturator sign – Pain on internal rotation of the right thigh
+
+Renal stone CT protocols utilize helical scanning from the upper poles of the kidneys down to the bladder
+base, with a slice thickness of 3 mm or less. Using thin slices improves the detection of small stones that
+could be missed with thicker sections.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+63
+
+CT Imaging for Radiologic Technologist
+
+Modality
+
+Ultrasonography
+
+Sensitivity
+(%)
+
+19
+
+Specificity
+(%)
+
+Advantages
+
+97
+
+- Accessible- Inexpensive- SafeRadiolucent stones in the kidney
+visible- No radiation dose
+
+Plain Film
+Radiography
+
+45–59
+
+71–77
+
+- Accessible- Inexpensive- Good
+reproducibility for size measurementFragmentation readily assessedGood for follow-up
+
+Intravenous
+Urography (IVU)
+
+64–87
+
+92–94
+
+- Accessible- Excellent anatomic
+definition
+
+94–96
+
+- Very high diagnostic accuracy- All
+stones visible (except certain types)Caliceal anatomy reconstructed- Info
+on other conditions
+
+Noncontrast
+Helical CT
+
+95–100
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Limitations
+- Limited accuracy for renal stonesUreteral stones not seen- Poor
+anatomic info- Poor size
+measurement- Limited alternative
+diagnosis detection
+- Radiation- Bowel gas may limit
+visibility- No caliceal anatomy infoRadiolucent stones not seen- Poor
+alternative diagnosis detection
+- Radiation- Use of contrast mediaPoor visualization of nongenitourinary conditions- Delayed
+images in obstruction
+
+- Higher radiation dose than IVURelatively expensive
+
+64
+
+CT Imaging for Radiologic Technologist
+
+First Image
+
+Phase
+
+Second Image
+
+Third Image
+
+Fourth Image
+
+Image
+
+Timing After IV Contrast
+
+Key Features
+
+Clinical Use
+
+Noncontrast Phase
+
+First Image
+
+Before contrast
+administration
+
+- Uniform kidney attenuation- No
+contrast enhancement
+
+- Baseline imagingDetecting calcifications
+or stones
+
+Corticomedullary Phase
+
+Second Image
+
+30–45 seconds
+
+- Distinction between cortex and - Assessing renal vascular
+medulla- Early enhancement phase
+anatomy
+
+90–120 seconds
+
+- Uniform enhancement of renal
+parenchyma
+
+- Most useful phase for
+detecting renal masses
+and inflammation
+
+~3 minutes
+
+- Contrast in collecting systemParenchymal enhancement fades
+
+- Evaluating collecting
+system and urinary
+drainage
+
+Nephrographic Phase
+
+Excretory Phase
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Third Image
+
+Fourth Image
+
+65
+
+CT Imaging for Radiologic Technologist
+
+CT in Musculoskeletal Imaging:
+CT is essential for evaluating musculoskeletal anatomy and disease, providing detailed imaging of bones, soft
+tissues, and tumors.
+Advantages of CT: Offers cross-sectional views, allows comparison of both sides of the body, displays bone
+and soft tissue together, provides high contrast sensitivity, and enables multiplanar and 3D reformations.
+Scanning Techniques: Patient positioning is adjusted based on the body part, ensuring symmetry. Lower
+extremities are scanned feet-first, while upper extremities are scanned head-first. AP and lateral scout images
+help localize areas of interest.
+Contrast Use: IV contrast is not routinely used in trauma cases but is helpful for detecting infections, softtissue tumors, and vascular abnormalities.
+Reconstruction & Viewing: The algorithm is chosen based on clinical needs—standard for soft tissue, highresolution for bones. Images are viewed in both soft-tissue and bone window settings.
+CT arthrography is useful for evaluation of the joint capsule and intracapsular structures and for finding loose
+bodies within the joint.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+66
+
+CT Imaging for Radiologic Technologist
+
+Notes for CT protocols
+
+:
+
+✓ KUB patient must drink water before scan
+✓ Acute appendicitis doesn’t need Iv except if it is suspected.
+✓ PNS patient lying prone (to remove fluid from the sinus)
+✓ For PE and aneurysm patient the arterial phase as fast as possible may be 13s is enough.
+✓ Contrast stored in CT room
+✓ PE patient need contrast media
+✓ Anything has low HU like blood thrombosis (hypodense) need CM
+✓ Anything has high HU like stone or calcification (hyperdense) doesn’t need CM
+✓ Lead apron unnecessary in CT (has no effect) examination
+✓ it is recommended to adjust KVP according to body mass.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+67
+
+Reference
+Romans, L. E. (2011). Computed tomography for technologists: A comprehensive text. Wolters Kluwer
+Health/Lippincott Williams & Wilkins.
+
+THANK YOU
+
+41
+
+

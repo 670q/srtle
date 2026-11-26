@@ -1,0 +1,1901 @@
+SRTLE: A Survival Guide
+5TH Co
+
+urse
+
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+DAY 8
+
+Ultrasound for Radiologic
+Technologists
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Day 8 Outline
+1.5 CHAPTER
+Ultrasound for Radiologic Technologists
+I. Physics and instrumentation
+Basic Principle of US
+Image Display
+Artifacts and Pitfalls
+Image quality
+II. Patient Care
+Patient preparation
+III. Imaging Procedure and protocols
+Abdomen and pelvis imaging procedures
+Miscellaneous
+
+3
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+4
+
+Ultrasound for Radiologic Technologists
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 8
+
+5
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+I. PHYSICS AND INSTRUMENTATION
+1.1 Basic Principle of US
+Sound is a type of energy that creates mechanical vibrations in the molecules of a substance. For sound to
+move from one place to another, it needs a material that contains molecules—so it cannot pass through a
+vacuum.
+Ultrasound consists of high-frequency sound waves that interact with body tissues. The speed at which
+these waves travel depends on tissue density, known as acoustic impedance. Denser tissues, like
+bone, have higher impedance, causing ultrasound to travel faster through them compared to less dense
+tissues like fat.
+When ultrasound waves hit a boundary between two tissues with different acoustic impedances, a
+portion of the sound is reflected back to the transducer. The greater the difference in impedance, the
+stronger the reflection.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+6
+
+Ultrasound for Radiologic Technologists
+
+•
+•
+•
+•
+•
+•
+
+DAY 8
+
+Sound is a form of energy that moves through matter in waves.
+It travels by causing particles in the material to compress and expand.
+The type of material affects the wave’s speed and direction.
+Ultrasound (U/S) probes send and receive these sound waves to produce images.
+Ultrasound uses longitudinal waves (vibrations move in the same direction as the wave).
+X-rays use transverse waves (vibrations move at a right angle to the wave direction).
+
+1.2 How to produce Ultrasound wave
+• The transducer contains piezoelectric crystals (or elements).
+• These crystals create ultrasound pulses.
+• They work by converting electrical energy into mechanical (ultrasound) waves, and can also convert
+mechanical waves back into electrical signals.
+• This two-way conversion process allows both sending and receiving of ultrasound signals.
+
+An ultrasound wave is generated when an electric current is sent through a group of piezoelectric
+crystals. This electric signal makes the crystals change shape, causing them to vibrate and create
+sound waves.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+7
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+1.3 Simple terminology definitions
+Absorption: This is the main reason sound waves get weaker (attenuated). It happens when the ultrasound
+energy turns into heat inside the body.
+Higher-frequency sound waves are absorbed more quickly.
+Acoustic impedance (Z)
+
+Z=ρ×c
+
+(ρ = density, c = speed of sound)
+A big difference in acoustic impedance between two tissues is called an impedance mismatch – this
+causes more reflection.
+Tissues with very different impedance (like gallbladder and gallstone):➝ Strong reflection
+Tissues with similar impedance (like liver and kidney): ➝ Weak reflection
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+8
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Remember:
+Dense tissues (tightly packed particles) = High acoustic impedance
+Soft or loose tissues = Low acoustic impedance
+Same type of tissue (homogeneous) = No reflection
+Different types of tissue = Reflection at the boundary (interface)
+Big impedance difference (e.g., bone vs. tissue or air vs. tissue) = ➝ Almost all the sound is reflected
+Small impedance difference (e.g., muscle vs. fat) = ➝ Only some of the sound is reflected
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+9
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Amplitude: This is the height of the wave. A bigger amplitude means more
+energy and a “louder” sound. If you increase the power of the ultrasound, both
+the amplitude and intensity go up.
+Attenuation: As sound travels through the body, it loses energy, which causes it to get weaker. This
+process is called attenuation. It happens more when the sound frequency is high or when it travels farther.
+The main causes are absorption, reflection, and scattering.
+Contact Coupling: This refers to the gel or liquid used between the transducer and the skin. It removes
+air so the sound waves can pass into the body properly.
+Diffuse Reflectors (Scatterers): These are surfaces that bounce sound waves in many directions. The
+brightness of the image doesn’t depend on the angle of the sound hitting it.
+Dynamic Range: This controls how many shades of gray you see on the screen. Lowering the dynamic
+range removes faint echoes and makes the image look sharper with more contrast.
+Echo: An echo is a sound wave that bounces back from tissue and is picked up by the ultrasound probe.
+This usually happens when the wave hits the tissue at a 90-degree angle.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+10
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+Frequency: The number of cycles of acoustic waves per second.
+
+• Audible sound has a frequency between 20 and 20,000 Hz.
+• Ultrasound has a frequency greater than 20,000 Hz.
+• Diagnostic ultrasound has a frequency of 2–20 MHz.
+Gain: The degree of amplification of the returning echo.
+• A way to overcome ultrasound attenuation is time gain compensation (TGC), in which signal gain is increased
+as time passes from the emitted wave pulse.
+• This correction makes equally echogenic tissues appear the same even if they are located at different depths.
+• If overall gain is set too high, it amplifies noise within the image and reduces both spatial and contrast
+resolution.
+• If overall gain is set too low, the image becomes too dark and detail is lost.
+
+Overall gain set too high
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Overall gain set too low
+
+11
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Piezoelectric Effect: This is the ability of a material to generate an electrical charge in response to
+applied pressure.
+The most common type of piezoelectric material found in ultrasound transducers is lead zirconate
+titanate (PZT).
+The frequency of the emitted sound depends on:
+• The frequency of the applied voltage
+• The thickness of the crystal
+• The type of imaging modality being used
+Thinner piezoelectric
+Higher frequency
+
+Thicker piezoelectric
+Lower frequency
+
+HIGHER the Resolution
+
+LOWER the Resolution
+
+LESS it can penetrate
+
+DEEPER it can penetrate
+
+Piezoelectric Crystals
+• The thickness of the crystal determines the frequency of the transducer.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+12
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Propagation Speed:
+• The speed depends on tissue density and is lowest in gases, higher in liquids, and highest in solids.
+• The average speed of sound in soft tissue is 1,540 m/s.
+• Propagation velocity is increased by increasing stiffness and reduced by increasing density.
+Examples:
+• Bone: 4,080 m/sec
+• Air: 330 m/sec
+• Soft tissue average: 1,540 m/sec
+Reflection:
+• Occurs when two large structures have significantly different acoustic impedance (such as an organ
+boundary).
+• Happens when a sound wave strikes an object larger than the wavelength.
+• Interfaces not perpendicular to the beam will not be visualized during scanning because the reflected
+echoes will not be received by the transducer.
+Refraction:
+• Occurs when the beam encounters an interface between two different tissues at an oblique angle.
+• If the angle of incidence is 90°, no refraction will occur.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+13
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Scattering:
+• Occurs when a sound wave strikes an object equal to or smaller than the wavelength.
+• Directly related to the frequency of the wave.
+Wavelength:
+• The length of one cycle, usually measured in mm.
+• As frequency increases, wavelength becomes shorter.
+Transducer Backing Material:
+• Placed behind the crystals to dampen vibrations and shorten the pulse duration.
+Beam Shape:
+• The beam is three-dimensional and symmetrical around its central axis.
+The ultrasound beam can be subdivided into two regions:
+1. Near field (Fresnel zone)
+2. Far field (Fraunhofer zone)
+• Increasing the frequency results in a longer near field.
+• A narrow crystal diameter produces a narrower beam in the near field.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+14
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Doppler Applications:
+• Continuous sound output is used in Doppler applications.
+• Most diagnostic applications use pulsed sound output.
+Beam Width:
+• Refers to the dimension of the beam in the scan plane.
+• Varies with the distance from the transducer, especially where focusing is used.
+• The width of each pulse changes with depth.
+Intensity:
+• The intensity of the beam is the power measured in watts.
+Artifacts:
+• Inherent characteristics of the beam can produce artifacts such as:
+• Side lobe artifacts
+• Beam width artifacts
+• Slice thickness artifacts
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+15
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+All the different types of transducers currently available can be categorized into three main types:
+1. Linear array transducers
+2. Curvilinear (or sector) array transducers
+3. Phased array transducers
+A: Used to image
+superficial structures and
+vessels.
+• Frequencies typically
+above 4 MHz.
+• Applications: vascular,
+small parts, and
+musculoskeletal
+imaging.
+
+C: Typically used in cardiac
+applications.
+• Operate at frequencies
+similar to curvilinear
+transducers.
+• Used to image deeplying structures and
+perform specialized
+transcranial
+investigations.
+
+B: Curvilinear transducers operate at lower frequencies,
+typically around 3.5 MHz.
+• Best suited for imaging deep-lying structures.
+• Main applications: abdominal and obstetric scanning.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+16
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Diagnostic transducers act as both a transmitter and receiver of ultrasound.
+
+Transducer Type
+
+Advantages
+
+Phased array
+
+Easy to use where access is limited - Large deep field of view
+
+Linear array
+
+Excellent resolution - Large superficial field of view
+
+Curved array
+
+Good resolution - Large deep and superficial field of view
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+17
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Types of probes and their application
+Organ
+Brain
+Brain
+Pituitary
+Thyroid, neck vessels
+Heart, aorta
+Lung, mediastinum
+Pleura
+Breast
+Spine
+Liver, gall bladder, bile ducts,
+kidney
+Pancreas, spleen, stomach,
+intestines
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Application
+Transcranial
+Intraoperative/burr hole
+Transnasal
+Transcutaneous
+Transthoracic/transesophageal
+Endobronchial ultrasonography
+(EBUS)
+Transcutaneous
+Transcutaneous
+Intraoperative
+Transabdominal/endosonographi
+c (EUS)
+
+Type of Probe
+Sector
+Convex/sector
+Linear, flexible
+Linear
+Sector
+
+Transabdominal/endoscopic
+
+Convex
+
+Convex
+Convex/sector
+Linear
+Linear/convex
+Convex
+
+18
+
+Ultrasound for Radiologic Technologists
+
+Organ
+Liver, spleen, pancreas
+Major abdominal vessels
+Uterus, ovaries, pregnancy
+Bladder, prostate
+Scrotum
+Hip
+Peripheral vessels
+Joints, muscles, skin
+
+DAY 8
+Application
+Laparoscopic
+Transabdominal
+Transabdominal/transvaginal
+Transabdominal/transrectal
+Transcutaneous
+Transcutaneous
+Transcutaneous
+Transcutaneous
+
+Type of Probe
+Linear/sector
+Convex
+Convex/RT3D
+Convex/linear
+Linear
+Linear
+Linear
+Linear
+
+2. Resolutions
+Resolution
+Resolution refers to the ability of an imaging system to distinguish between structures, images, or events
+and display them as separate entities.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+19
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+1. Spatial Resolution – Resolution in Space
+This is the ability to display two structures located close together as separate images. It depends on
+the wavelength.
+For example, a 5 MHz ultrasound beam has an approximate wavelength of 0.3 mm, so it is not
+possible to resolve objects smaller than 0.3 mm.
+Spatial resolution is divided into two components:
+• Axial Resolution – Resolution along the screen (depth). Higher
+frequencies produce shorter pulse lengths, resulting in better axial
+resolution. However, using a large field of view (FOV) can reduce axial
+resolution.
+• Lateral Resolution – Resolution across the screen. It depends on
+beam width; a narrow beam width provides better spatial
+resolution. Two structures can only be resolved as separate
+images if the distance between them is greater than the beam
+width. The best lateral resolution is achieved at the focal zone.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Poor axial resolution and
+good axial resolution
+
+Poor lateral resolution and
+good lateral resolution
+20
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+2. Contrast Resolution – Resolution of Gray Shades
+Contrast resolution is the ability of the imaging system to distinguish between body tissues and
+display them as different shades of gray.
+Controls that affect contrast (and therefore contrast resolution):
+• Gain (amplification)
+• Time-Gain Compensation (TGC)
+• Post-processing and pre-processing options
+• Harmonic imaging – improves contrast
+3. Temporal Resolution – Resolution in Time
+Temporal resolution is the ability of the imaging system to display events occurring at different times as
+separate images.
+It is determined by the frame rate (the number of images displayed per second).
+Tip for optimizing resolution:
+Select the highest frequency that still provides adequate penetration.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+21
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+4. Ultrasound Artifact
+Ultrasound Artifact
+An artifact is an alteration in the ultrasonographic image that does not represent an actual depiction of
+the examined area.
+Artifacts may result from:
+• Technical imaging errors (operator-dependent)
+• Ultrasound wave interaction with the human body
+Awareness, identification, and understanding of the basic mechanisms behind ultrasound artifacts are
+essential for reducing the risk of misdiagnosis.
+1. Acoustic enhancement artifact
+Appearance A low attenuation region with increased echo amplitude
+(Figure A).
+Physics:
+This occurs due to the low attenuation of the ultrasound beam when
+passing through fluid, compared to the greater attenuation in the
+adjacent, stronger tissue. As a result, no echoes are reflected in that
+area.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+22
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Typical occurrence:
+• Found behind fluid-filled structures such as the gallbladder, urinary
+bladder, or cysts.
+• The presence of acoustic enhancement helps identify cystic masses
+(Figure B).
+• Sometimes appears due to the application of Time Gain
+Compensation (TGC) in areas with low attenuation, such as fluid.
+
+Diagnostic use:
+Acoustic enhancement artifact can be a useful aid, particularly when scanning a soft-tissue mass or
+cyst containing low-level echoes.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+23
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+2. Mirror Artifact
+Appearance as a duplicated area with a high acoustic mismatch (Figure A).
+Physics:
+Mirror artifact is a type of primary ultrasound beam path artifact caused by the
+presence of a highly reflective surface. The returned echoes are not reflected
+directly back to the transducer; instead, they are reflected to another surface
+before returning.
+As a result, the image is duplicated — the real image from the original
+beam and the mirror image from the return echoes are both displayed
+(Figure B).
+This artifact usually occurs when there is a large acoustic mismatch, such
+as at a fluid–air interface.
+Prevention:
+Changing the patient’s position and adjusting the probe angle are recommended methods to eliminate
+its occurrence. It arises due to specular reflection of the beam at a large, smooth interface.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+24
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+3. Acoustic Shadowing Artifact
+Appearance:
+A low-amplitude echo area (hypoechoic or anechoic) located behind a tissue
+that significantly attenuates the ultrasound beam (Figure A).
+Physics:
+This artifact is caused by heavy attenuation of the ultrasound beam at an interface
+that transmits minimal sound. The attenuation may occur due to (Figure B):
+• Absorption of the sound waves.
+• Reflection of the sound waves.
+Acoustic shadowing typically occurs at interfaces with large acoustic
+incompatibility, such as:
+• Gas and soft tissue – where beams are almost completely attenuated by
+reflection
+• Bone or calculus – where attenuation results from approximately 40% beam
+B
+reflection and 60% absorption by bone
+Diagnostic Clues:
+• If the shadowing contains reverberation (ringdown) echoes, it is likely caused by gas.
+• If the shadowing is a clear, clean shadow without ringdown echoes, it is likely caused by a calculus.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+25
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+4. Reverberation Artifact (Comet Tail)
+Appearance:
+A series of closely spaced, small echogenic bands appearing on the
+ultrasound image (Figure A).
+Physics:
+This is a type of reverberation artifact that occurs when two strong parallel reflectors (i.e., multiple
+media) are encountered by the ultrasound beam. As a result:
+• Delayed echoes are produced.
+• Ultrasound amplitude is reduced as the echo width decreases (Figure B).
+Common causes include the ultrasound beam passing through:
+• Metal objects (e.g., needles, surgical instruments)
+• Foreign bodies
+B
+• Calcifications
+Methods to Reduce or Eliminate the Artifact:
+• Apply an increased amount of ultrasound gel.
+• Use optimal gain settings.
+• Change the patient’s position.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+26
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+5. Ring down artifact
+Appearance
+• Multiple parallel echogenic lines extending back to a gas collection
+(figure A).
+Physics
+• A special type of resonance artifact appearing as a solid streak or
+series of parallel bands radiating away from collections of abdominal
+gas.
+• Compared with comet tail artifact, this is caused by gas rather than
+metal.
+• Trapped fluid resonates, giving the transducer a continuous signal
+back (figure B).
+• This artifact can be minimized or excluded by angling the ultrasound
+probe.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+27
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+A
+
+6. Side lobes artifact
+Appearance
+• Echogenic, linear, or curvilinear artifacts characteristic of side
+lobe artifacts (figure A).
+Physics
+• Appears when low-intensity ultrasound beams lie outside the main axis
+of the beam.
+• Caused when side lobes of the transducer reflect sound from a strong
+reflector outside the central beam.
+• The echoes are displayed as if originating from within the central beam
+(figure B).
+• Best seen in anechoic structures due to their low intensity and disappear
+at lower gain settings.
+• May contribute to misdiagnosis of cyst-based septations.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+B
+
+28
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+7. Gain Artifact
+Appearance
+• Caused by exaggerated increase in monitor brightness (figure A).
+• Pathological changes may be obscured.
+• Remedy: use optimal brightness to visualize fine structures.
+
+A
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+29
+
+4. Ultrasound Display modes
+Common clinical applications:
+• Brightness Mode (B-mode / B-scan / Gray-Scale Sonography):
+Provides a gray-scale anatomic display that can be presented in 2D or 3D forms.
+• Motion Mode (M-mode):
+Used in echocardiography to assess moving structures such as heart valves and walls.
+• Amplitude Mode (A-mode):
+Applied in ophthalmology for measuring distances and detecting ocular structures.
+
+Time requires for
+returning echo
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+30
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+1. A-mode (Amplitude Mode)
+• Reflected echoes are displayed on a graph as vertical deflections
+along a time axis.
+• Location of deflections depends on the echo transit time.
+• Amplitude (height) depends on the intensity of the echoes.
+• Used to assess an organ’s dimensions and show depth of an organ.
+• Greater reflection at a tissue interface = larger signal amplitude.
+Applications:
+1. Detection of fetal heart (heartbeat)
+2. Placental localization
+3. Ophthalmological scanning (depth and dimension)
+4. Midline echoencephalography for rapid screening of intracranial mass
+2. B-mode (Brightness Mode) (most common)
+• Returning echoes are displayed as shades of gray rather than deflections
+along a baseline.
+• Brightness of the dot is proportional to the echo signal amplitude.
+• Provides excellent spatial resolution.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+31
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Applications:
+1. Abdominal scanning
+2. Pelvic scanning
+3. Obstetrics & Gynecology
+4. Small parts scanning (high frequency)
+3. M-mode (Motion Mode)
+• Used to display moving structures.
+• Provides excellent temporal resolution.
+Application:
+1. Echocardiography
+
+5. Biological Effects Of Ultrasound
+Ultrasound produces biological effects by two tissue interactions: heating and cavitation.
+• Heating: Caused by the mechanical friction of tissue movement during the passage of the ultrasonic
+wave.
+• Cavitation: The production and collapse of small bubbles in the inter- and intracellular tissue fluid.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+32
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Intensity
+• The rate at which energy passes through a unit area.
+• Important in discussing bioeffects and safety.
+• Average intensity = power of the ultrasound beam (W) ÷ cross-sectional area of the beam (cm²).
+• The maximum intensity occurs at the focus (narrowest part of the beam).
+There are two distinct mechanisms that can cause biological effects on tissue when exposed to
+ultrasound:
+1. Thermal (Heating)
+As the ultrasound beam travels through tissue, some energy is lost through absorption and converted
+into heat, causing a temperature rise.
+Depends on:
+• Attenuation coefficient of the tissue
+• Operating frequency
+• Power/intensity of the ultrasound beam
+• Length of operating time (exposure time)
+• The thermal effect is highest in tissues with a high absorption coefficient (e.g., bone).
+• It is lowest where there is little absorption (e.g., amniotic fluid/water).
+Thermal Index (TI): The ratio of the acoustic power produced by the transducer (W) to the power
+required to raise tissue temperature by 1°C (W/°C).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+33
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+2. Non-Thermal Effects (Cavitation)
+Ultrasound produces an oscillating pressure wave that propagates through tissues, which can cause
+micro-bubbles.
+• Increased by high intensity and low frequency.
+Forms of cavitation:
+1. Stable Cavitation (Non-Inertial) – Generally regarded as safe.
+2. Unstable Cavitation (Transient/Inertial) – Has the greatest potential to damage tissue.
+The use of contrast agents (stabilized gas bubbles) increases the probability of cavitation.
+
+Simple terminology definitions
+Velocity is the rate at which a sound wave moves through a
+medium.
+It does not depend on the wave’s frequency, but mainly on
+the medium’s physical properties — specifically its
+density and stiffness.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+34
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Factors Affecting Propagation
+The speed at which sound travels through a material is determined by its stiffness and density.
+• Stiffness (Bulk Modulus): Even a small increase in stiffness causes a large increase in sound velocity.
+• Density: Higher density slightly reduces the speed of sound.
+• Compressibility: This is the opposite of stiffness — greater compressibility leads to a slower sound
+propagation speed.
+Stand-off pads
+These are used to increase the distance between the ultrasound probe and a lesion that is located very
+close to the skin surface. They help position the area of interest within the probe’s focal zone, reduce or
+eliminate reverberation artifacts, and improve overall image quality.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+35
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+6. Doppler Ultrasound
+A Doppler ultrasound is a non-invasive test used to investigate movement, particularly to evaluate
+blood flow in arteries and veins.
+Uses / Diagnostic Applications
+Doppler ultrasound can help diagnose:
+• Heart valve defects and congenital heart disease
+• Blocked artery (arterial occlusion)
+• Narrowing (stenosis) of an artery
+• Movement of the cardiac wall
+• Blood clots (deep vein thrombosis)
+• Varicose veins (venous insufficiency)
+• Arteriovenous malformations
+Principle
+The Doppler effect is utilized in ultrasound to detect blood flow by analyzing the relative frequency
+shifts of the received echoes caused by the movement of red blood cells.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+36
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Information Provided by Doppler Ultrasound
+1. Presence or absence of blood flow
+2. Direction of blood flow
+3. Velocity of blood flow
+Doppler Shift Formula
+Doppler Shift = Wave emitted by the probe−Reflected wave
+The frequency shift detected depends on:
+• The magnitude of blood flow
+• The direction of blood flow
+
+When blood flows
+toward the ultrasound
+transducer, the Doppler
+signal shifts positively.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+When blood flows
+away from the
+ultrasound
+transducer, the
+Doppler signal shifts
+negatively.
+37
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Another Factors:
+1. Higher blood flow velocities create larger Doppler shifts, and lower velocities produce smaller shifts.
+2. The smaller the angle between the Doppler beam and the blood vessel, the stronger the Doppler
+shifted signal. Ideally, the Doppler beam angle should be between 30 and 60 degrees.
+3. No Doppler shift occurs at a 90-degree angle because the blood cells are moving perpendicular to
+the beam. Stationary blood cells reflect the ultrasound wave at the same wavelength,
+producing no Doppler shift.
+Types of Doppler Ultrasound Instruments:
+1. Continuous Wave Doppler (CW):
+•
+•
+•
+
+Used for fetal heart monitoring and superficial peripheral blood flow.
+It cannot localize where the Doppler shifts are produced.
+The transducer has two piezoelectric crystals: one continuously transmits
+sound waves (Ft), and the other continuously receives echoes (Fr)
+
+2. Pulsed Wave Doppler (PW):
+•Used to measure blood flow velocities at a specific location (sample volume).
+•Provides both velocity information and precise range (depth) localization.
+•Utilizes a single piezoelectric crystal that alternates between transmitting (Ft) and
+receiving (Fr) sound pulses.
+•Limitation: subject to aliasing at high velocities due to the Nyquist limit.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+38
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Advantages of Color Doppler and Power Doppler
+COLOR DOPPLER
+
+POWER DOPPLER
+
+Determines flow direction
+
+Slightly more sensitive
+
+Determines relative flow velocity
+
+Less affected by Doppler angle
+
+Less affected by tissue motion
+Less affected by probe motion
+How to Improve Doppler Sensitivity
+BASIC CONTROLS
+
+ADVANCED CONTROLS
+
+Increase Doppler gain
+
+Decrease wall filter
+
+Increase power output
+
+Increase pulses per line
+
+Decrease Doppler scale
+
+Increase color priority
+
+Decrease Doppler angle
+
+Decrease Doppler steering
+
+Adjust transmit frequency
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+39
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Doppler Flow Modes:
+1. Color Doppler Imaging:
+• Detects overall blood flow and its direction.
+• BART rule:
+• Blue indicates flow Away from the probe.
+• Red indicates flow Towards the probe.
+2. Spectral Doppler Imaging:
+• Measures the velocity of blood flow.
+• Combines with B-mode and color flow imaging.
+• Allows detailed assessment of blood flow within a very small region
+called the sample volume.
+3. Color Power Doppler Imaging:
+• Measures flow sensitivity, especially useful for detecting low-velocity
+signals.
+• Commonly used for imaging blood flow in vessels like the renal and
+vertebral arteries.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+40
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Note:
+In most real-world clinical cases, it’s not practical to have an insonation angle of 0 degrees (where the
+ultrasound beam is perfectly aligned with blood flow). However, angle correction can be applied to get
+an accurate velocity measurement.
+• Angle correction works well and is considered reliable when the insonation angle is less than 60
+degrees.
+• When the angle exceeds 60 degrees, velocity calculations can have errors up to 20–30%.
+
+Remember:
+• The maximum Doppler shift and the true velocity occur when the ultrasound beam is parallel to
+the blood flow (0 degrees).
+• This is because the Doppler shift depends on the cosine of the angle between the beam and flow,
+and the cosine of 0 degrees is 1 (meaning full shift).
+• When the blood flow is perpendicular to the beam (90 degrees), no Doppler shift is detected since
+the cosine of 90 degrees is 0.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+41
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Factors for Optimizing Doppler Imaging:
+1. Gain:
+• Increasing gain too much causes noise and false flow signals in areas without vessels (called “blooming”).
+• Too low gain hides real blood flow.
+• Best practice: raise gain until you see some artifacts in nonvascular areas, then lower it a bit for a clear
+image.
+2. PRF (Pulse Repetition Frequency) / Scale:
+• PRF controls how many ultrasound pulses are sent per second.
+• Higher PRF lets you measure higher blood flow velocities.
+• If blood flow velocity exceeds the PRF limit, aliasing happens—this distorts velocity and direction
+info in color and pulsed wave Doppler.
+• Increasing PRF reduces aliasing but makes it harder to detect slow flow.
+• Lowering PRF increases sensitivity to low velocities but risks aliasing if flow is fast.
+3. Wall Filter:
+• Removes low-frequency signals caused by movement of vessel walls or nearby tissues, reducing noise.
+• Setting it too high can accidentally filter out real slow blood flow, so it needs careful adjustment.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+42
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+4. Sample Volume Size:
+• In color Doppler, the “sample box” defines the area examined. Larger boxes lower frame rate and
+temporal resolution, so keep the box just big enough.
+• In pulsed wave Doppler, the sample volume (or “gate”) should be about two-thirds the width of the
+vessel to focus on faster central flow and reduce artifacts like spectral broadening.
+5. Doppler Angle:
+• In pulsed wave Doppler, adjust the Doppler angle to less than 60 degrees for accurate velocity
+measurement.
+• Small angle changes below 60 degrees cause minimal velocity errors.
+• Angle correction is done by aligning a marker on the Doppler gate with the vessel’s long axis.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+43
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+III. Imaging Procedures and Protocols
+Liver Scanning Protocol
+• Size:
+• Echogenicity:
+1. Normally appears hyperechoic (brighter) than the renal cortex.
+2. Normally appears hypoechoic (darker) than the pancreas.
+•
+Echotexture: The liver should have a homogeneous
+appearance with mid-gray to moderately echogenic parenchyma.
+• Hepatic Vascular Structures:
+Hepatic veins and portal veins appear anechoic.
+Anechoic segments of blood vessels may be scattered throughout the parenchyma.
+Portal vein diameter should generally be ≤ 16 mm during quiet respiration in a resting state.
+• Patient Positioning:
+• Start supine.
+• Adjust as needed: left lateral decubitus, left posterior oblique, semi-erect, erect, or prone
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+44
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+• Patient Preparation:
+
+• Fast for 8–12 hours before the scan. This allows normal gallbladder and biliary tract distension and
+reduces bowel gas in front of the pancreas
+• This is important because the liver, biliary system, gallbladder, and pancreas are functionally linked.
+• If the patient has eaten, still proceed with the exam.
+• Transducer Selection:
+• Use 3.0 or 3.5 MHz for most patients.
+• Use 5.0 MHz for very thin patients or when scanning the left lobe, and 3.0–3.5 MHz for the right lobe.
+• Breathing Technique:
+•
+
+Deep, held inspiration to improve visualization.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Characteristic
+
+Appearance
+
+Size
+
+< 15 cm
+
+Echogenicity
+
+≥ Right kidney, < pancreas, < spleen
+
+Parenchyma
+
+Homogeneous
+
+Surface
+
+Smooth
+45
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Checklist for Portal Hypertension:
+• Presence of portocaval collaterals at the porta hepatis.
+• Portal vein diameter at the porta hepatis is ≥ 15 mm.
+• Splenic vein dilation greater than 12 mm.
+• Splenomegaly (enlarged spleen).
+• Ascites present.
+• Recanalized umbilical vein (Cruveilhier-Baumgarten syndrome).
+• Esophageal varices (may cause bleeding).
+Checklist of Cirrhosis Criteria:
+• Loss of the thin hyperechoic capsule line.
+• Reduced peripheral vascularity.
+• Hepatic vein angle widened to > 45°.
+• Abrupt changes in the caliber of the portal vein.
+• Possible enhanced “embankment” appearance in the portal vein.
+• Regenerating nodules with displaced vessels.
+Additional Findings in Late-Stage Cirrhosis:
+• Rounded liver shape with obtuse marginal angles.
+• Liver shrinkage.
+• Evidence of portal hypertension.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+46
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Viral Hepatitis
+• Acute:
+1. Hepatosplenomegaly present due to edema.
+2. Liver parenchyma appears normal or hypoechoic.
+3. Portal vein walls may appear more prominent.
+4. Gallbladder wall thickening may be seen.
+• Chronic:
+1. Liver size remains normal.
+2. Liver parenchyma appears coarse and
+hyperechoic.
+3. Increased echogenicity of the portal triads.
+General Sonographic Features of Hepatitis
+• Starry sky appearance can occur, but it has low
+sensitivity and specificity.
+• Gallbladder wall thickening may also be present.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+47
+
+Ultrasound for Radiologic Technologists
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 8
+
+48
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Kidney Scanning Protocol
+• Size:
+• Echogenicity:
+1. Renal cortex: mid-gray, homogeneous (uniform
+echo pattern) with a smooth contour.
+2. Renal sinus: bright (hyperechoic) with irregular
+borders, interrupted by anechoic (urine-filled) medullary pyramids and blood-filled vessels.
+• The cortex is hypoechoic (less echogenic) compared to the adjacent normal liver.
+• Echotexture:
+• Normal adult kidney appears heterogeneous due to the contrast between the renal cortex and renal sinus.
+• Patient Preparation:
+• None required.
+• Transducer:
+• 3.0 MHz or 3.5 MHz.
+• Use 5.0 MHz for very thin patients
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+49
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+• Breathing Technique:
+• Deep, held inspiration.
+• Deep inspiration moves the kidneys downward, making them easier to visualize on ultrasound.
+Note:
+Deep inspiration lowers the position of the kidneys, improving their visibility on ultrasound.
+• Patient Position
+Right Kidney:
+• Supine.
+• Left posterior oblique, left lateral decubitus, or prone if needed.
+Left Kidney:
+• Right lateral decubitus.
+• Prone if needed.
+Note:
+Use alternative patient positions if the recommended position does not provide adequate imaging
+results.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+50
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Characteristics of Normal Kidney
+Characteristic
+Size
+Echogenicity
+Parenchyma
+Renal sinus
+Surface
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Appearance
+Average, 11 cm (range, 9-13 cm)
+Right < liver, left < spleen
+Homogeneous (except for hypoechoic
+pyramids)
+Hyperechoic
+Smooth
+
+51
+
+Ultrasound for Radiologic Technologists
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 8
+
+52
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Causes of Hydronephrosis
+Common
+Obstruction
+Previous obstruction
+Extrarenal pelvis
+Distended bladder
+Pregnancy
+
+Uncommon
+Active diuresis
+Diabetes insipidus
+Reflux nephropathy
+
+Color Doppler demonstration of the extrarenal main artery and vein is most effective in the coronal
+or axial plane.
+Renal Cysts:
+Like cysts in other organs, simple renal cysts must meet three criteria:
+• Anechoic.
+• Thin, well-defined capsule.
+• Posterior acoustic enhancement.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+53
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Gallbladder Scanning Protocol
+• Best visualized after fasting, which helps distend the gallbladder.
+• Size:
+• Length: up to 12 cm
+• Width: up to 4 cm
+• Wall thickness: up to 3 mm
+• Common bile duct (CBD) internal diameter: ≤ 6 mm (may be
+8–9 mm in elderly patients due to age-related changes).
+Characteristics of the Normal Gallbladder
+Characteristic
+Location
+Size
+Wall thickness
+Lumen
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Appearance
+Inferior to interlobar fissure Between left and right lobe
+<4 cm transverse
+<10 cm longitudinal
+<3 mm
+Anechoic
+54
+
+Ultrasound for Radiologic Technologists
+
+A. Longitudinal
+gallbladder section
+
+DAY 8
+
+B. Axial gallbladder
+section.
+
+Sonographic Appearance:
+A. In longitudinal view, a normal bile-filled gallbladder appears as an anechoic, oblong structure with
+bright, thin walls.
+B. In axial view, it appears as an anechoic, round or oval structure with bright, thin walls.
+• Patient Preparation:
+• The patient should fast for 8–12 hours before the study. This allows normal gallbladder and biliary
+tract dilation and reduces bowel gas.
+• If the patient has eaten within the last 4–6 hours, the examination should still be attempted.
+Note:
+A nonvisualized gallbladder may indicate gallbladder disease or that the patient has recently eaten. Always
+confirm when the patient last ate.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+55
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+• Transducer:
+• 3.0 MHz or 3.5 MHz.
+• 5.0 MHz for thin patients.
+• Breathing Technique:
+• Deep, held inspiration.
+• Patient Position:
+• Gallbladder and biliary tract evaluation should be performed in at least two positions: supine and left
+lateral decubitus.
+• Additional positions such as left posterior oblique, sitting semierect, erect, or prone may be used
+as needed.
+Note:
+Changing patient positions helps distinguish certain abnormalities:
+• Gallstones and sludge will move within the gallbladder when the patient changes position.
+• Gallbladder polyps and carcinomas remain fixed.
+If the recommended positions do not produce adequate images, alternative positions should be used.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+56
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Checklist for Acute Cholecystitis:
+• Thickened, multilayered gallbladder wall.
+• Fluid rim surrounding the gallbladder.
+• Indistinct border between the gallbladder and liver.
+• Wall thickness:
+• ≥ 4 mm (preprandial).
+• ≥ 7 mm (postprandial).
+• Tenderness to probe pressure in the right midclavicular line.
+• Hyperperfusion visible on color duplex sonography.
+Measure gallbladder wall thickness in a longitudinal view, placing the calipers perpendicular to the
+wall.
+Three classic ultrasound features of gallstones:
+• Highly reflective.
+• Mobile.
+• Cast a distal acoustic shadow.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+57
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Gallstones vs. Renal Stones:
+• Ultrasound sensitivity for detecting common bile duct dilation: 86%.
+• Ultrasound specificity: 97%.
+• Many gallstones are not radio-opaque, so CT has lower sensitivity (39–75%) for detecting them compared
+to ultrasound.
+• Because CT involves radiation exposure, ultrasound is often preferred, especially for ruling out
+hydronephrosis.
+
+Intraluminal Abnormalities in the Gallbladder
+Ultrasound
+Characteristics
+
+Common
+
+Uncommon
+
+Shadowing and
+mobile
+
+Stones
+
+Nothing else
+
+Non-shadowing and
+mobile
+
+Sludge
+
+Stones (< 3 mm)
+
+Non-shadowing and
+nonmobile
+
+Polyps
+
+Sludge
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Risk factors for gall stones: 5 "F“
+• Female
+• forty
+• fertile (mother)
+• fat (obesity)
+• fair (blonde)
+
+58
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Pancreas Scanning Protocol
+• Size:
+• Head: 3.0 cm
+• Neck: 2.5 cm
+• Body: 2.5 cm
+• Tail: 2.0 cm
+• Echogenicity:
+• Varies with age.
+• In children and young adults: pancreas may appear bulky and relatively hypoechoic compared to the
+liver.
+• In adults: pancreas is hyperechoic compared to normal liver.
+• In elderly individuals: pancreas becomes more hyperechoic and tends to atrophy.
+1. hyperechoic relative to the normal liver
+2. pancreas to spleen - Depends on fatty fibrous texture
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+59
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Characteristic
+
+Normal Finding
+
+Size
+
+Head < 3 cm; body < 2.5 cm; tail < 2.5 cm
+
+Pancreatic duct
+
+Smooth, diameter < 3 mm
+
+Echogenicity
+
+>, <, or = liver; >, <, or = spleen
+
+Echotexture
+
+Homogeneous
+
+Surface
+
+Smooth to slightly lobular
+
+• Patient Preparation
+• The patient should fast for 8 to 12 hours before the study. This reduces stomach and bowel gas
+anterior to the pancreas and ensures normal gallbladder and biliary tract dilatation, which is
+important because the pancreas and biliary tract are interdependent systems.
+• If the patient has eaten, still attempt the examination. In some cases, stomach contents can
+displace gas and serve as a "window" for the sound beam.
+• The patient may be given 2 to 4 cups of water or a noncarbonated drink to provide a sonic window
+and displace any gas in the stomach that may be obscuring the pancreas.
+• This fluid technique is most effective if the patient is sitting erect.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+60
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Transducer
+• Curved array 5.1 MHz or 5.2 MHz
+• 10.4 MHz or 8.5 MHz for thin patients
+Breathing Technique
+• Deep, held inspiration
+• Note: Different breathing techniques should be used if the suggested one does not produce the desired result
+Patient Position
+• Supine
+• Sitting semi-erect to erect, left posterior oblique, left lateral decubitus,
+or prone as needed
+Pancreatitis
+• Acute Pancreatitis: The pancreas becomes enlarged and hypoechoic
+due to oedema. The main duct may be dilated or prominent.
+• Chronic Pancreatitis: The pancreas becomes abnormally hyperechoic.
+The gland may be atrophied and lobulated. The main pancreatic duct is
+frequently dilated and ectatic with a beaded appearance. Calcification
+may be present in the pancreatic tissue, and stones may be found in the
+duct.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+61
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Acute pancreatitis is acute inflammation of the
+pancreas.
+Sonographic findings may include:
+• Increased anteroposterior diameter of the
+pancreatic body at the level of the superior
+mesenteric artery.
+• Decreased pancreatic echogenicity compared with
+the liver.
+• Heterogeneous echo pattern.
+• Focal intrapancreatic areas of abnormal
+echogenicity.
+• Focal masses.
+• Hypoechoic peripancreatic areas of inflammation.
+• Acute peripancreatic fluid collections.
+• Diffuse decreased echogenicity, focal contour
+changes, and focal echogenicity variations within
+the pancreas, which may also be seen with extrapancreatic disease.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+62
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Spleen Scanning Protocol
+Size:
+• The spleen size is variable. Generally, it should be no longer than 12–13 cm and no deeper than 7–8 cm..
+Echogenicity:
+• Similar to the liver (may be slightly hypo- or hyperechoic in some subjects) and hyperechoic relative to
+kidney parenchyma
+Echotexture:
+• The normal adult spleen appears homogeneous.
+
+Normal Characteristics
+Characteristic
+Size
+Echogenicity
+Echotexture
+Surface
+Shape
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Normal Finding
+≤13 cm long, ≤6 cm thick
+>Left kidney, >liver, >/<pancreas
+Homogeneous
+Smooth
+Crescentic
+63
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Patient Prep
+• None.
+Transducer
+• 5.0 MHz for intercostal or lateral subcostal scanning approaches.
+• 3.0 or 3.5 MHz for anterior or posterior scanning approaches.
+Breathing Technique
+• Deep, held inspiration. Deep inspiration causes the spleen to descend, making it easier to visualize
+sonographically.
+• NOTE: Use different breathing techniques whenever the suggested technique does not produce the
+desired results.
+Patient Position
+• Right lateral decubitus.
+• Supine, sitting semierect to erect, and prone as needed.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+64
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Causes of Splenomegaly
+Common
+Heart failure
+Portal hypertension
+Leukemia
+Lymphoma
+Hepatitis
+Mononucleosis
+Generalized infections
+Hemolytic anemias
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Uncommon
+Glycogen storage disease
+Malaria
+Myelofibrosis
+
+65
+
+Ultrasound for Radiologic Technologists
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 8
+
+66
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Scanning Protocol for the Female Pelvis
+Transvaginal Ultrasound
+
+Transvaginal Approach
+• Higher frequency, higher resolution image.
+• Endocavitary probe.
+• Better visualized with empty bladder.
+• Can see sagittal or coronal view of uterus.
+• RULE OF THUMB: If possible, attempt transabdominal approach before considering transvaginal to
+avoid a more invasive procedure.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+67
+
+Ultrasound Imaging for Radiologic Technologist
+
+Transabdominal Ultrasound
+• Transabdominal Approach:
+• Lower frequency, lower resolution image.
+• Curved linear transducer.
+• Better visualized with full bladder.
+• Can see coronal and sagittal views of organs and fetus.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Indicator on
+side of
+transducer
+
+68
+
+Ultrasound Imaging for Radiologic Technologist
+
+Patient Prep
+• Verbal or written consent is required. Explain the examination, inform the patient that it is virtually
+painless, that the inserted transducer feels like a tampon, and that the exam is necessary for the
+interpreting physician to make an accurate diagnosis.
+• The examination should be chaperoned by a female health care professional. Include the witness’s
+initials as part of the film labeling.
+• Empty urinary bladder.
+• The patient, sonographer, or physician may insert the transducer.
+Transducer
+• 5.0 MHz or higher.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+69
+
+Ultrasound Imaging for Radiologic Technologist
+
+Thyroid and parathyroid scanning protocol
+Echogenicity
+• Appears homogeneous and moderately echogenic.
+• Similar in appearance to normal liver and testes parenchyma.
+• Hyperechoic compared to adjacent musculature.
+Patient Prep
+• None.
+Transducer
+• “Small Parts” indicates a structure that is superficial or close to the skin surface and generally requires
+a high-frequency, real-time transducer.
+• 7.5 MHz to 10 MHz high-resolution, real-time, linear transducer.
+• Depending on the transducer and machine, a water path or standoff pad may be necessary.
+• Doppler color flow imaging: use low-flow filter, appropriate scale, and optimized color gain.
+Breathing Technique
+• Normal respiration.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+70
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Patient Position
+• Supine with the neck mildly hyperextended and head turned slightly away from the side being scanned.
+• Place a sponge, pillow, or rolled towel under the shoulders to maintain neck hyperextension.
+Thyroid Gland Survey Steps
+• Patient comfort and minimal transducer pressure are always important, especially with small
+superficial structures. Lighter pressure is generally recommended.
+• The thyroid gland is small and may be seen in its entirety by some transducers, but evaluation is
+typically done by viewing each lobe individually.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+71
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+Scrotal scanning protocol
+Scrotum
+• 5.0 MHz or higher, real-time, linear or curved linear transducer.
+• 7.0 MHz to 10.0 MHz preferable for pediatric applications.
+• 3.5 MHz to 7.0 MHz conventional Doppler with color flow imaging (low-flow filter, scale, and optimized
+resolution).
+• If necessary, use a gel standoff pad to improve imaging, especially for evaluating anterior lesions.
+Causes of an Enlarged Hypoechoic Testis
+Abnormality
+Orchitis
+Torsion
+Lymphoma
+Seminoma
+
+Blood Flow
+Increased
+Decreased
+Increased
+Increased
+
+Physical Examination
+Tender
+Tender
+Nontender
+Nontender
+
+Prostate Volume Calculation
+• There are two ways to calculate prostate volume:
+• Ellipsoid Volume: = L x W x H x 0.52
+• The bullet volume is considered a better representation of the prostate gland volume.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+72
+
+Ultrasound for Radiologic Technologists
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 8
+
+73
+
+Ultrasound for Radiologic Technologists
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 8
+
+74
+
+Ultrasound for Radiologic Technologists
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 8
+
+75
+
+Ultrasound for Radiologic Technologists
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 8
+
+76
+
+Ultrasound for Radiologic Technologists
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 8
+
+77
+
+Ultrasound for Radiologic Technologists
+
+DAY 8
+
+References
+1.Gibbs, V., Cole, D., & Sassano, A. (2011). Ultrasound Physics and Technology: How,
+Why and When. Churchill Livingstone Elsevier.
+2.Kremkau, F. W. (2015). Sonography: Principles and Instruments (9th ed.). Elsevier.
+3.Bates, J. (2011). Abdominal Ultrasound: How, Why and When (3rd ed.). Churchill
+Livingstone Elsevier.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+78
+
+THANK YOU
+
+79
+
+

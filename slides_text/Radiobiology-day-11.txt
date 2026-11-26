@@ -1,0 +1,973 @@
+SRTLE: A Survival Guide
+5TH Co
+
+urse
+
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+1
+
+DAY 11
+
+Radiobiology and Radiation
+Protection
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+2
+
+Radiobiology and Radiation Protection
+
+DAY 11
+
+Day 11 Outline
+2.4 CHAPTER
+RADIOBIOLOGY AND RADIATION PROTECTION
+I. Radiobiology
+Introduction
+Bioeffect and Dose Response
+Acute and Chronic effects
+II. Radiation Protection
+Protection Principles
+Protection for patients
+Protection for health workers
+Regulatory and Safety Organizations
+
+3
+
+Radiobiology and Radiation Protection
+
+1. RADIATION QUANTITIES AND THEIR UNITS OF MEASURE
+1-Exposure
+• Defined as the amount of ionizing radiation that may strike an object such as the human body.
+• Radiation ionization in air is termed exposure.
+• Measured by:
+• Coulomb per kilogram (C/kg): used for exposure in air only.
+• Roentgen (R).
+• Air Kerma: another SI quantity that expresses radiation concentration transferred to a point (e.g., surface
+of patient’s or radiographer’s body).
+• Dose Area Product (DAP): the total of air kerma over the exposed area of the patient’s surface.
+2-Absorbed Dose
+• Deposition of energy per unit mass in patient tissue from ionizing radiation exposure.
+• Responsible for biological damage in tissues.
+• SI Unit: Gray (Gy).
+• Gya: absorbed dose in air.
+• Gyt: absorbed dose in tissue.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+4
+
+Radiobiology and Radiation Protection
+
+3-Equivalent Dose (EqD)
+• Product of the absorbed dose in a tissue/organ and the radiation weighting factor (WR) for the type and
+energy of radiation.
+• Accounts for differences in the biological effect of different types of radiation.
+• SI Unit: Sievert (Sv).
+4-Effective Dose (EID / EfD)
+• Incorporates:
+• Type of radiation (x-rays, gamma, neutrons, etc.).
+• Radiosensitivity of the organ or body part irradiated (using tissue weighting factors, WT).
+• Provides an estimate of overall risk from exposure.
+• SI Unit: Sievert (Sv).
+Radiation Unit Conversions
+• 1 Sv = 100 rem = 1000 mSv
+(Used to measure radiation dose for workers)
+• 1 Gy = 100 rad = 1000 mGy
+(Usually used with patients and referred to as absorbed dose)
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+5
+
+Radiobiology and Radiation Protection
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+6
+
+Radiobiology and Radiation Protection
+
+Deterministic effect VS Stochastic effect
+• Deterministic Effect If the radiation response increases in severity or intensity with increasing radiation
+dose and occurs within days after the radiation exposure.
+• Threshold dose–response relationship
+• Non-linear dose–response relationship
+• Severity of response increases with increasing radiation dose
+
+A threshold model postulates that radiation does
+not cause the effect at any level below the
+threshold.
+in addition thresholds are generally thought to be
+limited to acute (short-term) effects that are called
+deterministic.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+7
+
+Radiobiology and Radiation Protection
+
+Stochastic Effects incidence of the radiation response or frequency of
+an injury increases with increasing radiation dose and is not observed
+for months or years.
+Stochastic Effects
+• Non-threshold dose–response relationship
+• Linear dose–response relationship
+• Incidence of response increases with increasing radiation dose
+Linear means that an observed response is directly proportional to the dose.
+Doubling the dose of radiation would double the response, and inverse
+for the non-linear.
+Radiation-induced cancer, leukemia, and genetic effects follow a linear,
+nonthreshold dose response relationship.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+8
+
+Radiobiology and Radiation Protection
+
+Direct and Indirect Effects
+• Direct Effect:
+• The initial ionizing event interacts directly with a DNA molecule.
+• Indirect Effect:
+• The ionizing event interacts with water molecules and then transfers energy to DNA.
+• Since the human body is made up of ~80% water and less than 1% DNA, the majority of
+radiation effects in vivo result from indirect effects.
+Tissues and Organs
+• The principal organ systems of the body include:
+• Nervous system
+• Digestive system
+• Endocrine system
+• Respiratory system
+• Reproductive system
+• The radiosensitivity of tissues and organs varies widely:
+• Reproductive cells: highly radiosensitive
+• Nerve cells: less radiosensitive
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+9
+
+Radiobiology and Radiation Protection
+
+Response to Radiation Related to Cell Type
+Radiosensitivity
+
+Cell Type
+
+High
+
+Lymphocytes, Spermatogonia, Erythroblasts, Intestinal
+crypt cells
+
+Intermediate
+
+Endothelial cells, Osteoblasts, Spermatids
+
+Low
+
+Fibroblasts, Muscle cells, Nerve cells
+
+Relative Radiosensitivity of Tissues and Organs (Clinical Radiation Oncology)
+Level of Radiosensitivity
+
+Tissue or Organ
+
+Effects
+
+High (2–10 Gy / 200–1000 rad)
+
+Lymphoid tissue, Bone marrow,
+Gonads
+
+Atrophy, Hypoplasia, Atrophy
+
+Intermediate (10–50 Gy / 1000–
+5000 rad)
+
+Skin, Gastrointestinal tract, Cornea,
+Growing bone, Kidney
+
+Erythema, Ulcer, Cataract, Growth
+arrest, Nephrosclerosis
+
+Low (>50 Gy / >5000 rad)
+
+Liver, Muscle, Brain, Spinal cord
+
+Ascites, Fibrosis, Necrosis,
+Transection
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+10
+
+Radiobiology and Radiation Protection
+
+• DNA is the most radiosensitive part of the cell.
+• RNA radiosensitivity is intermediate between that of DNA and protein.
+
+Cell Cycle and Radiosensitivity
+• Cell radiosensitivity depends on the phase of the cell cycle.
+• Most Radiosensitive Phases:
+• Mitosis (M phase)
+• Late G1 to early S-phase
+• Most Radioresistant Phase:
+• Mid to late S-phase
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+11
+
+Radiobiology and Radiation Protection
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+12
+
+Radiobiology and Radiation Protection
+
+Fundamental Principles of Radiobiology
+The law of Bergonie and Tribondeau states that:
+1. Stem or immature cells are more radiosensitive than mature cells.
+2. Younger tissues and organs are more radiosensitive than older tissues and organs.
+3. The higher the metabolic cell activity, the more radiosensitive it is.
+4. The greater the proliferation and growth rate for tissues, the greater the radiosensitivity
+In diagnostic imaging, the law serves to remind us that fetuses are considerably more sensitive to radiation
+exposure as are children compared with the mature adults.
+Linear Energy Transfer (LET)
+• Definition:
+Linear energy transfer (LET) is a measure of the rate at which energy is transferred from ionizing radiation
+to soft tissue.
+• Biological Effect:
+• As LET increases, the ability of radiation to cause biologic damage also increases.
+• This relationship is expressed by Relative Biologic Effectiveness (RBE).
+• Relationship Between LET and RBE:
+• Higher LET → Higher RBE
+The RBE of diagnostic x-rays is 1.
+The LET of diagnostic x-rays is approximately 3 keV/um.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+13
+
+Radiobiology and Radiation Protection
+
+Oxygen Effect and Radiosensitivity
+The Oxygen Enhancement Ratio (OER) describes how biological tissue responds more strongly to radiation
+when it is oxygenated (aerobic).
+Deterministic Effects of Radiation
+Exposure to a high dose of radiation can cause a response within days to weeks. This type of response is
+called a deterministic effect.
+The series of events following high-level radiation exposure
+that can lead to death within days or weeks is known as
+Acute Radiation Syndrome (ARS).
+Acute Radiation Syndrome (ARS) occurs when the entire body
+is exposed to 1 Gy or more of ionizing radiation.
+These syndromes are hematologic death, gastrointestinal (GI)
+death, and central nervous system (CNS) death.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+14
+
+Radiobiology and Radiation Protection
+
+Summary of Acute Radiation Lethality
+Period
+Prodromal
+Latent
+Hematologic
+
+Approximate Dose
+(Gy)
+>1
+1–100
+2–10
+
+Mean Survival Time
+(Days)
+—
+—
+10–60
+
+Gastrointestinal
+
+10–50
+
+4–10
+
+Central nervous
+system
+
+>50
+
+0–3
+
+Clinical Signs and Symptoms
+Nausea, vomiting, diarrhea
+None
+Nausea, vomiting, diarrhea, anemia,
+leukopenia, hemorrhage, fever, infection
+Same as hematologic plus electrolyte
+imbalance, lethargy, fatigue, shock
+Same as gastrointestinal plus ataxia, edema,
+system vasculitis, meningitis
+
+Local tissue damage
+There are many examples of local tissue damage immediately after
+radiation exposure. Examples of local tissues that can be affected
+immediately are the skin, gonads, and bone marrow.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+15
+
+Radiobiology and Radiation Protection
+
+Skin:
+The first manifestation of radiation injury to the skin is damage to the basal cells.
+✓ Resultant skin damage occurs as erythema, desquamation, or epilation.
+Radiation Dose
+2–6 Gy (200–600 rads)
+
+Area Affected
+Small
+
+Onset
+
+Effects / Symptoms
+
+Short
+
+Erythema in 1–2 days after exposure; persists until day 5–6;
+reappears on day 10–12; maximum on day 18–20; persists
+until day 30–40. Temporary hair loss if >3 Gy (300 rads).
+
+6–10 Gy (600–1,000 rads)
+
+Small
+
+Short
+
+More serious erythema caused by damage of basal cells.
+Symptoms appear earlier, are more intense, and healing is
+delayed.
+
+15 Gy (1,500 rads) or 30
+Gy (3,000 rads)
+
+Small
+
+Short / <4 weeks
+
+Severe erythema, followed by dry desquamation and
+delayed/incomplete healing.
+
+Gonads:
+Radiation of the male testes can result in a reduction of spermatozoa.
+1. A dose of 2 Gyt (200 rad) produces temporary infertility.
+2. A dose of 5 Gyt (500 rad) to the testes produces permanent sterility.
+In males as in females, the stem cell is the most radiosensitive phase.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+16
+
+Radiobiology and Radiation Protection
+
+The Hemopoietic system
+consists of bone marrow, circulating blood, and lymphoid tissue. Lymphoid tissues are the lymph nodes,
+spleen, and thymus.
+The principal response of the hemopoietic system to radiation exposure is a decrease in the numbers of all
+types of blood cells in the circulating peripheral blood.
+After exposure, the first cells to become affected are the lymphocytes. These cells are reduced in number
+(lymphopenia) - cell depletion increases with increasing dose
+The lymphocytes and the spermatogonia are the most radiosensitive cells in the body.
+LD50/60
+• Definition: The whole-body radiation dose that causes 50% of irradiated subjects to die within 60 days.
+• Example:
+• LD50/30 → dose required to kill 50% of a population in 30 days.
+• Humans often survive >30 days, so LD50/60 is more relevant.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+17
+
+Radiobiology and Radiation Protection
+
+Values in Humans
+• LD50/60 ≈ 3.5 Gy (350 rad)
+• Approximate effects by dose:
+• 1 Gy (100 rad): No deaths expected.
+• >6 Gy (600 rad): All die unless intensive medical care is provided.
+• >10 Gy (1000 rad): Death inevitable, even with medical care.
+• The study of chromosome damage caused by radiation = Cytogenetics
+
+Late Radiation Effects
+Deterministic Effects (Threshold, Severity ↑ with dose)
+• Occur after a threshold dose is exceeded
+• Severity increases with dose
+• Example:
+• Cataracts → classic deterministic effect
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+18
+
+Radiobiology and Radiation Protection
+
+Stochastic Effects (No Threshold, Probability ↑ with dose)
+• No threshold → even small doses carry some risk
+• Probability increases with dose (but severity is not dose-related)
+• Examples:
+• Leukemia
+• Genetic mutations
+Our radiation protection guides are based on the stochastic effects of radiation and on linear, nonthreshold
+dose-response relationships.
+Radiation-Induced Malignancies
+• Ionizing radiation can cause cancers that may not appear until years or decades after exposure.
+• Different cancers show different dose–response relationships.
+Examples
+1. Leukemia → Linear, non-threshold (LNT)
+2. Skin carcinoma → Threshold
+3. Thyroid cancer → LNT
+4. Breast cancer → Linear, non-threshold
+5. Osteosarcoma (bone cancer) → LNT (classically seen in radium dial painters)
+6. Lung cancer → LNT (notable in uranium miners exposed to radon)
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+19
+
+Radiobiology and Radiation Protection
+
+• Linear, non-threshold (LNT): Any dose, no matter how small, carries some risk (most radiation-induced
+cancers fall here).
+• Threshold cancers (rare): Need a certain minimum dose before risk appears (e.g., skin carcinoma).
+Stochastic Effects of Radiation on Humans
+1. Leukemia
+2. Other malignant diseases
+1. Bone cancer
+2. Lung cancer
+3. Thyroid cancer
+4. Breast cancer
+3. Local tissue damage
+1. Skin
+2. Gonads
+3. Eyes
+4. Shortening of life span
+5. Genetic damage
+1. Cytogenetic damage
+2. Doubling dose
+3. Genetically significant dose
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+20
+
+Radiobiology and Radiation Protection
+
+• The dose–response relationship for radiation-induced cataracts is nonlinear, threshold.
+• At worst, humans may experience a reduced life span of ~10 days for every 10 mGy received.
+Radiation and Pregnancy
+The embryo’s response to irradiation depends upon the following factors:
+1. Total dose
+2. Rate of dose
+3. Quality of radiation
+4. Stage of development
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+2GYa
+
+21
+
+Radiobiology and Radiation Protection
+
+Radiation Exposure in Pregnancy
+Critical Period
+• First trimester = most critical for radiation effects on the embryo–fetus.
+Stages & Effects
+1. Pre-implantation (0–2 weeks after fertilization):
+1. Main effect: Prenatal death → manifests as spontaneous abortion (all-or-nothing effect).
+2. Organogenesis (≈10 days – 12 weeks after conception):
+1. Fetus most susceptible to congenital abnormalities.
+2. Possible effects:
+1. Growth inhibition
+2. Mental retardation
+3. Microcephaly
+4. Genital deformities
+5. Sense organ damage
+3. Skeletal development (weeks 3–20):
+1. Radiation may cause skeletal abnormalities.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+22
+
+Radiobiology and Radiation Protection
+
+• 0–2 weeks → Death (abortion)
+• 2–12 weeks → Deformities (organogenesis)
+• 3–20 weeks → Skeletal effects
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+23
+
+Radiobiology and Radiation Protection
+
+Radiation protection
+Protection principles
+The health physicist is a radiation scientist who is concerned with the research, teaching, or operational
+aspects of radiation safety or control.
+Always practice ALARA: Keep radiation exposures as low as reasonably achievable.
+Health physics is concerned with providing occupational radiation protection and minimizing radiation
+dose to the public.
+We practice ALARA in response to our acceptance of the linear nonthreshold (LNT) radiation doseresponse relationship.
+ALARA (as low as reasonably achievable) defines the principal concept of radiation protection.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+24
+
+Radiobiology and Radiation Protection
+
+CARDINAL PRINCIPLES OF RADIATION PROTECTION
+Three cardinal principles of radiation protection developed for nuclear
+activities
+Radiation protection
+1. Minimize time
+2. Maximize distance ( As the distance between the source of
+radiation and the person increases, radiation exposure decreases
+rapidly. This decrease in exposure is calculated using the inverse
+square law )
+3. Use shielding ( Shielding used in diagnostic radiology usually
+consists of lead, although conventional building materials also are
+used )
+The Radiation Safety Officer is specifically responsible for developing an appropriate radiation safety pro gram
+for the facility that follows internationally accepted guidelines for radiation protection.
+The RSO also must review and maintain radiation monitoring records for all personnel and be available to
+provide counseling for individuals (e.g., those who receive monitor readings in excess of allowable limits).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+25
+
+Radiobiology and Radiation Protection
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+26
+
+Radiobiology and Radiation Protection
+
+Patient protection
+Repeat Radiographs
+• Often caused by poor communication between the patient and radiographer.
+• Emphasis: Clear instructions reduce unnecessary repeat exposures.
+The Pregnant Patient
+• Use the 10-day rule → Elective radiologic examinations should be scheduled within 10 days of the onset
+of menstruation to minimize risk of irradiating an early pregnancy.
+Gonadal Shielding
+• Should always be used if the gonads are within 5 cm of the primary X-ray beam.
+Patient Immobilization Considerations
+• Voluntary motion → controlled by proper communication + immobilization devices.
+• Involuntary motion → managed by using short exposure times with high mA.
+• Immobilization is necessary when patients cannot cooperate (children, certain adults).
+Order of Preference for Holding Patients
+1. First choice: Friend or relative (preferably male → cannot be pregnant).
+2. Last choice: Radiographer (to avoid unnecessary occupational exposure).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+27
+
+Radiobiology and Radiation Protection
+
+Radiation Dose Limits and Acute Radiation Effects
+Summary of the National Council on Radiation Protection and Measurements (NCRP) Recommendations
+Category
+Occupational Exposures
+Occupational Exposures
+Occupational Exposures
+Occupational Exposures
+Public Exposures
+Public Exposures
+Public Exposures
+Public Exposures
+Education & Training
+Education & Training
+Education & Training
+Embryo & Fetus Exposures
+Embryo & Fetus Exposures
+Negligible Individual Dose
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Exposure Type
+Annual Effective Dose
+Cumulative Effective Dose
+Lens of Eye
+Skin, Hands, Feet
+Effective Dose (Frequent)
+Effective Dose (Infrequent)
+Lens of Eye
+Skin, Hands, Feet
+Annual Effective Dose
+Lens of Eye
+Skin, Hands, Feet
+Monthly
+Entire Gestation
+Annual
+
+Dose Limit
+50 mSv
+10 mSv × age
+150 mSv 20mSv ?
+500 mSv
+1 mSv
+5 mSv
+15 mSv
+50 mSv
+1 mSv
+15 mSv
+50 mSv
+0.5 mSv
+5 mSv
+0.01 mSv
+28
+
+Radiobiology and Radiation Protection
+
+Annual Dose Limits
+Exposure Type
+
+Dose Area
+
+Dose Limit
+
+Occupational Exposures
+
+Whole-body
+
+50 mSv 20mSv???
+
+Occupational Exposures
+
+Lens of eye
+
+150 mSv 20mSv ?
+
+Occupational Exposures
+
+Skin/Extremities
+
+500 mSv
+
+Occupational Exposures
+
+Whole-body cumulative
+(lifetime)
+
+Age × 10 mSv
+
+Fetus (10-month/280
+days)
+Fetus (1-month/28 days)
+
+—
+
+5 mSv
+
+—
+
+0.5 mSv
+
+Student < 18 years of age
+
+—
+
+1 mSv
+
+Public Exposure
+
+Infrequent exposure
+
+5 mSv
+
+Public Exposure
+
+Frequent exposure
+
+1 mSv
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+29
+
+Radiobiology and Radiation Protection
+
+Protection for Health Workers
+1. Monitoring of Personnel (Dosimetry)
+• Purpose: Measurement of ionizing radiation doses received by personnel (external exposure).
+• Method: Wearing personnel dosimeters during working hours.
+Types of Personnel Dosimeters (Diagnostic Radiology):
+1. Film badge → Film emulsion: silver halide
+2. Thermoluminescent dosimeter (TLD) → Crystal: lithium fluoride
+3. Optically stimulated luminescence (OSL) → Crystal: aluminum oxide
+4. Pocket dosimeter
+• Monitoring frequency: Film badges, OSLs, and TLDs are monitored monthly.
+• RSO (Radiation Safety Officer): Ensures personnel do not exceed occupational dose limits.
+• Fixer solution (film processing): sodium thiosulfate.
+2. Use of Protective Garments
+• Material of choice: Lead (high atomic number → absorbs most scatter radiation).
+• Evaluation: Shields tested using Half-Value Layer (HVL) → thickness of lead that reduces beam intensity
+• by 50%.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+30
+
+Radiobiology and Radiation Protection
+
+• Lead aprons:
+• Made of lead-impregnated vinyl or rubber.
+• Available in 0.25, 0.5, and 1 mm lead
+equivalencies.
+• Wearing monitor with apron:
+• Dosimeter should be worn at the collar level,
+outside the apron.
+• Pregnant radiographers:
+• Provided with two dosimeters (one at collar level,
+one at waist under apron).
+
+PROTECTIVE MEASURES FOR THE PREGNANT
+RADIOLOGIC TECHNOLOGIST
+Two occupational radiation monitors Dose
+limit: 5 mSv/9 mo, 0.5 mSv/mo
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+31
+
+Radiobiology and Radiation Protection
+
+Structural Shielding Construction
+Types of Fixed Barriers
+1. Primary Protective Barriers
+• Purpose: Prevent direct (unscattered) radiation from
+reaching personnel or the public.
+• Location: Positioned perpendicular to the undeflected path
+of the X-ray beam.
+• Example: Walls behind the X-ray tube housing.
+
+(Control booths are regarded as
+secondary barriers)
+
+2. Secondary Protective Barriers
+• Purpose: Protect against scattered radiation and tube
+leakage radiation.
+• Location: Positioned parallel to the line of travel of the
+primary X-ray beam.
+• Examples: Control booth barrier, ceiling, walls not directly
+in beam path.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+32
+
+Radiobiology and Radiation Protection
+
+MOBILE EXAM CONSIDERATIONS
+The mobile unit exposure switch must permit the radiographer to obtain a distance of at least 6 feet
+(2meter) from the X-ray tube, patient, and useful beam.
+It is recommended that the radiographer stand at least 6 feet from the X-ray source.
+
+FLUOROSCOPIC EXAM CONSIDERATIONS
+Occupational Exposure in Fluoroscopy
+• Primary source of exposure: Scatter radiation from the patient (not the X-ray tube directly).
+• Best protection method:
+• Distance (most effective)
+• High kVp technique (second choice → reduces patient dose & scatter).
+Protective Devices
+• Lead apron: Minimum 0.5 mm Pb equivalent (must be worn by all personnel in the room).
+• Lead gloves: At least 0.25 mm Pb equivalent (if hands must be in the primary beam).
+• Thyroid shield: 0.5 mm Pb equivalent (protects the thyroid gland).
+Positioning Advantage
+• Radiographer may stand behind the radiologist during fluoroscopy.
+• Gains extra protection from the radiologist’s lead apron.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+33
+
+Radiobiology and Radiation Protection
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+34
+
+Radiobiology and Radiation Protection
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+35
+
+Radiobiology and Radiation Protection
+
+Summary of Radiation Protection Standards Organizations
+Organization
+
+Function
+
+International Commission on Radiological Protection
+(ICRP)
+
+Evaluates information on biologic effects of radiation
+and provides radiation protection guidance through
+general recommendations on occupational and public
+dose limits.
+
+National Council on Radiation Protection and
+Measurements (NCRP)
+
+Reviews regulations formulated by the ICRP and
+decides ways to include those recommendations in
+U.S. radiation protection criteria.
+
+United Nations Scientific Committee on the Effects of
+Atomic Radiation (UNSCEAR)
+
+Evaluates human and environmental ionizing radiation
+exposure; derives risk assessments from epidemiologic
+data and research conclusions; provides information to
+organizations such as the ICRP.
+
+National Academy of Sciences / National Research
+Council Committee on the Biological Effects of
+Ionizing Radiation (NAS/NRC-BEIR)
+
+Reviews studies of biologic effects of ionizing radiation
+and risk assessments; provides information to
+organizations such as the ICRP for evaluation.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+36
+
+Radiobiology and Radiation Protection
+
+Summary of U.S. Regulatory Agencies
+Agency
+
+Function
+
+Nuclear Regulatory Commission (NRC)
+
+Oversees the nuclear energy industry, enforces radiation
+protection standards, publishes rules and regulations in
+Title 10 of the U.S. Code of Federal Regulations, and enters
+agreements with states to regulate use of radioisotopes and
+related material within that state.
+
+Agreement States
+
+Enforce radiation protection regulations through their state
+health departments.
+
+Environmental Protection Agency (EPA)
+
+Facilitates development and enforcement of regulations
+pertaining to control of radiation in the environment.
+
+U.S. Food and Drug Administration (FDA)
+
+Conducts an ongoing product radiation control program;
+regulates design and manufacture of electronic products,
+including X-ray equipment.
+
+Occupational Safety and Health Administration
+(OSHA)
+
+Functions as a monitoring agency in places of employment,
+mainly in industry.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+37
+
+Radiobiology and Radiation Protection
+
+References
+1.Sherer, M. A. S., Visconti, P. J., Ritenour, E. R., & Haynes, K. W. (2013).
+Radiation protection in medical radiography (7th ed.). Elsevier.
+2.Bushong, S. C. (2017). Radiologic science for technologists: Physics, biology,
+and protection (11th ed.). Elsevier.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+38
+
+Radiobiology and Radiation Protection
+
+“Effort is the cornerstone of learning”
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+39
+
+Radiobiology and Radiation Protection
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+40
+
+

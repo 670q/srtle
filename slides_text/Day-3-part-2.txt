@@ -1,0 +1,790 @@
+Quality Management And
+Dose In Medical Imaging
+
+DAY 3
+
+Quality Management And
+Dose In Medical Imaging
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+Quality Management And Dose In Medical
+Imaging
+
+Day 3 Outline
+2.2 CHAPTER
+I. Quality Management
+Component of quality management
+Risk management
+Quality Assurance
+Artifacts
+Radiography QC
+Mammography QC
+Computed Tomography QC
+Magnetic Resonance QC
+Ultrasound QC
+Gamma Camera QC
+II. Dose
+Occupational Radiation Dose M management
+Radiation Dose limits
+Disaster And Emergency Codes
+
+DAY 3
+
+Quality Management And Dose In Medical
+Imaging
+
+DAY 3
+
+4
+
+Quality Management And Dose In Medical
+Imaging
+
+DAY 3
+
+Section I : Quality Management
+
+1. Components of Quality Management
+1.1 Equipment quality control
+This aspect of a quality management program involves evaluation of equipment performance to ensure
+proper image quality, as well as patient and operator safety.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+5
+
+Quality Management And Dose In Medical
+Imaging
+
+DAY 3
+
+1.2 Administrative responsibilities
+The establishment of various processes to accomplish the specific departmental tasks that are required,
+such as departmental procedure manuals for performing diagnostic examinations or procedures for
+scheduling and routing of patients. Other responsibilities include cost control, management of personnel,
+education of personnel.
+
+1.3 Radiation safety program
+This is to ensure that patient exposure is kept as low as reasonably achievable (ALARA) and that department
+personnel, medical staff, and members of the general public are protected from overexposure to ionizing
+radiation.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+6
+
+Quality Management And Dose In Medical
+Imaging
+
+DAY 3
+
+1.4 Risk management
+The ability to identify potential risks to patients, employees, and visitors at the healthcare institution and
+establish processes that would minimize these risks is extremely important to healthcare organizations.
+
+Risk management
+Risk can be defined as the chance of an event or incident happening that may threaten or damage an
+organization. The purpose of a risk management program is to maintain quality patient care and a safe
+environment for employees and visitors, while conserving the healthcare institution’s financial resources.
+• Risks to patients. The potential risks to patients in diagnostic imaging
+• Risks to employees. and medical staff. Risks to employees and professional staff
+• Risk to others. This category includes such persons as students, visitors, and volunteers and is probably
+the most difficult category to assess.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+7
+
+Quality Management And Dose In Medical
+Imaging
+
+DAY 3
+
+3. Quality assurance
+Quality assurance (QA) is an all-encompassing management program used to ensure excellence in
+healthcare through the systematic collection and evaluation of data.
+The primary objective of a QA program is the enhancement of patient care; this includes patient selection
+parameters and scheduling, management techniques, departmental policies and procedures, technical
+effectiveness and efficiency.
+
+3.1 Quality assessment:
+which is the measurement of the level of quality at some point in time with no effort to change or improve the
+level of care.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+8
+
+Quality Management And Dose In Medical
+Imaging
+
+DAY 3
+
+3.2 Quality Control:
+Quality control is the part of the QA program that deals with instrumentation and equipment.
+A quality control program includes the following three levels of testing:
+Level I: Noninvasive and Simple.
+Noninvasive and simple evaluations can be performed by any technologist and include tests
+such as the wire mesh test for screen contact and the spinning top test for timer accuracy.
+
+Level II: Noninvasive and Complex.
+Noninvasive and complex evaluations should be performed by a technologist who has been
+specifically trained in quality control procedures. This is because more sophisticated
+equipment, such as special test tools, meters.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+9
+
+Quality Management And Dose In Medical
+Imaging
+
+DAY 3
+
+Level III:Invasive and Complex.
+Invasive and complex evaluations involve some disassembly of the equipment and are normally
+performed by engineers or physicists.
+Repeat Analysis
+An important aspect of a quality management program for radiographic equipment is the
+performance of a reject, retake, or repeat analysis procedure. The difference between reject and
+repeat images is as follows:
+Rejects: All rejected images, including repeats (retakes)
+Repeats: Patient images repeated, resulting in additional patient exposure
+A reject or repeat analysis program (RAP) is a systematic process of cataloging rejected images
+and determining the nature of the repeat so that repeat images can be minimized or eliminated in
+the future.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+10
+
+Quality Management And Dose In Medical
+Imaging
+
+DAY 3
+
+4. Quality Control for Radiographic Units
+Three components :
+
+Visual inspection
+
+•Visual inspection should be performed
+at least annually
+•It includes checking the main
+components of the equipment to
+ensure that there no hazardous,
+inoperative, out-of-alignment, or
+improperly operating items in the
+system.
+• It should include the control console,
+overhead tube crane, radiographic
+table, protective lead apparel, and
+miscellaneous equipment
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Environmental
+inspection
+
+Performance
+testing
+
+• Environmental inspection should
+• Performance testing evaluates
+be performed at least annually, and it
+the performance of the x-ray
+involves general observation of :
+generator and x-ray tube with
+→ Mechanical integrity
+specialized test instrumentation
+→ Mechanical stability
+→ Electrical integrity
+Performance Testing Performance Testing
+→ Electrical safety
+X-ray Generator
+X-ray Tube and Tube
+Accessories
+• Often, it can be performed along
+with the visual inspection.
+
+11
+
+Quality Management And Dose In Medical Imaging
+
+Performance testing :
+X-ray Generator
+1. Reproducibility of exposure
+same technical factors should always produce the
+same radiation output
+2. Beam quantity meat pf radiation exposure per mAs
+of technique
+3. Radiation quality and filtration measured by
+determining half value layer (HVL)
+4. Kilovolt Peak (kVp) accuracy can be determined by
+using a special test cassette or a digital kVp meter
+5. Voltage waveform
+6. Timer accuracy
+7. Reciprocity the same mAs should produce the
+same radiation output regardless of mA and time
+selected
+8. Linearity
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+Performance testing :
+X-ray tube and Accessories
+1. Focal spot size
+Testing can be performed by one of three devices:
+Pinhole camera, Focal spot test tool or Star or slit
+resolution
+2. Beam restriction system
+Ensures that lights field of collimator is the same
+area struck by X-ray
+3. Beam alignment
+X-ray beam must be mounted properly in its metal
+housing and aligned to the center of the Bucky tray
+4. SID indicator
+Testing can be performed with a tape measure
+5. Grid alignment and uniformity
+center of grid must be aligned with the detent lock
+position of the x-ray tube and lead strips in grid must
+be uniformly spaced
+12
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+The following are the three types of quality control tests on various levels:
+
+1. Acceptance testing
+
+performed on new equipment or equipment that has
+undergone major repair to demonstrate that it is
+performing within the manufacturer's specifications and
+criteria.
+✓ It also can detect any defects that may exist in the
+equipment.
+✓ The results obtained during acceptance testing are
+also used to establish the baseline performance.
+
+2. Routine performance evaluations:
+
+are specific tests performed on the equipment in use
+after a certain amount of time has elapsed
+These evaluations can verify that the equipment is
+performing within previously accepted standards and
+can be used to diagnose any changes in performance
+before becoming radiographically apparent.
+
+3. Error correction tests
+
+evaluate equipment that is malfunctioning
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+13
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+Elements of a Quality Control program for
+Radiographic systems
+
+✓ Collimation :
+✓ If field are misaligned, the intended anatomy will be
+missed and unintended anatomy irradiated.
+✓ Adequate collimation can be confirmed with any of
+a number of test tools designed for that purpose
+
+✓ Focal-Spot Size
+The spatial resolution of a radiographic imaging
+system is determined principally by the focal-spot size
+of the x-ray tube. When new equipment or a
+replacement x-ray tube is installed, the focal-spot size
+must be measured Three tools are used for
+measurement of focal- spot size:
+1- The pinhole camera.
+2- The star pattern.
+3- The slit camera
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+14
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+The standard for measurement of effective focal-spot size is the slit camera.
+✓ An acceptable alternative to focal-spot size measurement is use of a line pair test tool to
+determine limiting spatial frequency
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+15
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+✓ Kilovolt Peak Calibration :
+The measured kVp should be within 10% of the indicated kVp.
+✓ The kVp calibration should be evaluated annually or whenever high-voltage generator
+components have changed significantly.
+✓ In the diagnostic range, any change in peak kilovoltage affects patient radiation dose.
+✓ Exposure Linearity
+Many combinations of mA and exposure time produce the same mAs value. The ability of a
+radiographic unit to produce a constant radiation output for various combinations of mA and
+exposure time is called exposure linearity.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+16
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+✓ Exposure Reproducibility: Same technical factors should always produce the same radiation output
+When selecting the proper kVp, mA, and exposure time for a given examination, the radiologic
+technologist rightfully expects the image optical density and the contrast to be optimal.
+If any or all of these technique factors are changed and then returned to the previous value,
+radiation exposure should be precisely the same. Radiation exposure should be reproducible.
+✓ Radiographic Intensifying Screens :
+Intensifying screens require periodic attention to minimize the appearance of artifacts.
+The frequency of cleaning depends on the workload in the department but certainly should not
+occur less often than quarterly.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+17
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+✓ Protective Apparel :
+All protective aprons, gloves, and gonadal shields should be
+radiographed or fluoroscoped annually for defects. If cracks, tears, or
+holes are evident, the apparel may require replacement.
+Radiographs of mistreated protective aprons showing
+A. bunching of the lead
+B. from folding and tearing, a low-density area in a new apron
+C. and cracking patterns in an apron
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+18
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+✓ Screen-film contact
+Should be evaluated once or twice a year. This is done by
+radio graphing a wire mesh pattern and analyzing the
+image for areas of blur
+Radiographs of wire mesh are used to check for
+screen-film contact.
+A. Good contact is evident.
+B. A warped cassette cover leads to a region of poor
+contact.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+19
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+✓ Film Illuminators
+✓ View box illumination should be analyzed photometrically on an
+annual basis.
+
+✓ This is done with an instrument called a luminance meter
+✓ should not vary by more than ±10% over the surface of the
+illuminator.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+20
+
+Quality Management And Dose In Medical Imaging
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+21
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+5. Artifacts
+
+✓ Grid Cutoff
+Grid cutoff is a decrease in optical density caused
+by primary radiation being absorbed by grid
+grid Any improper use of a grid can cause grid cutoff
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+22
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+5. Artifacts
+
+✓ Moire’ Effect
+Moire’ effect , or zebre pattern artifact, is a double set of
+grid lines caused by the placement of a grid cassette in a
+Bucky ( Fig. 6.13)
+1.
+2.
+3.
+4.
+
+Ensure grids are moving during the exposure
+Use a grid with a higher grid frequency
+Use a crosshatch grid or a multihole grid
+Change the orientation of the grid so that the grid lines
+are perpendicular to the CR reader scan lines .
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+23
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+5. Artifacts
+
+✓ Crescent or Crinkle Marks
+Crescent or crinkle marks are half-moon-shaped marks of
+increased optical density caused by bending of the film
+before processing.
+The bending of a processed film image can result in
+Crescent marks that are of decreased optical density
+because some of the silver can be moved from the area
+where the bending has occurred
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+24
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+5. Artifacts
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+25
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+6. Mammography Quality Control
+Quality Control Team
+● Radiologist : Radiologist The radiologist is responsible for selecting qualified medical physicists and
+mammographers and for overseeing the activities of these team members regularly.
+● Medical Physicist : QC evaluation of the physical equipment used to produce an image of the
+breast.
+● Mammographer:
+1. Daily Tasks
+✓ Darkroom Cleanliness.
+✓ conditions in the darkroom minimizes artifacts
+2. Weekly Tasks
+Radiographic intensifying screens are cleaned to ensure that mammographic cassettes and
+intensifying screens are free of dust and dirt particles, which may result in misdiagnoses.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+26
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+3. Monthly Tasks
+The visual check
+a. ensures that the imaging system lights, displays, mechanical locks and that detents are functioning
+properly
+b. confirms the optimal level of the equipment’s mechanical rigidity and stability
+4. Quarterly Tasks
+A simple procedure is performed to determine the number and cause of repeated mammograms.
+Repeat analysis also identifies ways to improve efficiency, reduce costs, and reduce unnecessary
+patient radiation dose.
+5. Semiannual Tasks
+✓ Darkroom fog analysis ensures that darkroom safelights and other sources of light inside and
+outside the dark- room do not fog mammographic films.
+Fog results in loss of image contrast.
+✓ Screen-film contact is evaluated to ensure that close contact is maintained between the screen and
+the film in each cassette.
+Poor screen-film contact results in image blur, again causing a loss of diagnostic information in the
+mammogram.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+27
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+6. Mammography Quality Control
+
+X-ray tube window
+Beryllium window which is less likely to absorb the low kilovolt (peak) xrays used in mammographic procedures. The inherent filtration of the
+beryllium is about 0.1 mm aluminum (Al) equivalent compared with 0.5
+mm Al equivalent for standard radiographic tubes.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+28
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+7. Quality Control for Computed Tomography Scanners
+QUALITY ASSURANCE METHODS:
+✓ Spatial Resolution (High-Contrast Resolution) This test is performed monthly
+✓ Contrast Resolution (Low-Contrast Resolution) This test is performed monthly
+✓ Slice Thickness Accuracy This test is usually performed semiannually.
+✓ Laser Light Accuracy This test is usually performed semiannually.
+✓ Noise and Uniformity These tests should be performed on a weekly basis.
+✓ Linearity is typically measured semiannually.
+✓ A plastic water phantom (Uniformity) This test should be performed on a weekly basis.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+29
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+8. Quality Control for MRI Scanners
+QUALITY ASSURANCE METHODS:
+RESONANCE FREQUENCY - Should be recorded daily.
+Image uniformity test it may be necessary to perform- monthly.
+Baseline performance of the weekly QC tests should be evaluated for each MRI system.
+The tests that require baseline performance are
+1. Centre Frequency
+2. Film quality control
+3. Magnetic field homogeneity
+4. RF coil check
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+30
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+9. Quality Control for Ultrasound
+QUALITY ASSURANCE METHODS:
+✓ Visual test - This test is usually performed Daily.
+✓ Routine image check - These tests should be performed on a weekly basis.
+✓ Filters cleaning - This test should be performed on a weekly basis.
+✓ Loose cable and cords - This test should be
+performed on a weekly basis.
+✓ Handles, wheels and locks - This test should
+be performed on a weekly basis.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+31
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+10. Quality Control for Gamma Camera
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+32
+
+Quality Management And Dose In Medical Imaging
+
+Section II : Dose
+1. Occupational Radiation Dose
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+33
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+Occupational exposure is described as dose equivalent
+Occupational Radiation Exposure - Annual dose for workers (whole body)
+✓ ICRP - 2 rem ( 20 msv )
+✓ NCRP - 5 rem ( 50 msv)
+
+Recommend limit dose for
+radiation workers every 5 years
+10 rem ( 100 mSv)
+6 Sv ( 6000 mSv ) lethal
+
+The recommended dose limit for radiologic personnel is 50 mSv/yr (5000 mrem/yr)
+Fluoroscopy: The highest occupational exposure of diagnostic x-ray personnel occurs during
+fluoroscopy and mobile radiography.
+✓ It is best to position the x-ray tube under the patient during C-arm fluoroscopy
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+34
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+2. RADIATION DOSE LIMITS
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+35
+
+Quality Management And Dose In Medical Imaging
+
+DAY 3
+
+2. RADIATION DOSE LIMITS
+The tissue weighting factor (Wt) accounts for the relative
+radiosensitivity of various tissues and organs. Tissues with a
+higher value of Wt are more radiosensitive.
+Public Exposure:
+Individuals in the general population and For hospital workers
+who are not radiology employees but who may regularly visit
+x-ray rooms, the DL is 1 mSv/yr (100 mrem/yr).
+Educational Considerations:
+DL. Students younger than 18 years of age may not receive
+more than 1 mSv/yr (100 mrem/ yr) during the course of their
+educational activities.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+36
+
+Quality Management And Dose In Medical Imaging
+
+Three types of personnel monitors are used in diagnostic radiology:
+1. Film badges.
+2. Thermoluminescence dosimeters (TLDs).
+3. Optically stimulated luminescence dosimeters (OSLs).
+
+Where to Wear the Occupational Radiation Monitor
+
+✓ The personnel dosimeter is worn at the level of the chest or waist during
+radiography
+✓ The personnel dosimeter should be positioned on the collar outside the
+protective apron during fluoroscopy.
+
+When not in use:
+
+✓ personnel monitoring devices should remain at the place of employment
+in a low background area such as a locker or office .
+✓ Personnel monitoring devices should not be stored in areas of
+x - ray use
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+37
+
+Quality Management And Dose In Medical Imaging
+
+Protective Apparel
+✓ Protective gloves and aprons are available in many sizes and shapes.
+✓ These usually are constructed of lead- impregnated vinyl.
+✓ Normal thicknesses for protective apparel are 0.25, 0.5, and 1 mm of lead equivalent.
+
+Patient Holding
+
+infants, the elderly and who not able to support themselves
+1. Mechanical immobilization devices should be available.
+2. Relative or a friend who accompanies the patient should be asked to help.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+38
+
+Quality Management And Dose In Medical Imaging
+
+Position
+During fluoroscopy, all personnel should remain as far from the patient as possible, keeping the front
+of the apron facing the radiation source at all times.
+Pregnant Technologist/Radiologist
+The pregnant radiologic technologist should be provided
+with a second radiation monitoring device to be worn
+under the protective apron at waist level.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+39
+
+Quality Management And Dose In Medical Imaging
+
+3. Disaster And Emergency Codes
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+40
+
+THANK YOU
+
+41
+
+

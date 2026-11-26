@@ -1,0 +1,1232 @@
+SRTLE: A Survival Guide
+
+urse
+
+5TH Co
+
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+DAY 2
+
+Essentials of Radiologic
+Physics – Part I
+
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+Essentials of Radiologic Physics – Part I
+
+DAY 2
+
+Day 2 Outline
+1.1 CHAPTER
+ESSENTIALS OF RADIOLOGIC PHYSICS
+Basic Principles
+Electricity, Electronics and Magnetism
+X-ray Physics
+Production and Control of X-ray
+X- ray emission and Interactions with Matter
+Scatter radiation control
+Screen-Film Radiography
+Computed and Digital Radiography
+Fluoroscopy Imaging
+Mammography Imaging
+
+3
+
+Essentials of Radiologic Physics – Part I
+
+DAY 2
+
+4
+
+Essentials of Radiologic Physics – Part I
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 2
+
+5
+
+Essentials of Radiologic Physics – Part I
+
+Section I : Physics and Instrumentation
+
+1. BASIC PRINCIPLES OF RADIOLOGIC PHYSICS
+1.1 Matter and Energy
+Matter: Anything that occupies space and has mass.
+Energy: The capacity to do work, existing in various forms such as mechanical, thermal, electrical,
+chemical, nuclear, and electromagnetic.
+
+Energy is conserved (neither created nor destroyed, only transformed).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+6
+
+Essentials of Radiologic Physics – Part I
+
+1.2. ATOMIC STRUCTURE
+1. Nucleus
+a. Protons
+• Positively charged (+1) - Mass = 1 atomic mass unit (amu) - About 1836 times heavier than an electron
+b. Neutrons
+• No charge (neutral) - Mass = 1 amu- Slightly heavier than a proton (by the mass of 2 electrons)
+2. Orbits Electron Shells (Surround the nucleus)
+Contain electrons:
+• Negatively charged (–1) - Mass is extremely small (about 1/2000 of a proton or neutron)
+Electron Shells
+From the innermost to the outermost, the principal electron shells are designated as: K, L, M, N, O, P.
+
+The total number of electrons in the orbital shells is exactly equal to the number of protons in the
+nucleus. If an atom has an extra electron or has had an electron removed, it is said to be ionized.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+7
+
+Essentials of Radiologic Physics – Part I
+
+8
+
+Essentials of Radiologic Physics – Part I
+
+1.3 RADIATION
+Radiation is energy emitted and transferred through space or matter.
+o
+
+It can be classified as:
+•
+Ionizing Radiation: Has enough energy to remove electrons from atoms, creating ions (e.g., X-rays, gamma
+rays).
+
+•
+
+Non-Ionizing Radiation: Does not have enough energy to ionize atoms (e.g., radio waves, microwaves).
+
+1.4 IONIZATION
+• What is Ionization?
+•
+
+The process of removing or adding an electron to an atom, resulting in a charged particle (ion).
+
+•
+Ionization is a key concept in radiology because X-rays and gamma rays are types of ionizing radiation
+used in imaging.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+9
+
+Essentials of Radiologic Physics – Part I
+
+10
+
+Essentials of Radiologic Physics – Part I
+
+1.5 ELECTROMAGNETIC SPECTRUM
+•
+
+X-Rays in the Spectrum:
+
+X-rays are part of the electromagnetic spectrum, with high energy, short wavelength, and high frequency. They
+travel at the speed of light and can penetrate various materials depending on their density and thickness.
+
+Transverse electromagnetic waves (like light, radio waves, Xrays) do not need a medium — they can travel through a
+vacuum.
+Mechanical waves (whether transverse or longitudinal) do
+need a medium — like air, water, or a solid — to propagate.
+So, light can travel through space, but sound cannot.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+11
+
+Essentials of Radiologic Physics – Part I
+
+1.5 ELECTROMAGNETIC SPECTRUM
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+12
+
+Essentials of Radiologic Physics – Part I
+
+1.6 UNITS OF MEASUREMENT
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+13
+
+Essentials of Radiologic Physics – Part I
+
+2. ELECTRICITY, ELECTRONICS, AND MAGNETISM
+2.1 INTRODUCTION TO ELECTROMAGNETISM
+Flowing electrons generate a magnetic field, while spinning magnets can induce an electric current. This interaction is
+referred to as electromagnetism .
+Key Distinction:
+•
+
+Magnetism: Refers to phenomena arising from magnetic forces.
+
+•
+
+Electromagnetism: Includes both magnetic and electric forces .
+
+2.2 ELECTRIC CURRENT
+What is Electric Current? The flow of electrons through a conductor, such as a wire. Measured in amperes (A), which are
+
+directly proportional to the number of electrons moving through a circuit.
+• Types of Electrical Current:
+Alternating Current (AC): Changes direction periodically
+
+A conductor allows electric current to flow easily,
+while an insulator resists the flow of electric
+current.
+
+Direct Current (DC): Flows in only one direction and is required for X-ray tube operation
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+14
+
+Essentials of Radiologic Physics – Part I
+
+2.3 TRANSFORMERS IN RADIOLOGY (Function)
+Purpose: Transformers adjust voltage and current for optimal operation of X-ray systems.
+Types:
+• Step-Up Transformer:
+Increases voltage for the X-ray tube. The current on the secondary side decreases proportionally.
+• Step-Down Transformer:
+Reduces voltage for filament heating in the X-ray tube. The current increases on the secondary side .
+o Step-up transformer, the current on the secondary side (Is) is smaller than the current on the primary
+side (Ip). In a step-down transformer, the secondary current is larger than the primary current
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+15
+
+Essentials of Radiologic Physics – Part I
+
+16
+
+Essentials of Radiologic Physics – Part I
+
+2.3 TRANSFORMERS IN RADIOLOGY (Construction)
+Autotransformer:
+• A special transformer used for small voltage adjustments.
+• Regulates the kilovolt peak (kVp), controlling X-ray beam energy .
+Autotransformer would not be suitable for use as the high-voltage transformer in an x ray imaging system.
+Most currently used transformers are shell type
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+The autotransformer has a single winding and is designed to
+supply a precise voltage to the filament circuit and to the
+high-voltage circuit of the x-ray imaging system.
+
+17
+
+Essentials of Radiologic Physics – Part I
+
+2.4 MAGNETIC INDUCTION
+The process by which a magnetic field induces an electric current.
+Application in X-Ray Systems:
+The induction motor used in X-ray systems rotates the anode to distribute heat and prevent damage.
+It consists of:
+Rotor: Rotates the anode.
+
+Induction motor
+
+Stators: Fixed electromagnets that generate the magnetic field.
+
+2.5 VOLTAGE AND CURRENT IN X-RAY SYSTEMS
+• Voltage (kVp): Determines the energy and penetrative ability of X-rays.
+Higher kVp produces more penetrating X-rays but reduces contrast.
+• Current (mA): Controls the quantity of electrons flowing in the X-ray tube, affecting the image density
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+18
+
+Essentials of Radiologic Physics – Part I
+
+Aspect
+
+Tube Voltage (kVp)
+
+Tube Current (mA)
+
+Definition
+
+Potential difference between
+cathode and anode.
+
+Flow of electrons
+between cathode and
+anode.
+
+Unit
+
+Kilovolt peak (KVp)
+
+Milliamperes (mA)
+
+Purpose
+
+Determines Energy
+(penetration) of X-ray
+
+Determines quantity
+(intensity)
+
+Impact On
+Image
+
+Affects image contrast and
+penetration
+
+Affects image
+brightness and density
+
+Controlled By
+
+Voltage selector on the
+operating console
+
+Current selector on the
+operating console
+
+Clinical Effect
+
+High KVp reduce contrast but
+increase penetration
+
+High mA increase
+exposure, darkening
+image
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+19
+
+Essentials of Radiologic Physics – Part I
+
+3. X-ray Physics
+What is an X-ray?
+X-rays are a form of electromagnetic radiation with high energy and short wavelengths, allowing them to
+penetrate materials. They are similar to visible light but carry more energy, enabling them to pass through
+tissues and create diagnostic images.
+How are X-rays Created?
+X-rays are produced in an X-ray tube when fast-moving electrons, generated at the cathode, collide with the
+anode (a metal target). The kinetic energy of these electrons is transformed into X-ray photons through two
+mechanisms:
+1.Bremsstrahlung Radiation: When electrons are decelerated or deflected by the nucleus of the target
+atom.
+2.Characteristic Radiation: When an electron is ejected from the inner shell of a target atom and another
+electron fills the vacancy.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+20
+
+Essentials of Radiologic Physics – Part I
+
+3.1 DEFINITION AND OVERVIEW
+Both X-rays and gamma rays are types of electromagnetic ionizing radiation used in medical and industrial
+applications. They have similar properties, such as traveling at the speed of light and penetrating matter
+based on energy levels. X-rays and gamma rays are often called photons. (Photons have no mass and no charge).
+
+•
+
+Key Differences:
+1. Origin:
+X-rays are generated outside the nucleus VS. Gamma rays originate within the nucleus.
+
+3.2 RADIOPAQUE VS RADIOLUCENT MATERIALS
+•
+
+Definitions:
+
+Radiopaque: Materials that block or absorb X-rays, appearing white or light on radiographic images.
+Radiolucent: Materials that allow X-rays to pass through, appearing black or dark on radiographs
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+21
+
+Essentials of Radiologic Physics – Part I
+
+Objects absorb light in three degrees:
+1. not at all (transmission)
+2. partially (attenuation)
+3. completely (absorption)
+The objects associated with these degrees of absorption are called transparent,
+translucent, and opaque, respectively.
+
+Window
+glass
+(transparent)
+
+Frosted glass
+(translucent)
+
+Black glass
+(opaque)
+
+Applications in Medical Imaging:
+The contrast between radiopaque and radiolucent materials is the foundation of diagnostic radiography.
+Contrast agents are often introduced to enhance visibility of certain structures, like blood vessels (iodinebased agents) or the gastrointestinal tract (barium sulfate).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+22
+
+Essentials of Radiologic Physics – Part I
+
+3.3 INVERSE SQUARE LAW:
+The intensity of electromagnetic radiation decreases as the square of the distance from its source.
+The inverse square law relies on the following assumptions:
+1. The radiation source is a point source.
+2. Radiation travels in straight lines.
+3. Radiation is emitted equally in all directions.
+4. The energy is radiated at a constant rate.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+23
+
+Essentials of Radiologic Physics – Part I
+
+TWICE the distance = ¼ Intensity
+
+For example, if the radiation exposure is 100 mR at 1 meter, it will be reduced to 25 mR at 2 meters,
+according to the inverse square law. This means doubling the distance reduces the radiation by a factor of 4.
+Increasing distance always reduces radiation exposure.
+Application in Radiographic Imaging:
+For portable X-ray units or fluoroscopy machines, radiologic technologists often adjust the tube-to-detector
+distance to achieve optimal image brightness and contrast while applying the inverse square law to balance
+dose and exposure.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+24
+
+4. PRODUCTION AND CONTROL OF X-RAY
+
+25
+
+Essentials of Radiologic Physics – Part I
+
+4. PRODUCTION AND CONTROL OF X-RAY
+
+4.1 OPERATING CONSOLE
+The operating console is the central interface for radiologic technologists, allowing precise adjustments
+to the X-ray imaging parameters. It is designed to balance patient safety, image quality, and operator
+efficiency.
+Key Features of the Operating Console:
+1.
+
+Control of kVp (Kilovoltage Peak):
+
+•
+
+Purpose: Adjusts the energy and penetrative ability of the X-ray beam.
+
+•
+
+Range: Typically, 40–150 kVp for diagnostic imaging.
+
+•Higher kVp: Produces more penetrating X-rays, useful for imaging dense body parts like the chest or
+abdomen. Results in reduced image contrast but greater tissue penetration.
+•Lower kVp: Enhances contrast for soft tissue imaging, such as mammography or extremities.
+Practical Example: A chest X-ray typically requires 110–125 kVp, while extremity imaging may use 50–60 kVp.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+26
+
+Essentials of Radiologic Physics – Part I
+
+2.
+
+Control of mAs (Milliampere-Seconds):
+
+•
+Purpose: Regulates the number of X-rays produced by controlling the tube current (mA) and
+exposure time (seconds).
+• Higher mAs: Increases the quantity of X-rays, producing darker (denser) images.
+• Lower mAs: Reduces radiation exposure, ideal for thinner regions or pediatric imaging.
+Practical Example: A hand X-ray may use 5 mAs, while a lumbar spine X-ray might require 60–80 mAs.
+
+Key Points to Remember.
+•
+
+For density (brightness): Increase mAs.
+
+•
+
+For penetration: Increase kVp.
+
+Less Voltage ripple results in
+greater radiation quantity and
+quality.
+
+Higher kVp reduces patient dose compared to increasing mAs excessively, so kVp is often the preferred
+adjustment for thicker areas when balancing image quality and safety.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+27
+
+Essentials of Radiologic Physics – Part I
+
+3. Selection of Focal Spot Size:
+•
+
+Small Focal Spot: (~0.6 mm) for high-resolution imaging of small structures like fingers.
+
+•
+
+Large Focal Spot: (~1.2 mm) for higher exposures and larger body parts like the chest.
+Small focal spots range from 0.1 to 1 mm; large focal spots range from 0.3 to 2 mm.
+
+Radiology requires small focal spots because the smaller the focal spot, the better the spatial resolution
+of the image. Unfortunately, as the size of the focal spot decreases, the heating of the target is
+concentrated onto a smaller area. This is the limiting factor to focal spot size.
+4. Automatic Exposure Control (AEC):
+• AEC devices terminate the exposure automatically once sufficient radiation reaches the detector.
+Ensures consistent image quality and reduces patient dose.
+• Practical Application: In chest X-rays, AEC optimizes exposure based on lung density, minimizing
+overexposure.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+28
+
+Essentials of Radiologic Physics – Part I
+5.
+
+Collimation Controls: Adjust the size and shape of the X-ray beam.
+Collimation minimizes scatter radiation, reduces patient exposure, and improves image contrast.
+
+6. Timer Control: Sets the exposure duration, typically in milliseconds.
+•
+
+Shorter times reduce motion blur in dynamic imaging (e.g., heart or lung studies).
+
+Factors That can affect x-ray
+An Increase in
+
+X-ray Quantity
+
+X-ray Quality
+
+Kilovolt peak
+
+Increase
+
+Increase
+
+Milliampere
+
+Increase
+
+No change
+
+Exposure time
+
+Increase
+
+No change
+
+Milliampere Second
+
+Increase
+
+No change
+
+Distance
+
+Decrease
+
+No change
+
+Voltage ripple
+
+Decrease
+
+Decrease
+
+Filtration
+
+Decrease
+
+Increase
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+29
+
+4. PRODUCTION AND CONTROL OF X-RAY
+
+Day 1 Course Introduction & SRTLE Blueprint Overview
+
+30
+
+Essentials of Radiologic Physics – Part I
+
+Summary of Key Components in Sequence
+1. Power Supply → Provides 220–240V AC.
+2.Autotransformer → Adjusts voltage to the desired level for the step-up transformer based on kVp
+selection.
+3.Step-Up Transformer → Converts adjusted voltage to high voltage (40–150 kVp) for electron
+acceleration.
+4.Filament Transformer → Steps down voltage (6–12V) and increases current for filament heating.
+5.Rectifier → Converts AC to DC for proper electron flow in the X-ray tube.
+6.X-Ray Tube → Uses high voltage to produce X-rays through electron interactions.
+7.Beam Conditioning → Filters and collimators shape the X-ray beam for safe and effective imaging.
+Power Supply → Autotransformer → Step-Up Transformer (to tube)
+Step-Down Transformer (to filament) → Rectifier → X-ray Tube
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+31
+
+Essentials of Radiologic Physics – Part I
+
+4.2 HIGH-VOLTAGE GENERATOR
+The high-voltage generator supplies the energy required to accelerate electrons within the X-ray tube.
+Sequence of Voltage Transformation in X-Ray Imaging
+1. Input Power Supply
+• The system receives low voltage from the mains (e.g., 220–240V).
+• Alternating current (AC) is used to power the transformers and
+initiate the voltage transformation process.
+2. Adjustment by the Autotransformer
+• The autotransformer adjusts the mains voltage to the desired input voltage for the step-up
+transformer.
+• The operator selects the desired kVp using the operating console, and the autotransformer modifies
+the input voltage accordingly.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+32
+
+Essentials of Radiologic Physics – Part I
+
+3. Step-Up Transformation KV control circuit - High-Voltage Transformer:
+The circuit has two transformers namely, an autotransformer and a step-up transformer.
+• The adjusted voltage is sent to the step-up transformer, which increases it to the high voltage (kilovolt peak or kVp)
+required for X-ray production. Example: From ~220V to 40–150 kVp. This high voltage provides the energy to accelerate
+electrons from the cathode to the anode within the X-ray tube.
+
+4. Filament Voltage (Step-Down Transformation)
+• Simultaneously, the filament transformer (step-down transformer) reduces the input voltage to a low level (6–12V) while
+increasing the current to heat the cathode filament.
+
+The high current (3–5 A) ensures sufficient thermionic emission, creating a cloud of electrons
+around the filament
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+33
+
+Essentials of Radiologic Physics – Part I
+
+The Filament circuit
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+The Kilovoltage control circuit
+
+34
+
+Essentials of Radiologic Physics – Part I
+
+6. Generator Types
+• Single-Phase Generators:
+Produce pulsating X-ray beams with fluctuating intensity.
+
+The high-voltage generator contains three
+primary parts: the high-voltage transformer,
+the filament transformer, and rectifiers.
+
+• Three-Phase Generators:
+Provide more constant X-ray output, improving efficiency and image quality.
+• High-Frequency Generators:
+The most advanced, converting AC into nearly continuous DC for optimal imaging
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+35
+
+Essentials of Radiologic Physics – Part I
+
+5. Rectification Controls tube current (mA), not kVp.
+The high voltage generated by the step-up transformer is in the form of alternating current (AC).
+• A rectifier converts the AC into direct current (DC), which is essential for the X-ray tube’s operation
+because:
+•. Electrons must flow in a single direction (from cathode to anode).
+X-ray tube requires a direct current (DC)
+They are mainly divided into half wave and full wave rectifiers
+
+full wave
+
+Most common
+
+•Full-wave: Uses both halves, 120 pulses/sec, ~100% efficient
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Half-wave rectification gives the same radiation
+quality as full-wave, but only half the quantity.
+
+half wave
+
+Limited use
+
+•Half-wave: Uses 1 half of AC cycle, 60 pulses/sec, ~50% efficient.
+36
+
+4. PRODUCTION AND CONTROL OF X-RAY
+
+Day 1 Course Introduction & SRTLE Blueprint Overview
+
+37
+
+Essentials of Radiologic Physics – Part I
+
+4.3 X-RAY TUBE
+- Protective Housing: X-rays that escape through the protective housing are called leakage radiation.
+The protective housing around x-ray tubes contains oil that serves as both an insulator against electric
+shock and as a thermal cushion to dissipate heat.
+
+- Glass or Metal Enclosure
+The glass enclosure is made of Pyrex glass. The enclosure
+maintains a vacuum inside the tube.
+
+The lead is the key material that provides radiation shielding.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+38
+
+Essentials of Radiologic Physics – Part I
+
+Key Components of the X-Ray Tube:
+1.
+Cathode (Negative Electrode):
+- Filament – Dual-Filament Cathode
+Filaments, usually made of thoriated tungsten, emit electrons via thermionic
+emission when heated. Two filaments produce separate electron beams for
+two focal spots, with electron output determined by filament temperature.
+
+W/O
+
+W/
+•
+
+Focusing Cup: A negatively charged structure surrounding the filament.
+
+Directs electrons into a narrow beam, preventing electron scattering.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+39
+
+Essentials of Radiologic Physics – Part I
+
+2. Anode (Positive Electrode): There are two types of anodes, stationary and rotating.
+Stationary anode x-ray tubes are used in special-purpose units in which high tube current and power are
+not required. General-purpose x-ray tubes use the rotating anode because they must be capable of
+producing high-intensity x-ray beams in a short time.
+The anode serves three functions in an x-ray tube.
+1. The anode is an electrical conductor.
+2. Provides mechanical support for the target.
+3. The anode also must be a good thermal dissipater.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+40
+
+Essentials of Radiologic Physics – Part I
+The rotating anode consist of :
+1.
+2.
+✓
+✓
+✓
+
+The stem is the shaft between the anode and the rotor. And made of molybdenum.
+An electromagnetic induction motor is used to turn the anode.
+consists of two principal parts separated from each other by the glass or metal enclosure.
+The part outside the glass, called the stator,
+The part Inside the glass or, called the rotor.
+
+The target is the area of the anode struck by the electrons from the cathode.
+Why rotating anode better than stationary ?
+The rotating anode x-ray tube allows the electron beam to interact with a much larger
+target area; therefore, the heating of the anode is not confined to one small spot, as in
+a stationary anode tube.
+Why is tungsten used for the target rather than other material?
+Key Relationship
+Filament current controls the thermionic emission process, which determines how many electrons are available to
+flow as tube current.
+Tube current (mA) is proportional to filament current but is controlled indirectly to produce the desired X-ray intensity.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+41
+
+Essentials of Radiologic Physics – Part I
+
+Aspect
+
+Filament Current
+
+Tube Current
+
+Definition
+
+Current heating the cathode
+filament
+
+Current of electrons traveling
+between cathode and anode
+
+Unit
+
+Amperes (A)
+
+Milliamperes (mA)
+
+Purpose
+
+Determines Energy
+Produce electron cloud via
+thermionic emission
+
+Determines the quantity of
+X-ray emitted
+
+Control
+
+Controlled by the filament
+transform
+
+Controlled via the operating
+console
+
+Dependency
+
+Higher filament current increases
+electron availability
+
+Dependent on filament
+current and KVp
+
+Effect on output
+
+Indirect affects tube current and
+X-ray production
+
+Directly controls X-ray
+intensity (beam quantity)
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+42
+
+Essentials of Radiologic Physics – Part I
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+43
+
+Essentials of Radiologic Physics – Part I
+
+3. Line Focus Principle: The line focus principle is a design feature of the X-ray tube that reduces the effective size of
+the focal spot while maintaining a larger actual focal area on the anode. This balances heat dissipation with image
+resolution.
+Key Components:
+1.
+
+Actual Focal Spot:
+
+•
+
+Larger spots are used to dissipate heat effectively.
+
+2.
+
+Effective Focal Spot:
+
+•
+
+Smaller effective focal spots improve image sharpness (spatial resolution).
+
+The anode is angled (commonly 5–20°) relative to the electron beam.
+By tilting the anode, the effective focal spot appears smaller than the actual focal spot.
+
+Advantages of the Line Focus Principle:
+Allows flexibility in balancing heat dissipation and image quality.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+44
+
+Essentials of Radiologic Physics – Part I
+
+4. Heel Effect: The heel effect is a phenomenon in which the intensity of the X-ray beam decreases toward
+the anode side of the X-ray tube due to absorption within the anode itself.
+Key Characteristics:
+• Cathode Side: Higher intensity.
+• Anode Side: Lower intensity.
+
+Smaller anode angles, larger heel effect
+Applications:
+•
+
+Place the thicker part of the patient (e.g., chest or abdomen)
+toward the cathode side for more intense radiation.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+45
+
+Essentials of Radiologic Physics – Part I
+
+Aspect
+
+Line Focuses Principle
+
+Heel Effect
+
+Purpose
+
+Improves resolution while managing
+
+Describes intensity variation
+in the beam
+
+Mechanism
+
+Achieved by angling the anode
+
+Caused by self-absorption
+within the anode
+
+Impact
+
+Affect image sharpness and heat load
+
+Affect beam uniformity
+
+Clinical use
+
+Smaller focal spots for detailed imaging
+
+Cathode placement for
+thicker anatomy
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+46
+
+Essentials of Radiologic Physics – Part I
+
+5. Filtration:
+Added Filtration result in increase HVL
+
+•
+•
+
+Increasing filtration increases the quality of an
+x-ray beam
+Adding filtration to the useful x-ray beam
+reduces patient dose
+
+The purpose of filtration is to REDUCE the number of low-energy x-rays.
+Low-energy x-rays contribute nothing useful to the image. They only increase the patient radiation dose
+unnecessarily because they are absorbed in superficial tissues and do not penetrate to reach the image
+receptor.
+•After 1 HVL → 50% remains
+•After 2 HVLs → 25% remains
+•After 3 HVLs → 12.5% remains
+More than 10% transmission requires approximately 3 HVLs.
+Less than 10% transmission requires approximately 4 HVLs.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+47
+
+Essentials of Radiologic Physics – Part I
+
+Types of Filtrations:
+Filtration of diagnostic x-ray beams has two components:
+✓ inherent filtration and added filtration.
+1. Inherent: the part of the glass or metal enclosure through which x-rays
+are emitted the window is very thin. This provides for low inherent
+filtration. The inherent filtration of a general-purpose x-ray tube is
+approximately 0.5 mm Al equivalent.
+2. Added: A thin sheet of Al positioned between the protective x-ray tube
+housing and the x-ray beam collimator is the usual form of added
+filtration.
+3. Compensating filter: come in various sizes and shapes.
+For producing an image with a uniform intensity when a body part
+that varies greatly in thickness or tissue composition. The filter is
+used in this fashion, it is called a compensating filter because it
+compensates for differences in subject radiopacity
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+48
+
+Essentials of Radiologic Physics – Part I
+
+X-Ray Production
+
+•High-speed electrons collide with the tungsten target on the anode, converting their kinetic energy into:
+1.
+•
+
+Produced through Bremsstrahlung and characteristic interactions.
+2.
+
+•
+
+X-rays (1%):
+
+Heat (99%):
+
+Dispersed through rotation of the anode, protective housing, and oil cooling.
+
+o Bremsstrahlung Radiation (Braking Radiation): Most of the X-rays are created this way as electrons slow
+down near the nucleus.
+o Characteristic Radiation: Produced when electrons dislodge inner-shell electrons of the anode material.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+49
+
+Essentials of Radiologic Physics – Part I
+
+In the diagnostic range, Bremsstrahlung radiation is
+the predominant type.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+50
+
+Essentials of Radiologic Physics – Part I
+
+Summary of Key Components in Sequence
+1. Power Supply → Provides 220–240V AC.
+2.Autotransformer → Adjusts voltage to the desired level for the step-up transformer based on kVp
+selection.
+3.Step-Up Transformer → Converts adjusted voltage to high voltage (40–150 kVp) for electron
+acceleration.
+4.Filament Transformer → Steps down voltage (6–12V) and increases current for filament heating.
+5.Rectifier → Converts AC to DC for proper electron flow in the X-ray tube.
+6.X-Ray Tube → Uses high voltage to produce X-rays through electron interactions.
+7.Beam Conditioning → Filters and collimators shape the X-ray beam for safe and effective imaging.
+Power Supply → Autotransformer → Step-Up Transformer (to tube)
+Step-Down Transformer (to filament) → Rectifier → X-ray Tube
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+51
+
+Day 1 Course Introduction & SRTLE Blueprint Overview
+
+52
+
+Essentials of Radiologic Physics – Part I
+
+5. X-RAY EMISSION AND INTERACTIONS WITH MATTER
+
+5.1 QUANTITY:
+The intensity of the x-ray beam of an x-ray imaging system is measured in milli-gray in air (mGya) and is
+called the x-ray quantity . X-rat quantity proportional to kVp and mAs.
+Factors That Affect X-ray Quantity
+X-ray amount decreases with the
+square of the distance.
+
+When SID increases, increase mAs by SID² to
+keep exposure constant.
+
+5.2 QUALITY:
+The penetrability of an x-ray beam is called the x-ray quality.
+Penetrability refers to: the ability of x-rays to penetrate deeper in tissue.
+High-energy x-rays are able to penetrate tissue more deeply than low-energy x-rays.
+X-rays with high penetrability are termed high-quality x-rays. Those with low penetrability are lowquality x-rays.
+✓ Distance and mAs do not affect radiation quality; they do affect radiation quantity.
+✓
+✓
+✓
+✓
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+53
+
+Essentials of Radiologic Physics – Part I
+
+In radiography the quality of x-rays is measured by the half-value layer (HVL).
+Therefore, the HVL is a characteristic of the useful x-ray beam.
+✓ The HVL of an x-ray beam is the thickness of absorbing material necessary to reduce the x-ray intensity
+to half of its original value. A diagnostic x-ray beam usually has an HVL in the range of 3 to 5 mm Al or 3
+to 6 cm of soft tissue.
+Factors That Affect X-ray Quality
+Increasing kVp improves the quality
+(penetrating ability) of the X-ray
+beam.
+Increasing kVp improves the quality
+(penetrating ability) of the X-ray beam.
+
+X-ray beam quality can be evaluated using
+kVp or filtration, but HVL is the most
+accurate measure
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+54
+
+Essentials of Radiologic Physics – Part I
+
+5.3 X-RAY INTERACTION WITH MATTER
+X-RAYS INTERACT with matter in the following five ways:
+
+1. Coherent Scattering : Minimal impact on image formation.
+
+2. Compton Scattering: Results in image noise.
+3. Photoelectric Effect: Critical for image contrast.
+4. Pair Production
+5. Photodisintegration
+
+Two of these (Red)—Compton scattering and photoelectric effect—are of particular importance to
+diagnostic radiology
+
+Compton scattering
+reduce image contrast.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+The photoelectric effect
+is total x-ray absorption
+
+55
+
+Essentials of Radiologic Physics – Part I
+
+DIFFERENTIAL ABSORPTION (IMAGE FORMATION)
+Of the five ways an x-ray can interact with tissue, only two are important to radiology,
+-
+
+Compton scattering create noise
+Photoelectric effect helps the detector
+x-ray transmitted through the body without interacting.
+
+Differential absorption results from Compton
+scattering, the photoelectric effect, and Xrays transmitted through the patient.
+
+1. The Compton scattered X-ray:
+Compton scatter is a main source of scattered radiation, occurring when photons interact with
+loosely bound electrons. The scattered photon’s energy decreases as the scatter angle
+increases, creating image noise.
+Lowering kVp increases differential absorption and image contrast,
+but also raises patient dose .
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+56
+
+Essentials of Radiologic Physics – Part I
+
+2. Photoelectric effect:
+
+Photoelectric absorption is one of the principal forms of interaction of x-ray and gamma photons with
+matter. A photon interacts with the inner shell electron of the atom and removes it from its shell.
+
+✓ Gives diagnostic information and helps the detector for image formation.
+Bone like anatomic structures are radiopaque, and shows high absorption characteristics, resulting light
+areas (white) in the radiographs.
+
+3. The X-rays that are transmitted through the body without interaction:
+resulting dark areas (black) in the radiograph. The anatomical structures appear to radiolucent to above Xrays
+✓ The radiographic image is due to the difference between the X-rays that are absorbed by photoelectric
+process and those transmitted without interaction. This difference is called differential absorption
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+57
+
+Essentials of Radiologic Physics – Part I
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Day 1 Course Introduction & SRTLE Blueprint Overview
+
+58
+
+Essentials of Radiologic Physics – Part I
+
+References
+1. Bushong, S. C. Radiologic Science for Technologists: Physics, Biology, and
+Protection. 11th ed., Elsevier, 2020.
+2. Carlton, R. R., Adler, A. M., and Balac, V. Principles of Radiographic Imaging:
+An Art and a Science. 6th ed., Cengage, 2022.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+59
+
+THANK YOU
+
+60
+
+

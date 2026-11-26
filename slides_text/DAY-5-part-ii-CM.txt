@@ -1,0 +1,753 @@
+SRTLE: A Survival Guide
+
+urse
+
+5TH Co
+
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+DAY 5
+
+Contrast Media & medication
+in Medical Imaging
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+Contrast Media and Medication in medical imaging
+
+DAY 5
+
+Day 5 Outline
+2.3 CHAPTER
+Contrast Media and Medication in medical imaging
+I. Contrast Media
+Pharmaceutical Category
+Patient safety
+Properties and classification
+Extravasation
+Precautions
+Reactions
+II. Medication
+Properties and classification
+
+3
+
+Contrast Media and Medication in medical imaging
+
+DAY 5
+
+4
+
+Contrast Media and Medication in medical
+imaging
+
+Adrenergic
+Anesthetic
+Antianxiety
+Anticoagulant
+
+Antidepressant
+
+Section I : Contrast Media
+
+Antidiabetic
+Antihistamine
+Anticholinergic
+
+1. Pharmaceutical Category
+
+Drugs that block and suppress the action of the neurotransmitter
+acetylcholine (ACh) in both the central and peripheral nervous
+systems.
+
+Antiperistaltic
+
+Bronchodilator
+
+Medications that make breathing easier by relaxing lung muscles
+and expanding the airways (bronchi).
+
+Cathartic
+
+Substances that speed up bowel movements. Similar to laxatives,
+which help ease bowel movements, often by softening stools.
+
+Contrast agent
+Diuretic
+
+Thiazides are the most prescribed diuretics, often used to lower
+high blood pressure.
+
+Fluid and electrolytes
+
+Glucocorticoid /
+NSAID
+Hypoglycemic
+
+Narcotics
+
+Example: Morphine
+
+Sedative
+Tranquilizer
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Vasodilator
+5
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+2. Patient safety
+1- Confirm contrast administration is appropriate for the patient and indication.
+2- Weigh the potential risks of adverse events against the expected benefits.
+3-Be prepared to manage any reaction if it occurs.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+6
+
+Day 1 Course Introduction & SRTLE Blueprint Overview
+
+7
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+3. Properties and classification
+Contrast Media (CM)
+Special agents that can be administered to improve the visibility (contrast) of soft tissues in radiographic imaging
+
+3.1 Characteristics of an Ideal Contrast Medium:
+1. Electrically neutral (no charge)
+2. Non-reactive and biologically safe
+3. Contains an adequate amount of iodine atoms
+4. Low osmolality
+5. Low osmolarity
+6. Low viscosity
+7. Excellent compatibility with nervous tissue
+8. Can be given through multiple routes (IV, IA, IT, or GIT)
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+8
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+• Viscosity
+A measure of a fluid’s resistance to flow.
+•High viscosity liquids are often described as thick or syrupy; low viscosity liquids are considered thin or watery.
+•Warming the contrast medium to body temperature before injection can help reduce its viscosity.
+
+• Toxicity
+•The potential of a substance to cause harm to the body.
+
+• Osmolality
+The number of dissolved particles in a solution per kilogram of water.
+•
+
+Ionic media: Molecules dissociate into charged particles in solution, increasing osmolality.
+
+•
+
+Nonionic media: Molecules remain whole in solution, resulting in lower osmolality.
+
+→ High-osmolality contrast agents are generally more toxic, while low-osmolality agents are less toxic and preferred
+for most iodinated contrast procedures.
+→ Isosmolar agents (matching blood osmolality) are used for high-risk patients to minimize adverse effects.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+9
+
+Contrast Media and Medication in medical
+imaging
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 5
+
+10
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+3.2 Contrast media Classification :
+1. Neutral
+•
+
+Produces minimal change in radiographic appearance.
+
+2. Negative (Radiolucent) – Appears dark on images
+•
+
+Examples: Gases such as air and carbon dioxide (CO₂).
+
+•
+
+Commonly used in studies like arthrography and myelography.
+
+→
+
+Carbon dioxide is safe, effective, and frequently used as a negative contrast agent.
+
+3. Positive (Radiopaque) – Appears white or light on images
+
+•
+
+Examples: Barium sulfate (BaSO₄) and iodine-based compounds.
+
+→
+
+These agents absorb more x-rays than surrounding tissues, creating high-contrast images.
+
+K-edge
+Iodine K-edge = 33.2 keV
+Barium K-edge = 37.44 KeV
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+11
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+Barium Sulfate (BaSO₄)
+
+Iodinated Contrast Media
+
+Used exclusively for imaging the gastrointestinal (GI) tract.
+
+Administration Methods
+
+Administration: Oral or rectal.
+
+Intravenous (IV) infusion: Diluted, high-volume, administered
+slowly.
+
+→ Supplied as a dry powder that must be mixed with water
+before use.
+→Mixture thickness depends on procedure:
+
+→Can be given with a syringe via IV catheter or butterfly needle.
+
+•
+
+Thick mixture → Esophagus studies (barium swallow).
+
+→CT imaging may use bolus, infusion, or both.
+
+•
+
+Thin mixture → Single-contrast barium enemas.
+
+→ Power injectors can deliver a rapid bolus followed by a slower
+infusion.
+
+1. Barium Swallow for esophagus
+2. Barium meal for stomach
+3. Barium follow through for small Bowel
+4.
+
+→Bolus injection: Large, rapid IV dose delivered with precise timing.
+
+Barium enema for Lower GI (large Bowel)
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Key Characteristics
+•
+
+Iodine concentration
+
+•
+
+Osmolality
+
+•
+
+Viscosity
+
+•
+
+Toxicity
+
+12
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+Iodine Concentration
+•
+
+High concentration → Needed for large vessels like the aorta (due to dilution by blood).
+
+•
+
+Low concentration → Sufficient for smaller arteries and veins.
+
+•
+
+Higher concentration increases viscosity, osmolality, and toxicity.
+
+•
+
+The iodine concentration directly affects x-ray attenuation and the level of positive contrast.
+
+The Seldinger technique is a method used for
+catheterization.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+13
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+✓ Angioplasty
+Percutaneous transluminal angioplasty involves using an
+angiographic approach with specialized catheters to widen
+a narrowed (stenosed) blood vessel. This well-established
+interventional method can be applied to various vessel
+types and sizes, including coronary, iliac, and renal arteries.
+✓ Embolization
+a procedure that uses materials such as tiny gelatin
+sponges or beads to block a blood vessel. It can be done to
+stop bleeding or to cut off blood flow to a tumor or abnormal
+tissue. This method is also used for treating certain cancers
+(liver, kidney), vascular malformations, aneurysms, and
+other medical conditions.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+14
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+4. Extravasation
+intravenous (IV) fluids or medications may leak or accidentally enter the tissues surrounding a vein. This is known
+as extravasation, also called infiltration.
+•
+Extravasation means the fluid has escaped from the vessel.
+•
+Infiltration refers to the fluid spreading into nearby tissue.
+Precautions to prevent infiltration:
+1. Always check for blood backflow to confirm the catheter is correctly positioned before injecting.
+2. Secure and Immobilize the catheter at the injection site to prevent movement.
+3. Stop the injection immediately if:
+•
+The patient feels discomfort at the site
+•
+You notice swelling around the site
+•
+You encounter resistance during injection
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+15
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+If infiltration occurs:
+1. Remove the needle and address the issue before attempting another injection elsewhere.
+2. Reassure the patient that the discomfort will be temporary.
+3. Apply pressure to the vein until bleeding stops completely to prevent a hematoma from forming.
+4. Once bleeding has stopped, place a cold pack on the affected area to relieve pain, constrict blood vessels,
+and help keep the leaked fluid localized.
+5.In the past, hot packs were advised for all IV infiltrations to increase circulation and speed fluid absorption.
+Cold pack:
+Help alleviate the pain. This will also cause
+constriction of the blood vessels in tahe are and
+help to keep the infiltrate localized
+
+Hot pack:
+Help the body to absorb the
+extravasated fluid more
+rapidly
+
+However, current research shows that cold packs are the safest and most effective treatment for infiltration of
+contrast media and other irritating substances, as they help limit tissue damage.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+16
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+5. Precautions
+Consent
+Procedures involving intravenous (IV), intraarterial, or intrathecal administration of iodine contrast carry inherent risks, so
+obtaining informed consent is typically required.
+
+Patient history
+A thorough patient history is crucial, as allergic reactions to contrast agents can occur due to sensitivity to iodine or other
+components of the contrast medium.
+Renal failure
+Patients with renal failure may have difficulty eliminating the contrast medium, potentially leading to toxic reactions. Such toxic
+effects, which can range from mild to severe, are more likely in patients with compromised heart or kidney function or those who
+receive an excessive dose of the contrast agent.
+Radiographers must review the patient’s chart to confirm that blood urea nitrogen (BUN) and creatinine levels fall within normal
+ranges.
+The typical normal values for adults are:
+For adult males: 0.74 to 1.35 mg/dL (65.4 to 119.3 mmol)
+1.
+BUN: 6 to 20 mg/dL
+For adult females: 0.59 to 1.4 mg/dL (52.2 to 91.9 mmol)
+2.
+Creatinine: 0.6 to 1.5 mg/dL
+Creatinine levels of 2.0 mg/dL or higher may be a contraindication for administering iodine contrast agents.
+Any abnormal test results should be reported to the radiologist before giving iodinated contrast
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+17
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+Diabetes:
+It’s important to identify diabetic patients, as they are at increased risk for renal complications.
+Special attention should be given to patients taking medications containing metformin hydrochloride (e.g., Glucophage,
+Glucovance, Metaglip, Avandamet), which are used to control blood sugar levels.
+Metformin must be discontinued on the day the contrast medium is given and withheld for at least 48 hours afterward. ?
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+18
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+6. Reactions
+
+Most reactions to contrast media are considered allergic responses.
+Mild reactions:
+These are the most common and usually don’t require treatment.
+Patients who experience mild reactions should be monitored for 30 minutes after symptoms begin to ensure the reaction does not
+worsen.
+Moderate reactions:
+These reactions are not life-threatening but often require treatment to relieve symptoms.
+Severe reactions:
+These are potentially life-threatening and typically occur within the first 20 minutes after intravascular injection of contrast. Though
+rare, severe reactions must be identified and treated immediately.
+If a patient’s history indicates a high risk of adverse reaction:
+1. A nonionic contrast agent may be preferred.
+2. The procedure might be preceded by administration of antihistamines or corticosteroids to reduce the risk of reaction.
+3. If the patient has an iodine allergy and has not been premedicated, the procedure may be cancelled and an alternative imaging
+modality such as ultrasound or non-contrast spiral CT should be considered.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+19
+
+Contrast Media and Medication in medical
+imaging
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 5
+
+20
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+Contrast-Induced Nephropathy (CIN):
+
+CIN is defined as acute kidney failure occurring within 48 hours after contrast injection and is a subset of post-contrast acute kidney
+injury (AKI). The main risk factors include diabetes and chronic kidney disease.
+Adequate hydration is critical to prevent CIN. Patients should be encouraged to drink several liters of water or fluids 12 to 24 hours
+before and after receiving contrast.
+For patients at risk of kidney impairment, serum creatinine and estimated glomerular filtration rate (eGFR) should be checked.
+Stages of Chronic Kidney Disease based on GFR:
+• Stage 1: Normal or high GFR (> 90 mL/min)
+• Stage 2: Mild CKD (GFR 60-89 mL/min)
+• Stage 3B: Moderate CKD (GFR 30-44 mL/min)
+• Stage 4: Severe CKD (GFR 15-29 mL/min)
+
+Intravenous hydration is recommended for all patients
+with GFR below 60 mL/min receiving intra-arterial contrast.
+Contrast administration should be avoided in patients with GFR less than 30 mL/min.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+21
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+Nephrogenic Systemic Fibrosis (NSF) GBCA
+Definition: Fibrotic disease affecting skin ± organs; linked mainly to
+gadolinium exposure in severe kidney disease.
+•High-Risk Groups: CKD4–5 (eGFR <30), dialysis patients, and those with
+AKI; risk increases with Group I GBCAs.
+•GBCA Safety: Group II = very low risk (preferred); Group I = highest risk
+(avoid in high-risk patients); Group III = limited data.
+•Onset & Dose: Usually appears days–months after exposure; can occur
+after a single standard dose.
+•Prevention: Screen for renal impairment, use lowest effective dose, choose
+Group II for at-risk patients, avoid unnecessary GBCA use.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Day 1 Course Introduction & SRTLE Blueprint Overview
+
+22
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+Shock :
+
+Radiographer’s Role in Suspected Shock:
+1.Immediately stop the procedure.
+2.Help the patient into a dorsal recumbent position to prevent falls and elevate their feet to improve blood flow to the brain. If the
+patient is having difficulty breathing, also elevate the head.
+3.Call for help and notify the radiologist, physician, or nurse.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+23
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+Section II : Medications
+
+Medications are substances prescribed to treat conditions by producing therapeutic effects.
+Medication Properties
+Pharmacokinetics VS Pharmacodynamics
+• Pharmacokinetics study of the way the body processes a drug, including how it is absorbed, distributed to the site
+of action, metabolized (chemically and physically changed), and eliminated.
+• Pharmacodynamics is the study of the effects of drugs on the body’s normal physiological functions.
+Absorption
+
+This is the process by which a drug moves from the administration site into the bloodstream to
+produce the desired effect.
+
+Distribution
+
+Refers to how a drug travels from the bloodstream to the target tissues where it exerts its effects.
+
+Metabolism
+
+The body transforms drugs into inactive forms that can be eliminated, primarily through the liver.
+
+Excretion
+
+The process of removing metabolized drugs from the body.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+24
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+Therapeutic Effect: The intended, beneficial outcome of administering a medication.
+Side Effects: Unintended effects of a drug that may or may not be harmful.
+Toxic Effects: Harmful reactions often caused by overdose or impaired drug elimination.
+Idiosyncratic Effect: An unpredictable or unusual reaction that differs from the expected response.
+Synergistic Effect: An enhanced effect that occurs when two or more medications are taken together.
+Frequently used medications encountered by radiographers include:
+
+1. Antihistamines (such as diphenhydramine)
+2. Anti-inflammatory drugs (such as Solu-Cortef) that treat allergic reactions
+3. Sympathetic nervous system stimulants (such as epinephrine) to treat acute allergic reactions and other
+acute conditions
+4. Antimicrobials (such as alcohol) to prevent infections
+5. Anticonvulsants (such as diazepam) to treat seizures
+6. Antiarrhythmics (such as lidocaine or amiodarone) to treat irregular heart rhythm
+7. Analgesics (such as morphine or aspirin) to relieve pain
+8. Sedatives and tranquilizers (such as lorazepam or diazepam) to reduce anxiety
+9. Antagonists (such as flumazenil or naloxone) to reverse the effects of sedatives
+10. local anesthetics (such as lidocaine) to cause numbness when a procedure may be painful
+11. Muscle relaxants (such as succinylcholine chloride) to cause temporarily paralysis
+12. Hypoglycemic agents (such as insulin and metformin) to regulate blood glucose levels
+13. ACE inhibitors (such as captopril, enalapril, and lisinopril) to control hypertension.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+25
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+Medication Administration - Medication Orders
+
+When medications are given in the imaging department, a physician selects the drug, determines the route of
+administration, and prescribes the exact dosage.
+A standing order consists of written directions for a specific medication or procedure, signed by a physician
+
+Routes Of Administration
+Enteral Route: Oral, Rectal, and Nasogastric Tube .
+
+The oral route of administering medication is common and familiar. Oral medications are supplied in a variety of forms,
+including tablets, capsules, granules, and liquids.
+When a patient is severely nauseated or unable to swallow, medications can be administered by rectum
+
+Medication Inhalation
+
+Some lung conditions are treated with inhalation therapy. Liquid medications are vaporized, administered by an inhaler or
+nebulizer, and inhaled by the patient.
+The inhalation route is also used for the administration of radioactive gases for nuclear medicine lung ventilation studies
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+26
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+IV route
+
+Medication administered via the IV route produces a very rapid response, which is why this route is
+commonly used to administer emergency medications.
+This route is also used to administer infusions for fluid and/or electrolyte replacement. Contrast agents
+are administered via this route for some x-ray, CT, and MRI examinations.
+When monitoring IV fluids, note the flow rate, maintain the bag or bottle at a height of 18 to 20 inches
+above the vein, and notify the nursing service if the flow stops .
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+27
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+There are four routes for parenteral medications.
+
+Each type of injection requires a specific skill set to ensure the medication is prepared properly and
+administered into the correct location. The four types of injections are:
+1. Subcutaneous (SC): This injection places medication/solution the loose connective tissue just under
+the dermis.
+2. Intradermal (ID): This injection places the medication into the dermis just under the epidermis.
+3. Intramuscular (IM): This injection places the medication into the body of a muscle.
+4. Intravenous (IV): This injection places the medication/solution into a vein through an existing IV line or a
+short venous access device (saline lock). Medications given by the intravenous route can be given as an IV
+bolus, as an intermittent (piggyback) medication, or in a large volume continuous infusion.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+28
+
+Contrast Media and Medication in medical
+imaging
+
+DAY 5
+
+Myelography :
+The injection portion of the procedure is called a spinal tap or lumbar puncture and involves the
+insertion of a needle into the subarachnoid space where a contrast medium is then injected for
+the myelogram.
+The median cubital vein
+is the larger and more stable vein and is preferred for venipuncture.
+The cephalic and basilic veins have a greater tendency to roll and
+veinpuncture may be more painful from these sites.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+29
+
+Contrast Media and Medication in medical
+imaging
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 5
+
+30
+
+Essentials of Radiologic Physics – Part I
+
+References
+American College of Radiology Committee on Drugs and Contrast Media. (2023). ACR manual
+on contrast media (2023 ed.). American College of Radiology.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+31
+
+THANK YOU
+
+32
+
+

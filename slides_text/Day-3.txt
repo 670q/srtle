@@ -1,0 +1,619 @@
+SRTLE: A Survival Guide
+
+urse
+
+5TH Co
+
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+DAY 3
+
+Essentials of Radiologic
+Physics – Part II
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+Day 3 Outline
+1.1 CHAPTER
+ESSENTIALS OF RADIOLOGIC PHYSICS
+Basic Principles
+Electricity, Electronics and Magnetism
+X-ray Physics
+Production and Control of X-ray
+X- ray emission and Interactions with Matter
+The Radiographic Image Quality
+Screen-Film Radiography
+Computed and Digital Radiography
+Fluoroscopy Imaging
+Mammography Imaging
+
+3
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+4
+
+Essentials of Radiologic Physics – Part II
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+5
+
+Essentials of Radiologic Physics – Part II
+
+Section II : Patient Care
+1. Radiographic Image Quality
+
+Radiographic image quality is influenced by three major interrelated
+categories:
+• Film factors
+• Geometric factors
+• Subject factors
+
+Image quality refers to the degree of accuracy with which the anatomical
+structure being examined is represented on the radiograph.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+6
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+1.1 Film factors
+Key Characteristics of Radiographic Image Quality
+
+•Spatial resolution
+•Contrast resolution
+•Noise
+•Artifacts
+Resolution The ability to visualize two distinct objects and differentiate them from one another.
+1. Spatial Resolution
+Definition: The ability to image fine details or small objects that exhibit high subject
+contrast, such as a bone–soft tissue interface, breast microcalcifications, or a calcified
+lung nodule.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+7
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+• Factors Determining Spatial Resolution in CR:
+1.Smaller pixel size.
+2.Smaller phosphor crystal size.
+3.Thinner phosphor layer.
+• Factors That Increase Spatial Resolution
+in Radiography:
+•Small focal spot size
+•Long SID
+•Short OID
+•High-resolution image receptor
+•Reduced motion
+•Small pixel size
+•Thin phosphor layer with small crystals
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Note: Screen-film radiography typically offers
+excellent spatial resolution.
+
+8
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+2. Contrast Resolution
+Definition: The ability to distinguish between anatomical structures of similar
+subject contrast, such as liver–spleen or gray matter–white matter.
+
+• Factors Affecting Contrast Resolution in Radiography:
+In conventional radiography:
+• Grain size of the film
+• Development time
+• Concentration and temperature of the developing solution
+• Overall film density
+
+•
+
+Digital Radiography – Factors Affecting Contrast Resolution
+
+•Pixel size
+•SNR
+•Exposure level
+•Image processing
+•Scatter control
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+9
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+3 – Noise
+
+Image noise is the grainy appearance seen in an image.
+Main source in radiography: Scatter radiation
+
+Lower noise improves image quality by enhancing
+contrast resolution
+
+•In digital radiography: quantum noise, caused by the
+random distribution of x-ray photons reaching the image
+receptor, often linked to insufficient mA.
+Optical density
+Refers to the degree of blackening on the radiographic film, which is
+determined by exposure, film processing, and film characteristics
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+10
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+• Characteristics of Radiographic Quality:
+❑ Resolution
+❑ Noise
+❑ Speed
+
+1.2 Geometric factors
+1- Magnification: The relationship between size of object and its image
+Two factors affect image magnification: SID and OID.
+Magnification is the ratio of image size to object size or of source-to-image
+receptor distance (SID) to source-to-object distance (SOD).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+11
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+Standard SID in medical imaging:
+•180 cm – chest
+•100 cm – routine exams
+•90 cm – special/mobile studies
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+12
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+2- Distortion
+The object should be positioned parallel to the image receptor at a fixed OID.
+If any of these conditions is changed, magnification will vary across the object .
+Distortion depends on:
+• Object thickness
+• Object position
+• Object shape
+
+Key notes:
+•Thick objects are more distorted than thin ones.
+•Distortion occurs if the object plane and image plane are not parallel.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+13
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+Two main types of shape distortion:
+1. Elongation: Image appears longer than the true object.
+
+Caused by improper alignment of:
+• Image receptor
+• X-ray tube (central ray)
+2. Foreshortening: Image appears shorter than the true object.
+
+•Caused by improper alignment of:
+•Anatomical part
+Key notes:
+
+Both elongation and foreshortening result from misalignment of the
+central ray (CR), anatomical part, and/or image receptor (IR).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+14
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+3 – Focal-Spot Blur : Focal-spot blur is the most important
+factor for determining spatial resolution.
+OID Effect: Blur is minimized when the object-to-image
+receptor distance (OID) is small.
+
+1.Smaller OID → smaller focal-spot blur → better spatial
+resolution.
+2. Maintaining a long source-to-object distance (SOD) also
+helps reduce blur.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+15
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+1.3 Subject contrast
+•Body habitus affects tissue thickness, density, and atomic number.
+•Larger patients (hypersthenic) → greater attenuation → lower subject contrast; require
+higher exposure.
+•Smaller or thinner patients (asthenic/hyposthenic) → less attenuation → higher
+subject contrast; require lower exposure.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+16
+
+Essentials of Radiologic Physics – Part II
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+17
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+Production of scatter radiation:
+Two types of image-forming X-rays exit the patient:
+1.X-rays that pass through tissue without interacting.
+2.X-rays that are scattered in tissue by the Compton interaction and
+therefore contribute only noise to the image.
+THREE FACTORS that contribute to increased scatter radiation and
+ultimately to image noise:
+•Increasing kVp
+•Increasing X-ray field size
+•Increasing anatomical thickness
+Three primary factors influencing the relative intensity of scatter
+radiation that reaches the image receptor:
+1.kVp
+2.Field size
+3.Patient thickness
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+18
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+Control of Scatter Radiation
+Contrast is one of the most important characteristics of the radiographic image. Scatter
+radiation, the result of Compton interaction, is the primary factor that reduces image
+contrast.
+Devices that reduce the amount of scatter radiation reaching the image receptor:
+1. Beam restrictors
+2. Grids
+3. Air-Gap Technique
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+19
+
+Essentials of Radiologic Physics – Part II
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+20
+
+Essentials of Radiologic Physics – Part II
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+21
+
+Essentials of Radiologic Physics – Part II
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+22
+
+Essentials of Radiologic Physics – Part II
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+23
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+Image Detail:
+
+Sharpness: Refers to the structural lines or
+borders of tissues in the image and the amount
+of blur.
+Best measured by spatial resolution.
+Visibility: Describes the ability to see the
+detail on the radiographs.
+Best measured by contrast resolution.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+24
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+Section III :Imaging Procedures and Protocols
+2. Screen-Film Radiography
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+25
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+2.1 Intensifying Screens & Film Sensitivity
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+26
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+2.2 Handling and Storage of Film
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+27
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+2.3 Screen–Film Radiographic Artifacts
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+28
+
+Essentials of Radiologic Physics – Part II
+
+3. Computed and Digital Radiography
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+29
+
+Essentials of Radiologic Physics – Part II
+
+3.2 Digital Radiography (DR)
+
+DAY 3
+
+A form of X-ray imaging where the image is captured and stored digitally, eliminating
+the need for traditional film or chemical processing.
+Key Features:
+
+• Immediate image availability — no darkroom or processing chemicals.
+• Wide dynamic range — allows visualization of both low and high-density
+structures in the same image.
+• Image manipulation — brightness, contrast, and magnification can be adjusted
+post-acquisition without repeat exposure.
+• Lower radiation dose (in many cases) due to higher detector sensitivity.
+• PACS integration — images can be stored, retrieved, and transmitted
+electronically.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+30
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+3.3 Two Main Types:
+1.Indirect DR
+
+Uses a scintillator (e.g., CsI, GdOS) to convert X-rays into light.
+Light is then converted to an electronic signal via CCD, CMOS, or TFT.
+
+2.Direct DR
+
+Uses a photoconductor (e.g., a-Se) to convert X-rays directly into electrical charges.
+Charges are read out by a TFT array.
+Advantages Over CR & Film:
+•Faster workflow.
+•Higher efficiency in image capture and transfer.
+•Better dose utilization.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+31
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+4. Fluoroscopy Imaging
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+32
+
+Essentials of Radiologic Physics – Part II
+
+DAY 3
+
+4. Fluoroscopy
+Primary purpose: Real-time, dynamic viewing of
+anatomical structures and motion (e.g., blood
+flow, GI tract movement).
+Most notable application: Angiography (vessel
+visualization).
+•Main advantage of modern image-intensified
+systems: Increased image brightness.
+•Illumination measured in lux (lumens/m²).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+33
+
+Essentials of Radiologic Physics – Part II
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+34
+
+Essentials of Radiologic Physics – Part II
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+35
+
+Essentials of Radiologic Physics – Part II
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+36
+
+Essentials of Radiologic Physics – Part II
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+37
+
+Essentials of Radiologic Physics – Part II
+
+5. Mammography Imaging
+
+DAY 3
+
+X-ray Tube
+•Focal spot size: Fine focus of 0.2–0.5 mm; additional 0.1 mm for
+magnification views.
+•Target materials: Molybdenum (Mo) and Rhodium (Rh).
+•Beryllium window: Minimizes X-ray absorption within the tube.
+•Molybdenum filter: Allows only characteristic radiation to pass;
+absorbs unwanted radiation to form a monoenergetic beam.
+Orientation:
+•Cathode: Positioned toward the chest wall.
+•Anode: Positioned toward the nipple.
+Filtration Requirements
+•Minimum total beam filtration: Not less than 0.5 mm aluminum equivalent.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+38
+
+Essentials of Radiologic Physics – Part II
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DAY 3
+
+39
+
+Essentials of Radiologic Physics – Part II
+
+References
+1. Bushong, S. C. Radiologic Science for Technologists: Physics, Biology, and
+Protection. 11th ed., Elsevier, 2020.
+2. Carlton, R. R., Adler, A. M., and Balac, V. Principles of Radiographic Imaging:
+An Art and a Science. 6th ed., Cengage, 2022.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+40
+
+THANK YOU
+
+41
+
+

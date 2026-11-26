@@ -1,0 +1,399 @@
+Quality Management
+And Dose In Medical
+Imaging
+
+DAY 10
+
+Biostatistics and Research
+Methodology
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic
+Ultrasound
+
+2025/2026
+
+Biostatistics and Research Methodology
+
+Day 10 Outline
+2.5 CHAPTER
+Introduction
+Types of data
+Study design
+Ethical consideration
+
+DA
+Y
+10
+
+Biostatistics and Research Methodology
+
+DA
+Y
+10
+
+4
+
+Biostatistics and Research Methodology
+
+Introduction
+
+DA
+Y
+10
+
+Definition of Statistics
+Statistics means that the collection of data, tabulation, analysis and interpretation of
+quantitative information.
+In other words, Statistics is a branch of science used in dealing with phenomena that can
+be described numerically by counts or by measurements.
+Quantitative information: population, birth, fertility, production and etc.
+•It is a tool.
+•It is a branch of science.
+Statistical Method: Refers to both data and methods.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+5
+
+Biostatistics and Research Methodology
+
+DA
+Y
+10
+
+Fields of Statistics
+• Medical Statistics
+•Agricultural Statistics
+•Economical Statistics
+• Mathematical Statistics
+•And others…
+• Bio-statistics
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+6
+
+Biostatistics and Research Methodology
+
+Biostatistics
+
+DA
+Y
+10
+
+Bio-statistics: s the application of statistical techniques to scientific research in health-related fields,
+including medicine, biology, and public health, and the development of new tools to study these areas.
+•
+
+It is also called Bio-metry. It means measurement of life.
+
+•
+Normally, in medicine for precision, facts, observations or measurements have to be expressed in
+figures or tables.
+Examples: Bar diagrams, Multiple Bar diagram, Histogram, Pie chart and etc.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+7
+
+Biostatistics and Research Methodology
+
+DA
+Y
+10
+
+Types of
+Statistics
+
+Descriptive
+Statistics
+Once the data have been collected, we can organize
+and summaries in such a manner as to arrive at their
+orderly presentation and conclusion.They describe
+what the data show, without making predictions or
+generalizations. Examples: 1)Reporting that the
+average age of patients in a radiology department is
+45 years.2) Showing that 60% of surveyed radiographers are
+aware of radiation safety protocols.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Inferential
+Statistics
+Tthey use sample data to make predictions,
+inferences, or generalizations about a larger
+population.
+Purpose: To test hypotheses, make predictions, and
+determine relationships or differences between groups.
+Examples: 1)Using data from a sample of 200 patients
+to predict the prevalence of CT scan artifacts in the
+entire hospital population, 2) Conducting a t-test to
+check whether the mean radiation dose differs
+8
+significantly between two CT scanner models.
+
+Biostatistics and Research Methodology
+
+Types of Data
+
+DA
+Y
+10
+
+There is a no natural numeric scale (numerical value)
+(can be subdivided into nominal and ordinal data)
+Example: Gender, Eye color can be divided into groups
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Measuring a characteristic for which there is natural
+numeric scale
+()
+Example: age, height, weight, Number of X-rays taken per
+day in a hospital (e.g., 25, 40, 52). Radiation dose in
+millisieverts (e.g., 1.2 mSv, 3.5 mSv). The quantitative data
+can be subdivided into interval and ratio data
+
+9
+
+Biostatistics and Research Methodology
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DA
+Y
+10
+
+10
+
+The Population Mean:
+N
+
+=
+
+X
+i 1
+
+N
+
+i
+
+which is usually unknown, then we use the
+
+sample mean to estimate or approximate it.
+
+The Sample Mean:
+Example:
+
+x
+
+=
+
+n
+
+ x
+i 1
+
+i
+
+n
+
+Here is a random sample of size 10 of ages, where
+ 1 = 42,  2 = 28,  3 = 28,  4 = 61,  5 = 31,
+ 6 = 23,  7 = 50,  8 = 34,  9 = 32,  10 = 37.
+
+x
+
+= (42 + 28 + … + 37) / 10 = 36.6
+
+Biostatistics and Research Methodology
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DA
+Y
+10
+
+12
+
+Biostatistics and Research Methodology
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DA
+Y
+10
+
+13
+
+Biostatistics and Research Methodology
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+DA
+Y
+10
+
+14
+
+Study design
+• Study design is the procedure under which a study is carried out
+Study design is the procedure under which a study is
+carried out.
+
+Examples
+• Descriptive Studies
+• Descriptive studies aim to provide a snapshot of a situation or
+phenomenon without analyzing cause-and-effect relationships.
+They answer questions such as “what is happening?” or “how
+often does it occur?” These studies often use surveys, case
+reports, or observational methods.Example: A cross-sectional
+survey assessing the awareness of radiation protection practices
+among radiographers in Saudi Arabia.Example: A case report
+describing a rare presentation of thyroid carcinoma detected on
+ultrasound.
+
+Analytical Studies (Observational)
+• Analytical studies : go beyond description to explore associations and possible
+relationships between variables. They are often used when experimental methods
+are not feasible.
+• Cross-sectional studies: Measure both exposure and outcome at the same point
+in time.
+• Example: A study examining the prevalence of musculoskeletal pain among
+sonographers and its association with years of experience.
+• Case-control studies: Compare patients with a specific condition (cases) to those
+without (controls) to identify possible risk factors.
+• Example: Investigating whether long working hours are associated with higher risk
+of neck pain in radiographers.
+• Cohort studies: Follow a group over time to assess how exposures affect
+outcomes.
+• Example: A prospective cohort study tracking radiation exposure levels in
+interventional radiologists and the subsequent risk of cataract development.
+
+Experimental (Interventional) Studies
+• In experimental studies, the researcher actively manipulates an
+intervention or exposure to observe its effect on an outcome. T
+• Randomized Controlled Trials (RCTs): Participants are
+randomly assigned to intervention or control groups to test the
+effect of a treatment.
+Example: A trial comparing the diagnostic accuracy of a new MRI
+sequence (3D SPACE FLAIR) with standard FLAIR imaging in
+detecting multiple sclerosis lesions. hese studies provide
+stronger evidence for causality.
+
+Continue>>experimental studies
+• Quasi-experimental studies: Similar to RCTs but without
+randomization.
+Example: Implementing a new radiology reporting template in
+one hospital and comparing efficiency with another hospital
+using the old system.
+
+Systematic Reviews and MetaAnalysesThese
+
+• Systematic Reviews and Meta-Analyses: These studies
+synthesize results from multiple primary studies to provide a
+high level of evidence. A systematic review identifies, appraises,
+and summarizes findings, while a meta-analysis statistically
+combines data from different studies.
+• Example: A systematic review analyzing the effectiveness of
+ultrasound elastography in differentiating benign and malignant
+thyroid nodules.
+• Example: A meta-analysis pooling data from several RCTs on the
+accuracy of digital breast tomosynthesis compared to
+conventional mammography.
+
+Summary
+
+•Descriptive → Describe “what is.”
+•Analytical → Explore associations.
+•Experimental → Test cause-and-effect.
+•Systematic/Meta-analysis → Summarize existing evidence.
+
+MCQS:
+data types
+• Q1. Which of the following is an example of qualitative data?
+• a) Age in years
+• b) Blood pressure in mmHg
+• c) Marital status (single, married, divorced)
+• d) Weight in kilograms
+
+• In research, continuous data refer to:
+• a) The age groups of infected children of malaria
+• b) Gender classification
+• c) Body temperature in °C
+• d) Type of CT scan machine
+
+• Which of the following is ordinal data?
+• a) Patient ID numbers
+• b) Pain scale rating (mild, moderate, severe)
+• c) Height in centimeters
+• d) Number of CT scans performed per day
+
+MCQS on study types
+• A study that follows a group of radiographers for 10 years
+to assess the development of musculoskeletal disorders is
+best classified as:
+• a) Case-control study
+• b) Cross-sectional study
+• c) Cohort study
+• d) Randomized controlled trial
+
+• Which study design provides the highest level of evidence?
+• a) Case report
+• b) Cross-sectional study
+• c) Randomized controlled trial
+• d) Systematic review with meta-analysis
+
+• A hospital introduces a new radiology reporting system and
+compares it with the old system without randomization.
+This is an example of:
+• a) Randomized controlled trial
+• b) Quasi-experimental study
+• c) Cross-sectional study
+• d) Case-control study
+
+Measures of Central Tendency
+• Q7. The measure of central tendency that is least affected by
+extreme values is:
+• a) Mean
+• b) Median
+• c) Mode
+• d) Standard deviation
+
+• In a dataset of exam scores, the most frequently occurring
+score is known as:
+• a) Mean
+• b) Median
+• c) Mode
+• d) Variance
+
+Measures of Dispersion
+• Q9. Which of the following is a measure of dispersion?
+• a) Mean
+• b) Mode
+• c) Standard deviation
+• d) Median
+
+• The difference between the maximum and minimum values
+in a dataset is called:
+• a) Variance
+• b) Range
+• c) Interquartile range
+• d) Standard error
+
+THANK YOU
+
+35
+
+

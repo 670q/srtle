@@ -1,0 +1,2193 @@
+SRTLE:
+SRTLE:AASurvival
+SurvivalGuide
+Guide
+THCo
+55TH
+Co
+
+urse
+urse
+
+Instructor:
+Instructor:
+Hassan Alsaedi
+
+Hassan
+Certified
+TrainerAlsaedi
+by SCFHS
+Certified Trainer by SCFHS
+
+Academic Supervision:
+Supervision:
+Prof.Academic
+Moawia Bushra
+Gameraddin
+
+Prof.Sciences
+Moawiaand
+Bushra
+Gameraddin
+Radiological
+Diagnostic
+Ultrasound
+Radiological Sciences and Diagnostic Ultrasound
+2025/2026
+2025/2026
+
+DAY 7
+
+MR Imaging for
+Radiologic Technologist
+
+Instructor:
+Hassan Alsaedi
+Certified Trainer by SCFHS
+Academic Supervision:
+Prof. Moawia Bushra Gameraddin
+Radiological Sciences and Diagnostic Ultrasound
+
+2025/2026
+
+MR Imaging for Radiologic Technologist
+
+DAY 7
+
+Day 7 Outline
+1.4 CHAPTER
+MR IMAGING FOR RADIOLOGIC TECHNOLOGISTS
+I. Physics and Instrumentation
+Basic Principles of MR
+Data Acquisition
+Image Display
+Artifacts and Pitfalls
+Image Quality
+II. Pateint Care
+Patenit preparation
+Contrast agent
+Injection Techniques
+III. Imaging Procedure and protocols
+Neurologic Imaging Procedures
+Thoracic Imaging Procedures
+Abdomen and Pelvis Imaging Procedures
+Musculoskeletal Imaging Procedures
+
+3
+
+MR Imaging for Radiologic Technologist
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+4
+
+MR Imaging for Radiologic Technologist
+
+DAY 7
+
+5
+
+MR Imaging for Radiologic Technologist
+
+I. PHYSICS AND INSTRUMENTATION
+1.1 FUNDAMENTAL CONCEPTS OF MRI
+What are the principles of MRI?
+MRI works by using powerful magnets to generate a strong magnetic field, which causes the protons in
+the body to line up with that field. When a radiofrequency pulse is applied, it causes the protons to
+become energized and move out of alignment, resisting the magnetic pull.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+6
+
+MR Imaging for Radiologic Technologist
+
+1. 2 ATOMIC STRUCTURE
+An atom is made up of a central nucleus, which contains protons and neutrons, and electrons that
+move around it. Protons carry a positive charge, neutrons have no charge, and electrons are
+negatively charged.
+• The atomic number is the total number of protons in the nucleus, and it determines the atom's
+chemical identity.
+• The mass number (or atomic weight) is the combined number of protons and neutrons in the
+nucleus.
+The most common atom in the human body is hydrogen, which is mainly found in water and fat
+molecules.
+
+Motion in an Atom
+There are three main types of movement happening inside an atom:
+• Electrons spin around their own axis
+• Electrons orbit around the nucleus
+• The nucleus also spins around its own axis
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+7
+
+MR Imaging for Radiologic Technologist
+
+MRI works based on the spinning behavior of certain nuclei found in biological tissues.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+8
+
+MR Imaging for Radiologic Technologist
+
+1.3 MR-active nuclei
+Only nuclei that have an odd mass number or atomic weight are used in MRI. These are called MRactive nuclei because they respond to the magnetic field.
+MR-active nuclei have a natural tendency to align their spin with an applied magnetic field. This
+happens because they have angular momentum (or spin) and carry a positive electrical charge due to
+the protons they contain.
+• The law of electromagnetic induction explains how electric and magnetic fields are linked through
+motion.
+• Faraday’s law, when an electric field moves, it creates a magnetic field, and when a magnetic field
+changes, it can generate an electric field in return
+Faraday’s Law
+The amount of current that gets created (induced) depends on four main things:
+1. How strong the magnetic field is (B0)
+2. How fast the magnetic field moves across the conductor
+3. The angle between the conductor and the magnetic field
+4. The number of loops or turns in the conductor
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+9
+
+MR Imaging for Radiologic Technologist
+
+MR-active nuclei have a net electric charge and are constantly spinning, which causes them to
+naturally generate a magnetic field.
+Some key examples of MR-active nuclei along with their mass numbers include:
+• Hydrogen (¹H)
+• Carbon (¹³C)
+• Nitrogen (¹⁵N)
+• Oxygen (¹⁷O)
+• Fluorine (¹⁹F)
+• Sodium (²³Na)
+The hydrogen nucleus, specifically the protium isotope, is the most commonly used MR-active
+nucleus in MRI.
+It’s chosen because
+• hydrogen is highly abundant in the human body
+• and its single proton gives it a strong magnetic moment.
+This allows MRI to take full advantage of the available magnetization in the body.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+10
+
+MR Imaging for Radiologic Technologist
+
+1.4 Alignment
+1. In the absence of an applied magnetic field, the magnetic moments of hydrogen nuclei are
+randomly oriented, resulting in no overall magnetic effect.
+2. However, when placed in a strong static external magnetic field, the magnetic moments of
+hydrogen nuclei align with the direction of the magnetic field.
+
+Parallel Alignment:
+Alignment of magnetic moments in the same direction
+as the main B₀ field (also referred to as spin-up).
+Antiparallel Alignment:
+Alignment of magnetic moments in the opposite
+direction to the main B₀ field (also referred to as spindown).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+11
+
+MR Imaging for Radiologic Technologist
+
+• Low-energy nuclei do not have enough energy to
+oppose the main B₀ field.
+• High-energy nuclei have enough energy to oppose
+the main B₀ field.
+
+1.5 Net magnetic vector (NMV)
+The total magnetic moment of the nucleus is the vector sum
+of all the magnetic moments of the protons within the
+nucleus. It aligns parallel to the main B₀ field in the
+longitudinal plane (z-axis).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+12
+
+MR Imaging for Radiologic Technologist
+
+1.6 Precession and precessional (Larmor) frequency
+The influence of the main magnetic field (B₀) causes an additional spin of the magnetic moments of
+hydrogen nuclei around B₀.
+This secondary spin is called precession, and the speed at which the nuclei precess around B₀ is known
+as the precessional frequency or Larmor frequency.
+The unit of precessional frequency is Hertz (Hz), where:
+• 1 Hz = 1 cycle or rotation per second
+• 1 Megahertz (MHz) = 1 million cycles per second
+The precessional frequency of MR-active nuclei varies depending on the strength of the external
+magnetic field.
+Larmor Equation:
+
+𝝎𝟎= 𝜸 B𝟎
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+ω₀ = Precessional (Larmor) frequency (in MHz)
+γ = Gyromagnetic ratio (a constant, measured in
+MHz/Tesla)
+B₀ = Strength of the external magnetic field (in Tesla)
+13
+
+MR Imaging for Radiologic Technologist
+
+Examples for Hydrogen (γ = 42.58 MHz/T):
+1. At 1.5 T → ω₀ = 42.58 MHz × 1.5 = 63.87 MHz
+2. At 1.0 T → ω₀ = 42.58 MHz × 1.0 = 42.58 MHz
+3. At 0.5 T → ω₀ = 42.58 MHz × 0.5 = 21.29 MHz
+1 Tesla (T) = 10,000 Gauss
+
+1.7 Phase:
+Phase refers to the position of magnetic moments on their precessional path at any given moment in
+time.
+1. Out of Phase (Incoherent): Magnetic moments of hydrogen nuclei are at different positions on their
+precessional paths at a given moment in time.
+2. In Phase (Coherent): Magnetic moments of hydrogen nuclei are at the same position on their
+precessional paths at a given moment in time.
+• At equilibrium, the magnetic moments of the spins are typically out of phase with one another.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+14
+
+MR Imaging for Radiologic Technologist
+
+1.8 Resonance
+
+In
+
+OUT
+
+• Resonance is a phenomenon that occurs when an object is exposed to an oscillating perturbation that
+has a frequency close to its own natural frequency of oscillation.
+• In MRI, resonance is achieved by transmitting a radiofrequency (RF) excitation pulse, which is
+generated by a transmit coil.
+Consequences of RF Excitation Pulses
+1. The RF excitation pulse generates an oscillating magnetic field known as B₁.
+• The B₁ field is applied at 90° to the main magnetic field (B₀).
+• It is delivered over a narrow range or bandwidth of frequencies, centered around a specific central
+frequency.
+2. Another effect of the RF excitation pulse is that it causes the
+magnetic moments of spin-up and spin-down nuclei to move
+into phase with each other, resulting in coherent precession.
+The radiofrequency (RF) field used in MRI is often referred to as
+B₁, which is a secondary magnetic field applied in addition to B₀,
+the main magnetic field.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+15
+
+MR Imaging for Radiologic Technologist
+
+1.9 MRI Signal and FID
+How is the MRI Signal Generated?
+According to Faraday’s Law, a changing magnetic field induces the movement of charged particles
+(electrons), creating an electric current.
+• In MRI, the magnetization vector precessing in the transverse plane creates this changing magnetic
+field.
+• When a receiver coil or any conductive loop is placed within this moving magnetic field, a voltage is
+induced in the coil.
+• This voltage is known as the
+
+MRI signal.
+
+What is FID (Free Induction Decay)?
+• After the RF excitation pulse is turned off, the magnetic moments of the hydrogen nuclei
+begin to lose phase coherence (they dephase).
+• As a result, a decaying voltage is induced in the receiver coil.
+• This signal is known as Free Induction Decay (FID).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+16
+
+MR Imaging for Radiologic Technologist
+
+What Happens When the RF Pulse is Switched Off?
+1. Hydrogen nuclei begin to lose the energy received from the RF excitation pulse — a process known as
+relaxation.
+2. The Net Magnetization Vector (NMV) gradually realigns with B₀.
+3. Simultaneously, the magnetic moments of the hydrogen nuclei lose coherence (dephase).
+4. Longitudinal magnetization begins to recover — this is known as T1 recovery.
+5. Transverse magnetization begins to decay — this is known as T2 decay.
+6. The induced signal in the receiver coil decreases, which is observed as the FID.
+Pulse Timing Parameters
+TR (Repetition Time):
+• Time between successive RF excitation pulses for each slice.
+• Measured in milliseconds (ms).
+• Determines the amount of T1 relaxation before the signal is read.
+TE (Echo Time):
+• Time from the RF pulse to the peak of the signal received in the coil.
+• Also measured in milliseconds (ms).
+• Determines the amount of T2 relaxation captured in the signal.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+17
+
+MR Imaging for Radiologic Technologist
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+18
+
+MR Imaging for Radiologic Technologist
+
+2. Data Acquisition
+
+2.1 IMAGE WEIGHTING AND CONTRAST
+Relaxation is the process by which magnetization changes after the RF excitation pulse is turned off.
+•It leads to:
+• Recovery of longitudinal magnetization — a process called T1 recovery.
+• Decay of coherent transverse magnetization — a process called T2 decay.
+T1 Recovery:
+• Occurs when hydrogen nuclei release energy to their surrounding environment (lattice).
+• T1 is the time it takes for 63% of the longitudinal magnetization to recover in the tissue.
+T2 Decay:
+• Happens when hydrogen nuclei interact with neighboring nuclei, exchanging energy.
+• These interactions cause a loss of phase coherence and transverse magnetization.
+• T2 is the time it takes for 63% of the transverse magnetization to decay.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+19
+
+MR Imaging for Radiologic Technologist
+
+Four Basic Steps to Generate an MRI Image
+1. The patient is positioned inside the MRI magnet.
+2. A radiofrequency (RF) pulse is briefly sent into the body and then turned off.
+3. The body emits a signal as the nuclei relax.
+4. This signal is collected and used to reconstruct the MRI image.
+
+1. T1 Weighting
+• TR (Repetition Time) determines how much T1 recovery occurs before the next RF pulse.
+• TR controls T1 contrast.
+• For T1-weighted images:
+• TR must be short (so fat and water don’t fully realign with B₀).
+• TE must also be short.
+• T1-weighted images are commonly used for:
+• Anatomy visualization
+• Detecting pathology post-contrast administration
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+20
+
+MR Imaging for Radiologic Technologist
+
+2. T2 Weighting
+• TE (Echo Time) controls how much T2 decay occurs when the signal is captured.
+• For T2-weighted images:
+• TE must be long (allowing fat and water to dephase).
+• TR must also be long.
+• T2-weighted images are ideal for pathology detection, since:
+• Most pathologies have high water content
+• Water appears bright (hyperintense) on T2-weighted scans
+
+3.Proton density weighting
+Proton density contrast refers to differences in signal intensity between tissues based on the number of
+mobile hydrogen protons per unit volume.
+Tissues with high proton density:
+• Have a large transverse
+magnetization.
+• Produce a high signal.
+• Appear hyperintense on the image.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Tissues with low proton density:
+• Have a small transverse magnetization.
+• Produce a low signal.
+• Appear hypointense on the image.
+
+21
+
+MR Imaging for Radiologic Technologist
+
+To achieve PD weighting, the effects of T1 and T2 contrast are minimized so that proton density
+becomes the dominant contrast factor.
+Imaging Parameters:
+
+PD-weighted images are useful for evaluating:
+
+• Use a long TR → reduces T1 contrast.
+• Use a short TE → reduces T2 contrast.
+T1 Weighted Image
+(T1W)
+• TR = Short
+• TE = Short
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+T2 Weighted Image
+(T2W)
+• TR = Long
+• TE = Long
+
+• Anatomy
+• Pathology
+
+Proton Density
+Image (PD)
+• TR = Long
+• TE = Short
+
+22
+
+MR Imaging for Radiologic Technologist
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+23
+
+MR Imaging for Radiologic Technologist
+
+The Transverse Decay Dephasing
+Conclusion:
+• Fat has a short T1 and T2 time.
+• Water has a long T1 and T2 time.
+• To produce a high signal, there must be a large component of magnetization in the transverse
+plane to induce a large signal in the coil.
+Important Notes:
+•
+•
+•
+•
+
+TR (Repetition Time) controls the amount of T1 weighting.
+For T1 weighting, the TR must be short.
+TE (Echo Time) controls the amount of T2 weighting.
+For T2 weighting, the TE must be long.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+24
+
+MR Imaging for Radiologic Technologist
+
+How to Make Weighting?
+For T1 Weighting:
+
+For T2 Weighting:
+
+• To exaggerate T1 ➔ TR is short.
+• To diminish T2 ➔ TE is short.
+
+• To exaggerate T2 ➔ TE is long.
+• To diminish T1 ➔ TR is long.
+
+Intrinsic Contrast Parameters:
+
+Extrinsic Contrast Parameters:
+
+• T1 recovery time
+• T2 decay time
+• Proton density (PD)
+• Flow
+• Apparent diffusion coefficient
+(ADC)
+
+• TR (Repetition Time)
+• TE (Echo Time)
+• Flip angle
+• TI (Inversion Time)
+• Turbo factor/echo train length
+• b value
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+25
+
+MR Imaging for Radiologic Technologist
+
+2.2 Spin-echo pulse sequences
+What Are Pulse Sequences?
+Pulse sequences are techniques used by the MRI system to rephase the magnetic moments of
+hydrogen nuclei at a later time, producing a signal called an echo.
+• Sequences that use a 180° RF rephasing pulse to create an echo are called spin-echo pulse
+sequences.
+• Sequences that use a gradient instead of a 180° pulse are called gradient-echo pulse
+sequences
+Conventional Spin-Echo (SE)
+• Conventional spin-echo is typically used to acquire one or two echoes to achieve T1, T2, or proton
+density (PD) weighting.
+Turbo Spin Echo (TSE)
+• TSE is a fast MRI sequence that significantly reduces scan times.
+• In TSE, several 180° refocusing RF pulses are delivered during each TR (repetition time) interval.
+• Between each echo, the phase-encoding gradient is briefly switched on.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+26
+
+MR Imaging for Radiologic Technologist
+
+Fast Spin Echo (FSE)
+• In FSE, a 90° excitation RF pulse is followed by several 180° rephasing RF pulses.
+• In conventional spin-echo, only one phase-encoding step is done per TR for each slice, filling one
+line of k-space at a time.
+• In TSE/FSE, scan time is reduced by performing multiple phase-encoding steps per TR and filling
+multiple lines of k-space.
+• This is possible by using multiple 180° RF pulses to create multiple spin echoes, forming what is
+known as an echo train.
+Inversion Recovery (IR) Sequence
+Inversion recovery (IR) is a type of spin-echo sequence that uses a 180° inverting RF pulse at the
+beginning to suppress signals from certain tissues.
+• After the 180° pulse, a 90° excitation pulse is applied after a specific delay called the inversion time
+(TI).
+• Based on the TI value, there are two main types of IR sequences:
+• Short Inversion Time Recovery (STIR)
+• Fluid-Attenuated Inversion Recovery (FLAIR)
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+27
+
+MR Imaging for Radiologic Technologist
+
+What is TI?
+• TI (Inversion Time) is the time between the 180° inversion pulse and the 90° excitation pulse.
+Fast Inversion Recovery Sequences
+IR sequences can be adjusted to specifically suppress:
+• CSF using FLAIR
+• Fat using STIR
+Uses
+• STIR is crucial in musculoskeletal imaging because it suppresses fat found in bone marrow, making
+bone lesions, like bruising or tumors, much easier to see.
+Important:
+• STIR should not be used with contrast agents because the contrast shortens the T1 recovery time of
+tissues, making them behave similarly to fat.
+• This means enhancing tissues could accidentally be nulled (appear dark), hiding important findings.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+28
+
+MR Imaging for Radiologic Technologist
+
+• FLAIR is commonly used in brain and spine imaging because it removes the bright signal of CSF,
+making it easier to spot periventricular and cord lesions.
+FLAIR is especially useful for detecting:
+1. Multiple sclerosis (MS) plaques
+2. Acute subarachnoid hemorrhage
+3. Meningitis
+
+Multiple Sclerosis (MS) Plaques and FLAIR:
+• FLAIR sequence suppresses (nulls) the signal from pure fluid like CSF.
+• However, MS lesions are not made of pure fluid like CSF.
+• Because of this, MS plaques stay visible while the CSF signal is suppressed.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+29
+
+MR Imaging for Radiologic Technologist
+
+2.3MRI Sequences and Their Uses
+•
+
+T1-weighted: Best for viewing anatomy and after contrast injection.
+
+•
+
+T2-weighted: Ideal for pathology and detecting fluid in the brain.
+
+•
+
+DWI (Diffusion-Weighted Imaging): The gold standard for stroke detection.
+
+•
+
+SWI (Susceptibility-Weighted Imaging): Used for spotting calcifications and hemorrhages.
+
+•
+
+T2 GRE:* Good for finding small hemorrhages.
+
+•
+
+T2 FLAIR: Helps show brain pathologies like meningitis, multiple sclerosis (MS), and metastasis
+more clearly.
+
+•
+
+T1 GRE: Useful for differentiating white and gray matter.
+
+•
+
+COR Dual Inversion Recovery (DIR): Used to separate white and gray matter in infants.
+
+•
+
+COR T2 FLAIR: Important for detecting epilepsy.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+30
+
+MR Imaging for Radiologic Technologist
+
+MRI Sequences and Their Uses:
+•
+
+Cube (Space) / COR T2 FLAIR: Special technique mainly used for MS detection.
+
+•
+
+Propeller (Blade) Sequence: Helps reduce motion artifacts during brain imaging.
+
+•
+
+STIR: Used for spinal fractures and general spinal diseases.
+
+•
+
+CISS (FIESTA): An Axial GRE sequence used for imaging Internal Auditory Meatus (IAM) in cases
+like tinnitus, vertigo, or ear issues.
+
+•
+
+COR Oblique: Applied when checking for ACL injuries.
+
+•
+
+COR STIR Oblique: Used when sacroiliitis is suspected.
+
+•
+
+STIR for MSK: Focused on detecting inflammation in muscles and joints.
+
+•
+
+PD (Proton Density) Shoulder: Helps diagnose rotator cuff injuries.
+
+•
+
+Dynamic Sequences: Used for imaging the prostate and breast to assess enhancement
+patterns.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+31
+
+MR Imaging for Radiologic Technologist
+Type of Brain and Spine MRI
+
+Protocols
+
+MRI brain (under 2 years old)
+
+- Axial and coronal dual echo STIR- Coronal and sagittal T1-weighted spin-echo- DWI in three
+planes and calculated ADC map- Axial “susceptibility-weighted” GE sequence- Axial T2-weighted
+fast spin-echo
+
+MRI brain (over 2 years old)
+
+- Coronal FLAIR- Coronal and sagittal T1-weighted spin-echo- DWI in three planes and calculated
+ADC map- Axial “susceptibility-weighted” GE sequence- Axial T2-weighted fast spin-echo
+
+MRI brain with contrast
+enhancement (under 2 years old)
+
+- Axial and coronal dual-echo STIR- Coronal T1-weighted spin-echo- DWI in three planes and
+calculated ADC map- Contrast-enhanced axial, coronal, and sagittal T1-weighted spin-echo with
+magnetization transfer- Axial “susceptibility-weighted” GE sequence
+
+MRI brain with contrast
+enhancement (over 2 years old)
+
+- Coronal FLAIR- Coronal T1-weighted spin-echo- DWI in three planes and calculated ADC mapContrast-enhanced axial, coronal, and sagittal T1-weighted spin-echo with magnetization
+transfer- Axial “susceptibility-weighted” GE sequence
+
+MRI spine
+
+- Sagittal T1-weighted and T2-weighted fast spin-echo- Axial T1-weighted and T2-weighted fast
+spin-echo through target area and conus- (Coronal T1-weighted spin-echo of scoliosis if patient
+compliant)
+
+MRI spine with contrast
+enhancement
+
+- Sagittal T1-weighted and T2-weighted fast spin-echo- Contrast-enhanced sagittal and axial T1weighted spin-echo- Axial T1-weighted spin-echo through target area
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+32
+
+MR Imaging for Radiologic Technologist
+
+2.4 Gradient-echo pulse sequences
+Gradient-echo pulse sequences use different flip angles and shorter repetition times (TR). Instead
+of 180° RF pulses like in spin-echo sequences, gradients are applied to rephase the protons. Since
+gradients can be turned on and off quickly, rephasing happens faster, which, along with shorter TR
+and smaller flip angles, leads to much faster scan times.
+In gradient-echo sequences, we can achieve T1 weighting, proton density weighting, and T2*
+weighting.
+Gradient-echo sequences are different from spin-echo sequences in two main ways:
+1. They use variable RF excitation pulse flip angles, instead of always using a 90° flip angle like spinecho.
+2. They rephase the protons using magnetic field gradients, not RF pulses.
+The goal of these differences is to allow shorter TRs, meaning faster imaging compared to spin-echo
+sequences.
+Because low flip angles are used, only a small amount of longitudinal magnetization is turned into
+transverse magnetization during excitation. As a result, relaxation happens faster, and a short TR can be
+used.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+33
+
+MR Imaging for Radiologic Technologist
+Sequence
+
+TR
+
+TE
+
+Flip Angle
+
+Spin-echo
+
+Long (2000 ms +)
+
+Long (70 ms +)
+
+90°
+
+Short (300–700 ms +)
+
+Short (10–30 ms +)
+
+90°
+
+Long (100 ms +)
+
+Long (15–25 ms)
+
+Small (5°–20°)
+
+Short (less than 50 ms)
+
+Short (less than 5 ms)
+
+Medium (30°–45°) / Large (70° +)
+
+Gradient-echo
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+34
+
+MR Imaging for Radiologic Technologist
+
+Advantages coherent or rewound gradient-echo
+
+Disadvantages coherent or rewound gradientecho
+
+Very fast scans
+
+Reduced SNR in 2D acquisitions
+
+Very sensitive to flow, so useful for angiography
+
+Magnetic susceptibility increases
+
+Can be acquired in a volume acquisition
+
+Loud gradient noise
+
+Advantages incoherent or spoiled gradient-
+
+Disadvantages incoherent or spoiled gradient-
+
+Shorter scan times
+
+Reduced SNR in 2D acquisitions
+
+Can be used after gadolinium injection
+
+Magnetic susceptibility increases
+
+Can be acquired in a volume acquisition
+
+Loud gradient noise
+
+echo
+
+echo
+
+Good SNR and anatomical detail in 3D
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+35
+
+MR Imaging for Radiologic Technologist
+
+2.5 Difference between FSE and GRE
+• Fast Spin Echo (FSE):
+FSE uses many 180° refocusing pulses one after another to speed up the scan.
+This helps reduce scan time while keeping true T2 signal contrast.
+• Gradient Echo (GRE):
+GRE does not use a 180° pulse.
+Instead, it relies on T2* dephasing, which happens much quicker than regular T2 decay.
+GRE sequences are overall much faster and allow very quick image repetition.
+Fast Gradient Echo:
+• Fast gradient echo imaging uses very short TR times.
+• When RF pulses are sent very quickly (TR is shorter than T2), the system reaches a steady state —
+a balance between excitation and relaxation.
+• This technique is especially helpful when high temporal resolution is needed, like in dynamic
+imaging.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+36
+
+MR Imaging for Radiologic Technologist
+
+Echo Planar Imaging (EPI):
+• EPI is a very fast MRI technique where multiple echoes are collected using rephasing gradients
+instead of sending many 180° RF pulses (like in regular spin echo).
+• This is done by quickly switching the readout or frequency-encoding gradient back and forth.
+• EPI can use:
+• Only gradient echoes, or
+• A mix of a spin echo followed by a train of gradient echoes.
+Types of EPI:
+• Gradient-Echo EPI (GE-EPI):
+Starts with an RF excitation pulse (any flip angle), then collects multiple gradient-echoes.
+• Spin-Echo EPI (SE-EPI):
+Starts with a 90° RF excitation pulse → followed by a 180° RF rephasing pulse → then collects multiple
+gradient-echoes.
+Uses of EPI:
+• Helpful in imaging the heart and coronary vessels.
+• Useful in interventional procedures.
+• Enables fast imaging of physiology, like perfusion and blood oxygenation.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+37
+
+MR Imaging for Radiologic Technologist
+
+3. Image Display
+3.1 SPATIAL ENCODING
+Mechanism of Gradients
+• In MRI, we use gradients to locate where the signal is coming from.
+• Without a gradient, all hydrogen nuclei spin (precess) at the same frequency because they
+experience the same magnetic field.
+• To find the location of the signals, we change the main magnetic field to slope linearly — making
+the field stronger or weaker depending on position.
+• This slope is created by gradient coils, which are cylindrical electromagnets placed inside the
+warm bore of the MRI machine.
+Gradient Coils:
+• When current passes through the gradient coil, it causes a linear change in the magnetic field.
+• The amount of current controls:
+• Amplitude
+• Strength
+• Slope of the gradient (steep or shallow)
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+38
+
+MR Imaging for Radiologic Technologist
+
+Magnetic Isocenter:
+• The magnetic isocenter is the central point where all three gradient axes and the magnet bore
+meet.
+• Even when gradients are applied, at the magnetic isocenter:
+• The magnetic field strength stays the same.
+• The precessional frequency and phase do not change.
+Polarity:
+• The direction of the current through the gradient coil decides the polarity (whether the gradient
+increases or decreases the field in a particular direction).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+39
+
+MR Imaging for Radiologic Technologist
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+40
+
+MR Imaging for Radiologic Technologist
+
+Gradient Coils in MRI:
+Inside the bore of the MRI machine, there are three gradient coils, and they are named based on the
+direction they act:
+• Z-gradient:
+Changes the magnetic field along the long axis of the magnet — meaning from the head to the feet of
+the patient.
+• Y-gradient:
+Changes the magnetic field along the vertical axis — from the back to the front of the patient.
+• X-gradient:
+Changes the magnetic field along the horizontal axis — from the right side to the left side of the
+patient.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+41
+
+MR Imaging for Radiologic Technologist
+
+Purpose of Gradients in MRI:
+Gradients are used to find and encode the signal based on its position along the three axes. Their main
+roles are:
+1. Slice Selection:
+Used to pick a specific slice within the chosen scanning plane.
+2. Frequency Encoding:
+Helps to locate (or encode) the signal along the long axis of the selected slice.
+3. Phase Encoding:
+Helps to locate (or encode) the signal along the short axis of the selected slice.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+42
+
+MR Imaging for Radiologic Technologist
+
+3.2 Protocol optimization
+Protocols are evaluated based on how effectively they display anatomy and pathology, which depends
+on producing images that show four key characteristics:
+1. High signal-to-noise ratio (SNR)
+2. Good contrast-to-noise ratio (CNR)
+3. High spatial resolution
+4. Short scan time
+
+1. Signal-to-noise ratio (SNR)
+SNR is the ratio between the strength of the received signal and the average strength of the
+background noise.
+✓ Noise refers to random frequencies present in space and time.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+43
+
+MR Imaging for Radiologic Technologist
+
+Scan tip: To optimize the SNR select the following parameters in the scan protocol
+• Long TR and short TE
+• 90° flip angle in spin-echo or the Ernst angle in gradient-echo pulse sequences
+• The correct coil (ensure that it is well tuned and correctly positioned)
+• A low or coarse image matrix
+• A large FOV
+• Thick slices
+• High NSA
+• Narrow receive bandwidth
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+44
+
+MR Imaging for Radiologic Technologist
+
+• Coil Positioning
+The position of the coil is crucial for maximizing SNR. To induce maximum
+signal, the coil must be positioned in the transverse plane perpendicular
+to B₀.
+• Proton Density and SNR
+Areas with low proton density (such as the lungs) generate low signal and
+therefore low SNR. In contrast, areas with high proton density (such as
+the pelvis) produce high signal and therefore high SNR.
+• Voxel Size and SNR
+Large voxels contain more spins or nuclei compared to small voxels. As a
+result, they contribute more to the signal, resulting in a higher SNR. Thus,
+SNR is proportional to voxel volume.
+• Source of Noise in MRI
+Noise in MRI primarily arises from the thermodynamic motion of
+electrons in both the coil and the body tissues. This noise occurs across
+all frequencies and affects the entire image unless filtered or smoothed.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+45
+
+MR Imaging for Radiologic Technologist
+
+2. Contrast-to-Noise Ratio (CNR)
+• CNR measures the difference in SNR between two neighboring areas.
+• It’s the most important factor that affects the quality of an MRI image.
+• A higher CNR makes it easier to clearly see pathology apart from normal tissue, or to clearly tell two
+different structures apart.
+How to improve CNR:
+1. Increase the signal from the pathology or important structures.
+2. Decrease the signal from surrounding normal tissues.
+Special Technique:
+• In gradient-echo sequences, out-of-phase imaging (Dixon technique) is used to cancel out signal
+from voxels that have both fat and water.
+• This is done by choosing a TE where fat and water signals are out of phase, so their signals cancel each
+other, resulting in no signal from those voxels.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+46
+
+MR Imaging for Radiologic Technologist
+CNR
+T2 Weighting
+Contrast agent
+Magnetization transfer contrast (MTC)
+Flow-related techniques
+Very long TR and TE
+Saturation techniques
+Techniques that remove signal from certain nuclei (angiography)
+
+Effect on CNR Quality
+↑ Improves CNR Quality
+↑ Improves CNR Quality
+↑ Improves CNR Quality
+↑ Improves CNR Quality
+↑ Improves CNR Quality
+↑ Improves CNR Quality
+↑ Improves CNR Quality
+
+3. Spatial Resolution
+• Spatial resolution is how well we can tell two points apart as separate and clear.
+• It mainly depends on the voxel size.
+• Small voxels = high spatial resolution → small details are easy to see.
+• Large voxels = low spatial resolution → small structures blur together.
+• In big voxels, different signal intensities mix together, and we can’t see small differences
+clearly. This effect is called partial voluming.
+Voxel size is influenced by:
+1. Slice thickness
+2. Field of View (FOV)
+3. Matrix size (number of pixels)
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+47
+
+MR Imaging for Radiologic Technologist
+
+Changing TE at 3 T
+
+Changing TR at 3 T.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+48
+
+MR Imaging for Radiologic Technologist
+
+Rectangular FOV
+• When the anatomy is smaller along the phase axis compared to the frequency axis, we can use a
+rectangular (asymmetric) FOV.
+• Using a rectangular FOV keeps the pixel size the same, so spatial resolution is not lost.
+• Scan time is reduced because fewer phase-encoding steps are needed.
+• Example: Sagittal scan of the lumbar spine often uses a rectangular FOV.
+Scan Time
+• Scan time is the total time needed to collect all the data and fill k-space.
+• It depends directly on:
+• TR (Repetition Time)
+• Phase matrix (number of phase-encoding steps)
+• NSA (Number of Signal Averages)
+To optimize the scan time select the following in the scan protocol
+• Short TR
+• Low phase matrix
+• Low NSA
+• High turbo factor in TSE
+• Use imaging options that reduce scan time, e.g. rectangular FOV or partial Fourier (see Chapter 6).
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+49
+
+MR Imaging for Radiologic Technologist
+
+Parameter
+Spatial resolution
+Grainy
+Detail
+SNR
+Partial volume artifact
+
+3 mm slice thickness
+↑ Increased
+↑ Increased
+↑ Increased
+↓ Decreased
+↓ Decreased
+
+10 mm slice thickness
+↓ Decreased
+↓ Decreased
+↓ Decreased
+↑ Increased
+↑ Increased
+
+Parameter
+Spatial resolution
+Grainy
+Detail
+SNR
+
+100 mm FOV
+↑ Increased
+↑ Increased
+↑ Increased
+↓ Decreased
+
+210 mm FOV
+↓ Decreased
+↓ Decreased
+↓ Decreased
+↑ Increased
+
+Parameter
+Spatial resolution
+SNR
+
+Matrix size 192×192
+↓ Decreased
+↑ Increased
+
+Matrix size 320×320
+↑ Increased
+↓ Decreased
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+50
+
+MR Imaging for Radiologic Technologist
+
+4. ARTIFACTS and Pitfalls
+Artifacts
+Flow motion
+
+Axis
+Phase
+
+Remedy
+- Swap phase and frequency axes
+- Gating/triggering
+- Presaturation
+- Gradient moment rephasing
+
+Penalty
+- May need antialiasing
+- Variable TR
+- Variable image contrast
+- Increased scan time
+- May lose a slice
+- Increases minimum TE
+
+Chemical shift
+
+Frequency
+
+- Increase receive bandwidth
+- Reduce FOV
+- Use chemical saturation
+
+- Decreases minimum TE available
+- Decreases SNR
+- Increases resolution
+- Reduces SNR
+
+Out-of-phase
+signal
+cancellation
+Aliasing
+
+Frequency and
+Phase
+
+- Select a TE at periodicity of fat
+and water
+
+- May lose slice if TE significantly increased
+
+Frequency and
+Phase
+
+- No frequency wrap
+- Antialiasing/no-phase wrap
+- Enlarge FOV(p)
+
+- None
+- May increase scan time depending on
+manufacturer
+- May increase motion artifact depending on
+manufacturer
+- May increase scan time depending on
+manufacturer
+- Increase In SAR
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+51
+
+MR Imaging for Radiologic Technologist
+Artifacts
+Zipper
+Magnetic
+susceptibility
+
+Axis
+Frequency
+Frequency and Phase
+
+Remedy
+- Call engineer
+- Use SE, TSE/FSE, or SS-TSE or
+metal artifact reduction
+techniques
+
+Penalty
+- Irrate engineer!
+- Blood product may be
+missed
+
+Shading
+
+Frequency and Phase
+
+- None
+
+Patient motion
+
+Phase
+
+- Check shim
+- Load coil correctly
+- Use antispasmodics
+- Immobilize patient
+- Calm the patient
+- All remedies for flow motion
+- Sedation
+
+Cross-excitation
+
+Slice select
+
+- Interleaving
+- Squaring-off RF pulses
+
+- Reduces SNR
+
+Moiré
+Magic angle
+
+Frequency and Phase
+Frequency and Phase
+
+- Use SE, TSE/FSE
+- Change TE slightly
+- Alter position of anatomy
+
+- None
+- None
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+- Invasive
+- Costly
+- Possible side effects
+- Requires monitoring
+
+52
+
+MR Imaging for Radiologic Technologist
+
+Magnetic
+susceptibility
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Chemical shift
+
+53
+
+MRI Imaging for Radiologic Technologist
+
+Cross-excitation
+phase mismapping.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+54
+
+MR Imaging for Radiologic Technologist
+
+Zipper Artifacts
+Truncation artifact
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+55
+
+MR Imaging for Radiologic Technologist
+
+Aliasing
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Out-of-phase signal cancellation
+
+56
+
+MR Imaging for Radiologic Technologist
+
+Moiré artifact
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Magic angle
+
+57
+
+MR Imaging for Radiologic Technologist
+
+5. Image quality
+
+5.1 Instrumentation
+All MRI machines must have the following main parts:
+1. A strong magnet to create the main magnetic field.
+2. A shim system to make the magnetic field more uniform.
+3. A gradient system to create linear changes (slopes) in the magnetic field in different directions.
+4. An RF transmission system to send out pulses of electromagnetic energy.
+5. RF receiver coils to pick up the signals coming from the patient's body.
+6. A computer system to enter scan settings and display the images.
+7. A computer subsystem to control the timing of RF pulses and gradients, reconstruct the signals
+into images, and store the images.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+58
+
+MR Imaging for Radiologic Technologist
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+59
+
+MR Imaging for Radiologic Technologist
+
+Magnetism
+Paramagnetism
+• Paramagnetic materials boost the magnetic field when placed inside it.
+• Examples: calcium, oxygen, and metals like aluminum, titanium, and platinum.
+Diamagnetism
+• Diamagnetic materials slightly weaken the magnetic field.
+• Examples: hydrogen, helium, and metals like gold, silver, and lead.
+Ferromagnetism
+• Ferromagnetic materials are strongly pulled into the magnetic field and line up with it.
+• They can cause image distortion in MRI if patients have ferromagnetic implants.
+• Only four elements are naturally ferromagnetic at room temperature: iron, nickel, cobalt.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+60
+
+MR Imaging for Radiologic Technologist
+
+The cryostat holds the cryogen, which is liquid helium that boils at just 4.2 K (−268.9 °C).
+Its main job is to block heat from nearby parts, especially the gradient coils, so that the cryogen stays cold.
+
+Liquid helium is used as the cryogen for superconducting magnets because it reaches extremely low
+temperatures.
+
+Superconducting magnets are the most commonly used magnets in clinical MRI systems.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+61
+
+MR Imaging for Radiologic Technologist
+
+Magnet shielding
+Magnetic shielding is needed to protect the surrounding environment from the fringe fields created
+by the magnet.
+It also helps to maintain magnetic field homogeneity by preventing outside factors from distorting
+the magnetic field.
+Magnet shielding can be done in two ways:
+• Passive shielding – placing large steel plates around the scanner.
+• Active shielding – using extra solenoid magnets to control the magnetic field.
+Fringe Fields
+The fringe field is the stray magnetic field that extends outside the bore of the magnet.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+62
+
+MR Imaging for Radiologic Technologist
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+63
+
+MR Imaging for Radiologic Technologist
+
+Shim system – its job is to make sure the magnetic field stays even (homogeneous) inside the area
+where the imaging happens.
+
+RF shielding
+is done by covering the walls, floor, ceiling, and door with a conductive metal.
+Copper was first used because it conducts electricity very well, but it's heavy and costly.
+Now, many manufacturers prefer aluminum panels.
+In any MRI coil, it’s important to have good RF uniformity and clear signal quality.
+The quality of the signal mainly depends on the filling factor of the coil, which means how well the coil’s
+shape and size match the body part being scanned.
+Basically, there are two main types of receiver coils.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+64
+
+MR Imaging for Radiologic Technologist
+
+Basically, there are two main types of receiver coils.
+1. Surface coils
+are used for imaging surface anatomy.
+They are considered receive-only coils and are often set up as a phased array.
+Surface coils are placed flat and close to the area being scanned, providing the best filling factor.
+Another reason they deliver a high SNR (Signal-to-Noise Ratio) is because they only pick up noise from a
+small area.
+However, they are not suitable for imaging structures deep inside the body.
+An example is the linear phased array used for spine imaging.
+2. Volume coils
+are used when scanning a large volume of tissue.
+Their main advantage is that they provide a more even RF field across a big area, unlike surface coils.
+The downside is that they usually have a lower filling factor compared to surface coils — meaning the coil
+has empty spaces not filled by anatomy, which reduces the SNR.
+Also, parts of the anatomy inside the coil that aren’t being imaged can still add thermal noise without
+giving useful signal.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+65
+
+MRI Imaging for Radiologic Technologist
+
+Large coils offer wider coverage but have a lower SNR because the anatomy might not completely fill the
+coil’s sensitive area, resulting in a low filling factor.
+Small coils cover a smaller area but provide a higher SNR since the coil's sensitive volume is fully
+occupied by tissue, giving a high filling factor. However, aliasing (wrap-around artifacts) is more likely to
+happen with small coils.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+COURSE 5TH
+
+66
+
+MR Imaging for Radiologic Technologist
+
+Il. Pateint Care
+MRI Safety Zones
+The purpose of using safety zones is to prevent unauthorized access to areas where exposure to high
+magnetic fields may result in injury or death. The American College of Radiology (ACR) defines the
+zones as follows:
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+67
+
+MRI Imaging for Radiologic Technologist
+
+Zone I
+All areas that are freely accessible to the public. This area is typically outside the MR environment itself.
+Zone II
+This is the area where MR screening questions, patient histories, medical insurance information, and other
+preliminary data are typically obtained. It acts as a buffer zone between public and restricted access
+areas.
+Zone III
+A highly controlled area where access by unscreened non-MR personnel or the presence of ferromagnetic
+objects/equipment may result in serious injury or death.
+• Access must be physically restricted.
+• Entry should be limited to MR-trained personnel only.
+Zone IV
+The MRI scanner room itself.
+• This area contains very strong magnetic fields.
+• It should be clearly marked and demarcated as a high-risk zone.
+• Only authorized, screened individuals should enter.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+68
+
+MR Imaging for Radiologic Technologist
+
+1. MR Safe:
+An item that poses no known hazards in all MRI environments.
+2. MR Conditional:
+An item that poses no known hazards under specific conditions in a specified MRI environment.
+3. MR Unsafe:
+An item that is known to pose hazards in all MRI environments.
+4. No Access:
+Individuals with a cardiac pacemaker are strictly prohibited from entering MRI areas.
+
+Torque
+Torque refers to a rotational force that attempts to align an object with the
+magnetic field lines.
+• Ferromagnetic implants are especially at risk of experiencing this force.
+• Movement caused by torque can result in hemorrhage or damage to delicate
+anatomical structures, particularly when the implant is located near critical
+areas.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+69
+
+MR Imaging for Radiologic Technologist
+
+Asphyxia
+Although liquid helium appears harmless — being odorless, tasteless, nontoxic, inert, and
+noncorrosive — it can displace oxygen and cause asphyxiation.
+• If helium gas reduces oxygen concentration below 19.5%, it poses a serious danger to personnel.
+Quench Pipe
+To prevent the risk of asphyxiation, MRI systems are equipped with a wide-bore cryogen vent, known as
+a quench pipe, which is specifically designed to rapidly evacuate helium gas from the building in case
+of a quench event.
+MRI contraindications
+Absolute
+
+Relative
+
+Make Dependent (newer versions MRI
+compatible)
+
+Ferromagnetic:- Eye material
+
+IABP / LVAD
+
+- ICD / PPM- Cochlear implants- Neurosurgical
+clips
+
+Recent surgery with ferromagnetic implants:Cochlear implants- Neurosurgical clips- Cardiac
+occlude devices within 6 weeks of implantation
+
+Aortic stent grafts
+
+Neurostimulators – Spinal cord stimulator
+
+Claustrophobia
+
+Programmable shunts / drug pumps
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+70
+
+MR Imaging for Radiologic Technologist
+
+III. Imaging Procedure and protocols
+Tissue Suppression and Brain Imaging
+• Tissue suppression is mainly applied to differentiate fat from enhancing pathology, especially in
+T1-weighted images and FSE T2-weighted images where fat and abnormal tissue can look
+similar.
+
+Brain Imaging
+• T2-FLAIR: Helpful when performed after giving contrast. Because FLAIR uses inversion recovery (IR)
+properties, lesions that enhance after contrast appear bright, which makes detecting leptomeningeal
+metastases or meningitis easier.
+• In patients who are uncooperative, fast sequences like SS-FSE or SS-EPI are used to complete scans
+quickly.
+• IR T1 Sequences: Particularly important for imaging young children. Since white matter doesn’t fully
+myelinate until about 5 years of age, grey and white matter can look very similar on regular SE T1
+scans. IR T1 improves the contrast between them.
+• FLAIR Imaging: In these images, periventricular abnormalities stand out with a high signal while the
+CSF appears dark because it has been suppressed using a long inversion time (TI).
+• GRE Sequences: More sensitive to magnetic susceptibility effects, making them better than SE or
+FSE for detecting hemorrhages.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+71
+
+MR Imaging for Radiologic Technologist
+
+Perfusion Imaging
+• This technique provides time-resolved imaging of how lesions enhance, giving information about
+tissue activity.
+• A gadolinium contrast injection is started just after beginning the scan, followed by post-contrast
+T1 imaging.
+• In stroke imaging, the affected area will show delayed contrast arrival or complete absence of
+perfusion.
+• For tumors, areas with abnormal perfusion often appear as regions of hyper-perfusion.
+Perfusion imaging
+reveals an area of
+increased blood flow
+within the region of
+oedema, suggesting
+the presence of a
+recurrent tumor.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+T2-weighted imaging reveals
+a significant area of oedema
+present after treatment.
+
+72
+
+MR Imaging for Radiologic Technologist
+
+Temporal Lobe Imaging
+• Temporal lobe lesions are often very small, so using volume acquisitions helps by providing very
+thin slices without gaps.
+• IR FSE T2 sequences are particularly good because they create strong contrast between grey and
+white matter. By choosing a TI that nulls the white matter signal (around 300 ms), the grey/white
+contrast in the hippocampus is enhanced.
+
+Internal Auditory Meatus (IAM)
+IAM structures are tiny, and imaging is usually done to rule out small acoustic neuromas.
+The SNR is lower in this area because of the petrous bones and mastoids having low proton density.
+To improve spatial resolution, very thin slices with minimal gap or interleaving are used.
+3D T2 FSE (Turbo Spin Echo) techniques provide high-resolution images that often remove the
+need for contrast or a T1 sequence.
+• With FSE and a matrix of 512 or higher, the cranial nerves and nearby vessels, including the facial
+and auditory nerves inside the canal, can usually be clearly visualized without contrast.
+•
+•
+•
+•
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+73
+
+MR Imaging for Radiologic Technologist
+
+Pituitary Fossa Imaging
+• For the pituitary gland, coronal sections are best.
+• Contrast isn’t always needed, but it becomes important for cases like diabetes insipidus or
+hypothalamic disorders.
+• For Cushing’s disease, contrast is often used because micro-adenomas are tiny and hard to spot
+without enhancement.
+• A dynamic rapid scanning technique is often used:
+• Thin slices (around 3 mm) are acquired quickly (about 1.5 minutes per set) and repeated 3–4 times
+with very little delay.
+• Early post-contrast images show the normal gland enhancing first, while a micro-adenoma
+will initially appear non-enhancing.
+• Over time, the micro-adenoma will also enhance and blend in with the rest of the gland.
+• It's also normal to see a bright spot in the posterior lobe of the pituitary on unenhanced scans,
+especially in patients with diabetes.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+74
+
+MR Imaging for Radiologic Technologist
+
+Abdomen MRI
+Liver Imaging
+
+• The liver is the most frequently scanned organ in abdominal MRI.
+• After administering contrast, delayed imaging combined with fat suppression is often necessary to
+assess the arterial, venous, and equilibrium phases.
+• SS-FSE MRCP: This technique generates images showing only fluid-filled structures like the
+gallbladder and bile ducts. It requires very long echo times (TEs over 200 ms) and repetition times
+(TRs longer than 10 seconds) to suppress signals from all tissues except those with long T2 decay
+times.
+• Diffusion Tensor Imaging (DTI) combined with parallel imaging can help differentiate benign from
+malignant liver lesions and measure liver fibrosis. Using multi-array coils for parallel imaging
+significantly cuts down scan time.
+• Haemangioma Evaluation: Two FSE sequences with echo times of 80 ms and 160 ms are used
+because haemangiomas maintain high signal intensity on longer echoes.
+• T1-weighted Post-Contrast Imaging: Acquired with tissue suppression and in multiple phases, this
+technique helps in analyzing how hepatic lesions enhance over time.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+75
+
+MR Imaging for Radiologic Technologist
+
+Kidneys and Adrenal Glands
+• Diffusion-Weighted Imaging (DWI) using SS-EPI and parallel imaging is useful for distinguishing
+malignant adrenal tumors from benign conditions like hyperplasia or adenomas, and renal cysts
+from renal cell carcinomas.
+• Spin Echo (SE) Sequences: Although they provide excellent contrast, they have long scan times, so
+faster techniques like breath-hold GRE or SS-FSE are often used instead.
+• Fast Spin Echo (FSE) with a rectangular or asymmetric field of view (FOV) can create PD and T2
+images faster.
+• Chemical Shift Artifact: This is a common issue around the kidneys, especially at higher magnetic
+field strengths, because retroperitoneal fat lies next to fluid-filled kidneys.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+76
+
+MR Imaging for Radiologic Technologist
+
+Pancreas
+SS-FSE is useful for showing pancreatic duct obstruction. Diffusion imaging combined with parallel
+imaging techniques can help detect pancreatic adenocarcinoma and distinguish it from benign and
+cystic lesions.
+MRI sequences commonly used to assess the pancreas include:
+• T1-weighted gradient-echo
+• T2-weighted axial and coronal scans
+• Turbo spin-echo (TSE) or its variations
+• 2D and 3D MRCP
+• T1-weighted 3D gradient-echo scans before and after gadolinium (Gd) injection
+• Optional secretion-stimulated MRCP
+What is the gold standard imaging for the pancreas?
+Contrast-enhanced computed tomography (CECT) remains the gold standard for evaluating
+acute pancreatitis and its complications.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+77
+
+MR Imaging for Radiologic Technologist
+
+Cervical Spine
+A sagittal STIR sequence is helpful for trauma cases, especially to show muscle injuries. STIR is
+generally much better than T2 FSE for detecting fractures or lesions in the vertebrae. Also, multiple
+sclerosis (MS) plaques are usually clearer on sagittal STIR than on T2-weighted FSE images.
+A 3D balanced gradient echo (BGRE) sequence gives high signal from CSF (due to its high T2/T1 ratio),
+creating strong contrast between CSF and nerve roots. However, BGRE isn't good for seeing cord
+lesions like MS plaques. So, it's mostly used for patients with radiculopathy (disc disease), not for
+myelopathy (cord issues).
+When looking for vertebral metastases, a STIR sequence is preferred.
+However, fat-suppressed inversion recovery sequences like STIR should not be used after giving
+contrast, because the inversion pulse can cancel out the tumor signal enhanced by contrast (since it
+would have a similar T1 time as fat).
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+78
+
+MR Imaging for Radiologic Technologist
+
+Lumbar Spine
+• Axial/oblique or sagittal SE/FSE T1 with contrast is used to help tell the difference between disc
+prolapse and scar tissue in cases of failed back surgery syndrome, and for evaluating some tumors.
+• Without contrast, T1 sequences are useful for spinal dysraphism.
+• Using tissue suppression techniques helps separate fat from enhancing abnormalities.
+• Coronal SE/FSE T1 sequences are done to check for cord tethering or to get a different view of the
+conus if sagittal images don't give clear results.
+• Axial/oblique FSE T2 is helpful for diagnosing arachnoiditis.
+• STIR sequences are great for spotting bone marrow problems.
+
+Whole Spine Imaging
+When patients have severe spinal curvature, oblique images may be used to get better, straight-on
+views.
+Whole spine scans are mainly done to find the level and cause of spinal cord compression.
+In these cases, making a fast diagnosis matters more than having very high spatial resolution.
+Since the exact level of compression might not be known, it’s most important to cover the entire spinal
+canal during imaging.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+79
+
+MR Imaging for Radiologic Technologist
+
+MR Myelography/Neurography
+High-resolution imaging of nerve roots and peripheral nerves provides useful extra information
+
+Breast Imaging
+Patients are positioned lying face down (prone).
+• In the U.S. method, images are taken in the sagittal plane, focusing on one breast at a time.
+• In the European method, images are taken in the axial plane, imaging both breasts together.
+Lesions with spiculated (star-like) edges often suggest malignancy, while smooth-edged lesions are
+usually benign.
+Fat suppression helps by making enhancing lesions stand out more clearly against the low-signal fat
+background.
+For breast implants (to check for rupture or condition), sequences are needed that suppress either
+silicone or both fat and water.
+• Water suppression plus STIR highlights silicone alone (called silicone imaging).
+• Silicone suppression helps visualize the rest of the breast tissue.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+80
+
+MR Imaging for Radiologic Technologist
+
+Breast DWI and Dynamic Imaging
+Diffusion-weighted imaging (DWI) of the breast may help distinguish between benign and malignant
+lesions and could be useful for monitoring how metastatic disease responds to chemotherapy.
+Dynamic imaging assesses the blood flow (haemodynamics) of a breast lesion:
+• Lesions that enhance (wash in and wash out) quickly are more likely to be malignant.
+• Lesions that enhance and drain slowly are more likely to be benign
+Timing for Breast MRI
+The best time to scan for breast cancer is about 10 days after menstruation ends, as hormonal
+changes during other parts of the cycle can cause normal breast tissue to enhance, possibly hiding
+small tumors.
+Breast MRI Sequences
+The standard approach includes:
+• A T2-weighted bright-fluid sequence.
+• Multiphase T1-weighted fat-suppressed sequences.
+Additional sequences and post-processing techniques can be added as needed. When reporting,
+the BI-RADS system should be used.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+81
+
+MR Imaging for Radiologic Technologist
+
+Key Sequence for Breast Cancer MRI
+The main sequence for a high-quality breast MRI is a multiphase 3D gradient-echo scan:
+• Performed bilaterally.
+• Uses submillimeter in-plane spatial resolution and thin slices.
+• Achieves a temporal resolution of about 1–3 minutes to properly assess the shape and
+enhancement pattern of lesions.
+
+Pelvis MRI
+The patient should fast for at least 4 hours and empty both bladder and bowel before the scan to
+reduce motion blurring and ghosting from bowel movements and bladder motion.
+Sagittal SE/FSE T2 Imaging
+This view is ideal for visualizing midline pelvic organs:
+• Male pelvis: bladder, rectum, prostate, and penis.
+• Female pelvis: uterus and cervix.
+Small structures like the prostate and cervix need high-resolution imaging, often using a rectal
+coil and thin slices through the region of interest (ROI). Tissue suppression pulses are
+commonly used with FSE sequences.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+82
+
+MR Imaging for Radiologic Technologist
+
+Axial SE/FSE T2 Imaging
+This view is helpful for evaluating lateral pelvic organs like lymph nodes and ovaries.
+
+Additional Imaging Techniques
+• Diffusion-weighted imaging (DWI) with parallel imaging helps differentiate between malignant and
+benign lesions, especially in the prostate.
+• High-resolution small FOV imaging of the scrotum can be useful when evaluating for testicular
+cancer
+
+General Pelvic MRI Notes
+
+• FSE sequences work well in the pelvis because respiration and bowel motion cause fewer issues
+compared to abdominal imaging.
+• A fat-saturated T1-weighted image is important when looking for fat or hemorrhage within the
+adnexa, especially in cases like dermoid cysts or endometriosis.
+• T2-weighted images are best for assessing uterine structure.
+• Fat suppression is often used on T2 FSE images to better differentiate pathology from surrounding
+fat, as both can appear similarly bright.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+83
+
+MR Imaging for Radiologic Technologist
+
+Knee Joint MRI
+When scanning the knee for pain, trauma, or suspected injury, it’s crucial to clearly show the
+anterior cruciate ligament (ACL). The ACL is best seen on oblique sagittal images aligned with the
+anatomy.
+If oblique imaging isn't possible due to equipment limits or other technical compromises, the knee
+should be slightly externally rotated (5–10°), with slight under-rotation preferred over-rotation.
+
+Sagittal Plane
+• Used to spot injuries to the cruciate ligaments, menisci, popliteal cysts, and patellar tendon.
+• High-resolution images are needed (pixel size <0.45 mm).
+• For ligament visualization, sagittal proton density (PD)-weighted sequences without fat
+suppression are ideal, where ligaments appear dark grey against bright fat.
+• To enhance lesion detection in ligaments, use echo times (TEs) between 45–65 ms to increase
+contrast-to-noise ratio (CNR).
+
+Coronal Plane
+• Best for detecting meniscal tears.
+• Requires high spatial resolution (pixel size <0.45 mm) and high sensitivity to fluid.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+84
+
+MR Imaging for Radiologic Technologist
+
+Axial/Sagittal SE/FSE T1 Imaging
+• Thin slice, high-resolution imaging is necessary when patellar tendonitis is suspected.
+• For tumor evaluation, fat suppression must be used.
+
+Additional Tips
+• For PD-weighted images with tissue suppression, using a TE over 35 ms decreases the signal from
+normal cartilage, helping in lesion detection.
+• High spatial resolution is especially important when looking for meniscal tears.
+• Fat-suppressed, high T2-weighted images help reveal hidden trabecular fractures, joint effusions,
+and pannus formation.
+• PD fat-suppressed images are good for showing cartilage and collateral ligaments and may also
+reveal meniscal tears depending on the MRI system's gradient capabilities.
+• Coherent GRE T2* sequences are often needed to best display meniscal pathology.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+85
+
+MR Imaging for Radiologic Technologist
+
+Shoulder MRI
+The axial view is key for evaluating joint cartilage, the glenoid labrum, bone changes like Hill–Sachs
+deformity, and the muscles and tendons of the rotator cuff.
+
+Fat-Suppressed T2 Imaging
+• Fat-suppressed T2-weighted sequences are excellent for spotting muscle tears, trabecular
+bone injury, joint fluid, and tendon tears.
+• If spin echo (SE) sequences are used, fat suppression might not be needed.
+• On most MRI systems, the strength of fat suppression can be adjusted—reducing it helps improve
+the signal-to-noise ratio (SNR).
+Cartilage Lesions
+• Cartilage damage is easier to detect with longer echo times (TE of at least 30–40 ms), as this
+reduces the signal from healthy cartilage and highlights abnormalities.
+Preferred Sequences
+• Spin Echo (SE) and Fast Spin Echo (FSE) are typically the main sequences used.
+• Coherent Gradient Echo (GRE) and Short Tau Inversion Recovery (STIR) sequences are also helpful,
+especially for visualizing joint fluid.
+• If magnet shimming is not ideal, STIR might give better results compared to fat-suppressed FSE.
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+86
+
+MR Imaging for Radiologic Technologist
+
+Temporomandibular joint (TMJ)
+Image 1:
+1. Temporal lobe
+2. Temporalis muscle
+3. Mastoid process of temporal bone
+4. Articular eminence
+
+Orange: mandibular fossa of temporal bone
+Blue: anterior band of disc
+Yellow: posterior band of disc
+Red: condylar head of mandible
+Green: condylar neck of mandible
+Purple: external auditory canal
+
+Images 4 & 5 show the normal TMJ positions on sagittal
+MRI in an open and closed mouth position, respectively.
+• In the closed mouth position, the mandibular
+condyle is centred within the mandibular fossa.
+• In the open mouth position, the condyle moves
+anteriorly under the centre of the articular
+eminence.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+87
+
+MRI Imaging for Radiologic Technologist
+
+Pathologies of the TMJ include:
+• Dislocation
+• Dysfunction
+• Trauma
+• Effusion
+• Inflammation
+• Osteoarthritis
+
+Closed
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+Open
+88
+
+MR Imaging for Radiologic Technologist
+
+Contrast agents in MRI
+Gadolinium-based Contrast Material (GBCM) Calculation
+First, you need to know the standard dose:
+• 0.1 mmol/kg
+• 0.2 mL/kg
+To calculate how much the patient should receive, you need two things:
+• Weight (kg)
+• Type of GBCM (concentration)
+More clarification (There are 2 main types):
+• Omniscan or Dotarem: 1 CC for every 10 kg
+The concentration of these types is: 0.5 mmol/mL
+To calculate the dose: (Weight × 0.2) or (Weight ÷ 10 ÷ 2)
+Example: Weight = 80 kg ➝ Dose = 16 mL - Weight = 120 kg ➝ Dose = 24 mL
+• Gadavist or Primovist : 1 CC for every 10 kg
+The concentration of these types is: 1.0 mmol/mL or 0.25 mmol/mL
+To calculate the dose: (Weight × 0.1) or (Weight ÷ 10)
+Example: Weight = 70 kg ➝ Dose = 7 mL - Weight = 110 kg ➝ Dose = 11 mL
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+89
+
+MRI Imaging for Radiologic Technologist
+
+• Dotarem (gadoterate): brain, spine and associated tissues (Gd in MRI)
+• Eovist or Primovist (gadoxetate): to detect lesions with suspected liver disease
+• Gadavist (gadobutrol): to assess breast cancer, evaluate known or suspected artery disease in the
+heart or kidneys, and assess blood flow to the heart
+• Magnevist (gadopentetate): for central nervous system tissues in the head and neck, and the body
+• MultiHance (gadobenate): for visualizing blockages in blood vessels of the kidney or heart
+• Omniscan (gadodiamide): see lesions in the brain, spine, thoracic cavity, abdominal cavity, and
+space behind the abdominal cavity
+• Optimark (gadoversetamide): for brain, spine, and liver
+• ProHance (gadoteridol): for lesions in the brain, spine, head, and neck
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+90
+
+MRI Imaging for Radiologic Technologist
+
+ACR Manual Classification of Gadolinium-Based Agents Relative to
+Nephrogenic Systemic Fibrosis
+Group I: Agents associated with the greatest number of NSF cases:
+• Gadodiamide (Omniscan – GE Healthcare)
+• Gadopentetate dimeglumine (Magnevist – Bayer HealthCare Pharmaceuticals)
+• Gadoversetamide (OptiMARK – Guerbet)
+Group II: Agents associated with few, if any, unconfounded cases of NSF:
+• Gadobenate dimeglumine (MultiHance – Bracco Diagnostics)
+• Gadobutrol (Gadavist – Bayer HealthCare Pharmaceuticals; Gadovist in many countries)
+• Gadoxerate disodium (Eovist – Bayer HealthCare Pharmaceuticals; Primovist in many
+countries)
+• Gadofoveset trisodium (Ablavar – Lantheus Medical Imaging)
+• Gadoterate meglumine (Dotarem – Guerbet, Clariscan – GE Healthcare)
+• Gadoteridol (ProHance – Bracco Diagnostics)
+Group III: Agents for which data remains limited regarding NSF risk, but for which few, if any
+unconfounded cases of NSF have been reported:
+• Gadoxetate disodium (Eovist – Bayer HealthCare Pharmaceuticals; Primovist in many
+countries)
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+91
+
+MR Imaging for Radiologic Technologist
+
+Notes
+Contraindications for MRI:
+1. Cardiac pacemaker
+2. Metallic foreign body in the eye
+3. Ferromagnetic hemostatic aneurysm clips in
+the central nervous system (CNS)
+Relative Contraindications to MRI
+1. Cochlear implants
+2. Claustrophobia
+3. Insulin pumps / Nerve stimulators
+4. First trimester of pregnancy
+5. Epidural catheters / CNS ventricular catheters
+6. Spinal fixation devices
+7. Feeding tubes
+8. Prosthetic heart valves
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+92
+
+MR Imaging for Radiologic Technologist
+
+Every MRI center must have a proper screening policy that includes
+checking for:
+
+• Pacemakers, as cardiac pacemakers have traditionally been considered a contraindication for MRI.
+• Aneurysm clips.
+• Intra-ocular foreign bodies.
+• Metallic devices or prosthetic implants.
+• Cochlear implants.
+• Spinal implants and stimulators.
+• Possibility of early pregnancy.
+• Removal of all jewelry, credit cards, money, watches, and similar items.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+93
+
+MR Imaging for Radiologic Technologist
+
+Types of MRI Coils
+Volume Coils
+1. Provide better RF homogeneity than surface coils.
+Example: Body coil
+Surface Coils
+1. Used to improve the signal-to-noise ratio (SNR) and signal intensity.
+Example: Rectal coil
+Phased Array Coils
+1. Combine the advantages of surface coils (improved SNR) and volume coils (increased coverage).
+Combines both properties, and it is the most commonly used at present.
+There are 2 methods to fringe field:
+• Active shielding (RF shielding) : Copper
+• Passive shielding: Steel plates - Iron (very expensive)
+All are correct (you won’t get both options together in the same question)
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+94
+
+MRI Imaging for Radiologic Technologist
+
+References
+1. McRobbie, D. W., Moore, E. A., & Graves, M. J. (2017). MRI from picture to proton (3rd ed.).
+Cambridge University Press.
+2.Westbrook, C. (2018). MRI technique (4th ed.). Wiley-Blackwell.
+3.Westbrook, C., & Talbot, J. (2019). MRI in practice (5th ed.). Wiley-Blackwell.
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+95
+
+MRI Imaging for Radiologic Technologist
+
+THANK YOU
+
+To follow any updates/courses:
+Group: t.me/SRTLE1
+
+96
+
+

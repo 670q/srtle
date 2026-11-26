@@ -783,6 +783,21 @@ function showQuestion(index) {
   const questionTextBox = document.getElementById("q-text-box");
   questionTextBox.innerHTML = q.question.replace(/\n/g, "<br>");
   
+  // Render Question Image if present
+  const existingImgContainer = document.getElementById("q-image-container");
+  if (existingImgContainer) existingImgContainer.remove();
+  
+  if (q.image) {
+    const imgDiv = document.createElement("div");
+    imgDiv.id = "q-image-container";
+    imgDiv.className = "mock6-q-image-container";
+    imgDiv.innerHTML = `
+      <img src="${q.image}" alt="صورة السؤال" class="mock6-q-image" onclick="openMock6ImageModal('${q.image}')" />
+      <div class="image-zoom-hint">🔍 انقر على الصورة لتكبيرها وفحص التفاصيل بدقة عالية</div>
+    `;
+    questionTextBox.insertAdjacentElement("afterend", imgDiv);
+  }
+  
   // Manage Flag state text
   const flagBtn = document.getElementById("btn-flag-question");
   if (appState.quiz.flags.has(index)) {
@@ -840,17 +855,31 @@ function showQuestion(index) {
   
   if (appState.quiz.mode === "practice") {
     if (isAnswerChecked) {
+      expBox.style.display = "block";
+      let expContent = `<div style="font-size: 1rem; font-weight: 700; margin-bottom: 8px;">💡 الإجابة الصحيحة: (${q.answer ? q.answer.toUpperCase() : 'N/A'}) - ${q.options[q.answer] || ''}</div>`;
+      if (q.rule) {
+        expContent += `
+          <div class="mock6-rule-card" style="margin-bottom: 10px;">
+            <div class="rule-title">⚡ قاعدة حل السؤال (Golden Rule):</div>
+            <div class="rule-content">${q.rule}</div>
+          </div>
+        `;
+      }
       if (q.explanation) {
-        expBox.style.display = "block";
-        document.getElementById("q-explanation-text").innerHTML = q.explanation.replace(/\n/g, "<br>");
+        expContent += `
+          <div class="mock6-explanation-card">
+            <div class="explanation-title">📖 الشرح والتعليل العلمي:</div>
+            <div class="explanation-content">${q.explanation.replace(/\n/g, "<br>")}</div>
+          </div>
+        `;
+        document.getElementById("q-explanation-text").innerHTML = expContent;
       } else {
-        expBox.style.display = "block";
-        document.getElementById("q-explanation-text").innerHTML = `
-          <div>الإجابة الصحيحة هي: (${q.answer.toUpperCase()})</div>
+        expContent += `
           <div class="ai-explanation-box" id="ai-explain-container-${q.chapter_id.replace(/\./g, '_')}_${q.id}">
             ${getAiExplanationHtml(q)}
           </div>
         `;
+        document.getElementById("q-explanation-text").innerHTML = expContent;
         bindAiExplainButton(q);
       }
     } else {
@@ -2010,7 +2039,7 @@ ${correctAnswerText}
 Provide the explanation in clean HTML formatting (use paragraphs with <p>, strong tags like <strong> for emphasis, and bullet points if needed). Do not include any markdown code blocks, backticks, or wrapper tags. Respond only in Arabic.`;
 
   try {
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`, {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${apiKey}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -2350,7 +2379,7 @@ Generate a response in clean HTML format (only output the HTML body, no markdown
 Respond in clear, professional Arabic. Use clean markup like <p>, <strong>, and structured bullet lists (<ul>/<li>). Keep it concise, engaging, and focused on helping them pass the SRTLE.`;
 
   try {
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`, {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${apiKey}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -2531,4 +2560,35 @@ function showTargetScoreModal(isFirstTime = false) {
     document.body.removeChild(overlay);
   });
 }
+
+// ==========================================
+// IMAGE MODAL / LIGHTBOX
+// ==========================================
+window.openMock6ImageModal = function(src) {
+  let modal = document.getElementById("mock6-img-modal");
+  if (!modal) {
+    modal = document.createElement("div");
+    modal.id = "mock6-img-modal";
+    modal.className = "mock6-image-modal";
+    modal.innerHTML = `
+      <div class="mock6-modal-backdrop" onclick="closeMock6ImageModal()"></div>
+      <div class="mock6-modal-content">
+        <button class="mock6-modal-close" onclick="closeMock6ImageModal()" title="إغلاق (Esc)">✕</button>
+        <img id="mock6-modal-img" src="" alt="صورة مكبرة" />
+      </div>
+    `;
+    document.body.appendChild(modal);
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeMock6ImageModal();
+    });
+  }
+  document.getElementById("mock6-modal-img").src = src;
+  modal.classList.add("active");
+};
+
+window.closeMock6ImageModal = function() {
+  const modal = document.getElementById("mock6-img-modal");
+  if (modal) modal.classList.remove("active");
+};
 

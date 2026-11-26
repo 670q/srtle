@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mock Exam 6th Edition - SRTLE محاكي الاختبار</title>
+  <meta name="description" content="محاكي اختبار الهيئة السعودية للتخصصات الصحية - الإصدار السادس | 4,439 سؤال مع الإجابات والشرح والحلول">
+
+  <!-- Meta for browser color-scheme to prevent FOUC -->
+  <meta name="color-scheme" content="light dark">
+
+  <!-- Inline script to set the active color-scheme early to avoid flashing -->
+  <script>
+    {
+      const colorScheme = localStorage.getItem("color-scheme") || "light dark";
+      document.querySelector('meta[name="color-scheme"]').content = colorScheme;
+    }
+  </script>
+
+  <!-- Fonts: Cairo for Arabic, Inter for English -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- App Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="step-style.css">
+  <link rel="stylesheet" href="mock6-style.css">
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="logo-area" id="go-home" style="cursor: pointer;">
+        <div class="logo-icon">📋</div>
+        <div class="logo-text">
+          <h1>Mock Exam 6th Edition</h1>
+          <span>SRTLE - A Survival Guide | 4,439 سؤال مع الحلول</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Navigation Switcher -->
+        <nav class="nav-switcher">
+          <a href="index.html">🩺 اختبار الهيئة</a>
+          <a href="step.html">📝 اختبار STEP</a>
+          <a href="mock6.html" class="active">📋 Mock 6th</a>
+        </nav>
+
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="btn btn-secondary icon-btn" title="تغيير المظهر">
+          <span class="theme-icon-light">☀️</span>
+          <span class="theme-icon-dark">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main View Container -->
+  <main class="app-main" id="app-view">
+    <div class="loading-screen">
+      <div class="spinner"></div>
+      <p>جاري تحميل أسئلة Mock Exam 6th Edition (4,439 سؤال)...</p>
+    </div>
+  </main>
+
+  <!-- Mock6 App Script -->
+  <script src="mock6-app.js"></script>
+</body>
+</html>
